@@ -403,6 +403,113 @@
             animation: slideIn 0.5s;
         }
 
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+        }
+
+        .modal-box {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s;
+            text-align: center;
+        }
+
+        .modal-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .modal-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .modal-message {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .modal-btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 120px;
+        }
+
+        .modal-btn-confirm {
+            background: #667eea;
+            color: white;
+        }
+
+        .modal-btn-confirm:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .modal-btn-cancel {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .modal-btn-cancel:hover {
+            background: #d0d0d0;
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         @media (max-width: 600px) {
             .content {
                 padding: 20px;
@@ -426,6 +533,18 @@
             }
 
             .btn {
+                width: 100%;
+            }
+
+            .modal-box {
+                padding: 30px 20px;
+            }
+
+            .modal-buttons {
+                flex-direction: column;
+            }
+
+            .modal-btn {
                 width: 100%;
             }
         }
@@ -526,6 +645,19 @@
         </div>
     </div>
 
+    <!-- Modal Dialog -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <div class="modal-icon" id="modalIcon">❓</div>
+            <div class="modal-title" id="modalTitle">Xác nhận</div>
+            <div class="modal-message" id="modalMessage">Bạn có chắc chắn muốn thực hiện hành động này?</div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-confirm" id="modalConfirm">Đồng ý</button>
+                <button class="modal-btn modal-btn-cancel" id="modalCancel">Hủy</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // ========== CONFIGURATION ==========
         // Danh sách các file JSON có sẵn trong thư mục
@@ -569,6 +701,70 @@
         let correctAnswers = 0;
         let wrongAnswers = 0;
         let answered = false;
+
+        // ========== MODAL FUNCTIONS ==========
+        function showModal(options) {
+            return new Promise((resolve) => {
+                const modal = document.getElementById('modalOverlay');
+                const icon = document.getElementById('modalIcon');
+                const title = document.getElementById('modalTitle');
+                const message = document.getElementById('modalMessage');
+                const confirmBtn = document.getElementById('modalConfirm');
+                const cancelBtn = document.getElementById('modalCancel');
+
+                // Set content
+                icon.textContent = options.icon || '❓';
+                title.textContent = options.title || 'Xác nhận';
+                message.textContent = options.message || 'Bạn có chắc chắn?';
+                confirmBtn.textContent = options.confirmText || 'Đồng ý';
+                cancelBtn.textContent = options.cancelText || 'Hủy';
+
+                // Show modal
+                modal.classList.add('show');
+
+                // Handle confirm
+                const handleConfirm = () => {
+                    modal.classList.remove('show');
+                    cleanup();
+                    resolve(true);
+                };
+
+                // Handle cancel
+                const handleCancel = () => {
+                    modal.classList.remove('show');
+                    cleanup();
+                    resolve(false);
+                };
+
+                // Handle overlay click
+                const handleOverlayClick = (e) => {
+                    if (e.target === modal) {
+                        handleCancel();
+                    }
+                };
+
+                // Handle ESC key
+                const handleEscape = (e) => {
+                    if (e.key === 'Escape') {
+                        handleCancel();
+                    }
+                };
+
+                // Cleanup function
+                const cleanup = () => {
+                    confirmBtn.removeEventListener('click', handleConfirm);
+                    cancelBtn.removeEventListener('click', handleCancel);
+                    modal.removeEventListener('click', handleOverlayClick);
+                    document.removeEventListener('keydown', handleEscape);
+                };
+
+                // Add event listeners
+                confirmBtn.addEventListener('click', handleConfirm);
+                cancelBtn.addEventListener('click', handleCancel);
+                modal.addEventListener('click', handleOverlayClick);
+                document.addEventListener('keydown', handleEscape);
+            });
+        }
 
         // ========== INITIALIZATION ==========
         window.onload = function() {
@@ -802,28 +998,44 @@
         }
 
         function shuffleQuestions() {
-            if (confirm('Bạn có chắc muốn trộn ngẫu nhiên câu hỏi? Tiến độ hiện tại sẽ bị mất.')) {
-                questions = questions.sort(() => Math.random() - 0.5);
-                currentIndex = 0;
-                correctAnswers = 0;
-                wrongAnswers = 0;
-                updateStats();
-                renderQuestion();
-            }
+            showModal({
+                icon: '🔀',
+                title: 'Trộn câu hỏi',
+                message: 'Bạn có chắc muốn trộn ngẫu nhiên câu hỏi? Tiến độ hiện tại sẽ bị mất.',
+                confirmText: 'Trộn ngay',
+                cancelText: 'Hủy bỏ'
+            }).then(confirmed => {
+                if (confirmed) {
+                    questions = questions.sort(() => Math.random() - 0.5);
+                    currentIndex = 0;
+                    correctAnswers = 0;
+                    wrongAnswers = 0;
+                    updateStats();
+                    renderQuestion();
+                }
+            });
         }
 
         function resetQuiz() {
-            if (confirm('Bạn có chắc muốn làm mới và tải file mới?')) {
-                questions = [];
-                currentIndex = 0;
-                correctAnswers = 0;
-                wrongAnswers = 0;
-                document.getElementById('quizSection').style.display = 'none';
-                document.getElementById('completionScreen').classList.remove('show');
-                document.getElementById('uploadSection').style.display = 'block';
-                document.getElementById('fileInput').value = '';
-                updateStats();
-            }
+            showModal({
+                icon: '🔄',
+                title: 'Làm mới Quiz',
+                message: 'Bạn có chắc muốn làm mới và tải file mới? Tất cả tiến độ sẽ bị xóa.',
+                confirmText: 'Làm mới',
+                cancelText: 'Hủy bỏ'
+            }).then(confirmed => {
+                if (confirmed) {
+                    questions = [];
+                    currentIndex = 0;
+                    correctAnswers = 0;
+                    wrongAnswers = 0;
+                    document.getElementById('quizSection').style.display = 'none';
+                    document.getElementById('completionScreen').classList.remove('show');
+                    document.getElementById('uploadSection').style.display = 'block';
+                    document.getElementById('fileInput').value = '';
+                    updateStats();
+                }
+            });
         }
 
         function showCompletion() {
