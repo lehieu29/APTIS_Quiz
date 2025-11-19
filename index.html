@@ -558,6 +558,10 @@
                 width: 100%;
             }
         }
+
+        .mb-16 {
+            margin-bottom: 16px;
+        }
     </style>
 </head>
 <body>
@@ -611,6 +615,12 @@
 
                 <div class="options" id="optionsContainer"></div>
 
+                <div class="buttons">
+                    <button class="btn btn-primary mb-16" id="nextBtn" onclick="nextQuestion()" disabled>
+                        Câu tiếp theo →
+                    </button>
+                </div>
+
                 <div class="result-box" id="resultBox">
                     <div class="result-icon" id="resultIcon"></div>
                     <div class="result-text" id="resultText"></div>
@@ -619,9 +629,9 @@
                 </div>
 
                 <div class="buttons">
-                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
+                    <!-- <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
                         Câu tiếp theo →
-                    </button>
+                    </button> -->
                     <button class="btn btn-secondary" onclick="shuffleQuestions()">
                         🔀 Trộn câu hỏi
                     </button>
