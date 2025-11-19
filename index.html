@@ -103,6 +103,17 @@
             display: none;
         }
 
+        .passage-text {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #333;
+            border-left: 4px solid #667eea;
+        }
+
         .question-header {
             background: #f8f9ff;
             padding: 20px;
@@ -403,7 +414,6 @@
             animation: slideIn 0.5s;
         }
 
-        /* Modal Styles */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -571,19 +581,14 @@
         </div>
 
         <div class="content">
-            <!-- Upload Section -->
             <div class="upload-section" id="uploadSection">
-                <!-- Quick Select Section -->
                 <div style="margin-bottom: 30px;">
                     <h2 style="color: #667eea; margin-bottom: 15px; text-align: center;">📚 Chọn nhanh bài tập</h2>
-                    <div id="quickSelectContainer" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">
-                        <!-- Quick select buttons will be inserted here -->
-                    </div>
+                    <div id="quickSelectContainer" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;"></div>
                 </div>
 
                 <div style="text-align: center; color: #999; margin: 20px 0; font-weight: bold;">HOẶC</div>
 
-                <!-- Upload Custom File -->
                 <div class="upload-area" onclick="document.getElementById('fileInput').click()">
                     <svg fill="#667eea" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/>
@@ -595,8 +600,9 @@
                 <div class="error-message" id="errorMessage"></div>
             </div>
 
-            <!-- Quiz Section -->
             <div class="quiz-section" id="quizSection">
+                <div id="passageContainer"></div>
+                
                 <div class="question-header">
                     <div class="question-number" id="questionNumber"></div>
                     <div class="vn-title" id="vnTitle"></div>
@@ -625,7 +631,6 @@
                 </div>
             </div>
 
-            <!-- Completion Screen -->
             <div class="completion-screen" id="completionScreen">
                 <div class="completion-icon">🎉</div>
                 <div class="completion-score" id="finalScore"></div>
@@ -645,7 +650,6 @@
         </div>
     </div>
 
-    <!-- Modal Dialog -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal-box">
             <div class="modal-icon" id="modalIcon">❓</div>
@@ -659,8 +663,6 @@
     </div>
 
     <script>
-        // ========== CONFIGURATION ==========
-        // Danh sách các file JSON có sẵn trong thư mục
         const availableQuizFiles = [
             {
                 filename: 'listening_part_1.json',
@@ -668,41 +670,17 @@
                 icon: '🎧',
                 description: 'Luyện nghe cơ bản'
             }
-            /*{
-                filename: 'listening_part_2.json',
-                title: 'Listening Part 2',
-                icon: '🎧',
-                description: 'Luyện nghe nâng cao'
-            },
-            {
-                filename: 'reading_part_1.json',
-                title: 'Reading Part 1',
-                icon: '📖',
-                description: 'Luyện đọc cơ bản'
-            },
-            {
-                filename: 'grammar_quiz.json',
-                title: 'Grammar Quiz',
-                icon: '✍️',
-                description: 'Luyện ngữ pháp'
-            },
-            {
-                filename: 'vocabulary_quiz.json',
-                title: 'Vocabulary Quiz',
-                icon: '📚',
-                description: 'Luyện từ vựng'
-            }*/
-            // Thêm các file khác ở đây...
         ];
 
-        // ========== VARIABLES ==========
         let questions = [];
         let currentIndex = 0;
         let correctAnswers = 0;
         let wrongAnswers = 0;
         let answered = false;
+        let isPassageFormat = false;
+        let passageText = '';
+        let passageTitle = '';
 
-        // ========== MODAL FUNCTIONS ==========
         function showModal(options) {
             return new Promise((resolve) => {
                 const modal = document.getElementById('modalOverlay');
@@ -712,45 +690,34 @@
                 const confirmBtn = document.getElementById('modalConfirm');
                 const cancelBtn = document.getElementById('modalCancel');
 
-                // Set content
                 icon.textContent = options.icon || '❓';
                 title.textContent = options.title || 'Xác nhận';
                 message.textContent = options.message || 'Bạn có chắc chắn?';
                 confirmBtn.textContent = options.confirmText || 'Đồng ý';
                 cancelBtn.textContent = options.cancelText || 'Hủy';
 
-                // Show modal
                 modal.classList.add('show');
 
-                // Handle confirm
                 const handleConfirm = () => {
                     modal.classList.remove('show');
                     cleanup();
                     resolve(true);
                 };
 
-                // Handle cancel
                 const handleCancel = () => {
                     modal.classList.remove('show');
                     cleanup();
                     resolve(false);
                 };
 
-                // Handle overlay click
                 const handleOverlayClick = (e) => {
-                    if (e.target === modal) {
-                        handleCancel();
-                    }
+                    if (e.target === modal) handleCancel();
                 };
 
-                // Handle ESC key
                 const handleEscape = (e) => {
-                    if (e.key === 'Escape') {
-                        handleCancel();
-                    }
+                    if (e.key === 'Escape') handleCancel();
                 };
 
-                // Cleanup function
                 const cleanup = () => {
                     confirmBtn.removeEventListener('click', handleConfirm);
                     cancelBtn.removeEventListener('click', handleCancel);
@@ -758,7 +725,6 @@
                     document.removeEventListener('keydown', handleEscape);
                 };
 
-                // Add event listeners
                 confirmBtn.addEventListener('click', handleConfirm);
                 cancelBtn.addEventListener('click', handleCancel);
                 modal.addEventListener('click', handleOverlayClick);
@@ -766,7 +732,6 @@
             });
         }
 
-        // ========== INITIALIZATION ==========
         window.onload = function() {
             renderQuickSelectButtons();
         };
@@ -796,32 +761,7 @@
                 }
                 
                 const data = await response.json();
-                
-                if (!Array.isArray(data)) {
-                    showError('File JSON phải chứa một mảng các câu hỏi!');
-                    return;
-                }
-
-                if (data.length === 0) {
-                    showError('File JSON không chứa câu hỏi nào!');
-                    return;
-                }
-
-                // Validate structure
-                const isValid = data.every(q => 
-                    q.question && 
-                    q.options && 
-                    q.answer &&
-                    q.question_vi
-                );
-
-                if (!isValid) {
-                    showError('Cấu trúc câu hỏi không hợp lệ! Vui lòng kiểm tra lại file JSON.');
-                    return;
-                }
-
-                questions = data;
-                startQuiz();
+                processQuizData(data);
             } catch (error) {
                 showError(`Lỗi tải file "${filename}": ${error.message}. Vui lòng đảm bảo file tồn tại trong cùng thư mục với index.html`);
             }
@@ -835,37 +775,59 @@
             reader.onload = function(e) {
                 try {
                     const data = JSON.parse(e.target.result);
-                    
-                    if (!Array.isArray(data)) {
-                        showError('File JSON phải chứa một mảng các câu hỏi!');
-                        return;
-                    }
-
-                    if (data.length === 0) {
-                        showError('File JSON không chứa câu hỏi nào!');
-                        return;
-                    }
-
-                    // Validate structure
-                    const isValid = data.every(q => 
-                        q.question && 
-                        q.options && 
-                        q.answer &&
-                        q.question_vi
-                    );
-
-                    if (!isValid) {
-                        showError('Cấu trúc câu hỏi không hợp lệ! Vui lòng kiểm tra lại file JSON.');
-                        return;
-                    }
-
-                    questions = data;
-                    startQuiz();
+                    processQuizData(data);
                 } catch (error) {
                     showError('Lỗi đọc file JSON: ' + error.message);
                 }
             };
             reader.readAsText(file);
+        }
+
+        function processQuizData(data) {
+            // Kiểm tra xem có phải format đoạn văn không (có items và text)
+            if (data.items && Array.isArray(data.items) && data.text) {
+                // Format mới: đoạn văn
+                isPassageFormat = true;
+                passageText = data.text || '';
+                passageTitle = data.vn_title || '';
+                
+                // Chuyển đổi items sang format câu hỏi chuẩn
+                questions = data.items.map(item => ({
+                    question: item.sentence || item.question || '',
+                    question_vi: '', // Format đoạn văn thường không có question_vi riêng
+                    vn_title: passageTitle,
+                    options: item.options || {},
+                    answer: item.answer || ''
+                }));
+            } else if (Array.isArray(data)) {
+                // Format cũ: mảng câu hỏi
+                isPassageFormat = false;
+                passageText = '';
+                passageTitle = '';
+                questions = data;
+            } else {
+                showError('Format file JSON không hợp lệ!');
+                return;
+            }
+
+            // Validate
+            if (questions.length === 0) {
+                showError('File JSON không chứa câu hỏi nào!');
+                return;
+            }
+
+            const isValid = questions.every(q => 
+                q.question && 
+                q.options && 
+                q.answer
+            );
+
+            if (!isValid) {
+                showError('Cấu trúc câu hỏi không hợp lệ! Vui lòng kiểm tra lại file JSON.');
+                return;
+            }
+
+            startQuiz();
         }
 
         function showError(message) {
@@ -897,17 +859,28 @@
             answered = false;
             const question = questions[currentIndex];
             
+            // Hiển thị đoạn văn nếu là format đoạn văn
+            const passageContainer = document.getElementById('passageContainer');
+            if (isPassageFormat && currentIndex === 0 && passageText) {
+                passageContainer.innerHTML = `
+                    <div class="passage-text">
+                        <strong style="color: #764ba2; display: block; margin-bottom: 10px;">${passageTitle}</strong>
+                        ${passageText.replace(/\n/g, '<br>')}
+                    </div>
+                `;
+            } else if (!isPassageFormat) {
+                passageContainer.innerHTML = '';
+            }
+            
             document.getElementById('questionNumber').textContent = 
                 `Câu ${currentIndex + 1}/${questions.length}`;
             
-            // Hide vn_title initially
             const vnTitleElement = document.getElementById('vnTitle');
             vnTitleElement.textContent = question.vn_title || '';
             vnTitleElement.classList.remove('show');
             
             document.getElementById('questionText').textContent = question.question;
             
-            // Render options
             const optionsContainer = document.getElementById('optionsContainer');
             optionsContainer.innerHTML = '';
             
@@ -920,13 +893,12 @@
                     <div class="option-label">${key}</div>
                     <div class="option-text">
                         <div>${option.text}</div>
-                        <div class="option-vi">${option.vi}</div>
+                        <div class="option-vi">${option.vi || ''}</div>
                     </div>
                 `;
                 optionsContainer.appendChild(btn);
             });
 
-            // Hide result box
             document.getElementById('resultBox').classList.remove('show');
             document.getElementById('nextBtn').disabled = true;
         }
@@ -945,22 +917,18 @@
             }
             updateStats();
 
-            // Show vn_title after answering
             document.getElementById('vnTitle').classList.add('show');
 
-            // Disable all buttons, highlight, and show Vietnamese translations
             const buttons = document.querySelectorAll('.option-btn');
             buttons.forEach((btn, index) => {
                 btn.disabled = true;
                 const key = Object.keys(question.options)[index];
                 
-                // Show Vietnamese translation for all options
                 const optionViElement = btn.querySelector('.option-vi');
-                if (optionViElement) {
+                if (optionViElement && optionViElement.textContent.trim()) {
                     optionViElement.classList.add('show');
                 }
                 
-                // Highlight correct and wrong answers
                 if (key === question.answer) {
                     btn.classList.add('correct');
                 } else if (key === selectedAnswer && !isCorrect) {
@@ -968,7 +936,6 @@
                 }
             });
 
-            // Show result
             const resultBox = document.getElementById('resultBox');
             resultBox.classList.add('show');
             resultBox.className = 'result-box show ' + (isCorrect ? 'correct' : 'wrong');
@@ -977,11 +944,16 @@
             document.getElementById('resultText').textContent = isCorrect ? 'Chính xác!' : 'Chưa đúng!';
             
             const correctOption = question.options[question.answer];
+            const correctViText = correctOption.vi ? ` (${correctOption.vi})` : '';
             document.getElementById('correctAnswer').innerHTML = 
-                `<strong>Đáp án đúng:</strong> ${question.answer}. ${correctOption.text} (${correctOption.vi})`;
+                `<strong>Đáp án đúng:</strong> ${question.answer}. ${correctOption.text}${correctViText}`;
             
-            document.getElementById('questionVi').innerHTML = 
-                `<strong>Câu hỏi tiếng Việt:</strong> ${question.question_vi}`;
+            if (question.question_vi) {
+                document.getElementById('questionVi').innerHTML = 
+                    `<strong>Câu hỏi tiếng Việt:</strong> ${question.question_vi}`;
+            } else {
+                document.getElementById('questionVi').innerHTML = '';
+            }
             
             document.getElementById('nextBtn').disabled = false;
         }
@@ -1029,6 +1001,9 @@
                     currentIndex = 0;
                     correctAnswers = 0;
                     wrongAnswers = 0;
+                    isPassageFormat = false;
+                    passageText = '';
+                    passageTitle = '';
                     document.getElementById('quizSection').style.display = 'none';
                     document.getElementById('completionScreen').classList.remove('show');
                     document.getElementById('uploadSection').style.display = 'block';

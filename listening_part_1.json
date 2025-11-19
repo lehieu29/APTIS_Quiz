@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"vn_title": "1.50 pound – trứng bao nhiêu tiền?",
+		"vn_title": "1. 1.50 pound – trứng bao nhiêu tiền?",
 		"question": "How much are the eggs?",
 		"question_vi": "Trứng giá bao nhiêu?",
 		"options": {
@@ -22,9 +22,9 @@
 	},
 	{
 		"id": 2,
-		"vn_title": "9.15 – tàu chạy lúc mấy giờ?",
+		"vn_title": "2. 9.15 – tàu chạy lúc mấy giờ (để đi công tác)?",
 		"question": "What time does the train leave?",
-		"question_vi": "Tàu rời đi lúc mấy giờ?",
+		"question_vi": "Tàu chạy lúc mấy giờ?",
 		"options": {
 			"A": {
 				"text": "9.45",
@@ -43,7 +43,7 @@
 	},
 	{
 		"id": 3,
-		"vn_title": "She walks – cô ấy đi đến trường bằng gì?",
+		"vn_title": "3. She walks – cô ấy đi phương tiện gì đến trường?",
 		"question": "How does she go to school?",
 		"question_vi": "Cô ấy đến trường bằng cách nào?",
 		"options": {
@@ -57,14 +57,14 @@
 			},
 			"C": {
 				"text": "She goes by bus",
-				"vi": "Cô ấy đi xe buýt"
+				"vi": "Cô ấy đi bằng xe buýt"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 4,
-		"vn_title": "2pm – mấy giờ có bữa trưa?",
+		"vn_title": "4. 2pm – mấy giờ có bữa trưa?",
 		"question": "What time is lunch ready?",
 		"question_vi": "Bữa trưa sẵn sàng lúc mấy giờ?",
 		"options": {
@@ -85,9 +85,9 @@
 	},
 	{
 		"id": 5,
-		"vn_title": "Go for a walk – Cô ấy làm gì vào buổi tối?",
+		"vn_title": "5. Go for a walk – Cô ấy thường làm gì vào buổi tối?",
 		"question": "What does she usually do in the evening?",
-		"question_vi": "Cô ấy thường làm gì vào buổi tối?",
+		"question_vi": "Buổi tối cô ấy thường làm gì?",
 		"options": {
 			"A": {
 				"text": "listen to music",
@@ -99,14 +99,14 @@
 			},
 			"C": {
 				"text": "go to the coffee shop",
-				"vi": "đến quán cà phê"
+				"vi": "đi tới quán cà phê"
 			}
 		},
 		"answer": "B"
 	},
 	{
 		"id": 6,
-		"vn_title": "At the park – 2 người hẹn gặp nhau ở đâu?",
+		"vn_title": "6. At the park – 2 người hẹn gặp nhau ở đâu?",
 		"question": "Where will they meet?",
 		"question_vi": "Họ sẽ gặp nhau ở đâu?",
 		"options": {
@@ -127,13 +127,13 @@
 	},
 	{
 		"id": 7,
-		"vn_title": "Goes for a walk – Gia đình này làm gì vào cuối tuần?",
+		"vn_title": "7. Goes for a walk – gia đình này thường làm gì vào các cuối tuần?",
 		"question": "What does this family do most weekends?",
 		"question_vi": "Gia đình này thường làm gì vào cuối tuần?",
 		"options": {
 			"A": {
 				"text": "goes with their friends",
-				"vi": "đi chơi với bạn"
+				"vi": "đi với bạn bè"
 			},
 			"B": {
 				"text": "goes bowling",
@@ -148,7 +148,7 @@
 	},
 	{
 		"id": 8,
-		"vn_title": "Tuesday – Thứ mấy gặp nhau?",
+		"vn_title": "8. Tuesday – thứ mấy gặp nhau?",
 		"question": "What day do they meet?",
 		"question_vi": "Họ gặp nhau vào thứ mấy?",
 		"options": {
@@ -169,17 +169,17 @@
 	},
 	{
 		"id": 9,
-		"vn_title": "To work in business – Nghề nghiệp anh ấy chọn?",
+		"vn_title": "9. To work in business – nghề nghiệp mà anh ấy đã chọn?",
 		"question": "What career did he choose?",
 		"question_vi": "Anh ấy đã chọn nghề gì?",
 		"options": {
 			"A": {
 				"text": "to work in business",
-				"vi": "làm kinh doanh"
+				"vi": "làm việc trong kinh doanh"
 			},
 			"B": {
 				"text": "to be a teacher",
-				"vi": "làm giáo viên"
+				"vi": "trở thành giáo viên"
 			},
 			"C": {
 				"text": "to keep studying",
@@ -190,7 +190,7 @@
 	},
 	{
 		"id": 10,
-		"vn_title": "Computer – Anh ấy tham gia khóa học gì?",
+		"vn_title": "10. Computer – anh ấy tham gia khóa học gì?",
 		"question": "What course did he take?",
 		"question_vi": "Anh ấy tham gia khóa học gì?",
 		"options": {
@@ -200,7 +200,7 @@
 			},
 			"B": {
 				"text": "Computer",
-				"vi": "Máy tính"
+				"vi": "Máy tính / Tin học"
 			},
 			"C": {
 				"text": "Leadership",
@@ -211,9 +211,9 @@
 	},
 	{
 		"id": 11,
-		"vn_title": "She works irregular time – Việc gì khác với nghề khác?",
+		"vn_title": "11. She works irregular time – làm nhà văn thì có gì khác với các nghề khác?",
 		"question": "How is being a writer different from other jobs?",
-		"question_vi": "Làm nhà văn khác gì so với nghề khác?",
+		"question_vi": "Làm nhà văn khác gì so với các nghề khác?",
 		"options": {
 			"A": {
 				"text": "She works irregular time",
@@ -225,14 +225,14 @@
 			},
 			"C": {
 				"text": "She has no fixed workplace",
-				"vi": "Không có nơi làm việc cố định"
+				"vi": "Cô ấy không có nơi làm việc cố định"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 12,
-		"vn_title": "At a new shopping centre – cô ta mua đồ ăn ở đâu?",
+		"vn_title": "12. At a new shopping centre – cô ta mua đồ ăn ở đâu?",
 		"question": "Where does she buy food?",
 		"question_vi": "Cô ấy mua đồ ăn ở đâu?",
 		"options": {
@@ -253,76 +253,76 @@
 	},
 	{
 		"id": 13,
-		"vn_title": "Fire from the countryside – Điều gì gây ô nhiễm không khí?",
+		"vn_title": "13. Fire from the countryside – điều gì gây ô nhiễm không khí?",
 		"question": "What causes air pollution?",
 		"question_vi": "Điều gì gây ô nhiễm không khí?",
 		"options": {
 			"A": {
 				"text": "Fire from the countryside",
-				"vi": "Lửa từ vùng quê"
+				"vi": "Lửa từ vùng nông thôn"
 			},
 			"B": {
 				"text": "Pollutants from private cars",
-				"vi": "Khí thải từ xe cá nhân"
+				"vi": "Khí thải từ xe hơi riêng"
 			},
 			"C": {
-				"text": "Factories",
-				"vi": "Nhà máy"
+				"text": "Smoke from factories",
+				"vi": "Khói từ nhà máy"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 14,
-		"vn_title": "The City’s favorite group – Buổi hòa nhạc kết thúc với gì?",
-		"question": "The concert will end with?",
-		"question_vi": "Buổi hòa nhạc sẽ kết thúc với điều gì?",
+		"vn_title": "14. 6.30 pm – Họ gặp nhau lúc mấy giờ?",
+		"question": "What time do they meet?",
+		"question_vi": "Họ gặp nhau lúc mấy giờ?",
 		"options": {
 			"A": {
-				"text": "A surprise performance",
-				"vi": "Màn biểu diễn bất ngờ"
+				"text": "7.30pm",
+				"vi": "7 giờ 30 tối"
 			},
 			"B": {
-				"text": "Some special offers",
-				"vi": "Ưu đãi đặc biệt"
+				"text": "6.30pm",
+				"vi": "6 giờ 30 tối"
 			},
 			"C": {
-				"text": "The city's favorite group",
-				"vi": "Ban nhạc yêu thích của thành phố"
+				"text": "9.30pm",
+				"vi": "9 giờ 30 tối"
 			}
 		},
-		"answer": "C"
+		"answer": "B"
 	},
 	{
 		"id": 15,
-		"vn_title": "Teacher – Công việc đầu tiên của nhà văn?",
-		"question": "What was the writer's first job?",
-		"question_vi": "Công việc đầu tiên của nhà văn là gì?",
+		"vn_title": "15. Three o’clock – Cô ta gặp con lúc mấy giờ?",
+		"question": "What time does she meet her child?",
+		"question_vi": "Cô ấy gặp con lúc mấy giờ?",
 		"options": {
 			"A": {
-				"text": "cook",
-				"vi": "đầu bếp"
+				"text": "Seven o’clock",
+				"vi": "7 giờ"
 			},
 			"B": {
-				"text": "reporter",
-				"vi": "phóng viên"
+				"text": "Three o’clock",
+				"vi": "3 giờ"
 			},
 			"C": {
-				"text": "teacher",
-				"vi": "giáo viên"
+				"text": "Two o’clock",
+				"vi": "2 giờ"
 			}
 		},
-		"answer": "C"
+		"answer": "B"
 	},
 	{
 		"id": 16,
-		"vn_title": "Tea – chị gái cô ấy uống gì?",
+		"vn_title": "16. What does her sister drink?",
 		"question": "What does her sister drink?",
-		"question_vi": "Chị cô ấy uống gì?",
+		"question_vi": "Em gái / chị gái cô ấy uống gì?",
 		"options": {
 			"A": {
 				"text": "Water",
-				"vi": "Nước"
+				"vi": "Nước lọc"
 			},
 			"B": {
 				"text": "Tea",
@@ -337,7 +337,2422 @@
 	},
 	{
 		"id": 17,
-		"vn_title": "10000 – Có bao nhiêu cư dân trong làng?",
+		"vn_title": "17. 2000 – Thị trấn sẽ xây bao nhiêu tòa nhà?",
+		"question": "How many buildings will the town have?",
+		"question_vi": "Thị trấn sẽ có bao nhiêu tòa nhà?",
+		"options": {
+			"A": {
+				"text": "1000",
+				"vi": "1000"
+			},
+			"B": {
+				"text": "2000",
+				"vi": "2000"
+			},
+			"C": {
+				"text": "3000",
+				"vi": "3000"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 18,
+		"vn_title": "18. Sees her family – Cô ấy làm gì vào các ngày thứ bảy?",
+		"question": "What does she usually do on Saturdays?",
+		"question_vi": "Vào thứ bảy cô ấy thường làm gì?",
+		"options": {
+			"A": {
+				"text": "plays sports",
+				"vi": "chơi thể thao"
+			},
+			"B": {
+				"text": "goes to the park",
+				"vi": "đi công viên"
+			},
+			"C": {
+				"text": "sees her family",
+				"vi": "gặp gia đình"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 19,
+		"vn_title": "19. Clothes – 2 người cùng mua gì?",
+		"question": "What do they both buy?",
+		"question_vi": "Cả hai người mua gì?",
+		"options": {
+			"A": {
+				"text": "Books",
+				"vi": "Sách"
+			},
+			"B": {
+				"text": "Trousers",
+				"vi": "Quần dài"
+			},
+			"C": {
+				"text": "Clothes",
+				"vi": "Quần áo"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 20,
+		"vn_title": "20. Black – Anh ta đã mua áo sơ mi màu gì?",
+		"question": "What color shirt did he buy?",
+		"question_vi": "Anh ấy mua áo sơ mi màu gì?",
+		"options": {
+			"A": {
+				"text": "Blue",
+				"vi": "Màu xanh dương"
+			},
+			"B": {
+				"text": "Black",
+				"vi": "Màu đen"
+			},
+			"C": {
+				"text": "Red",
+				"vi": "Màu đỏ"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 21,
+		"vn_title": "21. On Saturday – Hạn nộp bài tập là thứ mấy?",
+		"question": "When is the assignment due?",
+		"question_vi": "Hạn nộp bài tập là thứ mấy?",
+		"options": {
+			"A": {
+				"text": "on Friday",
+				"vi": "vào thứ Sáu"
+			},
+			"B": {
+				"text": "on Saturday",
+				"vi": "vào thứ Bảy"
+			},
+			"C": {
+				"text": "on Thursday",
+				"vi": "vào thứ Năm"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 22,
+		"vn_title": "22. Speak at conference – Thầy giáo muốn cô ấy làm gì?",
+		"question": "What did the professor want her to do?",
+		"question_vi": "Thầy giáo muốn cô ấy làm gì?",
+		"options": {
+			"A": {
+				"text": "Do research",
+				"vi": "Làm nghiên cứu"
+			},
+			"B": {
+				"text": "Make a report",
+				"vi": "Làm báo cáo"
+			},
+			"C": {
+				"text": "Speak at the conference",
+				"vi": "Phát biểu tại hội nghị"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 23,
+		"vn_title": "23. The south – cô ấy chọn đi đâu cho kỳ nghỉ?",
+		"question": "Where did she choose to go on holiday?",
+		"question_vi": "Cô ấy chọn đi đâu cho kỳ nghỉ?",
+		"options": {
+			"A": {
+				"text": "The south",
+				"vi": "Miền nam"
+			},
+			"B": {
+				"text": "The park",
+				"vi": "Công viên"
+			},
+			"C": {
+				"text": "The mountain",
+				"vi": "Núi"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 24,
+		"vn_title": "24. The words – Điều gì đặc biệt ở bài hát mới?",
+		"question": "What is special about the new song?",
+		"question_vi": "Điều gì đặc biệt ở bài hát mới?",
+		"options": {
+			"A": {
+				"text": "The singer’s voice",
+				"vi": "Giọng hát của ca sĩ"
+			},
+			"B": {
+				"text": "The words",
+				"vi": "Lời bài hát"
+			},
+			"C": {
+				"text": "The tune",
+				"vi": "Giai điệu"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 25,
+		"vn_title": "25. The mountain scenes – Điều gì cô ấy thích nhất ở bộ phim?",
+		"question": "What did she like the most about the movie?",
+		"question_vi": "Cô ấy thích điều gì nhất ở bộ phim?",
+		"options": {
+			"A": {
+				"text": "the car scenes",
+				"vi": "những cảnh xe hơi"
+			},
+			"B": {
+				"text": "the fight scenes",
+				"vi": "những cảnh đánh nhau"
+			},
+			"C": {
+				"text": "the mountain scenes",
+				"vi": "những cảnh trên núi"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 26,
+		"vn_title": "26. A large stone – Động lực gì khiến cô ấy nghiên cứu khoa học?",
+		"question": "Why did she become a scientist?",
+		"question_vi": "Tại sao cô ấy trở thành nhà khoa học?",
+		"options": {
+			"A": {
+				"text": "a large stone",
+				"vi": "một hòn đá lớn"
+			},
+			"B": {
+				"text": "her dream",
+				"vi": "giấc mơ của cô ấy"
+			},
+			"C": {
+				"text": "her favorite collection",
+				"vi": "bộ sưu tập yêu thích của cô ấy"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 27,
+		"vn_title": "27. Quarter to eight – 2 người hẹn nhau lúc mấy giờ?",
+		"question": "What time will they meet?",
+		"question_vi": "Họ sẽ gặp nhau lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "Half past eight",
+				"vi": "8 giờ rưỡi"
+			},
+			"B": {
+				"text": "Quarter to seven",
+				"vi": "7 giờ kém 15"
+			},
+			"C": {
+				"text": "Quarter to eight",
+				"vi": "8 giờ kém 15"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 28,
+		"vn_title": "28. Market place – Hẹn gặp nhau để đi bus về nhà?",
+		"question": "Where did they meet for the bus home?",
+		"question_vi": "Họ gặp nhau ở đâu để bắt xe buýt về nhà?",
+		"options": {
+			"A": {
+				"text": "hotel entrance",
+				"vi": "cửa vào khách sạn"
+			},
+			"B": {
+				"text": "bus station",
+				"vi": "bến xe buýt"
+			},
+			"C": {
+				"text": "market place",
+				"vi": "khu chợ"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 29,
+		"vn_title": "29. 21 – Stephanie bao nhiêu tuổi?",
+		"question": "How old is Stephanie?",
+		"question_vi": "Stephanie bao nhiêu tuổi?",
+		"options": {
+			"A": {
+				"text": "21",
+				"vi": "21 tuổi"
+			},
+			"B": {
+				"text": "23",
+				"vi": "23 tuổi"
+			},
+			"C": {
+				"text": "24",
+				"vi": "24 tuổi"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 30,
+		"vn_title": "30. A park – Câu lạc bộ ở gần đâu?",
+		"question": "Where is the club near?",
+		"question_vi": "Câu lạc bộ ở gần đâu?",
+		"options": {
+			"A": {
+				"text": "A park",
+				"vi": "Một công viên"
+			},
+			"B": {
+				"text": "A library",
+				"vi": "Một thư viện"
+			},
+			"C": {
+				"text": "A coffee shop",
+				"vi": "Một quán cà phê"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 31,
+		"vn_title": "31. Fish – Cho mèo ăn gì?",
+		"question": "What to feed the cat?",
+		"question_vi": "Cho mèo ăn gì?",
+		"options": {
+			"A": {
+				"text": "Milk",
+				"vi": "Sữa"
+			},
+			"B": {
+				"text": "Fish",
+				"vi": "Cá"
+			},
+			"C": {
+				"text": "Cat food",
+				"vi": "Thức ăn cho mèo"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 32,
+		"vn_title": "32. Goes for a walk – gia đình này làm gì hầu hết cuối tuần?",
+		"question": "What does this family do most weekends?",
+		"question_vi": "Gia đình này thường làm gì vào hầu hết các cuối tuần?",
+		"options": {
+			"A": {
+				"text": "goes with their friends",
+				"vi": "đi chơi với bạn bè"
+			},
+			"B": {
+				"text": "goes bowling",
+				"vi": "đi chơi bowling"
+			},
+			"C": {
+				"text": "goes for a walk",
+				"vi": "đi dạo"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 33,
+		"vn_title": "33. Chocolates – Anh ta mua gì cho chị gái?",
+		"question": "What does he need to buy for his sister?",
+		"question_vi": "Anh ta cần mua gì cho chị gái?",
+		"options": {
+			"A": {
+				"text": "Chocolates",
+				"vi": "Sô cô la"
+			},
+			"B": {
+				"text": "Eggs",
+				"vi": "Trứng"
+			},
+			"C": {
+				"text": "Milk",
+				"vi": "Sữa"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 34,
+		"vn_title": "34. 9.30 – Tàu bị delay, tàu chạy lúc mấy giờ?",
+		"question": "The train was delayed. What time does the train leave?",
+		"question_vi": "Tàu bị trễ. Tàu khởi hành lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "8.45",
+				"vi": "8 giờ 45"
+			},
+			"B": {
+				"text": "9.15",
+				"vi": "9 giờ 15"
+			},
+			"C": {
+				"text": "9.30",
+				"vi": "9 giờ 30"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 35,
+		"vn_title": "35. In the east – thời tiết ở đâu đẹp nhất?",
+		"question": "Which area has the best weather?",
+		"question_vi": "Khu vực nào có thời tiết đẹp nhất?",
+		"options": {
+			"A": {
+				"text": "In the south",
+				"vi": "Ở miền nam"
+			},
+			"B": {
+				"text": "In the east",
+				"vi": "Ở miền đông"
+			},
+			"C": {
+				"text": "In the west",
+				"vi": "Ở miền tây"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 36,
+		"vn_title": "36. Not enough people – tại sao phải hủy chuyến thăm bảo tàng?",
+		"question": "Why was the museum visit cancelled?",
+		"question_vi": "Tại sao chuyến thăm bảo tàng bị hủy?",
+		"options": {
+			"A": {
+				"text": "Join other activities",
+				"vi": "Tham gia các hoạt động khác"
+			},
+			"B": {
+				"text": "Poor weather conditions",
+				"vi": "Thời tiết xấu"
+			},
+			"C": {
+				"text": "Not enough people",
+				"vi": "Không đủ người"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 37,
+		"vn_title": "37. Opposite the gift shop – quán cafe ở đâu?",
+		"question": "Where is the cafe?",
+		"question_vi": "Quán cà phê ở đâu?",
+		"options": {
+			"A": {
+				"text": "Next to the station",
+				"vi": "Bên cạnh nhà ga"
+			},
+			"B": {
+				"text": "Near the gift shop",
+				"vi": "Gần cửa hàng quà tặng"
+			},
+			"C": {
+				"text": "Opposite the gift shop",
+				"vi": "Đối diện cửa hàng quà tặng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 38,
+		"vn_title": "38. The river boat – phục vụ trà ở đâu?",
+		"question": "Where is the tea served?",
+		"question_vi": "Trà được phục vụ ở đâu?",
+		"options": {
+			"A": {
+				"text": "The building",
+				"vi": "Tòa nhà"
+			},
+			"B": {
+				"text": "The river boat",
+				"vi": "Con thuyền trên sông"
+			},
+			"C": {
+				"text": "The museum",
+				"vi": "Bảo tàng"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 39,
+		"vn_title": "39. The kitchen – phòng nào to nhất trong nhà cô ta?",
+		"question": "Which room is the largest in her house?",
+		"question_vi": "Phòng nào là lớn nhất trong nhà cô ta?",
+		"options": {
+			"A": {
+				"text": "Living room",
+				"vi": "Phòng khách"
+			},
+			"B": {
+				"text": "Bedroom",
+				"vi": "Phòng ngủ"
+			},
+			"C": {
+				"text": "Kitchen",
+				"vi": "Nhà bếp"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 40,
+		"vn_title": "40. 10.15 – Buổi họp lúc mấy giờ?",
+		"question": "What time is the meeting?",
+		"question_vi": "Buổi họp lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "9.15",
+				"vi": "9 giờ 15"
+			},
+			"B": {
+				"text": "10.15",
+				"vi": "10 giờ 15"
+			},
+			"C": {
+				"text": "10.30",
+				"vi": "10 giờ 30"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 41,
+		"vn_title": "41. Suggest a drink – Tại sao anh ấy gọi điện cho bạn anh ta?",
+		"question": "Why did he call his friend?",
+		"question_vi": "Tại sao anh ấy gọi cho bạn mình?",
+		"options": {
+			"A": {
+				"text": "To make an appointment",
+				"vi": "Để đặt lịch hẹn"
+			},
+			"B": {
+				"text": "To say hello",
+				"vi": "Để chào hỏi"
+			},
+			"C": {
+				"text": "Suggest a drink",
+				"vi": "Để rủ uống nước"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 42,
+		"vn_title": "42. Sick – Anh ấy cảm thấy như thế nào?",
+		"question": "How does he feel?",
+		"question_vi": "Anh ấy cảm thấy như thế nào?",
+		"options": {
+			"A": {
+				"text": "Sick",
+				"vi": "Bị ốm"
+			},
+			"B": {
+				"text": "Sad",
+				"vi": "Buồn"
+			},
+			"C": {
+				"text": "Well",
+				"vi": "Khỏe"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 43,
+		"vn_title": "43. Eggs – Mẹ gọi con gái nhờ mua gì?",
+		"question": "What is the mother asking her daughter to buy?",
+		"question_vi": "Người mẹ nhờ con gái mua gì?",
+		"options": {
+			"A": {
+				"text": "eggs",
+				"vi": "trứng"
+			},
+			"B": {
+				"text": "chocolates",
+				"vi": "sô cô la"
+			},
+			"C": {
+				"text": "bread",
+				"vi": "bánh mì"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 44,
+		"vn_title": "44. At 10h – Hẹn nhau lúc mấy giờ?",
+		"question": "When do they meet?",
+		"question_vi": "Họ gặp nhau lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "8.00",
+				"vi": "8 giờ"
+			},
+			"B": {
+				"text": "9.00",
+				"vi": "9 giờ"
+			},
+			"C": {
+				"text": "10.00",
+				"vi": "10 giờ"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 45,
+		"vn_title": "45. Stay late at the office – Tại sao cô ấy không thể đón con được?",
+		"question": "Why can't she pick up her child?",
+		"question_vi": "Tại sao cô ấy không thể đón con?",
+		"options": {
+			"A": {
+				"text": "meet her client",
+				"vi": "gặp khách hàng"
+			},
+			"B": {
+				"text": "have an urgent meeting",
+				"vi": "có cuộc họp khẩn"
+			},
+			"C": {
+				"text": "stay late at the office",
+				"vi": "phải làm muộn ở văn phòng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 46,
+		"vn_title": "46. Action film – Cô ấy khuyên nên xem phim gì?",
+		"question": "What movie does she recommend?",
+		"question_vi": "Cô ấy khuyên xem loại phim gì?",
+		"options": {
+			"A": {
+				"text": "comedy film",
+				"vi": "phim hài"
+			},
+			"B": {
+				"text": "action film",
+				"vi": "phim hành động"
+			},
+			"C": {
+				"text": "horror film",
+				"vi": "phim kinh dị"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 47,
+		"vn_title": "47. A town hall – Người đàn ông đang gọi cho bạn anh ta. Anh ấy đang ở đâu?",
+		"question": "A man is calling his friend. Where is he?",
+		"question_vi": "Người đàn ông đang gọi cho bạn mình. Anh ấy đang ở đâu?",
+		"options": {
+			"A": {
+				"text": "the park",
+				"vi": "công viên"
+			},
+			"B": {
+				"text": "the station",
+				"vi": "nhà ga"
+			},
+			"C": {
+				"text": "the town hall",
+				"vi": "tòa thị chính"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 48,
+		"vn_title": "48. By bus – Đi làm bằng phương tiện gì?",
+		"question": "What means of transport does he use to get to work?",
+		"question_vi": "Anh ấy dùng phương tiện gì để đi làm?",
+		"options": {
+			"A": {
+				"text": "by bus",
+				"vi": "bằng xe buýt"
+			},
+			"B": {
+				"text": "by train",
+				"vi": "bằng tàu hỏa"
+			},
+			"C": {
+				"text": "by car",
+				"vi": "bằng ô tô"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 49,
+		"vn_title": "49. In the morning – Chuyên gia khuyên nên ăn hoa quả vào buổi nào?",
+		"question": "What time do experts recommend eating fruit?",
+		"question_vi": "Chuyên gia khuyên nên ăn hoa quả vào lúc nào?",
+		"options": {
+			"A": {
+				"text": "in the morning",
+				"vi": "vào buổi sáng"
+			},
+			"B": {
+				"text": "in the afternoon",
+				"vi": "vào buổi chiều"
+			},
+			"C": {
+				"text": "in the evening",
+				"vi": "vào buổi tối"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 50,
+		"vn_title": "50. To have some quiet time – Tại sao cô ta dậy sớm?",
+		"question": "Why does she wake up early?",
+		"question_vi": "Tại sao cô ấy dậy sớm?",
+		"options": {
+			"A": {
+				"text": "to exercise",
+				"vi": "để tập thể dục"
+			},
+			"B": {
+				"text": "to have some quiet time",
+				"vi": "để có chút thời gian yên tĩnh"
+			},
+			"C": {
+				"text": "to do housework",
+				"vi": "để làm việc nhà"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 51,
+		"vn_title": "51. He has to drive to work – Anh ấy học lái xe để làm gì?",
+		"question": "Why is he learning to drive?",
+		"question_vi": "Tại sao anh ấy học lái xe?",
+		"options": {
+			"A": {
+				"text": "driving a car is his dream",
+				"vi": "lái ô tô là ước mơ của anh ấy"
+			},
+			"B": {
+				"text": "he hates public transport",
+				"vi": "anh ấy ghét phương tiện công cộng"
+			},
+			"C": {
+				"text": "he has to drive to work",
+				"vi": "anh ấy phải lái xe đi làm"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 52,
+		"vn_title": "52. Clothes – Anh ấy mua gì trực tiếp tại shop?",
+		"question": "What does he buy directly at the shop?",
+		"question_vi": "Anh ấy mua trực tiếp ở cửa hàng món gì?",
+		"options": {
+			"A": {
+				"text": "Books",
+				"vi": "Sách"
+			},
+			"B": {
+				"text": "Clothes",
+				"vi": "Quần áo"
+			},
+			"C": {
+				"text": "Trousers",
+				"vi": "Quần dài"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 53,
+		"vn_title": "53. 250 pounds – anh ấy trả bao nhiêu tiền để mua máy tính?",
+		"question": "How much did he pay for the computer?",
+		"question_vi": "Anh ấy trả bao nhiêu tiền để mua máy tính?",
+		"options": {
+			"A": {
+				"text": "350 pounds",
+				"vi": "350 bảng"
+			},
+			"B": {
+				"text": "150 pounds",
+				"vi": "150 bảng"
+			},
+			"C": {
+				"text": "250 pounds",
+				"vi": "250 bảng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 54,
+		"vn_title": "54. Food – 2 người mang gì đi picnic?",
+		"question": "What did they bring for the picnic?",
+		"question_vi": "Họ mang gì cho buổi dã ngoại?",
+		"options": {
+			"A": {
+				"text": "clothes",
+				"vi": "quần áo"
+			},
+			"B": {
+				"text": "fruit",
+				"vi": "trái cây"
+			},
+			"C": {
+				"text": "food",
+				"vi": "đồ ăn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 55,
+		"vn_title": "55. White – nhà của giáo viên màu gì?",
+		"question": "What colour is the teacher's house?",
+		"question_vi": "Nhà của giáo viên màu gì?",
+		"options": {
+			"A": {
+				"text": "Blue",
+				"vi": "Màu xanh dương"
+			},
+			"B": {
+				"text": "Red",
+				"vi": "Màu đỏ"
+			},
+			"C": {
+				"text": "White",
+				"vi": "Màu trắng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 56,
+		"vn_title": "56. 1pm – mấy giờ trận bóng bắt đầu?",
+		"question": "What time is the football match?",
+		"question_vi": "Trận bóng đá bắt đầu lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "1pm",
+				"vi": "1 giờ chiều"
+			},
+			"B": {
+				"text": "7pm",
+				"vi": "7 giờ tối"
+			},
+			"C": {
+				"text": "4pm",
+				"vi": "4 giờ chiều"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 57,
+		"vn_title": "57. Walking – cô ấy làm gì vào kỳ nghỉ?",
+		"question": "What does she do on her holidays?",
+		"question_vi": "Cô ấy làm gì vào kỳ nghỉ?",
+		"options": {
+			"A": {
+				"text": "Drawing",
+				"vi": "Vẽ tranh"
+			},
+			"B": {
+				"text": "Walking",
+				"vi": "Đi bộ"
+			},
+			"C": {
+				"text": "Cooking",
+				"vi": "Nấu ăn"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 58,
+		"vn_title": "58. He taught her a lot – tại sao cô ấy thích người quản lý George?",
+		"question": "Why does she like the manager George?",
+		"question_vi": "Tại sao cô ấy thích người quản lý George?",
+		"options": {
+			"A": {
+				"text": "He was good at his job",
+				"vi": "Ông ấy làm việc rất giỏi"
+			},
+			"B": {
+				"text": "He paid her a lot",
+				"vi": "Ông ấy trả lương cô ấy cao"
+			},
+			"C": {
+				"text": "He taught her a lot",
+				"vi": "Ông ấy đã dạy cô ấy rất nhiều"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 59,
+		"vn_title": "59. Writer – Anh ấy muốn trở thành gì?",
+		"question": "What does he want to be?",
+		"question_vi": "Anh ấy muốn trở thành gì?",
+		"options": {
+			"A": {
+				"text": "Reporter",
+				"vi": "Phóng viên"
+			},
+			"B": {
+				"text": "Chef",
+				"vi": "Đầu bếp"
+			},
+			"C": {
+				"text": "Writer",
+				"vi": "Nhà văn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 60,
+		"vn_title": "60. Water – Anh ấy uống gì?",
+		"question": "What does he drink?",
+		"question_vi": "Anh ấy uống gì?",
+		"options": {
+			"A": {
+				"text": "Tea",
+				"vi": "Trà"
+			},
+			"B": {
+				"text": "Juice",
+				"vi": "Nước ép"
+			},
+			"C": {
+				"text": "Water",
+				"vi": "Nước lọc"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 61,
+		"vn_title": "61. History classes – nhớ gì nhất hồi còn đi học?",
+		"question": "What does he remember most about his school days?",
+		"question_vi": "Anh ấy nhớ nhất điều gì thời đi học?",
+		"options": {
+			"A": {
+				"text": "Homework",
+				"vi": "Bài tập về nhà"
+			},
+			"B": {
+				"text": "History classes",
+				"vi": "Các giờ học Lịch sử"
+			},
+			"C": {
+				"text": "Teachers",
+				"vi": "Thầy cô giáo"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 62,
+		"vn_title": "62. Go to the coffee shop – Cô ấy sẽ làm gì?",
+		"question": "What will she do?",
+		"question_vi": "Cô ấy sẽ làm gì?",
+		"options": {
+			"A": {
+				"text": "Go to the coffee shop",
+				"vi": "Đến quán cà phê"
+			},
+			"B": {
+				"text": "Go for a drive",
+				"vi": "Lái xe dạo"
+			},
+			"C": {
+				"text": "Go on a picnic",
+				"vi": "Đi picnic"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 63,
+		"vn_title": "63. They have similar interests – Cô ấy giống mẹ ở đâu?",
+		"question": "What does she have in common with her mother?",
+		"question_vi": "Cô ấy có điểm gì giống mẹ mình?",
+		"options": {
+			"A": {
+				"text": "They look like each other",
+				"vi": "Họ trông giống nhau"
+			},
+			"B": {
+				"text": "They have similar interests",
+				"vi": "Họ có cùng sở thích"
+			},
+			"C": {
+				"text": "They have similar characteristics",
+				"vi": "Họ có những đặc điểm giống nhau"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 64,
+		"vn_title": "64. A suit for the office – Anh ta mua gì ở cửa hàng?",
+		"question": "What does he buy at the shop?",
+		"question_vi": "Anh ta mua gì ở cửa hàng?",
+		"options": {
+			"A": {
+				"text": "A suit for the office",
+				"vi": "Một bộ vét để mặc ở văn phòng"
+			},
+			"B": {
+				"text": "A dress for his wife",
+				"vi": "Một chiếc váy cho vợ anh ấy"
+			},
+			"C": {
+				"text": "New clothes",
+				"vi": "Quần áo mới"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 65,
+		"vn_title": "65. They stay in groups for protection – Chim làm gì vào mùa đông?",
+		"question": "What do birds do in winter?",
+		"question_vi": "Chim làm gì vào mùa đông?",
+		"options": {
+			"A": {
+				"text": "They look for food reserves",
+				"vi": "Chúng tìm nguồn thức ăn dự trữ"
+			},
+			"B": {
+				"text": "They stay in groups for protection",
+				"vi": "Chúng sống theo đàn để bảo vệ nhau"
+			},
+			"C": {
+				"text": "They migrate to other regions",
+				"vi": "Chúng di cư sang vùng khác"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 66,
+		"vn_title": "66. To suggest to drink – Tại sao anh ta gọi điện cho bạn anh ta?",
+		"question": "Why did he call his friend?",
+		"question_vi": "Tại sao anh ấy gọi cho bạn mình?",
+		"options": {
+			"A": {
+				"text": "To make an appointment",
+				"vi": "Để đặt lịch hẹn"
+			},
+			"B": {
+				"text": "To say hello",
+				"vi": "Để chào hỏi"
+			},
+			"C": {
+				"text": "Suggest a drink",
+				"vi": "Để rủ đi uống nước"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 67,
+		"vn_title": "67. 3250 pounds – Ô tô bé nhất giá bao nhiêu?",
+		"question": "How much does the smallest car cost?",
+		"question_vi": "Chiếc ô tô nhỏ nhất giá bao nhiêu?",
+		"options": {
+			"A": {
+				"text": "1250 pounds",
+				"vi": "1250 bảng"
+			},
+			"B": {
+				"text": "2250 pounds",
+				"vi": "2250 bảng"
+			},
+			"C": {
+				"text": "3250 pounds",
+				"vi": "3250 bảng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 68,
+		"vn_title": "68. Phone – Người phụ nữ đang gọi cho bạn cô ta. Cô ấy làm mất cái gì?",
+		"question": "A woman is calling her friend. What did she lose?",
+		"question_vi": "Một người phụ nữ đang gọi cho bạn mình. Cô ấy làm mất cái gì?",
+		"options": {
+			"A": {
+				"text": "Phone",
+				"vi": "Điện thoại"
+			},
+			"B": {
+				"text": "Bag",
+				"vi": "Túi xách"
+			},
+			"C": {
+				"text": "Key",
+				"vi": "Chìa khóa"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 69,
+		"vn_title": "69. Glasses – Anh ấy để quên gì?",
+		"question": "What did he forget?",
+		"question_vi": "Anh ấy quên cái gì?",
+		"options": {
+			"A": {
+				"text": "Money",
+				"vi": "Tiền"
+			},
+			"B": {
+				"text": "Phone",
+				"vi": "Điện thoại"
+			},
+			"C": {
+				"text": "Glasses",
+				"vi": "Kính"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 70,
+		"vn_title": "70. One – Có bao nhiêu người Mỹ?",
+		"question": "How many Americans are there?",
+		"question_vi": "Có bao nhiêu người Mỹ?",
+		"options": {
+			"A": {
+				"text": "one",
+				"vi": "một"
+			},
+			"B": {
+				"text": "two",
+				"vi": "hai"
+			},
+			"C": {
+				"text": "three",
+				"vi": "ba"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 71,
+		"vn_title": "71. Bathroom – Cô ấy thích phòng nào nhất?",
+		"question": "Which room is her favourite?",
+		"question_vi": "Phòng nào là phòng cô ấy thích nhất?",
+		"options": {
+			"A": {
+				"text": "Bathroom",
+				"vi": "Phòng tắm"
+			},
+			"B": {
+				"text": "Kitchen",
+				"vi": "Nhà bếp"
+			},
+			"C": {
+				"text": "Bedroom",
+				"vi": "Phòng ngủ"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 72,
+		"vn_title": "72. Camping – Năm ngoái họ đi đâu?",
+		"question": "Where did they go last year?",
+		"question_vi": "Năm ngoái họ đi đâu?",
+		"options": {
+			"A": {
+				"text": "Camping",
+				"vi": "Cắm trại"
+			},
+			"B": {
+				"text": "Cycling",
+				"vi": "Đạp xe"
+			},
+			"C": {
+				"text": "Bowling",
+				"vi": "Chơi bowling"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 73,
+		"vn_title": "73. Art – Con trai cô ấy thích môn học gì?",
+		"question": "What subject does her son like to study?",
+		"question_vi": "Con trai cô ấy thích học môn gì?",
+		"options": {
+			"A": {
+				"text": "Science",
+				"vi": "Khoa học"
+			},
+			"B": {
+				"text": "Art",
+				"vi": "Mỹ thuật"
+			},
+			"C": {
+				"text": "Math",
+				"vi": "Toán"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 74,
+		"vn_title": "74. Go to the theater and play sports – Cô ấy thường làm gì vào thời gian rảnh?",
+		"question": "What does she usually do in her free time?",
+		"question_vi": "Cô ấy thường làm gì vào thời gian rảnh?",
+		"options": {
+			"A": {
+				"text": "Go to the theatre and play sports",
+				"vi": "Đi xem kịch và chơi thể thao"
+			},
+			"B": {
+				"text": "Play sports and go shopping",
+				"vi": "Chơi thể thao và đi mua sắm"
+			},
+			"C": {
+				"text": "Stay at home and shop online",
+				"vi": "Ở nhà và mua sắm online"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 75,
+		"vn_title": "75. Where to buy a new table – Lời khuyên họ cần để trang trí cho phòng khách?",
+		"question": "What advice do they need for decorating their living room?",
+		"question_vi": "Họ cần lời khuyên gì để trang trí phòng khách?",
+		"options": {
+			"A": {
+				"text": "How to buy a sofa",
+				"vi": "Cách mua ghế sofa"
+			},
+			"B": {
+				"text": "Where to buy cups",
+				"vi": "Mua cốc ở đâu"
+			},
+			"C": {
+				"text": "Where to buy a new table",
+				"vi": "Mua chiếc bàn mới ở đâu"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 76,
+		"vn_title": "76. Practical – Quan điểm của anh ấy về đi tàu?",
+		"question": "What is his opinion on train travel?",
+		"question_vi": "Quan điểm của anh ấy về việc đi tàu là gì?",
+		"options": {
+			"A": {
+				"text": "Convenient",
+				"vi": "Tiện lợi"
+			},
+			"B": {
+				"text": "Friendly",
+				"vi": "Thân thiện"
+			},
+			"C": {
+				"text": "Practical",
+				"vi": "Thực tế"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 77,
+		"vn_title": "77. Furniture – Cái gì không phải đồ nguyên bản?",
+		"question": "What is not original?",
+		"question_vi": "Cái gì không phải đồ nguyên bản?",
+		"options": {
+			"A": {
+				"text": "Furniture",
+				"vi": "Đồ nội thất"
+			},
+			"B": {
+				"text": "Door",
+				"vi": "Cánh cửa"
+			},
+			"C": {
+				"text": "Window",
+				"vi": "Cửa sổ"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 78,
+		"vn_title": "78. Three – Ấn phím mấy để mua máy tính mới?",
+		"question": "What number do you press to buy a new computer?",
+		"question_vi": "Bạn bấm số mấy để mua một chiếc máy tính mới?",
+		"options": {
+			"A": {
+				"text": "Two",
+				"vi": "Số 2"
+			},
+			"B": {
+				"text": "Three",
+				"vi": "Số 3"
+			},
+			"C": {
+				"text": "Four",
+				"vi": "Số 4"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 79,
+		"vn_title": "79. The college – Cô ấy đi bộ ở đâu mỗi tối?",
+		"question": "Where does she walk every night?",
+		"question_vi": "Mỗi tối cô ấy đi bộ ở đâu?",
+		"options": {
+			"A": {
+				"text": "The university area",
+				"vi": "Khu vực trường đại học"
+			},
+			"B": {
+				"text": "The park",
+				"vi": "Công viên"
+			},
+			"C": {
+				"text": "The college",
+				"vi": "Trường cao đẳng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 80,
+		"vn_title": "80. 20 – Sắp có cuộc họp, phải chuẩn bị bao nhiêu ghế?",
+		"question": "How many chairs do they need to prepare for a meeting?",
+		"question_vi": "Họ cần chuẩn bị bao nhiêu ghế cho cuộc họp?",
+		"options": {
+			"A": {
+				"text": "10",
+				"vi": "10 chiếc ghế"
+			},
+			"B": {
+				"text": "20",
+				"vi": "20 chiếc ghế"
+			},
+			"C": {
+				"text": "30",
+				"vi": "30 chiếc ghế"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 81,
+		"vn_title": "81. In the corner – Cô gái quên đồ ở quán cafe, gọi điện cho nhân viên, hỏi vị trí quên đồ?",
+		"question": "Where did she ask the coffee shop to look for her lost item?",
+		"question_vi": "Cô ấy nhờ quán cà phê tìm đồ thất lạc ở đâu?",
+		"options": {
+			"A": {
+				"text": "On the sofa",
+				"vi": "Trên ghế sofa"
+			},
+			"B": {
+				"text": "In the corner",
+				"vi": "Ở góc phòng"
+			},
+			"C": {
+				"text": "On the table",
+				"vi": "Trên bàn"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 82,
+		"vn_title": "82. The front entrance – 2 người hẹn nhau gặp nhau ở đâu?",
+		"question": "Where did they meet?",
+		"question_vi": "Họ gặp nhau ở đâu?",
+		"options": {
+			"A": {
+				"text": "The parking lot",
+				"vi": "Bãi đỗ xe"
+			},
+			"B": {
+				"text": "The front entrance",
+				"vi": "Lối vào phía trước"
+			},
+			"C": {
+				"text": "The school gate",
+				"vi": "Cổng trường"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 83,
+		"vn_title": "83. A dress – Con gái gọi điện cho bố đã mua gì?",
+		"question": "The daughter is calling her father. What did she buy?",
+		"question_vi": "Người con gái gọi điện cho bố. Cô ấy đã mua gì?",
+		"options": {
+			"A": {
+				"text": "Trousers",
+				"vi": "Quần dài"
+			},
+			"B": {
+				"text": "A dress",
+				"vi": "Một chiếc váy"
+			},
+			"C": {
+				"text": "Glasses",
+				"vi": "Kính"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 84,
+		"vn_title": "84. Order the food – Sắp có school party, giáo viên phải chuẩn bị gì?",
+		"question": "There will be a school party soon, what should the teacher prepare?",
+		"question_vi": "Sắp có buổi tiệc ở trường, giáo viên nên chuẩn bị gì?",
+		"options": {
+			"A": {
+				"text": "Prepare drinks",
+				"vi": "Chuẩn bị đồ uống"
+			},
+			"B": {
+				"text": "Arrange the seat",
+				"vi": "Sắp xếp chỗ ngồi"
+			},
+			"C": {
+				"text": "Order the food",
+				"vi": "Đặt đồ ăn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 85,
+		"vn_title": "85. Friday – Cô gái gọi điện tới cửa hàng, cô ấy cần máy tính khi nào?",
+		"question": "When will she need a computer?",
+		"question_vi": "Khi nào cô ấy cần máy tính?",
+		"options": {
+			"A": {
+				"text": "Friday",
+				"vi": "Thứ Sáu"
+			},
+			"B": {
+				"text": "Thursday",
+				"vi": "Thứ Năm"
+			},
+			"C": {
+				"text": "Monday",
+				"vi": "Thứ Hai"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 86,
+		"vn_title": "86. France – Kỳ tới lớp sẽ học về đất nước nào?",
+		"question": "What country will they study next semester?",
+		"question_vi": "Kỳ tới lớp sẽ học về đất nước nào?",
+		"options": {
+			"A": {
+				"text": "France",
+				"vi": "Nước Pháp"
+			},
+			"B": {
+				"text": "Italy",
+				"vi": "Nước Ý"
+			},
+			"C": {
+				"text": "Germany",
+				"vi": "Nước Đức"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 87,
+		"vn_title": "87. Windows – Họ cần sửa chữa gì cho building?",
+		"question": "What do they need to repair for the building?",
+		"question_vi": "Họ cần sửa chữa gì cho tòa nhà?",
+		"options": {
+			"A": {
+				"text": "Windows",
+				"vi": "Cửa sổ"
+			},
+			"B": {
+				"text": "Doors",
+				"vi": "Cửa ra vào"
+			},
+			"C": {
+				"text": "Gate",
+				"vi": "Cổng"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 88,
+		"vn_title": "88. Drawing – Nam diễn viên thích làm gì?",
+		"question": "What does the actor like to do?",
+		"question_vi": "Nam diễn viên thích làm gì?",
+		"options": {
+			"A": {
+				"text": "Jogging",
+				"vi": "Chạy bộ"
+			},
+			"B": {
+				"text": "Swimming",
+				"vi": "Bơi lội"
+			},
+			"C": {
+				"text": "Drawing",
+				"vi": "Vẽ tranh"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 89,
+		"vn_title": "89. A Performance space – Trường học sắp xây gì mới?",
+		"question": "What new thing is being built at the school?",
+		"question_vi": "Trường học sắp xây mới cái gì?",
+		"options": {
+			"A": {
+				"text": "A stadium",
+				"vi": "Một sân vận động"
+			},
+			"B": {
+				"text": "A Performance space",
+				"vi": "Một không gian biểu diễn"
+			},
+			"C": {
+				"text": "A school yard",
+				"vi": "Sân trường"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 90,
+		"vn_title": "90. He enjoys his job here – Anh ấy thích gì ở Dubai?",
+		"question": "What does he like about Dubai?",
+		"question_vi": "Anh ấy thích điều gì ở Dubai?",
+		"options": {
+			"A": {
+				"text": "He gets a higher salary",
+				"vi": "Anh ấy được lương cao hơn"
+			},
+			"B": {
+				"text": "He enjoys the weather here",
+				"vi": "Anh ấy thích thời tiết ở đây"
+			},
+			"C": {
+				"text": "He enjoys his job here",
+				"vi": "Anh ấy thích công việc của mình ở đây"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 91,
+		"vn_title": "91. Cook for yourself – Anh ta khuyên người trẻ làm gì để tiết kiệm?",
+		"question": "What does he advice young people to do to save money?",
+		"question_vi": "Anh ta khuyên người trẻ làm gì để tiết kiệm tiền?",
+		"options": {
+			"A": {
+				"text": "Cook for yourself",
+				"vi": "Tự nấu ăn"
+			},
+			"B": {
+				"text": "Save money",
+				"vi": "Tiết kiệm tiền"
+			},
+			"C": {
+				"text": "Buy things online",
+				"vi": "Mua đồ online"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 92,
+		"vn_title": "92. Room 301 – Lớp học ở phòng nào?",
+		"question": "Which room will they study in?",
+		"question_vi": "Họ sẽ học ở phòng nào?",
+		"options": {
+			"A": {
+				"text": "Room 201",
+				"vi": "Phòng 201"
+			},
+			"B": {
+				"text": "Room 301",
+				"vi": "Phòng 301"
+			},
+			"C": {
+				"text": "Room 302",
+				"vi": "Phòng 302"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 93,
+		"vn_title": "93. 1 pm – Trận bóng đá lúc mấy giờ?",
+		"question": "What time is the football match?",
+		"question_vi": "Trận bóng đá lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "1pm",
+				"vi": "1 giờ chiều"
+			},
+			"B": {
+				"text": "7pm",
+				"vi": "7 giờ tối"
+			},
+			"C": {
+				"text": "4pm",
+				"vi": "4 giờ chiều"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 94,
+		"vn_title": "94. 20.10.30 – Số điện thoại của cửa hàng là gì?",
+		"question": "What is the phone number of the shop?",
+		"question_vi": "Số điện thoại của cửa hàng là gì?",
+		"options": {
+			"A": {
+				"text": "20 10 30",
+				"vi": "20 10 30"
+			},
+			"B": {
+				"text": "10 20 30",
+				"vi": "10 20 30"
+			},
+			"C": {
+				"text": "30 10 20",
+				"vi": "30 10 20"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 95,
+		"vn_title": "95. Food – 2 người mang gì đi picnic?",
+		"question": "What did they bring for the picnic?",
+		"question_vi": "Họ mang gì cho buổi picnic?",
+		"options": {
+			"A": {
+				"text": "clothes",
+				"vi": "Quần áo"
+			},
+			"B": {
+				"text": "fruit",
+				"vi": "Trái cây"
+			},
+			"C": {
+				"text": "food",
+				"vi": "Đồ ăn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 96,
+		"vn_title": "96. Over 300.000 copies – Anh ta đã bán được bao nhiêu bản copies?",
+		"question": "How many copies did he sell?",
+		"question_vi": "Anh ta đã bán được bao nhiêu bản sao?",
+		"options": {
+			"A": {
+				"text": "Over 300000 copies",
+				"vi": "Hơn 300.000 bản"
+			},
+			"B": {
+				"text": "100000 copies",
+				"vi": "100.000 bản"
+			},
+			"C": {
+				"text": "30000 copies",
+				"vi": "30.000 bản"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 97,
+		"vn_title": "97. Camping – Năm ngoái họ đi đâu?",
+		"question": "Where did they go last year?",
+		"question_vi": "Năm ngoái họ đi đâu?",
+		"options": {
+			"A": {
+				"text": "Camping",
+				"vi": "Cắm trại"
+			},
+			"B": {
+				"text": "Cycling",
+				"vi": "Đạp xe"
+			},
+			"C": {
+				"text": "Bowling",
+				"vi": "Chơi bowling"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 98,
+		"vn_title": "98. Make plans later – 2 người làm gì cùng nhau?",
+		"question": "What do they plan to do together?",
+		"question_vi": "Họ dự định sẽ làm gì cùng nhau?",
+		"options": {
+			"A": {
+				"text": "Go to the coffee shop",
+				"vi": "Đi đến quán cà phê"
+			},
+			"B": {
+				"text": "Make plans later",
+				"vi": "Sẽ lên kế hoạch sau"
+			},
+			"C": {
+				"text": "Have dinner together",
+				"vi": "Ăn tối cùng nhau"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 99,
+		"vn_title": "99. Iced tea – Người đàn ông uống gì?",
+		"question": "What does the man drink?",
+		"question_vi": "Người đàn ông uống gì?",
+		"options": {
+			"A": {
+				"text": "Water and iced tea",
+				"vi": "Nước lọc và trà đá"
+			},
+			"B": {
+				"text": "Water",
+				"vi": "Nước lọc"
+			},
+			"C": {
+				"text": "Iced tea",
+				"vi": "Trà đá"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 100,
+		"vn_title": "100. The girl’s team – Cô ấy đang chụp ảnh ai?",
+		"question": "Who did she take the picture of?",
+		"question_vi": "Cô ấy chụp ảnh ai?",
+		"options": {
+			"A": {
+				"text": "The girl's team",
+				"vi": "Đội nữ"
+			},
+			"B": {
+				"text": "The boy's team",
+				"vi": "Đội nam"
+			},
+			"C": {
+				"text": "Anna, Sara and the girl's team",
+				"vi": "Anna, Sara và đội nữ"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 101,
+		"vn_title": "101. Go to the park – Thường đi đâu khi đi du lịch Ấn Độ?",
+		"question": "Where do they go when they travel to India?",
+		"question_vi": "Khi đi du lịch Ấn Độ, họ thường đi đâu?",
+		"options": {
+			"A": {
+				"text": "Go to the park",
+				"vi": "Đi đến công viên"
+			},
+			"B": {
+				"text": "Go to famous places",
+				"vi": "Đi đến các địa điểm nổi tiếng"
+			},
+			"C": {
+				"text": "Go out to eat",
+				"vi": "Ra ngoài ăn"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 102,
+		"vn_title": "102. Cold and wet – Thời tiết hôm nay như thế nào?",
+		"question": "What is the weather like today?",
+		"question_vi": "Thời tiết hôm nay như thế nào?",
+		"options": {
+			"A": {
+				"text": "Cold and not wet",
+				"vi": "Lạnh và không ướt"
+			},
+			"B": {
+				"text": "Hot and wet",
+				"vi": "Nóng và ướt"
+			},
+			"C": {
+				"text": "Cold and wet",
+				"vi": "Lạnh và ướt"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 103,
+		"vn_title": "103. Having the meeting without him – Anh ấy yêu cầu điều chỉnh buổi họp như thế nào?",
+		"question": "How did he adjust the meeting?",
+		"question_vi": "Anh ấy đã điều chỉnh buổi họp như thế nào?",
+		"options": {
+			"A": {
+				"text": "cancel the meeting",
+				"vi": "Hủy cuộc họp"
+			},
+			"B": {
+				"text": "having the meeting without him",
+				"vi": "Tiếp tục họp mà không có anh ấy"
+			},
+			"C": {
+				"text": "having the meeting another day",
+				"vi": "Dời cuộc họp sang ngày khác"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 104,
+		"vn_title": "104. Two – đi cửa nào để đi tàu đến Edinburgh?",
+		"question": "Which door do they need to take to get to Edinburgh?",
+		"question_vi": "Họ cần đi cửa số mấy để lên tàu đến Edinburgh?",
+		"options": {
+			"A": {
+				"text": "Two",
+				"vi": "Cửa số 2"
+			},
+			"B": {
+				"text": "Three",
+				"vi": "Cửa số 3"
+			},
+			"C": {
+				"text": "Four",
+				"vi": "Cửa số 4"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 105,
+		"vn_title": "105. Sick – anh ấy cảm thấy thế nào?",
+		"question": "How does he feel?",
+		"question_vi": "Anh ấy cảm thấy thế nào?",
+		"options": {
+			"A": {
+				"text": "Sick",
+				"vi": "Bị ốm"
+			},
+			"B": {
+				"text": "Sad",
+				"vi": "Buồn"
+			},
+			"C": {
+				"text": "Well",
+				"vi": "Khỏe"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 106,
+		"vn_title": "106. 20 minutes – Mất bao lâu để đến ga?",
+		"question": "How long does it take to get to the station?",
+		"question_vi": "Mất bao lâu để đến nhà ga?",
+		"options": {
+			"A": {
+				"text": "15 minutes",
+				"vi": "15 phút"
+			},
+			"B": {
+				"text": "20 minutes",
+				"vi": "20 phút"
+			},
+			"C": {
+				"text": "25 minutes",
+				"vi": "25 phút"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 107,
+		"vn_title": "107. To say thank you – anh ấy gọi điện để nói gì?",
+		"question": "What did he call to say?",
+		"question_vi": "Anh ấy gọi điện để nói điều gì?",
+		"options": {
+			"A": {
+				"text": "to say hello",
+				"vi": "Để chào hỏi"
+			},
+			"B": {
+				"text": "to meet Felix",
+				"vi": "Để gặp Felix"
+			},
+			"C": {
+				"text": "to say thank you",
+				"vi": "Để nói lời cảm ơn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 108,
+		"vn_title": "108. His sister and her children – ai sắp đến thăm anh ấy?",
+		"question": "Who is coming to visit him this weekend?",
+		"question_vi": "Cuối tuần này ai sẽ đến thăm anh ấy?",
+		"options": {
+			"A": {
+				"text": "His wife",
+				"vi": "Vợ anh ấy"
+			},
+			"B": {
+				"text": "His wife’s parents",
+				"vi": "Bố mẹ vợ anh ấy"
+			},
+			"C": {
+				"text": "His sister and her children",
+				"vi": "Chị gái và các con của chị"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 109,
+		"vn_title": "109. 2 p.m – Buổi họp lúc mấy giờ?",
+		"question": "What time is the meeting?",
+		"question_vi": "Buổi họp lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "2pm",
+				"vi": "2 giờ chiều"
+			},
+			"B": {
+				"text": "10am",
+				"vi": "10 giờ sáng"
+			},
+			"C": {
+				"text": "11am",
+				"vi": "11 giờ sáng"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 110,
+		"vn_title": "110. Stay late at the office – Tại sao cô ta không thể đón con được?",
+		"question": "Why can't she pick up her child?",
+		"question_vi": "Tại sao cô ấy không thể đón con?",
+		"options": {
+			"A": {
+				"text": "meet her client",
+				"vi": "Gặp khách hàng"
+			},
+			"B": {
+				"text": "have an urgent meeting",
+				"vi": "Có cuộc họp khẩn cấp"
+			},
+			"C": {
+				"text": "stay late at the office",
+				"vi": "Phải làm muộn ở văn phòng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 111,
+		"vn_title": "111. One pound fifty – Dụng cụ vệ sinh giá bao nhiêu?",
+		"question": "How much do the cleaning products cost?",
+		"question_vi": "Dụng cụ vệ sinh giá bao nhiêu?",
+		"options": {
+			"A": {
+				"text": "one pound fifty",
+				"vi": "1,50 bảng"
+			},
+			"B": {
+				"text": "two pounds",
+				"vi": "2 bảng"
+			},
+			"C": {
+				"text": "one pence",
+				"vi": "1 xu"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 112,
+		"vn_title": "112. The Mountains – cô ấy sẽ đi đâu với gia đình cô ta?",
+		"question": "Where is she going with her family?",
+		"question_vi": "Cô ấy sẽ cùng gia đình đi đâu?",
+		"options": {
+			"A": {
+				"text": "The mountains",
+				"vi": "Lên núi"
+			},
+			"B": {
+				"text": "The lake",
+				"vi": "Ra hồ"
+			},
+			"C": {
+				"text": "The park",
+				"vi": "Đến công viên"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 113,
+		"vn_title": "113. Cycling – Anh ấy hay làm gì vào năm ngoái?",
+		"question": "What did he usually do last year?",
+		"question_vi": "Năm ngoái anh ấy thường làm gì?",
+		"options": {
+			"A": {
+				"text": "Running",
+				"vi": "Chạy bộ"
+			},
+			"B": {
+				"text": "Cycling",
+				"vi": "Đạp xe"
+			},
+			"C": {
+				"text": "Walking",
+				"vi": "Đi bộ"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 114,
+		"vn_title": "114. 15 – Anh ấy phải thuyết trình trong bao nhiêu phút?",
+		"question": "How many minutes did he have to speak?",
+		"question_vi": "Anh ấy phải thuyết trình trong bao nhiêu phút?",
+		"options": {
+			"A": {
+				"text": "10",
+				"vi": "10 phút"
+			},
+			"B": {
+				"text": "15",
+				"vi": "15 phút"
+			},
+			"C": {
+				"text": "25",
+				"vi": "25 phút"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 115,
+		"vn_title": "115. Best friends – Cô ấy ở chung với ai?",
+		"question": "Who does she live with?",
+		"question_vi": "Cô ấy sống chung với ai?",
+		"options": {
+			"A": {
+				"text": "Her colleague",
+				"vi": "Đồng nghiệp của cô ấy"
+			},
+			"B": {
+				"text": "Her sister",
+				"vi": "Chị/em gái của cô ấy"
+			},
+			"C": {
+				"text": "Best friends",
+				"vi": "Những người bạn thân"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 116,
+		"vn_title": "116. Help people – Tại sao cô ấy muốn làm nhà văn?",
+		"question": "Why does she want to be a writer?",
+		"question_vi": "Tại sao cô ấy muốn trở thành nhà văn?",
+		"options": {
+			"A": {
+				"text": "Help people",
+				"vi": "Giúp đỡ mọi người"
+			},
+			"B": {
+				"text": "Make money",
+				"vi": "Kiếm nhiều tiền"
+			},
+			"C": {
+				"text": "Her dream",
+				"vi": "Đó là ước mơ của cô ấy"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 117,
+		"vn_title": "117. Poor weather conditions – Tại sao chuyến bay bị hủy?",
+		"question": "Why was the flight canceled?",
+		"question_vi": "Tại sao chuyến bay bị hủy?",
+		"options": {
+			"A": {
+				"text": "There are no flight staff",
+				"vi": "Không có tiếp viên/chuyến bay thiếu nhân viên"
+			},
+			"B": {
+				"text": "Plane maintenance",
+				"vi": "Bảo dưỡng máy bay"
+			},
+			"C": {
+				"text": "Poor weather conditions",
+				"vi": "Thời tiết xấu"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 118,
+		"vn_title": "118. To suggest to drink – Tại sao anh ấy gọi cho bạn anh ta?",
+		"question": "Why did he call his friend?",
+		"question_vi": "Tại sao anh ấy gọi cho bạn mình?",
+		"options": {
+			"A": {
+				"text": "To make an appointment",
+				"vi": "Để đặt lịch hẹn"
+			},
+			"B": {
+				"text": "To say hello",
+				"vi": "Để chào hỏi"
+			},
+			"C": {
+				"text": "Suggest a drink",
+				"vi": "Rủ đi uống nước"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 119,
+		"vn_title": "119. 9 a.m on Sunday – 2 người bạn gặp nhau lúc nào?",
+		"question": "When did they decide to meet?",
+		"question_vi": "Họ quyết định gặp nhau lúc nào?",
+		"options": {
+			"A": {
+				"text": "7am on Friday",
+				"vi": "7 giờ sáng thứ Sáu"
+			},
+			"B": {
+				"text": "9am on Sunday",
+				"vi": "9 giờ sáng Chủ Nhật"
+			},
+			"C": {
+				"text": "9am on Saturday",
+				"vi": "9 giờ sáng thứ Bảy"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 120,
+		"vn_title": "120. Long and red – Cô gái gọi cho mẹ cô ta. Cô ấy muốn cái váy nào?",
+		"question": "A girl is calling her mother. Which dress does she want?",
+		"question_vi": "Một cô gái đang gọi cho mẹ. Cô ấy muốn chiếc váy nào?",
+		"options": {
+			"A": {
+				"text": "long and green",
+				"vi": "Váy dài màu xanh lá"
+			},
+			"B": {
+				"text": "long and red",
+				"vi": "Váy dài màu đỏ"
+			},
+			"C": {
+				"text": "short and red",
+				"vi": "Váy ngắn màu đỏ"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 121,
+		"vn_title": "121. Thursday 13th – Buổi hẹn mới vào ngày bao nhiêu?",
+		"question": "What day is the new appointment?",
+		"question_vi": "Buổi hẹn mới vào ngày nào?",
+		"options": {
+			"A": {
+				"text": "Thursday 13th",
+				"vi": "Thứ Năm ngày 13"
+			},
+			"B": {
+				"text": "Tuesday 13th",
+				"vi": "Thứ Ba ngày 13"
+			},
+			"C": {
+				"text": "Wednesday 10th",
+				"vi": "Thứ Tư ngày 10"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 122,
+		"vn_title": "122. Outside a shop – Một người đàn ông đang gọi cho vợ anh ta. Họ gặp nhau ở đâu?",
+		"question": "A man is calling his wife. Where did they meet?",
+		"question_vi": "Một người đàn ông đang gọi cho vợ. Họ gặp nhau ở đâu?",
+		"options": {
+			"A": {
+				"text": "At the park",
+				"vi": "Ở công viên"
+			},
+			"B": {
+				"text": "At the station",
+				"vi": "Ở nhà ga"
+			},
+			"C": {
+				"text": "Outside a shop",
+				"vi": "Bên ngoài một cửa hàng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 123,
+		"vn_title": "123. Stayed at home – Cô ấy làm gì cuối tuần trước?",
+		"question": "What did she do last weekend?",
+		"question_vi": "Cuối tuần trước cô ấy đã làm gì?",
+		"options": {
+			"A": {
+				"text": "Stayed at home",
+				"vi": "Ở nhà"
+			},
+			"B": {
+				"text": "Went shopping",
+				"vi": "Đi mua sắm"
+			},
+			"C": {
+				"text": "Went to the cinema",
+				"vi": "Đi xem phim"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 124,
+		"vn_title": "124. 2 weeks – Đi du lịch Ấn Độ mấy tuần?",
+		"question": "How many weeks have they been in India?",
+		"question_vi": "Họ đã ở Ấn Độ bao nhiêu tuần?",
+		"options": {
+			"A": {
+				"text": "1 week",
+				"vi": "1 tuần"
+			},
+			"B": {
+				"text": "2 weeks",
+				"vi": "2 tuần"
+			},
+			"C": {
+				"text": "3 weeks",
+				"vi": "3 tuần"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 125,
+		"vn_title": "125. Opposite the hotel – Văn phòng ở đâu?",
+		"question": "Where is the office?",
+		"question_vi": "Văn phòng ở đâu?",
+		"options": {
+			"A": {
+				"text": "Opposite the hotel",
+				"vi": "Đối diện khách sạn"
+			},
+			"B": {
+				"text": "Near the park",
+				"vi": "Gần công viên"
+			},
+			"C": {
+				"text": "Opposite the station",
+				"vi": "Đối diện nhà ga"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 126,
+		"vn_title": "126. By the hotel’s main entrance – Hẹn nhau ở đâu để đi xe bus?",
+		"question": "Where do they wait for the bus?",
+		"question_vi": "Họ chờ xe buýt ở đâu?",
+		"options": {
+			"A": {
+				"text": "Next to the hotel",
+				"vi": "Bên cạnh khách sạn"
+			},
+			"B": {
+				"text": "Near the hotel's main entrance",
+				"vi": "Gần cổng chính của khách sạn"
+			},
+			"C": {
+				"text": "By the hotel's main entrance",
+				"vi": "Ngay tại cổng chính của khách sạn"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 127,
+		"vn_title": "127. Photography – Vợ anh ấy thích làm gì?",
+		"question": "What does his wife like to do?",
+		"question_vi": "Vợ anh ấy thích làm gì?",
+		"options": {
+			"A": {
+				"text": "Sightseeing",
+				"vi": "Ngắm cảnh"
+			},
+			"B": {
+				"text": "Going shopping",
+				"vi": "Đi mua sắm"
+			},
+			"C": {
+				"text": "Photography",
+				"vi": "Chụp ảnh"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 128,
+		"vn_title": "128. Play Golf – Họ có hoạt động gì vào buổi chiều?",
+		"question": "What outdoor activities do they do in the afternoon?",
+		"question_vi": "Buổi chiều họ tham gia hoạt động ngoài trời nào?",
+		"options": {
+			"A": {
+				"text": "Play golf",
+				"vi": "Chơi golf"
+			},
+			"B": {
+				"text": "Go to dance classes",
+				"vi": "Đi học khiêu vũ"
+			},
+			"C": {
+				"text": "Play bridge",
+				"vi": "Chơi bài bridge"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 129,
+		"vn_title": "129. The city’s favorite group – Người phụ nữ đang giới thiệu về một buổi hòa nhạc. Ở cuối buổi hòa nhạc có điều gì?",
+		"question": "A woman is introducing a concert. What will the concert end with?",
+		"question_vi": "Một người phụ nữ đang giới thiệu về buổi hòa nhạc. Buổi hòa nhạc sẽ kết thúc với điều gì?",
+		"options": {
+			"A": {
+				"text": "A surprise performance",
+				"vi": "Một tiết mục bất ngờ"
+			},
+			"B": {
+				"text": "Some special offers",
+				"vi": "Một vài ưu đãi đặc biệt"
+			},
+			"C": {
+				"text": "The city's favorite group",
+				"vi": "Ban nhạc được yêu thích nhất của thành phố"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 130,
+		"vn_title": "130. Teacher – Công việc đầu tiên của nhà văn là gì?",
+		"question": "What was the writer's first job?",
+		"question_vi": "Công việc đầu tiên của nhà văn là gì?",
+		"options": {
+			"A": {
+				"text": "Cook",
+				"vi": "Đầu bếp"
+			},
+			"B": {
+				"text": "Reporter",
+				"vi": "Phóng viên"
+			},
+			"C": {
+				"text": "Teacher",
+				"vi": "Giáo viên"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 131,
+		"vn_title": "131. Tea – Chị gái cô ấy uống gì?",
+		"question": "What does her sister drink?",
+		"question_vi": "Chị gái cô ấy uống gì?",
+		"options": {
+			"A": {
+				"text": "Water",
+				"vi": "Nước lọc"
+			},
+			"B": {
+				"text": "Tea",
+				"vi": "Trà"
+			},
+			"C": {
+				"text": "Coffee",
+				"vi": "Cà phê"
+			}
+		},
+		"answer": "B"
+	},
+	{
+		"id": 132,
+		"vn_title": "132. 10,000 – Có bao nhiêu cư dân ở ngôi làng này?",
 		"question": "What is the population of this village?",
 		"question_vi": "Dân số của ngôi làng này là bao nhiêu?",
 		"options": {
@@ -357,8 +2772,8 @@
 		"answer": "A"
 	},
 	{
-		"id": 18,
-		"vn_title": "The Town hall – Anh ấy muốn đi đâu ngày mai?",
+		"id": 133,
+		"vn_title": "133. The Town hall – Anh ấy muốn đi đâu vào ngày mai?",
 		"question": "Where does he want to go tomorrow?",
 		"question_vi": "Ngày mai anh ấy muốn đi đâu?",
 		"options": {
@@ -378,3006 +2793,486 @@
 		"answer": "A"
 	},
 	{
-		"id": 19,
-		"vn_title": "On the first floor – Văn phòng ở tầng mấy?",
-		"question": "What floor is the office on?",
-		"question_vi": "Văn phòng ở tầng mấy?",
-		"options": {
-			"A": {
-				"text": "on the first floor",
-				"vi": "tầng 1"
-			},
-			"B": {
-				"text": "on the second floor",
-				"vi": "tầng 2"
-			},
-			"C": {
-				"text": "on the third floor",
-				"vi": "tầng 3"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 20,
-		"vn_title": "2.5 pounds – giá vé xe bus bao nhiêu?",
-		"question": "How much does the bus cost?",
-		"question_vi": "Giá vé xe buýt là bao nhiêu?",
-		"options": {
-			"A": {
-				"text": "2.5 pounds",
-				"vi": "2.5 bảng"
-			},
-			"B": {
-				"text": "2 pounds",
-				"vi": "2 bảng"
-			},
-			"C": {
-				"text": "3 pounds",
-				"vi": "3 bảng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 21,
-		"vn_title": "Read a book – Cô ấy làm gì vào buổi tối?",
-		"question": "What does she do in the evening?",
-		"question_vi": "Cô ấy làm gì vào buổi tối?",
-		"options": {
-			"A": {
-				"text": "Read a book",
-				"vi": "Đọc sách"
-			},
-			"B": {
-				"text": "Watch TV",
-				"vi": "Xem TV"
-			},
-			"C": {
-				"text": "Play games",
-				"vi": "Chơi game"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 22,
-		"vn_title": "No – Cô ấy có đi tập gym không?",
-		"question": "Does she go to the gym?",
-		"question_vi": "Cô ấy có đi đến phòng gym không?",
-		"options": {
-			"A": {
-				"text": "Yes",
-				"vi": "Có"
-			},
-			"B": {
-				"text": "No",
-				"vi": "Không"
-			},
-			"C": {
-				"text": "Sometimes",
-				"vi": "Thỉnh thoảng"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 23,
-		"vn_title": "A hotel – Anh ấy đang làm việc ở đâu?",
-		"question": "Where is he working?",
-		"question_vi": "Anh ấy đang làm việc ở đâu?",
-		"options": {
-			"A": {
-				"text": "At a hotel",
-				"vi": "Ở khách sạn"
-			},
-			"B": {
-				"text": "At a bank",
-				"vi": "Ở ngân hàng"
-			},
-			"C": {
-				"text": "At a school",
-				"vi": "Ở trường học"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 24,
-		"vn_title": "10 am – Cuộc họp bắt đầu lúc mấy giờ?",
-		"question": "What time does the meeting start?",
-		"question_vi": "Cuộc họp bắt đầu lúc mấy giờ?",
-		"options": {
-			"A": {
-				"text": "8 am",
-				"vi": "8 giờ sáng"
-			},
-			"B": {
-				"text": "9 am",
-				"vi": "9 giờ sáng"
-			},
-			"C": {
-				"text": "10 am",
-				"vi": "10 giờ sáng"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 25,
-		"vn_title": "Blue – Màu áo cô ấy là gì?",
-		"question": "What color is her shirt?",
-		"question_vi": "Áo của cô ấy màu gì?",
-		"options": {
-			"A": {
-				"text": "Red",
-				"vi": "Đỏ"
-			},
-			"B": {
-				"text": "Blue",
-				"vi": "Xanh dương"
-			},
-			"C": {
-				"text": "White",
-				"vi": "Trắng"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 26,
-		"vn_title": "At the cinema – Họ gặp nhau ở đâu?",
-		"question": "Where do they meet?",
-		"question_vi": "Họ gặp nhau ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			},
-			"B": {
-				"text": "At the café",
-				"vi": "Ở quán cà phê"
-			},
-			"C": {
-				"text": "At the bus stop",
-				"vi": "Ở trạm xe buýt"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 27,
-		"vn_title": "Basketball – Họ chơi môn gì?",
-		"question": "What sport do they play?",
-		"question_vi": "Họ chơi môn thể thao gì?",
-		"options": {
-			"A": {
-				"text": "Football",
-				"vi": "Bóng đá"
-			},
-			"B": {
-				"text": "Basketball",
-				"vi": "Bóng rổ"
-			},
-			"C": {
-				"text": "Tennis",
-				"vi": "Quần vợt"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 28,
-		"vn_title": "Her mother – Ai nấu ăn tối?",
-		"question": "Who cooks dinner?",
-		"question_vi": "Ai nấu bữa tối?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Bố của cô ấy"
-			},
-			"B": {
-				"text": "Her mother",
-				"vi": "Mẹ của cô ấy"
-			},
-			"C": {
-				"text": "Her sister",
-				"vi": "Chị/em gái của cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 29,
-		"vn_title": "Taxi – Anh ấy đi bằng gì?",
-		"question": "How does he go there?",
-		"question_vi": "Anh ấy đi đến đó bằng phương tiện gì?",
-		"options": {
-			"A": {
-				"text": "By bus",
-				"vi": "Bằng xe buýt"
-			},
-			"B": {
-				"text": "By taxi",
-				"vi": "Bằng taxi"
-			},
-			"C": {
-				"text": "By bike",
-				"vi": "Bằng xe đạp"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 30,
-		"vn_title": "Monday – Cô ấy đến thăm vào ngày nào?",
-		"question": "When does she visit?",
-		"question_vi": "Cô ấy đến thăm vào ngày nào?",
-		"options": {
-			"A": {
-				"text": "Monday",
-				"vi": "Thứ Hai"
-			},
-			"B": {
-				"text": "Wednesday",
-				"vi": "Thứ Tư"
-			},
-			"C": {
-				"text": "Sunday",
-				"vi": "Chủ Nhật"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 31,
-		"vn_title": "At the museum – Bức tranh ở đâu?",
-		"question": "Where is the painting?",
-		"question_vi": "Bức tranh nằm ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the museum",
-				"vi": "Ở bảo tàng"
-			},
-			"B": {
-				"text": "At the gallery",
-				"vi": "Ở phòng trưng bày"
-			},
-			"C": {
-				"text": "At the university",
-				"vi": "Ở trường đại học"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 32,
-		"vn_title": "Her uncle – Cô ấy đến ở với ai?",
-		"question": "Who is she staying with?",
-		"question_vi": "Cô ấy đang ở cùng với ai?",
-		"options": {
-			"A": {
-				"text": "Her uncle",
-				"vi": "Chú/bác của cô ấy"
-			},
-			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			},
-			"C": {
-				"text": "Her teacher",
-				"vi": "Giáo viên của cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 33,
-		"vn_title": "The green one – Cô ấy muốn mua cái nào?",
-		"question": "Which one does she want to buy?",
-		"question_vi": "Cô ấy muốn mua cái nào?",
-		"options": {
-			"A": {
-				"text": "The red one",
-				"vi": "Cái màu đỏ"
-			},
-			"B": {
-				"text": "The blue one",
-				"vi": "Cái màu xanh dương"
-			},
-			"C": {
-				"text": "The green one",
-				"vi": "Cái màu xanh lá"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 34,
-		"vn_title": "Her cousin – Ai sẽ đến gặp cô ấy?",
-		"question": "Who will visit her?",
-		"question_vi": "Ai sẽ đến gặp cô ấy?",
-		"options": {
-			"A": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			},
-			"B": {
-				"text": "Her neighbor",
-				"vi": "Hàng xóm"
-			},
-			"C": {
-				"text": "Her colleague",
-				"vi": "Đồng nghiệp"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 35,
-		"vn_title": "The mountain – Họ sẽ đi đâu?",
-		"question": "Where will they go?",
-		"question_vi": "Họ sẽ đi đâu?",
-		"options": {
-			"A": {
-				"text": "The lake",
-				"vi": "Hồ"
-			},
-			"B": {
-				"text": "The mountain",
-				"vi": "Núi"
-			},
-			"C": {
-				"text": "The beach",
-				"vi": "Bãi biển"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 36,
-		"vn_title": "The red bag – Cái nào là của cô ấy?",
-		"question": "Which bag is hers?",
-		"question_vi": "Cái túi nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The red bag",
-				"vi": "Túi màu đỏ"
-			},
-			"B": {
-				"text": "The black bag",
-				"vi": "Túi màu đen"
-			},
-			"C": {
-				"text": "The white bag",
-				"vi": "Túi màu trắng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 37,
-		"vn_title": "In the office – Cô ấy đang ở đâu?",
-		"question": "Where is she now?",
-		"question_vi": "Bây giờ cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "In the office",
-				"vi": "Ở văn phòng"
-			},
-			"B": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"C": {
-				"text": "At school",
-				"vi": "Ở trường"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 38,
-		"vn_title": "Chicken – Anh ấy mua gì?",
-		"question": "What does he buy?",
-		"question_vi": "Anh ấy mua gì?",
-		"options": {
-			"A": {
-				"text": "Fruit",
-				"vi": "Trái cây"
-			},
-			"B": {
-				"text": "Chicken",
-				"vi": "Thịt gà"
-			},
-			"C": {
-				"text": "Vegetables",
-				"vi": "Rau"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 39,
-		"vn_title": "Her friend – Cô ấy đang nói chuyện với ai?",
-		"question": "Who is she talking to?",
-		"question_vi": "Cô ấy đang nói chuyện với ai?",
-		"options": {
-			"A": {
-				"text": "Her mother",
-				"vi": "Mẹ cô ấy"
-			},
-			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			},
-			"C": {
-				"text": "Her boss",
-				"vi": "Sếp cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 40,
-		"vn_title": "2 hours – Họ đợi bao lâu?",
-		"question": "How long do they wait?",
-		"question_vi": "Họ chờ bao lâu?",
-		"options": {
-			"A": {
-				"text": "1 hour",
-				"vi": "1 giờ"
-			},
-			"B": {
-				"text": "2 hours",
-				"vi": "2 giờ"
-			},
-			"C": {
-				"text": "3 hours",
-				"vi": "3 giờ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 41,
-		"vn_title": "Saturday – Ngày nào họ đi mua sắm?",
-		"question": "When do they go shopping?",
-		"question_vi": "Họ đi mua sắm vào ngày nào?",
-		"options": {
-			"A": {
-				"text": "Saturday",
-				"vi": "Thứ Bảy"
-			},
-			"B": {
-				"text": "Tuesday",
-				"vi": "Thứ Ba"
-			},
-			"C": {
-				"text": "Thursday",
-				"vi": "Thứ Năm"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 42,
-		"vn_title": "The library – Anh ấy đang ở đâu?",
-		"question": "Where is he?",
-		"question_vi": "Anh ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the library",
-				"vi": "Ở thư viện"
-			},
-			"B": {
-				"text": "At the park",
-				"vi": "Ở công viên"
-			},
-			"C": {
-				"text": "At the supermarket",
-				"vi": "Ở siêu thị"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 43,
-		"vn_title": "Her brother – Ai đưa cô ấy đến trường?",
-		"question": "Who takes her to school?",
-		"question_vi": "Ai đưa cô ấy đến trường?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Bố của cô ấy"
-			},
-			"B": {
-				"text": "Her brother",
-				"vi": "Anh/em trai cô ấy"
-			},
-			"C": {
-				"text": "Her neighbor",
-				"vi": "Hàng xóm"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 44,
-		"vn_title": "The blue jacket – Anh ấy chọn cái nào?",
-		"question": "Which jacket does he choose?",
-		"question_vi": "Anh ấy chọn chiếc áo khoác nào?",
-		"options": {
-			"A": {
-				"text": "The red jacket",
-				"vi": "Áo khoác đỏ"
-			},
-			"B": {
-				"text": "The blue jacket",
-				"vi": "Áo khoác xanh dương"
-			},
-			"C": {
-				"text": "The brown jacket",
-				"vi": "Áo khoác nâu"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 45,
-		"vn_title": "In the kitchen – Cô ấy đang làm gì?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "In the kitchen",
-				"vi": "Trong bếp"
-			},
-			"B": {
-				"text": "In the garden",
-				"vi": "Trong vườn"
-			},
-			"C": {
-				"text": "In the office",
-				"vi": "Trong văn phòng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 46,
-		"vn_title": "Riding a bike – Cậu bé đang làm gì?",
-		"question": "What is the boy doing?",
-		"question_vi": "Cậu bé đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Playing football",
-				"vi": "Chơi bóng đá"
-			},
-			"B": {
-				"text": "Riding a bike",
-				"vi": "Đi xe đạp"
-			},
-			"C": {
-				"text": "Running",
-				"vi": "Chạy bộ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 47,
-		"vn_title": "In the morning – Họ tập thể dục khi nào?",
-		"question": "When do they exercise?",
-		"question_vi": "Họ tập thể dục khi nào?",
-		"options": {
-			"A": {
-				"text": "In the afternoon",
-				"vi": "Vào buổi chiều"
-			},
-			"B": {
-				"text": "At night",
-				"vi": "Vào buổi tối"
-			},
-			"C": {
-				"text": "In the morning",
-				"vi": "Vào buổi sáng"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 48,
-		"vn_title": "Her son – Cô ấy đang chụp ảnh ai?",
-		"question": "Who is she photographing?",
-		"question_vi": "Cô ấy đang chụp ảnh ai?",
-		"options": {
-			"A": {
-				"text": "Her husband",
-				"vi": "Chồng cô ấy"
-			},
-			"B": {
-				"text": "Her son",
-				"vi": "Con trai cô ấy"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 49,
-		"vn_title": "The small dog – Con vật nào là của cô ấy?",
-		"question": "Which pet is hers?",
-		"question_vi": "Thú cưng nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The small dog",
-				"vi": "Con chó nhỏ"
-			},
-			"B": {
-				"text": "The big dog",
-				"vi": "Con chó lớn"
-			},
-			"C": {
-				"text": "The cat",
-				"vi": "Con mèo"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 50,
-		"vn_title": "To buy milk – Anh ấy đi đâu?",
-		"question": "Why does he go to the shop?",
-		"question_vi": "Tại sao anh ấy đến cửa hàng?",
-		"options": {
-			"A": {
-				"text": "To buy milk",
-				"vi": "Mua sữa"
-			},
-			"B": {
-				"text": "To buy bread",
-				"vi": "Mua bánh mì"
-			},
-			"C": {
-				"text": "To buy fruit",
-				"vi": "Mua trái cây"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 51,
-		"vn_title": "In summer – Họ đi du lịch khi nào?",
-		"question": "When do they travel?",
-		"question_vi": "Họ đi du lịch khi nào?",
-		"options": {
-			"A": {
-				"text": "In winter",
-				"vi": "Mùa đông"
-			},
-			"B": {
-				"text": "In summer",
-				"vi": "Mùa hè"
-			},
-			"C": {
-				"text": "In spring",
-				"vi": "Mùa xuân"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 52,
-		"vn_title": "On the right – Cô ấy đứng ở đâu?",
-		"question": "Where is she standing?",
-		"question_vi": "Cô ấy đang đứng ở đâu?",
-		"options": {
-			"A": {
-				"text": "On the left",
-				"vi": "Bên trái"
-			},
-			"B": {
-				"text": "In the middle",
-				"vi": "Ở giữa"
-			},
-			"C": {
-				"text": "On the right",
-				"vi": "Bên phải"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 53,
-		"vn_title": "Cooking – Mẹ đang làm gì?",
-		"question": "What is the mother doing?",
-		"question_vi": "Mẹ đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			},
-			"B": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			},
-			"C": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 54,
-		"vn_title": "To watch a movie – Họ làm gì vào tối nay?",
-		"question": "What will they do tonight?",
-		"question_vi": "Tối nay họ sẽ làm gì?",
-		"options": {
-			"A": {
-				"text": "To watch a movie",
-				"vi": "Xem phim"
-			},
-			"B": {
-				"text": "To go shopping",
-				"vi": "Đi mua sắm"
-			},
-			"C": {
-				"text": "To play games",
-				"vi": "Chơi game"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 55,
-		"vn_title": "Saturday – Hôm nào cô ấy dọn nhà?",
-		"question": "When does she clean the house?",
-		"question_vi": "Khi nào cô ấy dọn nhà?",
-		"options": {
-			"A": {
-				"text": "Monday",
-				"vi": "Thứ Hai"
-			},
-			"B": {
-				"text": "Saturday",
-				"vi": "Thứ Bảy"
-			},
-			"C": {
-				"text": "Friday",
-				"vi": "Thứ Sáu"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 56,
-		"vn_title": "The green shirt – Cái áo nào là của cô ấy?",
-		"question": "Which shirt is hers?",
-		"question_vi": "Cái áo nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The yellow shirt",
-				"vi": "Áo vàng"
-			},
-			"B": {
-				"text": "The green shirt",
-				"vi": "Áo xanh lá"
-			},
-			"C": {
-				"text": "The purple shirt",
-				"vi": "Áo tím"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 57,
-		"vn_title": "His father – Ai dạy anh ấy đọc?",
-		"question": "Who taught him to read?",
-		"question_vi": "Ai đã dạy anh ấy đọc?",
-		"options": {
-			"A": {
-				"text": "His teacher",
-				"vi": "Giáo viên của anh ấy"
-			},
-			"B": {
-				"text": "His father",
-				"vi": "Bố của anh ấy"
-			},
-			"C": {
-				"text": "His brother",
-				"vi": "Anh/em trai anh ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 58,
-		"vn_title": "At the airport – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the airport",
-				"vi": "Ở sân bay"
-			},
-			"B": {
-				"text": "At the train station",
-				"vi": "Ở ga tàu"
-			},
-			"C": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 59,
-		"vn_title": "Studying – Cô ấy đang làm gì?",
-		"question": "What is she doing?",
-		"question_vi": "Cô ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Eating",
-				"vi": "Ăn"
-			},
-			"B": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			},
-			"C": {
-				"text": "Studying",
-				"vi": "Học bài"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 60,
-		"vn_title": "At the café – Họ gặp nhau ở đâu?",
-		"question": "Where do they meet?",
-		"question_vi": "Họ gặp nhau ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the café",
-				"vi": "Ở quán cà phê"
-			},
-			"B": {
-				"text": "At the park",
-				"vi": "Ở công viên"
-			},
-			"C": {
-				"text": "At the gym",
-				"vi": "Ở phòng gym"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 61,
-		"vn_title": "The tall man – Ai là giáo viên?",
-		"question": "Who is the teacher?",
-		"question_vi": "Ai là giáo viên?",
-		"options": {
-			"A": {
-				"text": "The tall man",
-				"vi": "Người đàn ông cao"
-			},
-			"B": {
-				"text": "The short woman",
-				"vi": "Người phụ nữ thấp"
-			},
-			"C": {
-				"text": "The young boy",
-				"vi": "Cậu bé trẻ"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 62,
-		"vn_title": "In the garden – Mẹ cô ấy đang ở đâu?",
-		"question": "Where is her mother?",
-		"question_vi": "Mẹ của cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "In the garden",
-				"vi": "Trong vườn"
-			},
-			"B": {
-				"text": "In the kitchen",
-				"vi": "Trong bếp"
-			},
-			"C": {
-				"text": "In the living room",
-				"vi": "Trong phòng khách"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 63,
-		"vn_title": "The laptop – Cô ấy muốn mua gì?",
-		"question": "What does she want to buy?",
-		"question_vi": "Cô ấy muốn mua gì?",
-		"options": {
-			"A": {
-				"text": "The laptop",
-				"vi": "Máy tính xách tay"
-			},
-			"B": {
-				"text": "The phone",
-				"vi": "Điện thoại"
-			},
-			"C": {
-				"text": "The camera",
-				"vi": "Máy ảnh"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 64,
-		"vn_title": "At the bus stop – Cô ấy đang đợi ở đâu?",
-		"question": "Where is she waiting?",
-		"question_vi": "Cô ấy đang đợi ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the bus stop",
-				"vi": "Tại trạm xe buýt"
-			},
-			"B": {
-				"text": "At the restaurant",
-				"vi": "Ở nhà hàng"
-			},
-			"C": {
-				"text": "At the shop",
-				"vi": "Ở cửa hàng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 65,
-		"vn_title": "Her father – Ai sửa xe?",
-		"question": "Who fixes the car?",
-		"question_vi": "Ai sửa chiếc xe hơi?",
-		"options": {
-			"A": {
-				"text": "Her brother",
-				"vi": "Anh trai cô ấy"
-			},
-			"B": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 66,
-		"vn_title": "The red dress – Cô ấy thích chiếc váy nào?",
-		"question": "Which dress does she like?",
-		"question_vi": "Cô ấy thích chiếc váy nào?",
-		"options": {
-			"A": {
-				"text": "The blue dress",
-				"vi": "Váy màu xanh dương"
-			},
-			"B": {
-				"text": "The red dress",
-				"vi": "Váy màu đỏ"
-			},
-			"C": {
-				"text": "The yellow dress",
-				"vi": "Váy màu vàng"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 67,
-		"vn_title": "At the swimming pool – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the gym",
-				"vi": "Ở phòng gym"
-			},
-			"B": {
-				"text": "At the swimming pool",
-				"vi": "Ở hồ bơi"
-			},
-			"C": {
-				"text": "At the stadium",
-				"vi": "Ở sân vận động"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 68,
-		"vn_title": "The small house – Họ mua căn nhà nào?",
-		"question": "Which house do they buy?",
-		"question_vi": "Họ mua căn nhà nào?",
-		"options": {
-			"A": {
-				"text": "The big house",
-				"vi": "Nhà lớn"
-			},
-			"B": {
-				"text": "The small house",
-				"vi": "Nhà nhỏ"
-			},
-			"C": {
-				"text": "The modern house",
-				"vi": "Nhà hiện đại"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 69,
-		"vn_title": "On Friday – Họ đến gặp nhau khi nào?",
-		"question": "When do they meet?",
-		"question_vi": "Họ gặp nhau khi nào?",
-		"options": {
-			"A": {
-				"text": "On Wednesday",
-				"vi": "Vào thứ Tư"
-			},
-			"B": {
-				"text": "On Monday",
-				"vi": "Vào thứ Hai"
-			},
-			"C": {
-				"text": "On Friday",
-				"vi": "Vào thứ Sáu"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 70,
-		"vn_title": "The guitar – Cô ấy chơi nhạc cụ nào?",
-		"question": "What instrument does she play?",
-		"question_vi": "Cô ấy chơi nhạc cụ nào?",
-		"options": {
-			"A": {
-				"text": "The piano",
-				"vi": "Đàn piano"
-			},
-			"B": {
-				"text": "The guitar",
-				"vi": "Đàn guitar"
-			},
-			"C": {
-				"text": "The violin",
-				"vi": "Đàn violin"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 71,
-		"vn_title": "Her aunt – Ai tặng cô ấy quà?",
-		"question": "Who gives her the present?",
-		"question_vi": "Ai tặng cho cô ấy món quà?",
-		"options": {
-			"A": {
-				"text": "Her aunt",
-				"vi": "Dì/cô của cô ấy"
-			},
-			"B": {
-				"text": "Her sister",
-				"vi": "Chị/em gái của cô ấy"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 72,
-		"vn_title": "On the table – Chìa khóa ở đâu?",
-		"question": "Where are the keys?",
-		"question_vi": "Chìa khóa ở đâu?",
-		"options": {
-			"A": {
-				"text": "On the table",
-				"vi": "Trên bàn"
-			},
-			"B": {
-				"text": "In the drawer",
-				"vi": "Trong ngăn kéo"
-			},
-			"C": {
-				"text": "In the bag",
-				"vi": "Trong túi"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 73,
-		"vn_title": "The white shoes – Cô ấy thích đôi giày nào?",
-		"question": "Which shoes does she like?",
-		"question_vi": "Cô ấy thích đôi giày nào?",
-		"options": {
-			"A": {
-				"text": "The black shoes",
-				"vi": "Giày đen"
-			},
-			"B": {
-				"text": "The white shoes",
-				"vi": "Giày trắng"
-			},
-			"C": {
-				"text": "The brown shoes",
-				"vi": "Giày nâu"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 74,
-		"vn_title": "A cup of tea – Ông ấy uống gì?",
-		"question": "What does the man drink?",
-		"question_vi": "Ông ấy uống gì?",
-		"options": {
-			"A": {
-				"text": "A cup of tea",
-				"vi": "Một tách trà"
-			},
-			"B": {
-				"text": "A glass of water",
-				"vi": "Một ly nước"
-			},
-			"C": {
-				"text": "A cup of coffee",
-				"vi": "Một tách cà phê"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 75,
-		"vn_title": "On the third floor – Văn phòng ở tầng mấy?",
+		"id": 134,
+		"vn_title": "134. On the first floor – Văn phòng ở tầng mấy?",
 		"question": "What floor is the office on?",
 		"question_vi": "Văn phòng ở tầng mấy?",
 		"options": {
 			"A": {
 				"text": "On the first floor",
-				"vi": "Tầng 1"
+				"vi": "Ở tầng một"
 			},
 			"B": {
 				"text": "On the second floor",
-				"vi": "Tầng 2"
+				"vi": "Ở tầng hai"
 			},
 			"C": {
 				"text": "On the third floor",
-				"vi": "Tầng 3"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 76,
-		"vn_title": "The cat – Con vật nào ngủ trên ghế?",
-		"question": "Which animal is sleeping on the chair?",
-		"question_vi": "Con vật nào đang ngủ trên ghế?",
-		"options": {
-			"A": {
-				"text": "The dog",
-				"vi": "Con chó"
-			},
-			"B": {
-				"text": "The cat",
-				"vi": "Con mèo"
-			},
-			"C": {
-				"text": "The rabbit",
-				"vi": "Con thỏ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 77,
-		"vn_title": "A sandwich – Cô ấy đang ăn gì?",
-		"question": "What is she eating?",
-		"question_vi": "Cô ấy đang ăn gì?",
-		"options": {
-			"A": {
-				"text": "Rice",
-				"vi": "Cơm"
-			},
-			"B": {
-				"text": "A sandwich",
-				"vi": "Bánh mì kẹp"
-			},
-			"C": {
-				"text": "Soup",
-				"vi": "Súp"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 78,
-		"vn_title": "The red car – Xe nào là của anh ấy?",
-		"question": "Which car is his?",
-		"question_vi": "Chiếc xe nào là của anh ấy?",
-		"options": {
-			"A": {
-				"text": "The red car",
-				"vi": "Xe màu đỏ"
-			},
-			"B": {
-				"text": "The black car",
-				"vi": "Xe màu đen"
-			},
-			"C": {
-				"text": "The blue car",
-				"vi": "Xe màu xanh dương"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 79,
-		"vn_title": "Going to school – Cô bé đang làm gì?",
-		"question": "What is the girl doing?",
-		"question_vi": "Cô bé đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Going to school",
-				"vi": "Đi đến trường"
-			},
-			"B": {
-				"text": "Playing",
-				"vi": "Đang chơi"
-			},
-			"C": {
-				"text": "Singing",
-				"vi": "Đang hát"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 80,
-		"vn_title": "Half past two – Mấy giờ rồi?",
-		"question": "What time is it?",
-		"question_vi": "Bây giờ là mấy giờ?",
-		"options": {
-			"A": {
-				"text": "Two o'clock",
-				"vi": "2 giờ"
-			},
-			"B": {
-				"text": "Half past two",
-				"vi": "2 giờ 30"
-			},
-			"C": {
-				"text": "A quarter past two",
-				"vi": "2 giờ 15"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 81,
-		"vn_title": "Taking a photo – Anh ấy đang làm gì?",
-		"question": "What is he doing?",
-		"question_vi": "Anh ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Taking a photo",
-				"vi": "Chụp ảnh"
-			},
-			"B": {
-				"text": "Calling someone",
-				"vi": "Gọi cho ai đó"
-			},
-			"C": {
-				"text": "Writing a note",
-				"vi": "Viết ghi chú"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 82,
-		"vn_title": "At the stadium – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			},
-			"B": {
-				"text": "At the stadium",
-				"vi": "Ở sân vận động"
-			},
-			"C": {
-				"text": "At the library",
-				"vi": "Ở thư viện"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 83,
-		"vn_title": "A doctor – Nghề của cô ấy là gì?",
-		"question": "What is her job?",
-		"question_vi": "Công việc của cô ấy là gì?",
-		"options": {
-			"A": {
-				"text": "A teacher",
-				"vi": "Giáo viên"
-			},
-			"B": {
-				"text": "A doctor",
-				"vi": "Bác sĩ"
-			},
-			"C": {
-				"text": "A driver",
-				"vi": "Tài xế"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 84,
-		"vn_title": "In the living room – Họ đang ở đâu?",
-		"question": "Where are they sitting?",
-		"question_vi": "Họ đang ngồi ở đâu?",
-		"options": {
-			"A": {
-				"text": "In the kitchen",
-				"vi": "Trong bếp"
-			},
-			"B": {
-				"text": "In the garden",
-				"vi": "Trong vườn"
-			},
-			"C": {
-				"text": "In the living room",
-				"vi": "Trong phòng khách"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 85,
-		"vn_title": "Her daughter – Ai đang vẽ tranh?",
-		"question": "Who is drawing?",
-		"question_vi": "Ai đang vẽ?",
-		"options": {
-			"A": {
-				"text": "Her son",
-				"vi": "Con trai của cô ấy"
-			},
-			"B": {
-				"text": "Her daughter",
-				"vi": "Con gái của cô ấy"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 86,
-		"vn_title": "The left door – Cửa nào bị hỏng?",
-		"question": "Which door is broken?",
-		"question_vi": "Cánh cửa nào bị hỏng?",
-		"options": {
-			"A": {
-				"text": "The right door",
-				"vi": "Cửa bên phải"
-			},
-			"B": {
-				"text": "The left door",
-				"vi": "Cửa bên trái"
-			},
-			"C": {
-				"text": "The back door",
-				"vi": "Cửa sau"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 87,
-		"vn_title": "A pizza – Họ đang ăn gì?",
-		"question": "What are they eating?",
-		"question_vi": "Họ đang ăn gì?",
-		"options": {
-			"A": {
-				"text": "A pizza",
-				"vi": "Bánh pizza"
-			},
-			"B": {
-				"text": "A salad",
-				"vi": "Salad"
-			},
-			"C": {
-				"text": "Chicken",
-				"vi": "Thịt gà"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 88,
-		"vn_title": "Her uncle – Ai đang lái xe?",
-		"question": "Who is driving?",
-		"question_vi": "Ai đang lái xe?",
-		"options": {
-			"A": {
-				"text": "Her uncle",
-				"vi": "Chú/bác của cô ấy"
-			},
-			"B": {
-				"text": "Her friend",
-				"vi": "Bạn cô ấy"
-			},
-			"C": {
-				"text": "Her father",
-				"vi": "Bố cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 89,
-		"vn_title": "The yellow bike – Xe đạp nào là của anh ấy?",
-		"question": "Which bike is his?",
-		"question_vi": "Chiếc xe đạp nào là của anh ấy?",
-		"options": {
-			"A": {
-				"text": "The yellow bike",
-				"vi": "Xe đạp màu vàng"
-			},
-			"B": {
-				"text": "The blue bike",
-				"vi": "Xe đạp màu xanh dương"
-			},
-			"C": {
-				"text": "The red bike",
-				"vi": "Xe đạp màu đỏ"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 90,
-		"vn_title": "On the shelf – Quyển sách ở đâu?",
-		"question": "Where is the book?",
-		"question_vi": "Quyển sách ở đâu?",
-		"options": {
-			"A": {
-				"text": "On the bed",
-				"vi": "Trên giường"
-			},
-			"B": {
-				"text": "On the shelf",
-				"vi": "Trên kệ"
-			},
-			"C": {
-				"text": "On the chair",
-				"vi": "Trên ghế"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 91,
-		"vn_title": "To the hospital – Họ đang đi đâu?",
-		"question": "Where are they going?",
-		"question_vi": "Họ đang đi đâu?",
-		"options": {
-			"A": {
-				"text": "To the hospital",
-				"vi": "Đến bệnh viện"
-			},
-			"B": {
-				"text": "To the church",
-				"vi": "Đến nhà thờ"
-			},
-			"C": {
-				"text": "To the cinema",
-				"vi": "Đến rạp chiếu phim"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 92,
-		"vn_title": "Drinking coffee – Cô ấy đang làm gì?",
-		"question": "What is she doing?",
-		"question_vi": "Cô ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			},
-			"B": {
-				"text": "Drinking coffee",
-				"vi": "Uống cà phê"
-			},
-			"C": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 93,
-		"vn_title": "The big suitcase – Vali nào là của cô ấy?",
-		"question": "Which suitcase is hers?",
-		"question_vi": "Cái vali nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The big suitcase",
-				"vi": "Vali lớn"
-			},
-			"B": {
-				"text": "The small suitcase",
-				"vi": "Vali nhỏ"
-			},
-			"C": {
-				"text": "The black suitcase",
-				"vi": "Vali màu đen"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 94,
-		"vn_title": "Painting – Anh ấy đang làm gì?",
-		"question": "What is he doing?",
-		"question_vi": "Anh ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Cleaning",
-				"vi": "Dọn dẹp"
-			},
-			"B": {
-				"text": "Painting",
-				"vi": "Sơn"
-			},
-			"C": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 95,
-		"vn_title": "Her cousin – Ai đến thăm cô ấy?",
-		"question": "Who visits her?",
-		"question_vi": "Ai đến thăm cô ấy?",
-		"options": {
-			"A": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			},
-			"B": {
-				"text": "Her boss",
-				"vi": "Sếp cô ấy"
-			},
-			"C": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 96,
-		"vn_title": "At the beach – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the forest",
-				"vi": "Trong rừng"
-			},
-			"B": {
-				"text": "At the beach",
-				"vi": "Ở bãi biển"
-			},
-			"C": {
-				"text": "At the office",
-				"vi": "Ở văn phòng"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 97,
-		"vn_title": "Making a call – Cô ấy đang làm gì?",
-		"question": "What is she doing?",
-		"question_vi": "Cô ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Making a call",
-				"vi": "Gọi điện thoại"
-			},
-			"B": {
-				"text": "Listening to music",
-				"vi": "Nghe nhạc"
-			},
-			"C": {
-				"text": "Sending an email",
-				"vi": "Gửi email"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 98,
-		"vn_title": "Chocolate cake – Cô ấy chọn món nào?",
-		"question": "Which dessert does she choose?",
-		"question_vi": "Cô ấy chọn món tráng miệng nào?",
-		"options": {
-			"A": {
-				"text": "Chocolate cake",
-				"vi": "Bánh socola"
-			},
-			"B": {
-				"text": "Fruit salad",
-				"vi": "Salad trái cây"
-			},
-			"C": {
-				"text": "Ice cream",
-				"vi": "Kem"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 99,
-		"vn_title": "Her grandma – Ai nấu bữa tối?",
-		"question": "Who cooks dinner?",
-		"question_vi": "Ai nấu bữa tối?",
-		"options": {
-			"A": {
-				"text": "Her mother",
-				"vi": "Mẹ cô ấy"
-			},
-			"B": {
-				"text": "Her grandma",
-				"vi": "Bà của cô ấy"
-			},
-			"C": {
-				"text": "Her aunt",
-				"vi": "Dì/cô cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 100,
-		"vn_title": "The left woman – Ai là chủ cửa hàng?",
-		"question": "Who is the shop owner?",
-		"question_vi": "Ai là chủ cửa hàng?",
-		"options": {
-			"A": {
-				"text": "The left woman",
-				"vi": "Người phụ nữ bên trái"
-			},
-			"B": {
-				"text": "The right man",
-				"vi": "Người đàn ông bên phải"
-			},
-			"C": {
-				"text": "The young girl",
-				"vi": "Cô gái trẻ"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 101,
-		"vn_title": "The grey cat – Con nào là mèo của cô ấy?",
-		"question": "Which cat is hers?",
-		"question_vi": "Con mèo nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The black cat",
-				"vi": "Mèo màu đen"
-			},
-			"B": {
-				"text": "The white cat",
-				"vi": "Mèo màu trắng"
-			},
-			"C": {
-				"text": "The grey cat",
-				"vi": "Mèo xám"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 102,
-		"vn_title": "Drinking tea – Ông ấy đang làm gì?",
-		"question": "What is he doing?",
-		"question_vi": "Ông ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Drinking tea",
-				"vi": "Uống trà"
-			},
-			"B": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			},
-			"C": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 103,
-		"vn_title": "At the train station – Cô ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the airport",
-				"vi": "Ở sân bay"
-			},
-			"B": {
-				"text": "At the train station",
-				"vi": "Ở ga tàu"
-			},
-			"C": {
-				"text": "At the supermarket",
-				"vi": "Ở siêu thị"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 104,
-		"vn_title": "Her brother – Ai đang học với cô ấy?",
-		"question": "Who is studying with her?",
-		"question_vi": "Ai đang học cùng với cô ấy?",
-		"options": {
-			"A": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			},
-			"B": {
-				"text": "Her brother",
-				"vi": "Anh/em trai cô ấy"
-			},
-			"C": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 105,
-		"vn_title": "The blue cup – Cốc nào là của ông ấy?",
-		"question": "Which cup is his?",
-		"question_vi": "Cái cốc nào là của ông ấy?",
-		"options": {
-			"A": {
-				"text": "The blue cup",
-				"vi": "Cốc màu xanh"
-			},
-			"B": {
-				"text": "The red cup",
-				"vi": "Cốc màu đỏ"
-			},
-			"C": {
-				"text": "The green cup",
-				"vi": "Cốc màu xanh lá"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 106,
-		"vn_title": "At the restaurant – Họ đang ăn ở đâu?",
-		"question": "Where are they eating?",
-		"question_vi": "Họ đang ăn ở đâu?",
-		"options": {
-			"A": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"B": {
-				"text": "At the restaurant",
-				"vi": "Ở nhà hàng"
-			},
-			"C": {
-				"text": "At the park",
-				"vi": "Ở công viên"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 107,
-		"vn_title": "Her father – Ai đang nói chuyện điện thoại?",
-		"question": "Who is talking on the phone?",
-		"question_vi": "Ai đang nói chuyện điện thoại?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Cha của cô ấy"
-			},
-			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			},
-			"C": {
-				"text": "Her boss",
-				"vi": "Sếp cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 108,
-		"vn_title": "The red flower – Bông hoa nào cô ấy chọn?",
-		"question": "Which flower does she choose?",
-		"question_vi": "Cô ấy chọn bông hoa nào?",
-		"options": {
-			"A": {
-				"text": "The red flower",
-				"vi": "Hoa màu đỏ"
-			},
-			"B": {
-				"text": "The yellow flower",
-				"vi": "Hoa màu vàng"
-			},
-			"C": {
-				"text": "The white flower",
-				"vi": "Hoa màu trắng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 109,
-		"vn_title": "At the beach – Cậu bé đang ở đâu?",
-		"question": "Where is the boy?",
-		"question_vi": "Cậu bé đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the beach",
-				"vi": "Ở bãi biển"
-			},
-			"B": {
-				"text": "At school",
-				"vi": "Ở trường học"
-			},
-			"C": {
-				"text": "At the playground",
-				"vi": "Ở sân chơi"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 110,
-		"vn_title": "The blue bag – Cái túi nào là của cô ấy?",
-		"question": "Which bag is hers?",
-		"question_vi": "Cái túi nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The brown bag",
-				"vi": "Túi màu nâu"
-			},
-			"B": {
-				"text": "The blue bag",
-				"vi": "Túi màu xanh dương"
-			},
-			"C": {
-				"text": "The black bag",
-				"vi": "Túi màu đen"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 111,
-		"vn_title": "At the hospital – Bà ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Bà ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the hospital",
-				"vi": "Ở bệnh viện"
-			},
-			"B": {
-				"text": "At the market",
-				"vi": "Ở chợ"
-			},
-			"C": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 112,
-		"vn_title": "Her sister – Ai đang nấu ăn?",
-		"question": "Who is cooking?",
-		"question_vi": "Ai đang nấu ăn?",
-		"options": {
-			"A": {
-				"text": "Her mother",
-				"vi": "Mẹ của cô ấy"
-			},
-			"B": {
-				"text": "Her sister",
-				"vi": "Chị/em gái của cô ấy"
-			},
-			"C": {
-				"text": "Her aunt",
-				"vi": "Dì/cô của cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 113,
-		"vn_title": "The green apple – Cô ấy chọn trái nào?",
-		"question": "Which fruit does she choose?",
-		"question_vi": "Cô ấy chọn loại trái nào?",
-		"options": {
-			"A": {
-				"text": "The green apple",
-				"vi": "Quả táo xanh"
-			},
-			"B": {
-				"text": "The orange",
-				"vi": "Quả cam"
-			},
-			"C": {
-				"text": "The banana",
-				"vi": "Quả chuối"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 114,
-		"vn_title": "Reading – Cô gái đang làm gì?",
-		"question": "What is the girl doing?",
-		"question_vi": "Cô gái đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			},
-			"B": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			},
-			"C": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 115,
-		"vn_title": "At the mall – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the mall",
-				"vi": "Ở trung tâm thương mại"
-			},
-			"B": {
-				"text": "At the school",
-				"vi": "Ở trường học"
-			},
-			"C": {
-				"text": "At the bus stop",
-				"vi": "Ở trạm xe buýt"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 116,
-		"vn_title": "Her nephew – Ai đang cười?",
-		"question": "Who is laughing?",
-		"question_vi": "Ai đang cười?",
-		"options": {
-			"A": {
-				"text": "Her nephew",
-				"vi": "Cháu trai (con anh/chị/em)"
-			},
-			"B": {
-				"text": "Her father",
-				"vi": "Bố cô ấy"
-			},
-			"C": {
-				"text": "Her doctor",
-				"vi": "Bác sĩ của cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 117,
-		"vn_title": "To buy a present – Cô ấy đến cửa hàng làm gì?",
-		"question": "Why does she go to the shop?",
-		"question_vi": "Cô ấy đến cửa hàng để làm gì?",
-		"options": {
-			"A": {
-				"text": "To buy a present",
-				"vi": "Mua một món quà"
-			},
-			"B": {
-				"text": "To buy food",
-				"vi": "Mua thức ăn"
-			},
-			"C": {
-				"text": "To talk to a friend",
-				"vi": "Nói chuyện với bạn"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 118,
-		"vn_title": "The blue shirt – Áo nào anh ấy thích?",
-		"question": "Which shirt does he like?",
-		"question_vi": "Anh ấy thích chiếc áo nào?",
-		"options": {
-			"A": {
-				"text": "The white shirt",
-				"vi": "Áo trắng"
-			},
-			"B": {
-				"text": "The blue shirt",
-				"vi": "Áo xanh dương"
-			},
-			"C": {
-				"text": "The yellow shirt",
-				"vi": "Áo vàng"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 119,
-		"vn_title": "At the zoo – Cậu bé đang ở đâu?",
-		"question": "Where is the boy?",
-		"question_vi": "Cậu bé đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the zoo",
-				"vi": "Ở sở thú"
-			},
-			"B": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"C": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 120,
-		"vn_title": "Her niece – Ai đang nhảy?",
-		"question": "Who is dancing?",
-		"question_vi": "Ai đang nhảy?",
-		"options": {
-			"A": {
-				"text": "Her niece",
-				"vi": "Cháu gái (con anh/chị/em)"
-			},
-			"B": {
-				"text": "Her aunt",
-				"vi": "Dì/cô của cô ấy"
-			},
-			"C": {
-				"text": "Her grandmother",
-				"vi": "Bà của cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 121,
-		"vn_title": "The yellow hat – Cái mũ nào là của cô ấy?",
-		"question": "Which hat is hers?",
-		"question_vi": "Cái mũ nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The blue hat",
-				"vi": "Mũ màu xanh dương"
-			},
-			"B": {
-				"text": "The yellow hat",
-				"vi": "Mũ màu vàng"
-			},
-			"C": {
-				"text": "The green hat",
-				"vi": "Mũ màu xanh lá"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 122,
-		"vn_title": "Walking the dog – Cô ấy đang làm gì?",
-		"question": "What is she doing?",
-		"question_vi": "Cô ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Walking the dog",
-				"vi": "Dắt chó đi dạo"
-			},
-			"B": {
-				"text": "Running",
-				"vi": "Chạy bộ"
-			},
-			"C": {
-				"text": "Shopping",
-				"vi": "Đi mua sắm"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 123,
-		"vn_title": "At the hotel – Họ đang ở đâu?",
-		"question": "Where are they staying?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the hotel",
-				"vi": "Ở khách sạn"
-			},
-			"B": {
-				"text": "At the airport",
-				"vi": "Ở sân bay"
-			},
-			"C": {
-				"text": "At the office",
-				"vi": "Ở văn phòng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 124,
-		"vn_title": "Her friend – Ai đang chơi đàn?",
-		"question": "Who is playing the instrument?",
-		"question_vi": "Ai đang chơi nhạc cụ?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Bố cô ấy"
-			},
-			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
-			},
-			"C": {
-				"text": "Her teacher",
-				"vi": "Giáo viên của cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 125,
-		"vn_title": "The red umbrella – Cái ô nào là của cô ấy?",
-		"question": "Which umbrella is hers?",
-		"question_vi": "Cái ô nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The red umbrella",
-				"vi": "Ô màu đỏ"
-			},
-			"B": {
-				"text": "The blue umbrella",
-				"vi": "Ô màu xanh dương"
-			},
-			"C": {
-				"text": "The black umbrella",
-				"vi": "Ô màu đen"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 126,
-		"vn_title": "Drinking juice – Cậu bé đang làm gì?",
-		"question": "What is the boy doing?",
-		"question_vi": "Cậu bé đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Eating",
-				"vi": "Đang ăn"
-			},
-			"B": {
-				"text": "Sleeping",
-				"vi": "Đang ngủ"
-			},
-			"C": {
-				"text": "Drinking juice",
-				"vi": "Uống nước trái cây"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 127,
-		"vn_title": "At the airport – Cô ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the airport",
-				"vi": "Ở sân bay"
-			},
-			"B": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"C": {
-				"text": "At the zoo",
-				"vi": "Ở sở thú"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 128,
-		"vn_title": "Her aunt – Ai đang đọc sách?",
-		"question": "Who is reading a book?",
-		"question_vi": "Ai đang đọc sách?",
-		"options": {
-			"A": {
-				"text": "Her aunt",
-				"vi": "Dì/cô của cô ấy"
-			},
-			"B": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			},
-			"C": {
-				"text": "Her mother",
-				"vi": "Mẹ cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 129,
-		"vn_title": "The small plant – Cây nào là của cô ấy?",
-		"question": "Which plant is hers?",
-		"question_vi": "Cây nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The big plant",
-				"vi": "Cây lớn"
-			},
-			"B": {
-				"text": "The medium plant",
-				"vi": "Cây vừa"
-			},
-			"C": {
-				"text": "The small plant",
-				"vi": "Cây nhỏ"
-			}
-		},
-		"answer": "C"
-	},
-	{
-		"id": 130,
-		"vn_title": "Teaching – Cô ấy làm nghề gì?",
-		"question": "What is her job?",
-		"question_vi": "Công việc của cô ấy là gì?",
-		"options": {
-			"A": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			},
-			"B": {
-				"text": "Teaching",
-				"vi": "Giáo viên"
-			},
-			"C": {
-				"text": "Driving",
-				"vi": "Lái xe"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 131,
-		"vn_title": "At the café – Họ đang uống gì?",
-		"question": "Where are they drinking?",
-		"question_vi": "Họ đang uống ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the café",
-				"vi": "Ở quán cà phê"
-			},
-			"B": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"C": {
-				"text": "At the school",
-				"vi": "Ở trường học"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 132,
-		"vn_title": "Her brother – Ai đang sửa máy tính?",
-		"question": "Who is repairing the computer?",
-		"question_vi": "Ai đang sửa máy tính?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
-			},
-			"B": {
-				"text": "Her brother",
-				"vi": "Anh/em trai cô ấy"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn cô ấy"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 133,
-		"vn_title": "The tall girl – Ai là chị của cô ấy?",
-		"question": "Who is her sister?",
-		"question_vi": "Ai là chị/em gái cô ấy?",
-		"options": {
-			"A": {
-				"text": "The short girl",
-				"vi": "Cô gái thấp"
-			},
-			"B": {
-				"text": "The tall girl",
-				"vi": "Cô gái cao"
-			},
-			"C": {
-				"text": "The young girl",
-				"vi": "Cô gái trẻ"
-			}
-		},
-		"answer": "B"
-	},
-	{
-		"id": 134,
-		"vn_title": "At the shopping mall – Cô ấy đang ở đâu?",
-		"question": "Where is she now?",
-		"question_vi": "Bây giờ cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the shopping mall",
-				"vi": "Ở trung tâm mua sắm"
-			},
-			"B": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			},
-			"C": {
-				"text": "At the post office",
-				"vi": "Ở bưu điện"
+				"vi": "Ở tầng ba"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 135,
-		"vn_title": "The small dog – Con vật nào là của họ?",
-		"question": "Which pet is theirs?",
-		"question_vi": "Thú cưng nào là của họ?",
+		"vn_title": "135. 2.5 pounds (cost of bus) – Giá vé xe bus là bao nhiêu?",
+		"question": "How much does the bus ticket cost?",
+		"question_vi": "Vé xe buýt giá bao nhiêu?",
 		"options": {
 			"A": {
-				"text": "The small dog",
-				"vi": "Chó nhỏ"
+				"text": "2.5 pounds",
+				"vi": "2.5 bảng"
 			},
 			"B": {
-				"text": "The big dog",
-				"vi": "Chó lớn"
+				"text": "",
+				"vi": ""
 			},
 			"C": {
-				"text": "The cat",
-				"vi": "Con mèo"
+				"text": "",
+				"vi": ""
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 136,
-		"vn_title": "Cleaning – Ông ấy đang làm gì?",
-		"question": "What is the man doing?",
-		"question_vi": "Ông ấy đang làm gì?",
+		"vn_title": "136. Wednesday afternoon – Khi nào được chơi đá bóng ở trường học?",
+		"question": "When can they play football at school?",
+		"question_vi": "Họ được chơi đá bóng ở trường vào lúc nào?",
 		"options": {
 			"A": {
-				"text": "Cleaning",
-				"vi": "Dọn dẹp"
+				"text": "Friday afternoon",
+				"vi": "Chiều thứ Sáu"
 			},
 			"B": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
+				"text": "Wednesday afternoon",
+				"vi": "Chiều thứ Tư"
 			},
 			"C": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 137,
-		"vn_title": "Her cousin – Ai chơi đàn guitar?",
-		"question": "Who is playing the guitar?",
-		"question_vi": "Ai đang chơi guitar?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
-			},
-			"B": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			},
-			"C": {
-				"text": "Her sister",
-				"vi": "Chị/em gái cô ấy"
+				"text": "Thursday afternoon",
+				"vi": "Chiều thứ Năm"
 			}
 		},
 		"answer": "B"
 	},
 	{
-		"id": 138,
-		"vn_title": "At the swimming pool – Bé đang ở đâu?",
-		"question": "Where is the child?",
-		"question_vi": "Đứa bé đang ở đâu?",
+		"id": 137,
+		"vn_title": "137. Opposite the hotel – Văn phòng ở đâu?",
+		"question": "Where is the office?",
+		"question_vi": "Văn phòng ở đâu?",
 		"options": {
 			"A": {
-				"text": "At the swimming pool",
-				"vi": "Ở hồ bơi"
+				"text": "Opposite the hotel",
+				"vi": "Đối diện khách sạn"
 			},
 			"B": {
-				"text": "At the school",
-				"vi": "Ở trường học"
+				"text": "Near the park",
+				"vi": "Gần công viên"
 			},
 			"C": {
-				"text": "At the beach",
-				"vi": "Ở bãi biển"
+				"text": "Opposite the station",
+				"vi": "Đối diện nhà ga"
 			}
 		},
 		"answer": "A"
 	},
 	{
-		"id": 139,
-		"vn_title": "The green bottle – Chai nào là của ông ấy?",
-		"question": "Which bottle is his?",
-		"question_vi": "Cái chai nào là của ông ấy?",
+		"id": 138,
+		"vn_title": "138. Outside a shop – Người đàn ông đang gọi điện cho vợ anh ta. Hai vợ chồng hẹn gặp nhau ở đâu?",
+		"question": "A man is calling his wife. Where did they meet?",
+		"question_vi": "Một người đàn ông gọi cho vợ. Họ đã gặp nhau ở đâu?",
 		"options": {
 			"A": {
-				"text": "The red bottle",
-				"vi": "Chai đỏ"
+				"text": "At the park",
+				"vi": "Ở công viên"
 			},
 			"B": {
-				"text": "The green bottle",
-				"vi": "Chai xanh lá"
+				"text": "At the station",
+				"vi": "Ở nhà ga"
 			},
 			"C": {
-				"text": "The yellow bottle",
-				"vi": "Chai vàng"
+				"text": "Outside a shop",
+				"vi": "Bên ngoài một cửa hàng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 139,
+		"vn_title": "139. 7 o’clock – Anh ta ăn tối lúc mấy giờ?",
+		"question": "What time does he have dinner these days?",
+		"question_vi": "Dạo này anh ấy ăn tối lúc mấy giờ?",
+		"options": {
+			"A": {
+				"text": "6 o'clock",
+				"vi": "6 giờ"
+			},
+			"B": {
+				"text": "7 o'clock",
+				"vi": "7 giờ"
+			},
+			"C": {
+				"text": "8 o'clock",
+				"vi": "8 giờ"
 			}
 		},
 		"answer": "B"
 	},
 	{
 		"id": 140,
-		"vn_title": "To visit her friend – Cô ấy đến đây làm gì?",
-		"question": "Why does she come here?",
-		"question_vi": "Cô ấy đến đây để làm gì?",
+		"vn_title": "140. Play football – Anh ấy làm gì sau giờ làm?",
+		"question": "What does he do after work?",
+		"question_vi": "Sau giờ làm anh ấy làm gì?",
 		"options": {
 			"A": {
-				"text": "To visit her friend",
-				"vi": "Thăm bạn của cô ấy"
+				"text": "Go to the coffee shop",
+				"vi": "Đi quán cà phê"
 			},
 			"B": {
-				"text": "To go shopping",
-				"vi": "Đi mua sắm"
+				"text": "Play football",
+				"vi": "Chơi bóng đá"
 			},
 			"C": {
-				"text": "To study",
-				"vi": "Để học"
+				"text": "Go home",
+				"vi": "Về nhà"
 			}
 		},
-		"answer": "A"
+		"answer": "B"
 	},
 	{
 		"id": 141,
-		"vn_title": "Her grandmother – Ai đang ngồi đọc báo?",
-		"question": "Who is reading the newspaper?",
-		"question_vi": "Ai đang đọc báo?",
+		"vn_title": "141. The ending – 2 người cùng thích bộ phim ở điểm nào?",
+		"question": "What did they both like about the movie?",
+		"question_vi": "Cả hai người thích điều gì ở bộ phim?",
 		"options": {
 			"A": {
-				"text": "Her grandmother",
-				"vi": "Bà của cô ấy"
+				"text": "the characters",
+				"vi": "Các nhân vật"
 			},
 			"B": {
-				"text": "Her sister",
-				"vi": "Chị/em gái cô ấy"
+				"text": "the ending",
+				"vi": "Đoạn kết"
 			},
 			"C": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
+				"text": "the plot",
+				"vi": "Cốt truyện"
 			}
 		},
-		"answer": "A"
+		"answer": "B"
 	},
 	{
 		"id": 142,
-		"vn_title": "At the park – Cô bé đang chơi ở đâu?",
-		"question": "Where is the girl playing?",
-		"question_vi": "Cô bé đang chơi ở đâu?",
+		"vn_title": "142. A university area – Anh ấy đang mô tả về khu vực nào?",
+		"question": "What area is he describing?",
+		"question_vi": "Anh ấy đang mô tả khu vực nào?",
 		"options": {
 			"A": {
-				"text": "At the park",
-				"vi": "Ở công viên"
+				"text": "a university area",
+				"vi": "Khu vực trường đại học"
 			},
 			"B": {
-				"text": "At school",
-				"vi": "Ở trường học"
+				"text": "a park",
+				"vi": "Một công viên"
 			},
 			"C": {
-				"text": "At home",
-				"vi": "Ở nhà"
+				"text": "a library",
+				"vi": "Một thư viện"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 143,
-		"vn_title": "The blue scarf – Khăn choàng nào là của cô ấy?",
-		"question": "Which scarf is hers?",
-		"question_vi": "Chiếc khăn nào là của cô ấy?",
+		"vn_title": "143. Persuading his family – Người đàn ông muốn mua một căn nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
+		"question": "A man wants to buy a new house. What is his biggest problem?",
+		"question_vi": "Một người đàn ông muốn mua nhà mới. Vấn đề lớn nhất của anh ấy là gì?",
 		"options": {
 			"A": {
-				"text": "The green scarf",
-				"vi": "Khăn màu xanh lá"
+				"text": "choosing the proper area",
+				"vi": "Chọn khu vực phù hợp"
 			},
 			"B": {
-				"text": "The blue scarf",
-				"vi": "Khăn màu xanh dương"
+				"text": "financial problems",
+				"vi": "Vấn đề tài chính"
 			},
 			"C": {
-				"text": "The red scarf",
-				"vi": "Khăn màu đỏ"
+				"text": "persuading his family",
+				"vi": "Thuyết phục gia đình"
 			}
 		},
-		"answer": "B"
+		"answer": "C"
 	},
 	{
 		"id": 144,
-		"vn_title": "Laughing – Cậu bé đang làm gì?",
-		"question": "What is the boy doing?",
-		"question_vi": "Cậu bé đang làm gì?",
+		"vn_title": "144. On Thursday morning – Họ gặp nhau vào lúc nào?",
+		"question": "When do they meet each other?",
+		"question_vi": "Họ gặp nhau vào khi nào?",
 		"options": {
 			"A": {
-				"text": "Laughing",
-				"vi": "Đang cười"
+				"text": "On Thursday morning",
+				"vi": "Vào sáng thứ Năm"
 			},
 			"B": {
-				"text": "Running",
-				"vi": "Đang chạy"
+				"text": "On Wednesday morning",
+				"vi": "Vào sáng thứ Tư"
 			},
 			"C": {
-				"text": "Crying",
-				"vi": "Đang khóc"
+				"text": "On Tuesday morning",
+				"vi": "Vào sáng thứ Ba"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 145,
-		"vn_title": "Her mother – Ai đang cắt bánh?",
-		"question": "Who is cutting the cake?",
-		"question_vi": "Ai đang cắt bánh?",
+		"vn_title": "145. 1500 years – Thành phố này bao nhiêu năm tuổi?",
+		"question": "How old is this city?",
+		"question_vi": "Thành phố này bao nhiêu năm tuổi?",
 		"options": {
 			"A": {
-				"text": "Her mother",
-				"vi": "Mẹ cô ấy"
+				"text": "150 years",
+				"vi": "150 năm"
 			},
 			"B": {
-				"text": "Her aunt",
-				"vi": "Dì/cô cô ấy"
+				"text": "1500 years",
+				"vi": "1500 năm"
 			},
 			"C": {
-				"text": "Her friend",
-				"vi": "Bạn cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 146,
-		"vn_title": "At the museum – Họ đang ở đâu?",
-		"question": "Where are they?",
-		"question_vi": "Họ đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			},
-			"B": {
-				"text": "At the museum",
-				"vi": "Ở bảo tàng"
-			},
-			"C": {
-				"text": "At the station",
-				"vi": "Ở nhà ga"
+				"text": "2000 years",
+				"vi": "2000 năm"
 			}
 		},
 		"answer": "B"
 	},
 	{
-		"id": 147,
-		"vn_title": "Her father – Ai đang nấu ăn?",
-		"question": "Who is cooking?",
-		"question_vi": "Ai đang nấu ăn?",
+		"id": 146,
+		"vn_title": "146. Red – Nhà của Jack màu gì?",
+		"question": "What colour is Jack's house?",
+		"question_vi": "Nhà của Jack màu gì?",
 		"options": {
 			"A": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
+				"text": "Red",
+				"vi": "Màu đỏ"
 			},
 			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
+				"text": "Black",
+				"vi": "Màu đen"
 			},
 			"C": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
+				"text": "Green",
+				"vi": "Màu xanh lá"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 147,
+		"vn_title": "147. Short – chị gái cô ấy trông như thế nào?",
+		"question": "What does her sister look like?",
+		"question_vi": "Chị gái cô ấy trông như thế nào?",
+		"options": {
+			"A": {
+				"text": "Short",
+				"vi": "Thấp"
+			},
+			"B": {
+				"text": "Tall",
+				"vi": "Cao"
+			},
+			"C": {
+				"text": "Thin",
+				"vi": "Gầy"
 			}
 		},
 		"answer": "A"
 	},
 	{
 		"id": 148,
-		"vn_title": "The purple dress – Chiếc váy nào là của cô ấy?",
-		"question": "Which dress is hers?",
-		"question_vi": "Chiếc váy nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The purple dress",
-				"vi": "Váy màu tím"
-			},
-			"B": {
-				"text": "The brown dress",
-				"vi": "Váy màu nâu"
-			},
-			"C": {
-				"text": "The white dress",
-				"vi": "Váy màu trắng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 149,
-		"vn_title": "Reading – Ông ấy đang làm gì?",
-		"question": "What is the man doing?",
-		"question_vi": "Ông ấy đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			},
-			"B": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			},
-			"C": {
-				"text": "Cooking",
-				"vi": "Nấu ăn"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 150,
-		"vn_title": "At the market – Cô ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the market",
-				"vi": "Ở chợ"
-			},
-			"B": {
-				"text": "At school",
-				"vi": "Ở trường học"
-			},
-			"C": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 151,
-		"vn_title": "Her father – Ai dẫn cô ấy đi học?",
-		"question": "Who takes her to school?",
-		"question_vi": "Ai đưa cô ấy đến trường?",
-		"options": {
-			"A": {
-				"text": "Her father",
-				"vi": "Cha cô ấy"
-			},
-			"B": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			},
-			"C": {
-				"text": "Her friend",
-				"vi": "Bạn cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 152,
-		"vn_title": "Running – Cậu bé đang làm gì?",
-		"question": "What is the boy doing?",
-		"question_vi": "Cậu bé đang làm gì?",
+		"vn_title": "148. Cycling – Anh ấy hay làm gì vào năm ngoái?",
+		"question": "What did he usually do last year?",
+		"question_vi": "Năm ngoái anh ấy thường làm gì?",
 		"options": {
 			"A": {
 				"text": "Running",
 				"vi": "Chạy bộ"
 			},
 			"B": {
-				"text": "Reading",
-				"vi": "Đọc sách"
-			},
-			"C": {
-				"text": "Sleeping",
-				"vi": "Ngủ"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 153,
-		"vn_title": "The green car – Xe nào là của cô ấy?",
-		"question": "Which car is hers?",
-		"question_vi": "Chiếc xe nào là của cô ấy?",
-		"options": {
-			"A": {
-				"text": "The green car",
-				"vi": "Xe màu xanh lá"
-			},
-			"B": {
-				"text": "The black car",
-				"vi": "Xe màu đen"
-			},
-			"C": {
-				"text": "The white car",
-				"vi": "Xe màu trắng"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 154,
-		"vn_title": "Talking – Họ đang làm gì?",
-		"question": "What are they doing?",
-		"question_vi": "Họ đang làm gì?",
-		"options": {
-			"A": {
-				"text": "Talking",
-				"vi": "Nói chuyện"
-			},
-			"B": {
-				"text": "Eating",
-				"vi": "Ăn"
+				"text": "Cycling",
+				"vi": "Đạp xe"
 			},
 			"C": {
 				"text": "Walking",
 				"vi": "Đi bộ"
 			}
 		},
+		"answer": "B"
+	},
+	{
+		"id": 149,
+		"vn_title": "149. By train – Anh ấy đi bằng phương tiện gì?",
+		"question": "How does he travel?",
+		"question_vi": "Anh ấy đi lại bằng phương tiện gì?",
+		"options": {
+			"A": {
+				"text": "by train",
+				"vi": "Bằng tàu hỏa"
+			},
+			"B": {
+				"text": "by car",
+				"vi": "Bằng ô tô"
+			},
+			"C": {
+				"text": "by bus",
+				"vi": "Bằng xe buýt"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 150,
+		"vn_title": "150. 35 minutes – Cô ấy mất bao lâu đi xe đạp?",
+		"question": "How long does it take her to ride her bike?",
+		"question_vi": "Cô ấy mất bao lâu để đi xe đạp?",
+		"options": {
+			"A": {
+				"text": "35 minutes",
+				"vi": "35 phút"
+			},
+			"B": {
+				"text": "25 minutes",
+				"vi": "25 phút"
+			},
+			"C": {
+				"text": "20 minutes",
+				"vi": "20 phút"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 151,
+		"vn_title": "151. Cha gọi cho cô giáo thảo luận về việc học của con, cha sẽ là gì – Arrange private class",
+		"question": "Why is the father calling the teacher?",
+		"question_vi": "Người cha gọi cho cô giáo để làm gì?",
+		"options": {
+			"A": {
+				"text": "",
+				"vi": ""
+			},
+			"B": {
+				"text": "",
+				"vi": ""
+			},
+			"C": {
+				"text": "Arrange private class",
+				"vi": "Sắp xếp lớp học riêng"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 152,
+		"vn_title": "152. Go to the theatre and play sports – Cô ấy thường làm gì vào thời gian rảnh?",
+		"question": "What does she usually do in her free time?",
+		"question_vi": "Cô ấy thường làm gì vào thời gian rảnh?",
+		"options": {
+			"A": {
+				"text": "Go to the theatre and play sports",
+				"vi": "Đi xem kịch và chơi thể thao"
+			},
+			"B": {
+				"text": "Play sports and go shopping",
+				"vi": "Chơi thể thao và đi mua sắm"
+			},
+			"C": {
+				"text": "Stay at home and shop online",
+				"vi": "Ở nhà và mua sắm online"
+			}
+		},
+		"answer": "A"
+	},
+	{
+		"id": 153,
+		"vn_title": "153. Football – Môn thể thao mà cô ấy giỏi?",
+		"question": "Which sports is she good at?",
+		"question_vi": "Cô ấy giỏi môn thể thao nào?",
+		"options": {
+			"A": {
+				"text": "Running",
+				"vi": "Chạy bộ"
+			},
+			"B": {
+				"text": "Swimming",
+				"vi": "Bơi lội"
+			},
+			"C": {
+				"text": "Football",
+				"vi": "Bóng đá"
+			}
+		},
+		"answer": "C"
+	},
+	{
+		"id": 154,
+		"vn_title": "154. They were thin – mẹ và dì giống nhau ở điểm nào?",
+		"question": "What are the similarities between his mom and aunt?",
+		"question_vi": "Mẹ và dì anh ấy giống nhau ở điểm nào?",
+		"options": {
+			"A": {
+				"text": "They were thin",
+				"vi": "Họ gầy"
+			},
+			"B": {
+				"text": "They have the same eye color",
+				"vi": "Họ có cùng màu mắt"
+			},
+			"C": {
+				"text": "They have the same hair color",
+				"vi": "Họ có cùng màu tóc"
+			}
+		},
 		"answer": "A"
 	},
 	{
 		"id": 155,
-		"vn_title": "Her nephew – Ai bị ốm?",
-		"question": "Who is sick?",
-		"question_vi": "Ai đang bị ốm?",
+		"vn_title": "155. In the afternoons – Cô ấy thường viết vào thời gian nào?",
+		"question": "What time does she usually write?",
+		"question_vi": "Thường thì cô ấy viết vào lúc nào?",
 		"options": {
 			"A": {
-				"text": "Her nephew",
-				"vi": "Cháu trai"
+				"text": "In the evenings",
+				"vi": "Vào buổi tối"
 			},
 			"B": {
-				"text": "Her friend",
-				"vi": "Bạn của cô ấy"
+				"text": "In the afternoons",
+				"vi": "Vào các buổi chiều"
 			},
 			"C": {
-				"text": "Her aunt",
-				"vi": "Dì/cô của cô ấy"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 156,
-		"vn_title": "At the library – Cô ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the library",
-				"vi": "Ở thư viện"
-			},
-			"B": {
-				"text": "At home",
-				"vi": "Ở nhà"
-			},
-			"C": {
-				"text": "At the park",
-				"vi": "Ở công viên"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 157,
-		"vn_title": "The little girl – Ai đang nhảy dây?",
-		"question": "Who is skipping?",
-		"question_vi": "Ai đang nhảy dây?",
-		"options": {
-			"A": {
-				"text": "The little girl",
-				"vi": "Cô bé nhỏ"
-			},
-			"B": {
-				"text": "Her sister",
-				"vi": "Chị/em gái"
-			},
-			"C": {
-				"text": "Her cousin",
-				"vi": "Anh/chị/em họ"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 158,
-		"vn_title": "Her classmate – Ai đang cầm quyển vở?",
-		"question": "Who is holding the notebook?",
-		"question_vi": "Ai đang cầm quyển vở?",
-		"options": {
-			"A": {
-				"text": "Her classmate",
-				"vi": "Bạn cùng lớp của cô ấy"
-			},
-			"B": {
-				"text": "Her aunt",
-				"vi": "Dì/cô"
-			},
-			"C": {
-				"text": "Her neighbor",
-				"vi": "Hàng xóm"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 159,
-		"vn_title": "To buy flowers – Tại sao cô ấy đến chợ?",
-		"question": "Why does she go to the market?",
-		"question_vi": "Tại sao cô ấy đến chợ?",
-		"options": {
-			"A": {
-				"text": "To buy flowers",
-				"vi": "Mua hoa"
-			},
-			"B": {
-				"text": "To buy books",
-				"vi": "Mua sách"
-			},
-			"C": {
-				"text": "To meet a friend",
-				"vi": "Gặp bạn"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 160,
-		"vn_title": "At the bakery – Cô ấy đang ở đâu?",
-		"question": "Where is she?",
-		"question_vi": "Cô ấy đang ở đâu?",
-		"options": {
-			"A": {
-				"text": "At the bakery",
-				"vi": "Ở tiệm bánh"
-			},
-			"B": {
-				"text": "At the bookstore",
-				"vi": "Ở nhà sách"
-			},
-			"C": {
-				"text": "At the cinema",
-				"vi": "Ở rạp chiếu phim"
-			}
-		},
-		"answer": "A"
-	},
-	{
-		"id": 161,
-		"vn_title": "2.5 pounds – Giá vé xe buýt là bao nhiêu?",
-		"question": "How much is the bus fare?",
-		"question_vi": "Giá vé xe buýt là bao nhiêu?",
-		"options": {
-			"A": {
-				"text": "1.5 pounds",
-				"vi": "1.5 bảng"
-			},
-			"B": {
-				"text": "2.5 pounds",
-				"vi": "2.5 bảng"
-			},
-			"C": {
-				"text": "3 pounds",
-				"vi": "3 bảng"
+				"text": "In the mornings",
+				"vi": "Vào buổi sáng"
 			}
 		},
 		"answer": "B"
+	},
+	{
+		"id": 156,
+		"vn_title": "156. Request a transfer – Lời khuyên dành cho những người thiếu động lực trong công việc?",
+		"question": "What did she advise for people who lack motivation at work?",
+		"question_vi": "Cô ấy khuyên những người thiếu động lực trong công việc nên làm gì?",
+		"options": {
+			"A": {
+				"text": "quit the job",
+				"vi": "Nghỉ việc"
+			},
+			"B": {
+				"text": "ask for a salary increase",
+				"vi": "Yêu cầu tăng lương"
+			},
+			"C": {
+				"text": "request a transfer",
+				"vi": "Xin chuyển bộ phận/công việc"
+			}
+		},
+		"answer": "C"
 	}
 ]
