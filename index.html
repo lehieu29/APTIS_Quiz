@@ -1107,7 +1107,8 @@
                 cancelText: 'Hủy bỏ'
             }).then(confirmed => {
                 if (confirmed) {
-                    questions = questions.sort(() => Math.random() - 0.5);
+                    // questions = questions.sort(() => Math.random() - 0.5);
+					questions = this.shuffleAnswers(questions);
                     currentIndex = 0;
                     correctAnswers = 0;
                     wrongAnswers = 0;
@@ -1116,6 +1117,59 @@
                 }
             });
         }
+		
+		function shuffleAnswers(questions) {
+		  // Kiểm tra định dạng câu hỏi
+		  const isValidFormat = questions.every(q => {
+			return q.id && 
+				   q.question && 
+				   q.options && 
+				   typeof q.options === 'object' &&
+				   q.answer &&
+				   q.options[q.answer]; // Kiểm tra đáp án có tồn tại trong options
+		  });
+
+		  // Nếu không đúng định dạng, chỉ trộn câu hỏi theo cách cũ
+		  if (!isValidFormat) {
+			return questions.sort(() => Math.random() - 0.5);
+		  }
+
+		  // Trộn cả câu hỏi và đáp án
+		  return questions.map(q => {
+			// Lấy danh sách các key của options (A, B, C, ...)
+			const optionKeys = Object.keys(q.options);
+			
+			// Tạo mảng các đáp án để trộn
+			const answersArray = optionKeys.map(key => ({
+			  key: key,
+			  content: q.options[key]
+			}));
+			
+			// Trộn mảng đáp án
+			const shuffledAnswers = answersArray.sort(() => Math.random() - 0.5);
+			
+			// Tạo object options mới
+			const newOptions = {};
+			let newAnswer = q.answer;
+			
+			shuffledAnswers.forEach((item, index) => {
+			  const newKey = optionKeys[index];
+			  newOptions[newKey] = item.content;
+			  
+			  // Cập nhật đáp án đúng
+			  if (item.key === q.answer) {
+				newAnswer = newKey;
+			  }
+			});
+			
+			return {
+			  ...q,
+			  options: newOptions,
+			  answer: newAnswer
+			};
+		  }).sort(() => Math.random() - 0.5); // Trộn thứ tự câu hỏi
+		}
+
 
         function resetQuiz() {
             showModal({
