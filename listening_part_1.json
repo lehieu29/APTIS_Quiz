@@ -3156,12 +3156,12 @@
 		"question_vi": "Người cha gọi cho cô giáo để làm gì?",
 		"options": {
 			"A": {
-				"text": "",
-				"vi": ""
+				"text": "Discuss his child's progress",
+				"vi": "Thảo luận về tình hình học tập của con"
 			},
 			"B": {
-				"text": "",
-				"vi": ""
+				"text": "Ask about homework",
+				"vi": "Hỏi về bài tập về nhà"
 			},
 			"C": {
 				"text": "Arrange private class",
