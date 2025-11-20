@@ -112,6 +112,7 @@
             font-size: 1.1em;
             color: #333;
             border-left: 4px solid #667eea;
+            white-space: pre-line;
         }
 
         .question-header {
@@ -562,6 +563,49 @@
         .mb-16 {
             margin-bottom: 16px;
         }
+
+        .passage-selector {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #764ba2;
+        }
+
+        .passage-selector-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #764ba2;
+            margin-bottom: 15px;
+        }
+
+        .passage-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .passage-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .passage-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .passage-btn.active {
+            background: #667eea;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -605,6 +649,7 @@
             </div>
 
             <div class="quiz-section" id="quizSection">
+                <div id="passageSelectorContainer"></div>
                 <div id="passageContainer"></div>
                 
                 <div class="question-header">
@@ -629,9 +674,6 @@
                 </div>
 
                 <div class="buttons">
-                    <!-- <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
-                        Câu tiếp theo →
-                    </button> -->
                     <button class="btn btn-secondary" onclick="shuffleQuestions()">
                         🔀 Trộn câu hỏi
                     </button>
@@ -679,17 +721,23 @@
                 title: 'Listening Part 1',
                 icon: '🎧',
                 description: 'Luyện nghe cơ bản'
+            },
+            {
+                filename: 'reading_part_1.json',
+                title: 'Reading Part 1',
+                icon: '📖',
+                description: 'Luyện đọc cơ bản'
             }
         ];
 
+        let allPassages = [];
+        let currentPassageIndex = 0;
         let questions = [];
         let currentIndex = 0;
         let correctAnswers = 0;
         let wrongAnswers = 0;
         let answered = false;
-        let isPassageFormat = false;
-        let passageText = '';
-        let passageTitle = '';
+        let isMultiPassageFormat = false;
 
         function showModal(options) {
             return new Promise((resolve) => {
@@ -794,50 +842,120 @@
         }
 
         function processQuizData(data) {
-            // Kiểm tra xem có phải format đoạn văn không (có items và text)
-            if (data.items && Array.isArray(data.items) && data.text) {
-                // Format mới: đoạn văn
-                isPassageFormat = true;
-                passageText = data.text || '';
-                passageTitle = data.vn_title || '';
-                
-                // Chuyển đổi items sang format câu hỏi chuẩn
-                questions = data.items.map(item => ({
-                    question: item.sentence || item.question || '',
-                    question_vi: '', // Format đoạn văn thường không có question_vi riêng
-                    vn_title: passageTitle,
-                    options: item.options || {},
-                    answer: item.answer || ''
-                }));
-            } else if (Array.isArray(data)) {
-                // Format cũ: mảng câu hỏi
-                isPassageFormat = false;
-                passageText = '';
-                passageTitle = '';
-                questions = data;
+            // Kiểm tra xem có phải là mảng các đề không
+            if (Array.isArray(data)) {
+                // Kiểm tra xem có phải là mảng đề (mỗi phần tử có items và text) không
+                const isArrayOfPassages = data.every(item => 
+                    item.items && Array.isArray(item.items) && item.text
+                );
+
+                if (isArrayOfPassages) {
+                    // Mảng nhiều đề
+                    isMultiPassageFormat = true;
+                    allPassages = data;
+                    currentPassageIndex = 0;
+                    loadPassage(0);
+                    startQuiz();
+                } else {
+                    // Mảng câu hỏi cũ
+                    isMultiPassageFormat = false;
+                    allPassages = [];
+                    questions = data;
+                    
+                    if (questions.length === 0) {
+                        showError('File JSON không chứa câu hỏi nào!');
+                        return;
+                    }
+
+                    const isValid = questions.every(q => 
+                        q.question && 
+                        q.options && 
+                        q.answer
+                    );
+
+                    if (!isValid) {
+                        showError('Cấu trúc câu hỏi không hợp lệ! Vui lòng kiểm tra lại file JSON.');
+                        return;
+                    }
+
+                    startQuiz();
+                }
+            } else if (data.items && Array.isArray(data.items) && data.text) {
+                // Đề đơn
+                isMultiPassageFormat = true;
+                allPassages = [data];
+                currentPassageIndex = 0;
+                loadPassage(0);
+                startQuiz();
             } else {
                 showError('Format file JSON không hợp lệ!');
                 return;
             }
+        }
 
-            // Validate
-            if (questions.length === 0) {
-                showError('File JSON không chứa câu hỏi nào!');
+        function loadPassage(index) {
+            if (index < 0 || index >= allPassages.length) return;
+            
+            currentPassageIndex = index;
+            const passage = allPassages[index];
+            
+            // Chuyển đổi items sang format câu hỏi chuẩn
+            questions = passage.items.map(item => ({
+                question: item.sentence || item.question || '',
+                question_vi: '',
+                vn_title: passage.vn_title || '',
+                passage_text: passage.text || '',
+                options: item.options || {},
+                answer: item.answer || ''
+            }));
+
+            currentIndex = 0;
+            renderPassageSelector();
+            renderQuestion();
+        }
+
+        function renderPassageSelector() {
+            const container = document.getElementById('passageSelectorContainer');
+            
+            if (!isMultiPassageFormat || allPassages.length <= 1) {
+                container.innerHTML = '';
                 return;
             }
 
-            const isValid = questions.every(q => 
-                q.question && 
-                q.options && 
-                q.answer
-            );
+            let html = '<div class="passage-selector">';
+            html += '<div class="passage-selector-title">📝 Chọn đề:</div>';
+            html += '<div class="passage-buttons">';
+            
+            allPassages.forEach((passage, index) => {
+                const isActive = index === currentPassageIndex;
+                html += `
+                    <button 
+                        class="passage-btn ${isActive ? 'active' : ''}" 
+                        onclick="switchPassage(${index})"
+                    >
+                        Đề ${index + 1}
+                    </button>
+                `;
+            });
+            
+            html += '</div></div>';
+            container.innerHTML = html;
+        }
 
-            if (!isValid) {
-                showError('Cấu trúc câu hỏi không hợp lệ! Vui lòng kiểm tra lại file JSON.');
-                return;
-            }
-
-            startQuiz();
+        function switchPassage(index) {
+            if (index === currentPassageIndex) return;
+            
+            showModal({
+                icon: '📝',
+                title: 'Chuyển đề',
+                message: 'Bạn có muốn chuyển sang đề khác? Tiến độ đề hiện tại sẽ được lưu.',
+                confirmText: 'Chuyển đề',
+                cancelText: 'Hủy'
+            }).then(confirmed => {
+                if (confirmed) {
+                    loadPassage(index);
+                }
+            });
         }
 
         function showError(message) {
@@ -857,6 +975,7 @@
             correctAnswers = 0;
             wrongAnswers = 0;
             updateStats();
+            renderPassageSelector();
             renderQuestion();
         }
 
@@ -871,14 +990,14 @@
             
             // Hiển thị đoạn văn nếu là format đoạn văn
             const passageContainer = document.getElementById('passageContainer');
-            if (isPassageFormat && currentIndex === 0 && passageText) {
+            if (isMultiPassageFormat && currentIndex === 0 && question.passage_text) {
                 passageContainer.innerHTML = `
                     <div class="passage-text">
-                        <strong style="color: #764ba2; display: block; margin-bottom: 10px;">${passageTitle}</strong>
-                        ${passageText.replace(/\n/g, '<br>')}
+                        <strong style="color: #764ba2; display: block; margin-bottom: 10px;">${question.vn_title || ''}</strong>
+                        ${question.passage_text}
                     </div>
                 `;
-            } else if (!isPassageFormat) {
+            } else if (!isMultiPassageFormat) {
                 passageContainer.innerHTML = '';
             }
             
@@ -1008,12 +1127,12 @@
             }).then(confirmed => {
                 if (confirmed) {
                     questions = [];
+                    allPassages = [];
                     currentIndex = 0;
+                    currentPassageIndex = 0;
                     correctAnswers = 0;
                     wrongAnswers = 0;
-                    isPassageFormat = false;
-                    passageText = '';
-                    passageTitle = '';
+                    isMultiPassageFormat = false;
                     document.getElementById('quizSection').style.display = 'none';
                     document.getElementById('completionScreen').classList.remove('show');
                     document.getElementById('uploadSection').style.display = 'block';

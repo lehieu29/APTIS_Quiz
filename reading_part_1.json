@@ -1,0 +1,914 @@
+[
+  {
+    "id": 1,
+    "vn_title": "Hoàn thành đoạn văn – Đề 1 (T11/2025)",
+    "text": "When you are at the train (school/station/river), go to the main gate.\nThe bus (stop/town/place) are near.\nMy house is on Parkon Street. It's (tired/green/color), so you can not miss it.\nAfter you come, we will have (dinner/food/eat).\nIn the evening, we can watch some (films/animals/bread) together.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "When you are at the train (school/station/river), go to the main gate.",
+        "options": {
+          "A": { "text": "school", "vi": "trường học" },
+          "B": { "text": "station", "vi": "nhà ga" },
+          "C": { "text": "river", "vi": "con sông" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "The bus (stop/town/place) are near.",
+        "options": {
+          "A": { "text": "stop", "vi": "điểm dừng" },
+          "B": { "text": "town", "vi": "thị trấn" },
+          "C": { "text": "place", "vi": "địa điểm" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "sentence": "My house is on Parkon Street. It's (tired/green/color), so you can not miss it.",
+        "options": {
+          "A": { "text": "tired", "vi": "mệt mỏi" },
+          "B": { "text": "green", "vi": "màu xanh lá" },
+          "C": { "text": "color", "vi": "màu sắc" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "After you come, we will have (dinner/food/eat).",
+        "options": {
+          "A": { "text": "dinner", "vi": "bữa tối" },
+          "B": { "text": "food", "vi": "đồ ăn" },
+          "C": { "text": "eat", "vi": "ăn" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "In the evening, we can watch some (films/animals/bread) together.",
+        "options": {
+          "A": { "text": "films", "vi": "phim" },
+          "B": { "text": "animals", "vi": "động vật" },
+          "C": { "text": "bread", "vi": "bánh mì" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "vn_title": "Hoàn thành đoạn văn – Đề 2 (T10/2025)",
+    "text": "I saw some shoes in the (market/window/shoe) of one store.\nI didn't (eat/drink/buy) it.\nI buy some food at the (classroom/park/market).\nI ate (watch/door/cake).\nI (ate/saw/watched) a program on TV.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "I saw some shoes in the (market/window/shoe) of one store.",
+        "options": {
+          "A": { "text": "market", "vi": "chợ" },
+          "B": { "text": "window", "vi": "cửa sổ trưng bày" },
+          "C": { "text": "shoe", "vi": "giày" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "I didn't (eat/drink/buy) it.",
+        "options": {
+          "A": { "text": "eat", "vi": "ăn" },
+          "B": { "text": "drink", "vi": "uống" },
+          "C": { "text": "buy", "vi": "mua" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "I buy some food at the (classroom/park/market).",
+        "options": {
+          "A": { "text": "classroom", "vi": "phòng học" },
+          "B": { "text": "park", "vi": "công viên" },
+          "C": { "text": "market", "vi": "chợ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "I ate (watch/door/cake).",
+        "options": {
+          "A": { "text": "watch", "vi": "xem" },
+          "B": { "text": "door", "vi": "cánh cửa" },
+          "C": { "text": "cake", "vi": "bánh" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "I (ate/saw/watched) a program on TV.",
+        "options": {
+          "A": { "text": "ate", "vi": "ăn" },
+          "B": { "text": "saw", "vi": "đã xem/thấy" },
+          "C": { "text": "watched", "vi": "đã xem" }
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "vn_title": "Hoàn thành đoạn văn – Đề 3 (T11/2025)",
+    "text": "In the (winter/morning/chair), I cycle to work.\nMy (teacher/shoes/friends) cycle to work with me.\nTherefore, I (leave/sing/play) my car at my house.\nI feel (water/good/fast) after cycling to work.\nThen, I drink water and eat healthy (food/phone/river).",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "In the (winter/morning/chair), I cycle to work.",
+        "options": {
+          "A": { "text": "winter", "vi": "mùa đông" },
+          "B": { "text": "morning", "vi": "buổi sáng" },
+          "C": { "text": "chair", "vi": "cái ghế" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "My (teacher/shoes/friends) cycle to work with me.",
+        "options": {
+          "A": { "text": "teacher", "vi": "giáo viên" },
+          "B": { "text": "shoes", "vi": "giày" },
+          "C": { "text": "friends", "vi": "bạn bè" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "Therefore, I (leave/sing/play) my car at my house.",
+        "options": {
+          "A": { "text": "leave", "vi": "để lại/để ở" },
+          "B": { "text": "sing", "vi": "hát" },
+          "C": { "text": "play", "vi": "chơi" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "sentence": "I feel (water/good/fast) after cycling to work.",
+        "options": {
+          "A": { "text": "water", "vi": "nước" },
+          "B": { "text": "good", "vi": "tốt/khỏe" },
+          "C": { "text": "fast", "vi": "nhanh" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 5,
+        "sentence": "Then, I drink water and eat healthy (food/phone/river).",
+        "options": {
+          "A": { "text": "food", "vi": "đồ ăn" },
+          "B": { "text": "phone", "vi": "điện thoại" },
+          "C": { "text": "river", "vi": "con sông" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "vn_title": "Hoàn thành đoạn văn – Đề 4 (T11/2025)",
+    "text": "I (run/should/love) the area where I live now.\nI have a kitchen, but it's very (small/beautiful/lively).\nI work at a (global/shop/cafe) and I sell clothes.\nEveryday, I talk to many (animals/balloons/people).\nI am on my holiday and I am excited that I can (visit/return/invest) you soon.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "I (run/should/love) the area where I live now.",
+        "options": {
+          "A": { "text": "run", "vi": "chạy" },
+          "B": { "text": "should", "vi": "nên" },
+          "C": { "text": "love", "vi": "yêu/thích" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 2,
+        "sentence": "I have a kitchen, but it's very (small/beautiful/lively).",
+        "options": {
+          "A": { "text": "small", "vi": "nhỏ" },
+          "B": { "text": "beautiful", "vi": "đẹp" },
+          "C": { "text": "lively", "vi": "sôi động" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "sentence": "I work at a (global/shop/cafe) and I sell clothes.",
+        "options": {
+          "A": { "text": "global", "vi": "toàn cầu" },
+          "B": { "text": "shop", "vi": "cửa hàng" },
+          "C": { "text": "cafe", "vi": "quán cà phê" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "Everyday, I talk to many (animals/balloons/people).",
+        "options": {
+          "A": { "text": "animals", "vi": "động vật" },
+          "B": { "text": "balloons", "vi": "bóng bay" },
+          "C": { "text": "people", "vi": "mọi người" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "I am on my holiday and I am excited that I can (visit/return/invest) you soon.",
+        "options": {
+          "A": { "text": "visit", "vi": "thăm" },
+          "B": { "text": "return", "vi": "trở lại" },
+          "C": { "text": "invest", "vi": "đầu tư" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "vn_title": "Hoàn thành đoạn văn – Đề 5 (T11/2025)",
+    "text": "The new office is located (near/far/away) a great coffee shop, which is quite convenient.\nIt's always (unfriendly/friendly/harsh) to work with a team that collaborates so well.\nI need to (stop/ignore/practise) my presentation skills before the big meeting next week.\nPlease take some time to (look/read/write) through the proposal again and provide your feedback.\nI really appreciate your help, (so/very/too) let me know if you have any questions.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "The new office is located (near/far/away) a great coffee shop, which is quite convenient.",
+        "options": {
+          "A": { "text": "near", "vi": "gần" },
+          "B": { "text": "far", "vi": "xa" },
+          "C": { "text": "away", "vi": "xa, cách xa" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "sentence": "It's always (unfriendly/friendly/harsh) to work with a team that collaborates so well.",
+        "options": {
+          "A": { "text": "unfriendly", "vi": "không thân thiện" },
+          "B": { "text": "friendly", "vi": "thân thiện" },
+          "C": { "text": "harsh", "vi": "khắc nghiệt" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "sentence": "I need to (stop/ignore/practise) my presentation skills before the big meeting next week.",
+        "options": {
+          "A": { "text": "stop", "vi": "dừng lại" },
+          "B": { "text": "ignore", "vi": "phớt lờ" },
+          "C": { "text": "practise", "vi": "luyện tập" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "Please take some time to (look/read/write) through the proposal again and provide your feedback.",
+        "options": {
+          "A": { "text": "look", "vi": "nhìn/xem qua" },
+          "B": { "text": "read", "vi": "đọc" },
+          "C": { "text": "write", "vi": "viết" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 5,
+        "sentence": "I really appreciate your help, (so/very/too) let me know if you have any questions.",
+        "options": {
+          "A": { "text": "so", "vi": "vì vậy" },
+          "B": { "text": "very", "vi": "rất" },
+          "C": { "text": "too", "vi": "quá/cũng" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "vn_title": "Hoàn thành đoạn văn – Đề 6",
+    "text": "My colleague didn't go to work today because he is (sick/happy/excited).\nI am going to (sing/read/speak) 3 reports this afternoon.\nNext week I have an important (sleep/fun/meeting) with Ms. Hanna.\nMy telephone in the office is always (ringing/speaking/talking).\nI want to (drink/eat/teach) coffee with a friend after all.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "My colleague didn't go to work today because he is (sick/happy/excited).",
+        "options": {
+          "A": { "text": "sick", "vi": "ốm/bệnh" },
+          "B": { "text": "happy", "vi": "vui vẻ" },
+          "C": { "text": "excited", "vi": "hào hứng" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "sentence": "I am going to (sing/read/speak) 3 reports this afternoon.",
+        "options": {
+          "A": { "text": "sing", "vi": "hát" },
+          "B": { "text": "read", "vi": "đọc" },
+          "C": { "text": "speak", "vi": "nói" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "sentence": "Next week I have an important (sleep/fun/meeting) with Ms. Hanna.",
+        "options": {
+          "A": { "text": "sleep", "vi": "ngủ" },
+          "B": { "text": "fun", "vi": "vui" },
+          "C": { "text": "meeting", "vi": "cuộc họp" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "My telephone in the office is always (ringing/speaking/talking).",
+        "options": {
+          "A": { "text": "ringing", "vi": "đổ chuông" },
+          "B": { "text": "speaking", "vi": "nói" },
+          "C": { "text": "talking", "vi": "nói chuyện" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "I want to (drink/eat/teach) coffee with a friend after all.",
+        "options": {
+          "A": { "text": "drink", "vi": "uống" },
+          "B": { "text": "eat", "vi": "ăn" },
+          "C": { "text": "teach", "vi": "dạy" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "vn_title": "Hoàn thành đoạn văn – Đề 7",
+    "text": "I start (sleep/early/angry) in the morning.\nI have (lunch/bed/tutor).\nI (go/leave/return) the office.\nI go home in my new (bag/jeans/car).\nI go to bed when I feel (sleepy/angry/alert).",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "I start (sleep/early/angry) in the morning.",
+        "options": {
+          "A": { "text": "sleep", "vi": "ngủ" },
+          "B": { "text": "early", "vi": "sớm" },
+          "C": { "text": "angry", "vi": "tức giận" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "I have (lunch/bed/tutor).",
+        "options": {
+          "A": { "text": "lunch", "vi": "bữa trưa" },
+          "B": { "text": "bed", "vi": "giường" },
+          "C": { "text": "tutor", "vi": "gia sư" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "sentence": "I (go/leave/return) the office.",
+        "options": {
+          "A": { "text": "go", "vi": "đi" },
+          "B": { "text": "leave", "vi": "rời khỏi" },
+          "C": { "text": "return", "vi": "trở lại" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "I go home in my new (bag/jeans/car).",
+        "options": {
+          "A": { "text": "bag", "vi": "cái túi" },
+          "B": { "text": "jeans", "vi": "quần jeans" },
+          "C": { "text": "car", "vi": "xe hơi" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "I go to bed when I feel (sleepy/angry/alert).",
+        "options": {
+          "A": { "text": "sleepy", "vi": "buồn ngủ" },
+          "B": { "text": "angry", "vi": "tức giận" },
+          "C": { "text": "alert", "vi": "tỉnh táo" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "vn_title": "Hoàn thành đoạn văn – Đề 8",
+    "text": "Everyone is (friendly/melty/noisy).\nMy flat is near the university, so I can (train/sleep/walk) to my class.\nThere is a girl living with me, I met her for the (very/first/one) time.\nShe is from France and she can (talk/say/speak) 5 languages.\nWe eat dinner (toward/together/another).",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Everyone is (friendly/melty/noisy).",
+        "options": {
+          "A": { "text": "friendly", "vi": "thân thiện" },
+          "B": { "text": "melty", "vi": "tan chảy" },
+          "C": { "text": "noisy", "vi": "ồn ào" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "sentence": "My flat is near the university, so I can (train/sleep/walk) to my class.",
+        "options": {
+          "A": { "text": "train", "vi": "tàu hỏa" },
+          "B": { "text": "sleep", "vi": "ngủ" },
+          "C": { "text": "walk", "vi": "đi bộ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "There is a girl living with me, I met her for the (very/first/one) time.",
+        "options": {
+          "A": { "text": "very", "vi": "rất" },
+          "B": { "text": "first", "vi": "lần đầu tiên" },
+          "C": { "text": "one", "vi": "một" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "She is from France and she can (talk/say/speak) 5 languages.",
+        "options": {
+          "A": { "text": "talk", "vi": "nói chuyện" },
+          "B": { "text": "say", "vi": "nói" },
+          "C": { "text": "speak", "vi": "nói (một ngôn ngữ)" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "We eat dinner (toward/together/another).",
+        "options": {
+          "A": { "text": "toward", "vi": "hướng về" },
+          "B": { "text": "together", "vi": "cùng nhau" },
+          "C": { "text": "another", "vi": "khác/nữa" }
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "vn_title": "Hoàn thành đoạn văn – Đề 9",
+    "text": "I imagine you don't want to (love/remember/miss) this.\nI (called/told/said) you earlier but you were not home.\nCan you be (early/sleepy/ready) before 7pm?\nI can (hold/meet/miss) you at your place then.\nDon't have too much (talk/pencil/dinner) because we're going to eat cake.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "I imagine you don't want to (love/remember/miss) this.",
+        "options": {
+          "A": { "text": "love", "vi": "yêu/thích" },
+          "B": { "text": "remember", "vi": "nhớ" },
+          "C": { "text": "miss", "vi": "bỏ lỡ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 2,
+        "sentence": "I (called/told/said) you earlier but you were not home.",
+        "options": {
+          "A": { "text": "called", "vi": "đã gọi" },
+          "B": { "text": "told", "vi": "đã nói với" },
+          "C": { "text": "said", "vi": "đã nói" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "sentence": "Can you be (early/sleepy/ready) before 7pm?",
+        "options": {
+          "A": { "text": "early", "vi": "sớm" },
+          "B": { "text": "sleepy", "vi": "buồn ngủ" },
+          "C": { "text": "ready", "vi": "sẵn sàng" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "I can (hold/meet/miss) you at your place then.",
+        "options": {
+          "A": { "text": "hold", "vi": "giữ/cầm" },
+          "B": { "text": "meet", "vi": "gặp" },
+          "C": { "text": "miss", "vi": "bỏ lỡ" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 5,
+        "sentence": "Don't have too much (talk/pencil/dinner) because we're going to eat cake.",
+        "options": {
+          "A": { "text": "talk", "vi": "nói chuyện" },
+          "B": { "text": "pencil", "vi": "bút chì" },
+          "C": { "text": "dinner", "vi": "bữa tối" }
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "vn_title": "Hoàn thành đoạn văn – Đề 10",
+    "text": "The budget doesn't (work/count/balance).\nCould you get the financial (department/statement/accountant)?\nI (sure/assure/think) it will help.\nRead the information (beautifully/fluently/slowly) not quickly.\nSend me the results (when/before/between) you go home, not after.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "The budget doesn't (work/count/balance).",
+        "options": {
+          "A": { "text": "work", "vi": "hoạt động" },
+          "B": { "text": "count", "vi": "đếm" },
+          "C": { "text": "balance", "vi": "cân bằng" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 2,
+        "sentence": "Could you get the financial (department/statement/accountant)?",
+        "options": {
+          "A": { "text": "department", "vi": "phòng ban" },
+          "B": { "text": "statement", "vi": "bảng sao kê" },
+          "C": { "text": "accountant", "vi": "kế toán viên" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "sentence": "I (sure/assure/think) it will help.",
+        "options": {
+          "A": { "text": "sure", "vi": "chắc chắn" },
+          "B": { "text": "assure", "vi": "cam đoan" },
+          "C": { "text": "think", "vi": "nghĩ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "Read the information (beautifully/fluently/slowly) not quickly.",
+        "options": {
+          "A": { "text": "beautifully", "vi": "một cách đẹp đẽ" },
+          "B": { "text": "fluently", "vi": "trôi chảy" },
+          "C": { "text": "slowly", "vi": "chậm rãi" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "Send me the results (when/before/between) you go home, not after.",
+        "options": {
+          "A": { "text": "when", "vi": "khi" },
+          "B": { "text": "before", "vi": "trước khi" },
+          "C": { "text": "between", "vi": "giữa" }
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "vn_title": "Hoàn thành đoạn văn – Đề 11",
+    "text": "I (go/live/walk) in a flat.\nI (share/drink/hold) it with my friend.\nWe are in the same (door/class/chair).\nWe (drive/smile/say) to work.\nWe like to (hold/cook/melt) dinner.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "I (go/live/walk) in a flat.",
+        "options": {
+          "A": { "text": "go", "vi": "đi" },
+          "B": { "text": "live", "vi": "sống" },
+          "C": { "text": "walk", "vi": "đi bộ" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "I (share/drink/hold) it with my friend.",
+        "options": {
+          "A": { "text": "share", "vi": "chia sẻ" },
+          "B": { "text": "drink", "vi": "uống" },
+          "C": { "text": "hold", "vi": "cầm/nắm" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 3,
+        "sentence": "We are in the same (door/class/chair).",
+        "options": {
+          "A": { "text": "door", "vi": "cánh cửa" },
+          "B": { "text": "class", "vi": "lớp học" },
+          "C": { "text": "chair", "vi": "cái ghế" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "We (drive/smile/say) to work.",
+        "options": {
+          "A": { "text": "drive", "vi": "lái xe" },
+          "B": { "text": "smile", "vi": "mỉm cười" },
+          "C": { "text": "say", "vi": "nói" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "We like to (hold/cook/melt) dinner.",
+        "options": {
+          "A": { "text": "hold", "vi": "tổ chức/cầm giữ" },
+          "B": { "text": "cook", "vi": "nấu" },
+          "C": { "text": "melt", "vi": "tan chảy" }
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "vn_title": "Hoàn thành đoạn văn – Đề 12",
+    "text": "The water is (sour/clear/see).\nThe (wind/dust/sun) is out.\nI have an (tired/enjoyable/good) holiday.\nAfter (working/sleeping/eating) so hard.\nI hope to (tell/read/forward) your letter.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "The water is (sour/clear/see).",
+        "options": {
+          "A": { "text": "sour", "vi": "chua" },
+          "B": { "text": "clear", "vi": "trong, rõ" },
+          "C": { "text": "see", "vi": "nhìn thấy" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 2,
+        "sentence": "The (wind/dust/sun) is out.",
+        "options": {
+          "A": { "text": "wind", "vi": "gió" },
+          "B": { "text": "dust", "vi": "bụi" },
+          "C": { "text": "sun", "vi": "mặt trời" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "I have an (tired/enjoyable/good) holiday.",
+        "options": {
+          "A": { "text": "tired", "vi": "mệt mỏi" },
+          "B": { "text": "enjoyable", "vi": "thú vị" },
+          "C": { "text": "good", "vi": "tốt" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "After (working/sleeping/eating) so hard.",
+        "options": {
+          "A": { "text": "working", "vi": "làm việc" },
+          "B": { "text": "sleeping", "vi": "ngủ" },
+          "C": { "text": "eating", "vi": "ăn" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "I hope to (tell/read/forward) your letter.",
+        "options": {
+          "A": { "text": "tell", "vi": "kể/nói" },
+          "B": { "text": "read", "vi": "đọc" },
+          "C": { "text": "forward", "vi": "chuyển tiếp" }
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "vn_title": "Hoàn thành đoạn văn – Đề 13",
+    "text": "Yesterday, I looked through the (window/wall/floor) and noticed that it was a nice day.\nSo I went to the (school/hospital/market) to pick up some groceries.\nI found a delicious chocolate (cake/salad/fruit).\nAfter that, I decided to (buy/sell/return) some fresh vegetables for dinner.\nWhile I was there, I (ate/saw/watched) a cooking show that gave me some great ideas.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Yesterday, I looked through the (window/wall/floor) and noticed that it was a nice day.",
+        "options": {
+          "A": { "text": "window", "vi": "cửa sổ" },
+          "B": { "text": "wall", "vi": "bức tường" },
+          "C": { "text": "floor", "vi": "sàn nhà" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "sentence": "So I went to the (school/hospital/market) to pick up some groceries.",
+        "options": {
+          "A": { "text": "school", "vi": "trường học" },
+          "B": { "text": "hospital", "vi": "bệnh viện" },
+          "C": { "text": "market", "vi": "chợ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "I found a delicious chocolate (cake/salad/fruit).",
+        "options": {
+          "A": { "text": "cake", "vi": "bánh" },
+          "B": { "text": "salad", "vi": "sa-lát" },
+          "C": { "text": "fruit", "vi": "trái cây" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "sentence": "After that, I decided to (buy/sell/return) some fresh vegetables for dinner.",
+        "options": {
+          "A": { "text": "buy", "vi": "mua" },
+          "B": { "text": "sell", "vi": "bán" },
+          "C": { "text": "return", "vi": "trả lại" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "While I was there, I (ate/saw/watched) a cooking show that gave me some great ideas.",
+        "options": {
+          "A": { "text": "ate", "vi": "đã ăn" },
+          "B": { "text": "saw", "vi": "đã nhìn/thấy" },
+          "C": { "text": "watched", "vi": "đã xem" }
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "vn_title": "Hoàn thành đoạn văn – Đề 14",
+    "text": "The weather is (cheap/expensive/great).\nWe are on the (city/countryside/boat).\nWe eat dinner (after/then/before) we go to church.\nWe are going to (drive/see/talk) around.\nI hope the weather isn't (too/to/on) hot.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "The weather is (cheap/expensive/great).",
+        "options": {
+          "A": { "text": "cheap", "vi": "rẻ" },
+          "B": { "text": "expensive", "vi": "đắt" },
+          "C": { "text": "great", "vi": "tuyệt vời" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 2,
+        "sentence": "We are on the (city/countryside/boat).",
+        "options": {
+          "A": { "text": "city", "vi": "thành phố" },
+          "B": { "text": "countryside", "vi": "nông thôn" },
+          "C": { "text": "boat", "vi": "con thuyền" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 3,
+        "sentence": "We eat dinner (after/then/before) we go to church.",
+        "options": {
+          "A": { "text": "after", "vi": "sau khi" },
+          "B": { "text": "then", "vi": "rồi/sau đó" },
+          "C": { "text": "before", "vi": "trước khi" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 4,
+        "sentence": "We are going to (drive/see/talk) around.",
+        "options": {
+          "A": { "text": "drive", "vi": "lái xe" },
+          "B": { "text": "see", "vi": "xem/thăm" },
+          "C": { "text": "talk", "vi": "nói chuyện" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "I hope the weather isn't (too/to/on) hot.",
+        "options": {
+          "A": { "text": "too", "vi": "quá" },
+          "B": { "text": "to", "vi": "đến/tới" },
+          "C": { "text": "on", "vi": "trên" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "vn_title": "Hoàn thành đoạn văn – Đề 15",
+    "text": "It is (yet/not/just) what I like.\nAnd it is the perfect color, (so/too/to).\nI am going to wear it (to/on/at) my birthday party.\nI will save you (many/none/some) cake.\n(Give/Hold/Receive) my love to everyone.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "It is (yet/not/just) what I like.",
+        "options": {
+          "A": { "text": "yet", "vi": "vẫn/chưa" },
+          "B": { "text": "not", "vi": "không" },
+          "C": { "text": "just", "vi": "vừa đúng/chỉ" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 2,
+        "sentence": "And it is the perfect color, (so/too/to).",
+        "options": {
+          "A": { "text": "so", "vi": "vì vậy" },
+          "B": { "text": "too", "vi": "cũng/quá" },
+          "C": { "text": "to", "vi": "đến/tới" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "sentence": "I am going to wear it (to/on/at) my birthday party.",
+        "options": {
+          "A": { "text": "to", "vi": "đến" },
+          "B": { "text": "on", "vi": "vào (ngày/thứ)" },
+          "C": { "text": "at", "vi": "tại" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 4,
+        "sentence": "I will save you (many/none/some) cake.",
+        "options": {
+          "A": { "text": "many", "vi": "nhiều" },
+          "B": { "text": "none", "vi": "không cái nào" },
+          "C": { "text": "some", "vi": "một ít" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "sentence": "(Give/Hold/Receive) my love to everyone.",
+        "options": {
+          "A": { "text": "Give", "vi": "gửi/cho" },
+          "B": { "text": "Hold", "vi": "giữ" },
+          "C": { "text": "Receive", "vi": "nhận" }
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "vn_title": "Hoàn thành đoạn văn – Đề 16",
+    "text": "My (home/car/cat) is now far from work.\nI have to (swim/drive/dance) to work.\nI sometimes meet (furniture/animals/friends) at the coffee shop for lunch.\nWe walk in the (park/library/office) sometimes.\nThe trees are (ugly/pretty/noisy) so we like looking at them.",
+    "items": [
+      {
+        "number": 1,
+        "sentence": "My (home/car/cat) is now far from work.",
+        "options": {
+          "A": { "text": "home", "vi": "nhà" },
+          "B": { "text": "car", "vi": "xe hơi" },
+          "C": { "text": "cat", "vi": "con mèo" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "sentence": "I have to (swim/drive/dance) to work.",
+        "options": {
+          "A": { "text": "swim", "vi": "bơi" },
+          "B": { "text": "drive", "vi": "lái xe" },
+          "C": { "text": "dance", "vi": "nhảy múa" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "sentence": "I sometimes meet (furniture/animals/friends) at the coffee shop for lunch.",
+        "options": {
+          "A": { "text": "furniture", "vi": "đồ nội thất" },
+          "B": { "text": "animals", "vi": "động vật" },
+          "C": { "text": "friends", "vi": "bạn bè" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "sentence": "We walk in the (park/library/office) sometimes.",
+        "options": {
+          "A": { "text": "park", "vi": "công viên" },
+          "B": { "text": "library", "vi": "thư viện" },
+          "C": { "text": "office", "vi": "văn phòng" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 5,
+        "sentence": "The trees are (ugly/pretty/noisy) so we like looking at them.",
+        "options": {
+          "A": { "text": "ugly", "vi": "xấu xí" },
+          "B": { "text": "pretty", "vi": "xinh đẹp" },
+          "C": { "text": "noisy", "vi": "ồn ào" }
+        },
+        "answer": "B"
+      }
+    ]
+  }
+]
