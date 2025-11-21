@@ -109,6 +109,11 @@ function checkAnswerListening(selectedAnswer) {
     // Hiển thị đáp án đúng
     let answerHTML = `<strong>Đáp án đúng:</strong> ${question.answer}. ${correctOption.text}${correctViText}`;
     
+    // Hiển thị audio_text
+    if (question.audio_text) {
+        answerHTML += `<br><br><strong>📝 Transcript:</strong><br>${question.audio_text}`;
+    }
+
     // Hiển thị audio_text_vi và audio_summary_vi nếu có
     if (question.audio_text_vi) {
         answerHTML += `<br><br><strong>📝 Transcript (Tiếng Việt):</strong><br>${question.audio_text_vi}`;

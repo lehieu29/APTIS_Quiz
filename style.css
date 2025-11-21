@@ -704,7 +704,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-bottom: 16px;
 }
 
 .button-grid .btn {
@@ -717,4 +716,8 @@ body {
 
 #submitBtn.show {
     display: block;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
 }
