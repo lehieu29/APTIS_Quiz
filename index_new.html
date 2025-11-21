@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Tiếng Anh - Luyện Tập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 Quiz Luyện Tập Tiếng Anh</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span>📊</span>
+                    <span>Câu: <strong id="currentQuestion">0</strong>/<strong id="totalQuestions">0</strong></span>
+                </div>
+                <div class="stat-item">
+                    <span>✅</span>
+                    <span>Đúng: <strong id="correctCount">0</strong></span>
+                </div>
+                <div class="stat-item">
+                    <span>❌</span>
+                    <span>Sai: <strong id="wrongCount">0</strong></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="upload-section" id="uploadSection">
+                <div style="margin-bottom: 30px;">
+                    <h2 style="color: #667eea; margin-bottom: 15px; text-align: center;">📚 Chọn nhanh bài tập</h2>
+                    <div id="quickSelectContainer" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;"></div>
+                </div>
+
+                <div style="text-align: center; color: #999; margin: 20px 0; font-weight: bold;">HOẶC</div>
+
+                <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+                    <svg fill="#667eea" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/>
+                    </svg>
+                    <h2>Tải lên file JSON tùy chỉnh</h2>
+                    <p>Nhấn vào đây để chọn file câu hỏi từ máy tính (định dạng .json)</p>
+                </div>
+                <input type="file" id="fileInput" accept=".json" onchange="handleFileUpload(event)">
+                <div class="error-message" id="errorMessage"></div>
+            </div>
+
+            <div class="quiz-section" id="quizSection">
+                <div id="passageSelectorContainer"></div>
+                <div id="passageContainer"></div>
+                
+                <div class="question-header">
+                    <div class="question-number" id="questionNumber"></div>
+                    <div class="vn-title" id="vnTitle"></div>
+                    <div class="question-text" id="questionText"></div>
+                </div>
+
+                <div class="options" id="optionsContainer"></div>
+
+                <div class="button-grid" id="buttonContainer">
+                    <button class="btn btn-primary" id="submitBtn" onclick="submitAnswer()">
+                        ✓ Submit
+                    </button>
+                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
+                        Câu tiếp theo →
+                    </button>
+                </div>
+
+                <div class="result-box" id="resultBox">
+                    <div class="result-icon" id="resultIcon"></div>
+                    <div class="result-text" id="resultText"></div>
+                    <div class="correct-answer" id="correctAnswer"></div>
+                    <div class="question-vi" id="questionVi"></div>
+                </div>
+
+                <div class="buttons">
+                    <button class="btn btn-secondary" onclick="shuffleQuestions()">
+                        🔀 Trộn câu hỏi
+                    </button>
+                    <button class="btn btn-secondary" onclick="resetQuiz()">
+                        🔄 Làm mới
+                    </button>
+                </div>
+            </div>
+
+            <div class="completion-screen" id="completionScreen">
+                <div class="completion-icon">🎉</div>
+                <div class="completion-score" id="finalScore"></div>
+                <div class="completion-message" id="completionMessage"></div>
+                <div class="buttons">
+                    <button class="btn btn-success" onclick="restartQuiz()">
+                        🔁 Làm lại
+                    </button>
+                    <button class="btn btn-secondary" onclick="shuffleAndRestart()">
+                        🔀 Trộn & làm lại
+                    </button>
+                    <button class="btn btn-secondary" onclick="resetQuiz()">
+                        📤 Tải file mới
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <div class="modal-icon" id="modalIcon">❓</div>
+            <div class="modal-title" id="modalTitle">Xác nhận</div>
+            <div class="modal-message" id="modalMessage">Bạn có chắc chắn muốn thực hiện hành động này?</div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-confirm" id="modalConfirm">Đồng ý</button>
+                <button class="modal-btn modal-btn-cancel" id="modalCancel">Hủy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load JavaScript modules -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/quiz-data.js"></script>
+    <script src="js/quiz-render.js"></script>
+    <script src="js/quiz-actions.js"></script>
+    <script src="js/drag-drop.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

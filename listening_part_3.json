@@ -1,0 +1,1364 @@
+[
+  {
+    "id": 1,
+    "audio": "Listening/Part3/changes_in_the_workplace_1.wav",
+    "audio_text": "It seems like every workplace is going through so many changes lately. But honestly, I think continuity is still very important. When things stay consistent, it gives people a sense of security. If everything changes too fast, it's hard for employees to keep up and the organization can lose its way. Continuity is important in keeping everyone focused.",
+    "audio_text_vi": "Dường như dạo này nơi làm việc nào cũng đang trải qua rất nhiều thay đổi. Nhưng thật lòng mà nói, tôi nghĩ tính liên tục vẫn rất quan trọng. Khi mọi thứ ổn định, nó mang lại cho mọi người cảm giác an toàn. Nếu mọi thứ thay đổi quá nhanh, nhân viên sẽ khó theo kịp và tổ chức có thể đi chệch hướng. Tính liên tục rất quan trọng trong việc giữ cho mọi người tập trung.",
+    "audio_summary_vi": "Đoạn này nói rằng tính liên tục trong công việc rất quan trọng vì giúp nhân viên an tâm và tập trung.",
+    "options": {
+      "A": {
+        "text": "Continuity is very important in the workplace.",
+        "vi": "Tính liên tục rất quan trọng trong môi trường làm việc."
+      },
+      "B": {
+        "text": "Job security cannot always be guaranteed.",
+        "vi": "Không phải lúc nào cũng có thể đảm bảo được sự ổn định công việc."
+      },
+      "C": {
+        "text": "Job satisfaction is an important motivator.",
+        "vi": "Sự hài lòng trong công việc là một động lực quan trọng."
+      },
+      "D": {
+        "text": "Technology is good for the entire economy.",
+        "vi": "Công nghệ mang lại lợi ích cho toàn bộ nền kinh tế."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "audio": "Listening/Part3/changes_in_the_workplace_2.wav",
+    "audio_text": "I get where you're coming from, but I feel like these days nothing is certain. Job security isn't something we can rely on anymore. There's always the risk of layoffs, especially with the economy being so unpredictable. People are moving from job to job more than ever before, and you can't always count on staying in one place for long.",
+    "audio_text_vi": "Tôi hiểu ý bạn, nhưng tôi cảm thấy dạo này chẳng có gì là chắc chắn cả. Sự ổn định công việc không còn là thứ chúng ta có thể dựa vào nữa. Lúc nào cũng có nguy cơ bị cho nghỉ việc, nhất là khi nền kinh tế khó lường như hiện nay. Mọi người chuyển việc nhiều hơn bao giờ hết, và bạn không thể luôn trông chờ sẽ gắn bó lâu dài với một nơi.",
+    "audio_summary_vi": "Đoạn này nói rằng bây giờ không thể tin tưởng vào sự ổn định công việc vì kinh tế bấp bênh và nguy cơ mất việc.",
+    "options": {
+      "A": {
+        "text": "Continuity is very important in the workplace.",
+        "vi": "Tính liên tục rất quan trọng trong môi trường làm việc."
+      },
+      "B": {
+        "text": "Job security cannot always be guaranteed.",
+        "vi": "Không phải lúc nào cũng có thể đảm bảo được sự ổn định công việc."
+      },
+      "C": {
+        "text": "Job satisfaction is an important motivator.",
+        "vi": "Sự hài lòng trong công việc là một động lực quan trọng."
+      },
+      "D": {
+        "text": "Technology is good for the entire economy.",
+        "vi": "Công nghệ mang lại lợi ích cho toàn bộ nền kinh tế."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "audio": "Listening/Part3/changes_in_the_workplace_3.wav",
+    "audio_text": "That's definitely a concern. But regardless of job security or stability, one thing we can both agree on is that job satisfaction is a huge motivator. When people love what they do, they're more likely to stay even when times get tough. When workers feel fulfilled, they're willing to go the extra mile.",
+    "audio_text_vi": "Đó chắc chắn là một điều đáng lo. Nhưng bất kể chuyện ổn định công việc ra sao, có một điều mà cả hai chúng ta đều có thể đồng ý, đó là sự hài lòng trong công việc là một động lực rất lớn. Khi mọi người yêu thích công việc của mình, họ có xu hướng ở lại ngay cả khi thời điểm khó khăn. Khi nhân viên cảm thấy được thỏa mãn, họ sẵn sàng nỗ lực nhiều hơn nữa.",
+    "audio_summary_vi": "Đoạn này nói rằng sự hài lòng trong công việc là động lực lớn khiến người ta gắn bó và nỗ lực hơn.",
+    "options": {
+      "A": {
+        "text": "Continuity is very important in the workplace.",
+        "vi": "Tính liên tục rất quan trọng trong môi trường làm việc."
+      },
+      "B": {
+        "text": "Job security cannot always be guaranteed.",
+        "vi": "Không phải lúc nào cũng có thể đảm bảo được sự ổn định công việc."
+      },
+      "C": {
+        "text": "Job satisfaction is an important motivator.",
+        "vi": "Sự hài lòng trong công việc là một động lực quan trọng."
+      },
+      "D": {
+        "text": "Technology is good for the entire economy.",
+        "vi": "Công nghệ mang lại lợi ích cho toàn bộ nền kinh tế."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "audio": "Listening/Part3/changes_in_the_workplace_4.wav",
+    "audio_text": "You're right. And another thing that's making a difference is technology. It's been a real game-changer for the economy, making things more efficient. The growth we've seen in so many industries is because of how we've embraced new technologies. It's definitely helping businesses thrive.",
+    "audio_text_vi": "Bạn nói đúng. Và một yếu tố nữa đang tạo ra khác biệt là công nghệ. Nó thực sự là yếu tố thay đổi cuộc chơi đối với nền kinh tế, giúp mọi thứ hiệu quả hơn. Sự tăng trưởng mà chúng ta thấy ở rất nhiều ngành là nhờ vào việc chúng ta đã áp dụng các công nghệ mới. Công nghệ chắc chắn đang giúp doanh nghiệp phát triển.",
+    "audio_summary_vi": "Đoạn này nói rằng công nghệ là yếu tố thay đổi cuộc chơi, giúp nền kinh tế và doanh nghiệp phát triển.",
+    "options": {
+      "A": {
+        "text": "Continuity is very important in the workplace.",
+        "vi": "Tính liên tục rất quan trọng trong môi trường làm việc."
+      },
+      "B": {
+        "text": "Job security cannot always be guaranteed.",
+        "vi": "Không phải lúc nào cũng có thể đảm bảo được sự ổn định công việc."
+      },
+      "C": {
+        "text": "Job satisfaction is an important motivator.",
+        "vi": "Sự hài lòng trong công việc là một động lực quan trọng."
+      },
+      "D": {
+        "text": "Technology is good for the entire economy.",
+        "vi": "Công nghệ mang lại lợi ích cho toàn bộ nền kinh tế."
+      }
+    },
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "audio": "Listening/Part3/beauty_1.wav",
+    "audio_text": "You know, I've been thinking a lot about beauty lately. It seems like so many people share similar ideas about it, especially with social media showing the same types of looks and trends everywhere. It's almost like there's a formula now for what's considered beautiful.",
+    "audio_text_vi": "Bạn biết không, dạo này tôi nghĩ rất nhiều về cái đẹp. Dường như có rất nhiều người có những quan niệm giống nhau về nó, nhất là khi mạng xã hội liên tục cho thấy cùng một kiểu ngoại hình và xu hướng ở khắp mọi nơi. Gần như bây giờ có một “công thức” cho việc thế nào được coi là đẹp vậy.",
+    "audio_summary_vi": "Đoạn này nói rằng mọi người có những quan niệm rất giống nhau về cái đẹp do ảnh hưởng của mạng xã hội.",
+    "options": {
+      "A": {
+        "text": "People share very similar ideas about beauty.",
+        "vi": "Mọi người có những quan niệm rất giống nhau về cái đẹp."
+      },
+      "B": {
+        "text": "Ideas about beauty change over time.",
+        "vi": "Quan niệm về cái đẹp thay đổi theo thời gian."
+      },
+      "C": {
+        "text": "Beauty can be found in unlikely places.",
+        "vi": "Vẻ đẹp có thể được tìm thấy ở những nơi không ngờ tới."
+      },
+      "D": {
+        "text": "Traditional ideas of beauty are going to change.",
+        "vi": "Các quan niệm truyền thống về cái đẹp sẽ thay đổi."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "audio": "Listening/Part3/beauty_2.wav",
+    "audio_text": "That's a good point. However, I believe that ideas about beauty change over time. What we find beautiful today might not be the same in a few years. Just look at how fashion and beauty standards have shifted over the decades.",
+    "audio_text_vi": "Ý đó hay đấy. Tuy nhiên, tôi tin rằng quan niệm về cái đẹp thay đổi theo thời gian. Những gì chúng ta thấy đẹp hôm nay có thể sẽ không còn như vậy sau vài năm nữa. Chỉ cần nhìn xem thời trang và các tiêu chuẩn vẻ đẹp đã thay đổi như thế nào qua từng thập kỷ là thấy.",
+    "audio_summary_vi": "Đoạn này nói rằng tiêu chuẩn cái đẹp luôn thay đổi theo thời gian và theo xu hướng.",
+    "options": {
+      "A": {
+        "text": "People share very similar ideas about beauty.",
+        "vi": "Mọi người có những quan niệm rất giống nhau về cái đẹp."
+      },
+      "B": {
+        "text": "Ideas about beauty change over time.",
+        "vi": "Quan niệm về cái đẹp thay đổi theo thời gian."
+      },
+      "C": {
+        "text": "Beauty can be found in unlikely places.",
+        "vi": "Vẻ đẹp có thể được tìm thấy ở những nơi không ngờ tới."
+      },
+      "D": {
+        "text": "Traditional ideas of beauty are going to change.",
+        "vi": "Các quan niệm truyền thống về cái đẹp sẽ thay đổi."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "audio": "Listening/Part3/beauty_3.wav",
+    "audio_text": "It's fascinating to see how those perceptions evolve. And I think beauty can be found in unexpected places too. For instance, when I walk through my neighborhood, I notice beauty not only in nature, like sunsets or flowers, but also in everyday moments, like a street musician playing or people sharing a laugh.",
+    "audio_text_vi": "Thật thú vị khi thấy những cách nhìn nhận đó thay đổi dần. Và tôi nghĩ rằng vẻ đẹp cũng có thể được tìm thấy ở những nơi không ngờ tới. Ví dụ, khi tôi đi dạo trong khu phố của mình, tôi thấy vẻ đẹp không chỉ ở thiên nhiên, như hoàng hôn hay hoa lá, mà còn trong những khoảnh khắc đời thường, như một nhạc công đường phố đang chơi nhạc hoặc mọi người cười nói với nhau.",
+    "audio_summary_vi": "Đoạn này nói rằng vẻ đẹp có thể tìm thấy ở những nơi và khoảnh khắc rất bình thường, không ngờ tới.",
+    "options": {
+      "A": {
+        "text": "People share very similar ideas about beauty.",
+        "vi": "Mọi người có những quan niệm rất giống nhau về cái đẹp."
+      },
+      "B": {
+        "text": "Ideas about beauty change over time.",
+        "vi": "Quan niệm về cái đẹp thay đổi theo thời gian."
+      },
+      "C": {
+        "text": "Beauty can be found in unlikely places.",
+        "vi": "Vẻ đẹp có thể được tìm thấy ở những nơi không ngờ tới."
+      },
+      "D": {
+        "text": "Traditional ideas of beauty are going to change.",
+        "vi": "Các quan niệm truyền thống về cái đẹp sẽ thay đổi."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "audio": "Listening/Part3/beauty_4.wav",
+    "audio_text": "Those little things can be incredibly beautiful. And I think traditional ideas of beauty are going to change even more. People are starting to value authenticity and unique qualities rather than just sticking to old standards.",
+    "audio_text_vi": "Những điều nhỏ bé như vậy đôi khi lại cực kỳ đẹp. Và tôi nghĩ các quan niệm truyền thống về cái đẹp sẽ còn thay đổi nhiều hơn nữa. Mọi người bắt đầu coi trọng sự chân thật và những nét độc đáo, thay vì chỉ bám vào những chuẩn mực cũ.",
+    "audio_summary_vi": "Đoạn này nói rằng các quan niệm truyền thống về cái đẹp sẽ tiếp tục thay đổi, người ta chuộng sự tự nhiên và độc đáo hơn.",
+    "options": {
+      "A": {
+        "text": "People share very similar ideas about beauty.",
+        "vi": "Mọi người có những quan niệm rất giống nhau về cái đẹp."
+      },
+      "B": {
+        "text": "Ideas about beauty change over time.",
+        "vi": "Quan niệm về cái đẹp thay đổi theo thời gian."
+      },
+      "C": {
+        "text": "Beauty can be found in unlikely places.",
+        "vi": "Vẻ đẹp có thể được tìm thấy ở những nơi không ngờ tới."
+      },
+      "D": {
+        "text": "Traditional ideas of beauty are going to change.",
+        "vi": "Các quan niệm truyền thống về cái đẹp sẽ thay đổi."
+      }
+    },
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "audio": "Listening/Part3/actors_1.wav",
+    "audio_text": "You know, I've always believed that auditions are the most important part of an actor's career. That's really where the magic happens. It doesn't matter how good you are in rehearsals or even in the final performance, if you can't nail that audition, you're not getting anywhere.",
+    "audio_text_vi": "Bạn biết không, tôi luôn tin rằng buổi thử vai là phần quan trọng nhất trong sự nghiệp của một diễn viên. Đó mới thực sự là nơi phép màu xảy ra. Bạn diễn tập hay đến đâu, hay thậm chí diễn chính xuất sắc thế nào, nếu bạn không thể làm tốt buổi thử vai thì bạn cũng chẳng đi đến đâu được.",
+    "audio_summary_vi": "Đoạn này nói rằng buổi thử vai là phần quan trọng nhất trong sự nghiệp của diễn viên.",
+    "options": {
+      "A": {
+        "text": "Auditions are most important for an actor's career.",
+        "vi": "Buổi thử vai là quan trọng nhất đối với sự nghiệp của một diễn viên."
+      },
+      "B": {
+        "text": "Actors tend to respond best to strong and engaging scripts.",
+        "vi": "Diễn viên thường thể hiện tốt nhất với những kịch bản mạnh và cuốn hút."
+      },
+      "C": {
+        "text": "Theater acting and screen acting are quite different from each other.",
+        "vi": "Diễn xuất sân khấu và diễn xuất trên màn ảnh khá khác nhau."
+      },
+      "D": {
+        "text": "Actors should be praised and recognized as much as possible.",
+        "vi": "Diễn viên nên được khen ngợi và ghi nhận nhiều nhất có thể."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "audio": "Listening/Part3/actors_2.wav",
+    "audio_text": "Yeah, but it's not just about the audition. I've seen actors absolutely shine when they're given the right material to work with. Strong, engaging scripts really bring out the best in them, while weak writing can make even a talented actor struggle.",
+    "audio_text_vi": "Ừ, nhưng không chỉ có mỗi buổi thử vai. Tôi đã thấy nhiều diễn viên tỏa sáng thực sự khi họ được làm việc với một kịch bản phù hợp. Những kịch bản mạnh, cuốn hút thực sự giúp họ phát huy tốt nhất, trong khi kịch bản yếu có thể khiến ngay cả một diễn viên tài năng cũng gặp khó khăn.",
+    "audio_summary_vi": "Đoạn này nói rằng diễn viên thường thể hiện tốt nhất khi được làm việc với kịch bản mạnh và cuốn hút.",
+    "options": {
+      "A": {
+        "text": "Auditions are most important for an actor's career.",
+        "vi": "Buổi thử vai là quan trọng nhất đối với sự nghiệp của một diễn viên."
+      },
+      "B": {
+        "text": "Actors tend to respond best to strong and engaging scripts.",
+        "vi": "Diễn viên thường thể hiện tốt nhất với những kịch bản mạnh và cuốn hút."
+      },
+      "C": {
+        "text": "Theater acting and screen acting are quite different from each other.",
+        "vi": "Diễn xuất sân khấu và diễn xuất trên màn ảnh khá khác nhau."
+      },
+      "D": {
+        "text": "Actors should be praised and recognized as much as possible.",
+        "vi": "Diễn viên nên được khen ngợi và ghi nhận nhiều nhất có thể."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "audio": "Listening/Part3/actors_3.wav",
+    "audio_text": "I agree with that. But I also think there's a huge difference between theater acting and screen acting. The two require completely different skill sets. On stage, you have to project and be larger than life, whereas on screen everything is more subtle and controlled.",
+    "audio_text_vi": "Tôi đồng ý với điều đó. Nhưng tôi cũng nghĩ rằng có một sự khác biệt rất lớn giữa diễn xuất sân khấu và diễn xuất trên màn ảnh. Hai loại này đòi hỏi những bộ kỹ năng hoàn toàn khác nhau. Trên sân khấu, bạn phải nói to, phóng đại và “lớn hơn đời thực”, trong khi trên màn ảnh thì mọi thứ đều tinh tế và được kiểm soát hơn nhiều.",
+    "audio_summary_vi": "Đoạn này nói rằng diễn xuất sân khấu và diễn xuất trên màn ảnh rất khác nhau và đòi hỏi kỹ năng khác nhau.",
+    "options": {
+      "A": {
+        "text": "Auditions are most important for an actor's career.",
+        "vi": "Buổi thử vai là quan trọng nhất đối với sự nghiệp của một diễn viên."
+      },
+      "B": {
+        "text": "Actors tend to respond best to strong and engaging scripts.",
+        "vi": "Diễn viên thường thể hiện tốt nhất với những kịch bản mạnh và cuốn hút."
+      },
+      "C": {
+        "text": "Theater acting and screen acting are quite different from each other.",
+        "vi": "Diễn xuất sân khấu và diễn xuất trên màn ảnh khá khác nhau."
+      },
+      "D": {
+        "text": "Actors should be praised and recognized as much as possible.",
+        "vi": "Diễn viên nên được khen ngợi và ghi nhận nhiều nhất có thể."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "audio": "Listening/Part3/actors_4.wav",
+    "audio_text": "Right, and that's why actors deserve as much praise and recognition as possible. They're constantly shifting between styles, learning new roles and adapting to different demands. It's a tough job and they really need to feel appreciated for all the work they put in.",
+    "audio_text_vi": "Đúng vậy, và đó là lý do tại sao các diễn viên xứng đáng được khen ngợi và ghi nhận nhiều nhất có thể. Họ liên tục thay đổi phong cách, học những vai diễn mới và thích nghi với các yêu cầu khác nhau. Đó là một công việc rất vất vả và họ thực sự cần cảm thấy rằng những nỗ lực của mình được trân trọng.",
+    "audio_summary_vi": "Đoạn này nói rằng diễn viên xứng đáng được khen ngợi và ghi nhận vì công việc của họ rất khó và đòi hỏi nhiều nỗ lực.",
+    "options": {
+      "A": {
+        "text": "Auditions are most important for an actor's career.",
+        "vi": "Buổi thử vai là quan trọng nhất đối với sự nghiệp của một diễn viên."
+      },
+      "B": {
+        "text": "Actors tend to respond best to strong and engaging scripts.",
+        "vi": "Diễn viên thường thể hiện tốt nhất với những kịch bản mạnh và cuốn hút."
+      },
+      "C": {
+        "text": "Theater acting and screen acting are quite different from each other.",
+        "vi": "Diễn xuất sân khấu và diễn xuất trên màn ảnh khá khác nhau."
+      },
+      "D": {
+        "text": "Actors should be praised and recognized as much as possible.",
+        "vi": "Diễn viên nên được khen ngợi và ghi nhận nhiều nhất có thể."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 13,
+    "audio": "Listening/Part3/information_technology_1.wav",
+    "audio_text": "I've been thinking about how future generations might really struggle with all the information technology throws at them. With the huge amount of data available, it's easy to feel overwhelmed and unsure what to trust.",
+    "audio_text_vi": "Tôi đã nghĩ về việc các thế hệ tương lai có thể sẽ thực sự chật vật với tất cả lượng thông tin mà công nghệ mang đến cho họ. Với một khối dữ liệu khổng lồ luôn sẵn có, người ta rất dễ cảm thấy bị choáng ngợp và không biết nên tin vào điều gì.",
+    "audio_summary_vi": "Đoạn này nói rằng các thế hệ sau có thể khó đối phó với lượng thông tin khổng lồ từ công nghệ.",
+    "options": {
+      "A": {
+        "text": "Future generations fail to cope with technology information.",
+        "vi": "Các thế hệ tương lai sẽ khó đối phó với lượng thông tin từ công nghệ."
+      },
+      "B": {
+        "text": "Technology revolution is good for the economy.",
+        "vi": "Cuộc cách mạng công nghệ có lợi cho nền kinh tế."
+      },
+      "C": {
+        "text": "No computer is superior to the human brain.",
+        "vi": "Không máy tính nào vượt trội hơn bộ não con người."
+      },
+      "D": {
+        "text": "More should be done to protect individual privacy.",
+        "vi": "Cần làm nhiều hơn để bảo vệ quyền riêng tư cá nhân."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "audio": "Listening/Part3/information_technology_2.wav",
+    "audio_text": "I get that, but I actually think this technological revolution is beneficial for our economy. It's opened up new job opportunities and streamlined many industries, driving growth in ways we haven't seen before.",
+    "audio_text_vi": "Tôi hiểu điều đó, nhưng thực ra tôi nghĩ cuộc cách mạng công nghệ này rất có lợi cho nền kinh tế của chúng ta. Nó đã mở ra nhiều cơ hội việc làm mới và giúp nhiều ngành hoạt động trơn tru hơn, thúc đẩy tăng trưởng theo những cách mà trước đây chúng ta chưa từng thấy.",
+    "audio_summary_vi": "Đoạn này nói rằng cuộc cách mạng công nghệ mang lại nhiều lợi ích và cơ hội cho nền kinh tế.",
+    "options": {
+      "A": {
+        "text": "Future generations fail to cope with technology information.",
+        "vi": "Các thế hệ tương lai sẽ khó đối phó với lượng thông tin từ công nghệ."
+      },
+      "B": {
+        "text": "Technology revolution is good for the economy.",
+        "vi": "Cuộc cách mạng công nghệ có lợi cho nền kinh tế."
+      },
+      "C": {
+        "text": "No computer is superior to the human brain.",
+        "vi": "Không máy tính nào vượt trội hơn bộ não con người."
+      },
+      "D": {
+        "text": "More should be done to protect individual privacy.",
+        "vi": "Cần làm nhiều hơn để bảo vệ quyền riêng tư cá nhân."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "audio": "Listening/Part3/information_technology_3.wav",
+    "audio_text": "Still, we should recognize that no matter how advanced they get, computers can't replicate the complexity of the human brain. Our ability to think critically and empathize is irreplaceable.",
+    "audio_text_vi": "Dù vậy, chúng ta cũng nên thừa nhận rằng cho dù chúng phát triển đến đâu, máy tính cũng không thể sao chép được sự phức tạp của bộ não con người. Khả năng tư duy phản biện và thấu cảm của chúng ta là không thể thay thế.",
+    "audio_summary_vi": "Đoạn này nói rằng dù máy tính phát triển đến đâu cũng không thể vượt qua sự phức tạp của bộ não con người.",
+    "options": {
+      "A": {
+        "text": "Future generations fail to cope with technology information.",
+        "vi": "Các thế hệ tương lai sẽ khó đối phó với lượng thông tin từ công nghệ."
+      },
+      "B": {
+        "text": "Technology revolution is good for the economy.",
+        "vi": "Cuộc cách mạng công nghệ có lợi cho nền kinh tế."
+      },
+      "C": {
+        "text": "No computer is superior to the human brain.",
+        "vi": "Không máy tính nào vượt trội hơn bộ não con người."
+      },
+      "D": {
+        "text": "More should be done to protect individual privacy.",
+        "vi": "Cần làm nhiều hơn để bảo vệ quyền riêng tư cá nhân."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "audio": "Listening/Part3/information_technology_4.wav",
+    "audio_text": "However, while we're advancing, I believe we both see the need for stronger protections around individual privacy. As more of our personal information goes online, safeguarding that data becomes increasingly important.",
+    "audio_text_vi": "Tuy nhiên, trong khi chúng ta đang tiến bộ, tôi tin rằng cả hai chúng ta đều nhận ra cần phải có những biện pháp bảo vệ mạnh mẽ hơn đối với quyền riêng tư cá nhân. Khi ngày càng có nhiều thông tin cá nhân của chúng ta được đưa lên mạng, việc bảo vệ dữ liệu đó trở nên quan trọng hơn bao giờ hết.",
+    "audio_summary_vi": "Đoạn này nói rằng cần phải tăng cường bảo vệ quyền riêng tư cá nhân trong thời đại số.",
+    "options": {
+      "A": {
+        "text": "Future generations fail to cope with technology information.",
+        "vi": "Các thế hệ tương lai sẽ khó đối phó với lượng thông tin từ công nghệ."
+      },
+      "B": {
+        "text": "Technology revolution is good for the economy.",
+        "vi": "Cuộc cách mạng công nghệ có lợi cho nền kinh tế."
+      },
+      "C": {
+        "text": "No computer is superior to the human brain.",
+        "vi": "Không máy tính nào vượt trội hơn bộ não con người."
+      },
+      "D": {
+        "text": "More should be done to protect individual privacy.",
+        "vi": "Cần làm nhiều hơn để bảo vệ quyền riêng tư cá nhân."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 17,
+    "audio": "Listening/Part3/internet_1.wav",
+    "audio_text": "You know, I really feel there's too much information on the Internet. It can be overwhelming sometimes, and it's hard to know what is actually reliable.",
+    "audio_text_vi": "Bạn biết không, tôi thực sự cảm thấy trên Internet có quá nhiều thông tin. Đôi khi nó khiến người ta bị choáng ngợp, và rất khó để biết được điều gì thực sự đáng tin.",
+    "audio_summary_vi": "Đoạn này nói rằng trên Internet có quá nhiều thông tin khiến người dùng bị choáng ngợp.",
+    "options": {
+      "A": {
+        "text": "There is too much information on the internet.",
+        "vi": "Có quá nhiều thông tin trên Internet."
+      },
+      "B": {
+        "text": "Finding information on the Internet requires skills.",
+        "vi": "Tìm thông tin trên Internet cần có kỹ năng."
+      },
+      "C": {
+        "text": "The use of internet affects the way we think.",
+        "vi": "Việc sử dụng Internet ảnh hưởng đến cách chúng ta suy nghĩ."
+      },
+      "D": {
+        "text": "The internet makes young people less patient.",
+        "vi": "Internet khiến người trẻ bớt kiên nhẫn."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "audio": "Listening/Part3/internet_2.wav",
+    "audio_text": "Honestly, I think it's more about how we search for information. Finding what we need online requires certain skills. We have to know how to filter through all that content.",
+    "audio_text_vi": "Thật ra, tôi nghĩ vấn đề nằm ở cách chúng ta tìm kiếm thông tin nhiều hơn. Việc tìm đúng thứ mình cần trên mạng đòi hỏi một số kỹ năng nhất định. Chúng ta phải biết cách lọc qua từng ấy nội dung.",
+    "audio_summary_vi": "Đoạn này nói rằng để tìm được thông tin trên mạng, chúng ta cần có kỹ năng tìm kiếm và lọc nội dung.",
+    "options": {
+      "A": {
+        "text": "There is too much information on the internet.",
+        "vi": "Có quá nhiều thông tin trên Internet."
+      },
+      "B": {
+        "text": "Finding information on the Internet requires skills.",
+        "vi": "Tìm thông tin trên Internet cần có kỹ năng."
+      },
+      "C": {
+        "text": "The use of internet affects the way we think.",
+        "vi": "Việc sử dụng Internet ảnh hưởng đến cách chúng ta suy nghĩ."
+      },
+      "D": {
+        "text": "The internet makes young people less patient.",
+        "vi": "Internet khiến người trẻ bớt kiên nhẫn."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "audio": "Listening/Part3/internet_3.wav",
+    "audio_text": "And I believe the Internet affects the way we think. With so much information available, we often skim instead of thinking deeply about topics.",
+    "audio_text_vi": "Và tôi tin rằng Internet ảnh hưởng đến cách chúng ta suy nghĩ. Vì có quá nhiều thông tin, chúng ta thường chỉ lướt qua thay vì suy nghĩ sâu về một vấn đề.",
+    "audio_summary_vi": "Đoạn này nói rằng việc dùng Internet làm thay đổi cách chúng ta suy nghĩ, thường chỉ lướt qua thay vì suy ngẫm sâu.",
+    "options": {
+      "A": {
+        "text": "There is too much information on the internet.",
+        "vi": "Có quá nhiều thông tin trên Internet."
+      },
+      "B": {
+        "text": "Finding information on the Internet requires skills.",
+        "vi": "Tìm thông tin trên Internet cần có kỹ năng."
+      },
+      "C": {
+        "text": "The use of internet affects the way we think.",
+        "vi": "Việc sử dụng Internet ảnh hưởng đến cách chúng ta suy nghĩ."
+      },
+      "D": {
+        "text": "The internet makes young people less patient.",
+        "vi": "Internet khiến người trẻ bớt kiên nhẫn."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "audio": "Listening/Part3/internet_4.wav",
+    "audio_text": "That's an interesting point. I hadn't thought about that, but I do see how constant scrolling and quick answers can make young people less patient. They expect instant results all the time now.",
+    "audio_text_vi": "Đó là một ý khá thú vị. Trước đây tôi chưa nghĩ đến, nhưng giờ tôi thấy việc lướt liên tục và luôn có câu trả lời nhanh có thể khiến người trẻ kém kiên nhẫn hơn. Bây giờ họ trông đợi lúc nào cũng phải có kết quả ngay lập tức.",
+    "audio_summary_vi": "Đoạn này nói rằng việc lướt mạng liên tục khiến giới trẻ trở nên kém kiên nhẫn, luôn muốn có kết quả ngay.",
+    "options": {
+      "A": {
+        "text": "There is too much information on the internet.",
+        "vi": "Có quá nhiều thông tin trên Internet."
+      },
+      "B": {
+        "text": "Finding information on the Internet requires skills.",
+        "vi": "Tìm thông tin trên Internet cần có kỹ năng."
+      },
+      "C": {
+        "text": "The use of internet affects the way we think.",
+        "vi": "Việc sử dụng Internet ảnh hưởng đến cách chúng ta suy nghĩ."
+      },
+      "D": {
+        "text": "The internet makes young people less patient.",
+        "vi": "Internet khiến người trẻ bớt kiên nhẫn."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 21,
+    "audio": "Listening/Part3/music_and_singers_1.wav",
+    "audio_text": "You know, I really believe that singers can be good role models for young people. Their influence can inspire kids to follow their dreams and express themselves.",
+    "audio_text_vi": "Bạn biết không, tôi thực sự tin rằng các ca sĩ có thể là hình mẫu tốt cho giới trẻ. Sức ảnh hưởng của họ có thể truyền cảm hứng cho các bạn trẻ theo đuổi ước mơ và dám thể hiện bản thân.",
+    "audio_summary_vi": "Đoạn này nói rằng ca sĩ có thể trở thành hình mẫu tốt cho giới trẻ và truyền cảm hứng cho họ.",
+    "options": {
+      "A": {
+        "text": "Singers can be good models for the young.",
+        "vi": "Ca sĩ có thể là hình mẫu tốt cho giới trẻ."
+      },
+      "B": {
+        "text": "Taste in music is a highly personal thing.",
+        "vi": "Gu âm nhạc là một điều rất cá nhân."
+      },
+      "C": {
+        "text": "Music is a universal language.",
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+      },
+      "D": {
+        "text": "Music can be used to manipulate people's feelings.",
+        "vi": "Âm nhạc có thể được dùng để điều khiển cảm xúc con người."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "audio": "Listening/Part3/music_and_singers_2.wav",
+    "audio_text": "I get that. But when it comes to taste in music, it's such a highly personal thing. What resonates with one person might not mean anything to another.",
+    "audio_text_vi": "Tôi hiểu điều đó. Nhưng khi nói đến gu âm nhạc, đó là chuyện vô cùng cá nhân. Thứ chạm đến cảm xúc của người này có thể lại chẳng có ý nghĩa gì với người khác.",
+    "audio_summary_vi": "Đoạn này nói rằng gu âm nhạc là chuyện rất cá nhân, mỗi người một sở thích khác nhau.",
+    "options": {
+      "A": {
+        "text": "Singers can be good models for the young.",
+        "vi": "Ca sĩ có thể là hình mẫu tốt cho giới trẻ."
+      },
+      "B": {
+        "text": "Taste in music is a highly personal thing.",
+        "vi": "Gu âm nhạc là một điều rất cá nhân."
+      },
+      "C": {
+        "text": "Music is a universal language.",
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+      },
+      "D": {
+        "text": "Music can be used to manipulate people's feelings.",
+        "vi": "Âm nhạc có thể được dùng để điều khiển cảm xúc con người."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "audio": "Listening/Part3/music_and_singers_3.wav",
+    "audio_text": "And speaking of music, I believe it's a universal language that connects people from different cultures. You can go almost anywhere in the world and still feel something when you hear a good song.",
+    "audio_text_vi": "Nhắc đến âm nhạc, tôi tin rằng đó là một ngôn ngữ chung kết nối con người từ nhiều nền văn hóa khác nhau. Bạn có thể đến gần như bất cứ nơi nào trên thế giới và vẫn cảm nhận được điều gì đó khi nghe một bài hát hay.",
+    "audio_summary_vi": "Đoạn này nói rằng âm nhạc là ngôn ngữ chung kết nối con người ở các nền văn hóa khác nhau.",
+    "options": {
+      "A": {
+        "text": "Singers can be good models for the young.",
+        "vi": "Ca sĩ có thể là hình mẫu tốt cho giới trẻ."
+      },
+      "B": {
+        "text": "Taste in music is a highly personal thing.",
+        "vi": "Gu âm nhạc là một điều rất cá nhân."
+      },
+      "C": {
+        "text": "Music is a universal language.",
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+      },
+      "D": {
+        "text": "Music can be used to manipulate people's feelings.",
+        "vi": "Âm nhạc có thể được dùng để điều khiển cảm xúc con người."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "audio": "Listening/Part3/music_and_singers_4.wav",
+    "audio_text": "True, but one thing we can both agree on is that music can be used to manipulate people's feelings. Think about advertising or emotional scenes in movies—music can completely change how we feel.",
+    "audio_text_vi": "Đúng vậy, nhưng có một điều mà cả hai chúng ta đều có thể đồng ý là âm nhạc có thể được dùng để điều khiển cảm xúc con người. Hãy nghĩ đến quảng cáo hoặc những cảnh xúc động trong phim – âm nhạc có thể hoàn toàn thay đổi cảm xúc của chúng ta.",
+    "audio_summary_vi": "Đoạn này nói rằng âm nhạc có thể được dùng để điều khiển cảm xúc, ví dụ trong quảng cáo hoặc phim ảnh.",
+    "options": {
+      "A": {
+        "text": "Singers can be good models for the young.",
+        "vi": "Ca sĩ có thể là hình mẫu tốt cho giới trẻ."
+      },
+      "B": {
+        "text": "Taste in music is a highly personal thing.",
+        "vi": "Gu âm nhạc là một điều rất cá nhân."
+      },
+      "C": {
+        "text": "Music is a universal language.",
+        "vi": "Âm nhạc là ngôn ngữ chung của nhân loại."
+      },
+      "D": {
+        "text": "Music can be used to manipulate people's feelings.",
+        "vi": "Âm nhạc có thể được dùng để điều khiển cảm xúc con người."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 25,
+    "audio": "Listening/Part3/university_and_technology_1.wav",
+    "audio_text": "Yeah, I've been reading about similar things lately. It's amazing how different opinions can be on what makes a good university experience. I think we can both agree that the internet has made education more accessible. People from different backgrounds can now study without always being on campus.",
+    "audio_text_vi": "Ừ, dạo này tôi cũng đọc về những chuyện tương tự. Thật đáng ngạc nhiên khi có quá nhiều ý kiến khác nhau về việc điều gì tạo nên một trải nghiệm đại học tốt. Tôi nghĩ cả hai chúng ta đều có thể đồng ý rằng Internet đã khiến việc học tập trở nên dễ tiếp cận hơn. Những người từ các hoàn cảnh khác nhau giờ có thể học mà không nhất thiết lúc nào cũng phải có mặt ở trường.",
+    "audio_summary_vi": "Đoạn này nói rằng Internet giúp giáo dục trở nên dễ tiếp cận hơn cho nhiều đối tượng.",
+    "options": {
+      "A": {
+        "text": "The internet makes education more accessible.",
+        "vi": "Internet giúp giáo dục trở nên dễ tiếp cận hơn."
+      },
+      "B": {
+        "text": "Social interactions are essential to university life.",
+        "vi": "Giao tiếp xã hội là phần thiết yếu của đời sống đại học."
+      },
+      "C": {
+        "text": "A diverse curriculum is not always a good thing.",
+        "vi": "Chương trình học quá đa dạng không phải lúc nào cũng tốt."
+      },
+      "D": {
+        "text": "Competitions between universities should be encouraged.",
+        "vi": "Cạnh tranh giữa các trường đại học nên được khuyến khích."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "audio": "Listening/Part3/university_and_technology_2.wav",
+    "audio_text": "Absolutely, I agree with that. But I still believe that social interactions are a crucial part of university life. Online learning can never truly replace the friendships, group work and networking that happen in a physical setting.",
+    "audio_text_vi": "Chắc chắn rồi, tôi đồng ý với điều đó. Nhưng tôi vẫn tin rằng các mối quan hệ xã hội là một phần cực kỳ quan trọng của đời sống đại học. Việc học online không bao giờ có thể thực sự thay thế được tình bạn, làm việc nhóm và các mối quan hệ được tạo ra khi học trực tiếp.",
+    "audio_summary_vi": "Đoạn này nói rằng các mối quan hệ xã hội là phần rất quan trọng trong đời sống đại học, điều học online không thay thế được.",
+    "options": {
+      "A": {
+        "text": "The internet makes education more accessible.",
+        "vi": "Internet giúp giáo dục trở nên dễ tiếp cận hơn."
+      },
+      "B": {
+        "text": "Social interactions are essential to university life.",
+        "vi": "Giao tiếp xã hội là phần thiết yếu của đời sống đại học."
+      },
+      "C": {
+        "text": "A diverse curriculum is not always a good thing.",
+        "vi": "Chương trình học quá đa dạng không phải lúc nào cũng tốt."
+      },
+      "D": {
+        "text": "Competitions between universities should be encouraged.",
+        "vi": "Cạnh tranh giữa các trường đại học nên được khuyến khích."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "audio": "Listening/Part3/university_and_technology_3.wav",
+    "audio_text": "To be honest, I'm not a fan of having too many options in the curriculum. A diverse curriculum sounds good in theory, but it can overwhelm students and take away from the depth of learning in core subjects.",
+    "audio_text_vi": "Thành thật mà nói, tôi không thích việc có quá nhiều lựa chọn trong chương trình học. Một chương trình đa dạng nghe thì có vẻ hay, nhưng nó có thể khiến sinh viên bị quá tải và làm giảm độ sâu của việc học ở các môn cốt lõi.",
+    "audio_summary_vi": "Đoạn này nói rằng chương trình học quá đa dạng có thể khiến sinh viên bị quá tải và không học sâu được.",
+    "options": {
+      "A": {
+        "text": "The internet makes education more accessible.",
+        "vi": "Internet giúp giáo dục trở nên dễ tiếp cận hơn."
+      },
+      "B": {
+        "text": "Social interactions are essential to university life.",
+        "vi": "Giao tiếp xã hội là phần thiết yếu của đời sống đại học."
+      },
+      "C": {
+        "text": "A diverse curriculum is not always a good thing.",
+        "vi": "Chương trình học quá đa dạng không phải lúc nào cũng tốt."
+      },
+      "D": {
+        "text": "Competitions between universities should be encouraged.",
+        "vi": "Cạnh tranh giữa các trường đại học nên được khuyến khích."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "audio": "Listening/Part3/university_and_technology_4.wav",
+    "audio_text": "I see your point, but I think universities provide a unique space for students to develop their social skills alongside their academic ones. One thing I'm really in favor of is encouraging competition between universities. When they compete, it drives innovation and pushes them to offer better resources.",
+    "audio_text_vi": "Tôi hiểu ý bạn, nhưng tôi nghĩ các trường đại học mang lại một môi trường đặc biệt để sinh viên phát triển kỹ năng xã hội song song với học thuật. Có một điều mà tôi thực sự ủng hộ là khuyến khích sự cạnh tranh giữa các trường đại học. Khi họ cạnh tranh, điều đó thúc đẩy đổi mới và buộc họ phải cung cấp những nguồn lực tốt hơn.",
+    "audio_summary_vi": "Đoạn này nói rằng cạnh tranh giữa các trường đại học nên được khuyến khích vì thúc đẩy đổi mới và nâng cao chất lượng.",
+    "options": {
+      "A": {
+        "text": "The internet makes education more accessible.",
+        "vi": "Internet giúp giáo dục trở nên dễ tiếp cận hơn."
+      },
+      "B": {
+        "text": "Social interactions are essential to university life.",
+        "vi": "Giao tiếp xã hội là phần thiết yếu của đời sống đại học."
+      },
+      "C": {
+        "text": "A diverse curriculum is not always a good thing.",
+        "vi": "Chương trình học quá đa dạng không phải lúc nào cũng tốt."
+      },
+      "D": {
+        "text": "Competitions between universities should be encouraged.",
+        "vi": "Cạnh tranh giữa các trường đại học nên được khuyến khích."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 29,
+    "audio": "Listening/Part3/politics_1.wav",
+    "audio_text": "Politics has been a very common topic lately. I've noticed that young people are becoming much more interested in politics. It's great to see them engaging in discussions and activism.",
+    "audio_text_vi": "Chính trị dạo này là một chủ đề rất phổ biến. Tôi nhận thấy rằng giới trẻ đang ngày càng quan tâm hơn đến chính trị. Thật tuyệt khi thấy họ tham gia vào các cuộc thảo luận và các hoạt động xã hội.",
+    "audio_summary_vi": "Đoạn này nói rằng giới trẻ ngày càng quan tâm và tham gia nhiều hơn vào chính trị.",
+    "options": {
+      "A": {
+        "text": "Young people are more into politics.",
+        "vi": "Giới trẻ quan tâm đến chính trị nhiều hơn."
+      },
+      "B": {
+        "text": "Social media changes politics.",
+        "vi": "Mạng xã hội làm thay đổi chính trị."
+      },
+      "C": {
+        "text": "People are now better informed on politics.",
+        "vi": "Hiện nay mọi người hiểu biết về chính trị nhiều hơn."
+      },
+      "D": {
+        "text": "More women pursue politics.",
+        "vi": "Ngày càng có nhiều phụ nữ theo đuổi chính trị."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 30,
+    "audio": "Listening/Part3/politics_2.wav",
+    "audio_text": "I also think social media plays a big role in this. Platforms like Twitter and Instagram help spread political information quickly and connect people with similar interests. It really changes how political conversations happen.",
+    "audio_text_vi": "Tôi cũng nghĩ rằng mạng xã hội đóng vai trò lớn trong việc này. Các nền tảng như Twitter hay Instagram giúp lan truyền thông tin chính trị rất nhanh và kết nối những người có cùng mối quan tâm. Nó thực sự làm thay đổi cách các cuộc trò chuyện về chính trị diễn ra.",
+    "audio_summary_vi": "Đoạn này nói rằng mạng xã hội làm thay đổi chính trị bằng cách lan truyền thông tin và kết nối người dùng.",
+    "options": {
+      "A": {
+        "text": "Young people are more into politics.",
+        "vi": "Giới trẻ quan tâm đến chính trị nhiều hơn."
+      },
+      "B": {
+        "text": "Social media changes politics.",
+        "vi": "Mạng xã hội làm thay đổi chính trị."
+      },
+      "C": {
+        "text": "People are now better informed on politics.",
+        "vi": "Hiện nay mọi người hiểu biết về chính trị nhiều hơn."
+      },
+      "D": {
+        "text": "More women pursue politics.",
+        "vi": "Ngày càng có nhiều phụ nữ theo đuổi chính trị."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "audio": "Listening/Part3/politics_3.wav",
+    "audio_text": "Actually, I believe people are becoming better informed about politics not just because of social media but also through traditional news sources. Many are actively seeking information so they can understand the issues more deeply.",
+    "audio_text_vi": "Thực ra, tôi tin rằng mọi người đang hiểu biết hơn về chính trị không chỉ nhờ mạng xã hội mà còn thông qua các nguồn tin tức truyền thống. Nhiều người chủ động tìm kiếm thông tin để có thể hiểu rõ hơn về các vấn đề.",
+    "audio_summary_vi": "Đoạn này nói rằng ngày nay mọi người hiểu biết hơn về chính trị vì họ chủ động tìm kiếm thông tin từ nhiều nguồn.",
+    "options": {
+      "A": {
+        "text": "Young people are more into politics.",
+        "vi": "Giới trẻ quan tâm đến chính trị nhiều hơn."
+      },
+      "B": {
+        "text": "Social media changes politics.",
+        "vi": "Mạng xã hội làm thay đổi chính trị."
+      },
+      "C": {
+        "text": "People are now better informed on politics.",
+        "vi": "Hiện nay mọi người hiểu biết về chính trị nhiều hơn."
+      },
+      "D": {
+        "text": "More women pursue politics.",
+        "vi": "Ngày càng có nhiều phụ nữ theo đuổi chính trị."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "audio": "Listening/Part3/politics_4.wav",
+    "audio_text": "It's also encouraging to see more women pursuing careers in politics. It brings different perspectives to the table, which is essential for a balanced approach to governance.",
+    "audio_text_vi": "Cũng thật đáng khích lệ khi thấy ngày càng nhiều phụ nữ theo đuổi sự nghiệp chính trị. Điều đó mang lại những góc nhìn khác nhau, và đó là điều rất cần thiết cho một cách quản trị cân bằng.",
+    "audio_summary_vi": "Đoạn này nói rằng ngày càng có nhiều phụ nữ theo đuổi nghề chính trị và điều đó mang lại góc nhìn đa dạng hơn.",
+    "options": {
+      "A": {
+        "text": "Young people are more into politics.",
+        "vi": "Giới trẻ quan tâm đến chính trị nhiều hơn."
+      },
+      "B": {
+        "text": "Social media changes politics.",
+        "vi": "Mạng xã hội làm thay đổi chính trị."
+      },
+      "C": {
+        "text": "People are now better informed on politics.",
+        "vi": "Hiện nay mọi người hiểu biết về chính trị nhiều hơn."
+      },
+      "D": {
+        "text": "More women pursue politics.",
+        "vi": "Ngày càng có nhiều phụ nữ theo đuổi chính trị."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 33,
+    "audio": "Listening/Part3/community_design_1.wav",
+    "audio_text": "Hey, have you noticed how much effort cities are putting into improving neighborhood layouts these days? Things like parks, shared courtyards and bike lanes really change how people interact. The way a space is designed can actually influence how people behave.",
+    "audio_text_vi": "Này, bạn có để ý là dạo này các thành phố đang nỗ lực rất nhiều để cải thiện cách bố trí khu dân cư không? Những thứ như công viên, sân chung hay làn đường cho xe đạp thực sự làm thay đổi cách mọi người tương tác với nhau. Cách một không gian được thiết kế thực sự có thể ảnh hưởng đến hành vi của con người.",
+    "audio_summary_vi": "Đoạn này nói rằng thiết kế không gian, tòa nhà có thể ảnh hưởng đến hành vi và cách mọi người tương tác.",
+    "options": {
+      "A": {
+        "text": "Building design can influence people's behavior.",
+        "vi": "Thiết kế công trình có thể ảnh hưởng đến hành vi con người."
+      },
+      "B": {
+        "text": "Creating a community can take time.",
+        "vi": "Xây dựng cộng đồng có thể mất thời gian."
+      },
+      "C": {
+        "text": "Work communities and social communities are the same.",
+        "vi": "Cộng đồng nơi làm việc và cộng đồng xã hội là như nhau."
+      },
+      "D": {
+        "text": "Technology has changed how community forms.",
+        "vi": "Công nghệ đã thay đổi cách cộng đồng được hình thành."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "audio": "Listening/Part3/community_design_2.wav",
+    "audio_text": "Yeah, I'm all for it. Still, I think there's more to forming bonds than just the environment. Even in the most community-friendly setting, you can't expect people to feel connected right away. It often takes time for a real sense of community to grow.",
+    "audio_text_vi": "Ừ, tôi hoàn toàn ủng hộ chuyện đó. Tuy nhiên, tôi nghĩ rằng việc hình thành mối gắn kết không chỉ phụ thuộc vào môi trường. Ngay cả trong một không gian rất “thân thiện với cộng đồng”, bạn cũng không thể mong mọi người cảm thấy gắn bó ngay lập tức. Thường thì phải mất thời gian thì cảm giác cộng đồng thực sự mới phát triển.",
+    "audio_summary_vi": "Đoạn này nói rằng để hình thành cộng đồng thực sự cần thời gian, không thể gắn kết ngay lập tức.",
+    "options": {
+      "A": {
+        "text": "Building design can influence people's behavior.",
+        "vi": "Thiết kế công trình có thể ảnh hưởng đến hành vi con người."
+      },
+      "B": {
+        "text": "Creating a community can take time.",
+        "vi": "Xây dựng cộng đồng có thể mất thời gian."
+      },
+      "C": {
+        "text": "Work communities and social communities are the same.",
+        "vi": "Cộng đồng nơi làm việc và cộng đồng xã hội là như nhau."
+      },
+      "D": {
+        "text": "Technology has changed how community forms.",
+        "vi": "Công nghệ đã thay đổi cách cộng đồng được hình thành."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "audio": "Listening/Part3/community_design_3.wav",
+    "audio_text": "Speaking of integration, I don't think community is limited to a specific context. Work communities and social communities aren't always the same. The way we connect with colleagues can be very different from how we connect with friends outside of work.",
+    "audio_text_vi": "Nói về sự hòa nhập, tôi không nghĩ rằng cộng đồng chỉ bị giới hạn trong một bối cảnh cụ thể nào đó. Cộng đồng nơi làm việc và cộng đồng xã hội không phải lúc nào cũng giống nhau. Cách chúng ta gắn kết với đồng nghiệp có thể rất khác so với cách chúng ta gắn kết với bạn bè bên ngoài công việc.",
+    "audio_summary_vi": "Đoạn này nói rằng cộng đồng ở nơi làm việc và cộng đồng xã hội bên ngoài không hoàn toàn giống nhau.",
+    "options": {
+      "A": {
+        "text": "Building design can influence people's behavior.",
+        "vi": "Thiết kế công trình có thể ảnh hưởng đến hành vi con người."
+      },
+      "B": {
+        "text": "Creating a community can take time.",
+        "vi": "Xây dựng cộng đồng có thể mất thời gian."
+      },
+      "C": {
+        "text": "Work communities and social communities are the same.",
+        "vi": "Cộng đồng nơi làm việc và cộng đồng xã hội là như nhau."
+      },
+      "D": {
+        "text": "Technology has changed how community forms.",
+        "vi": "Công nghệ đã thay đổi cách cộng đồng được hình thành."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "audio": "Listening/Part3/community_design_4.wav",
+    "audio_text": "Totally. Online platforms are redefining what community means. I've seen people build strong support networks without ever meeting in person. Technology really has changed how communities form and grow.",
+    "audio_text_vi": "Đúng vậy. Các nền tảng trực tuyến đang định nghĩa lại khái niệm cộng đồng. Tôi đã thấy nhiều người xây dựng được những mạng lưới hỗ trợ rất vững chắc mà chưa từng gặp nhau ngoài đời. Công nghệ thực sự đã thay đổi cách cộng đồng được hình thành và phát triển.",
+    "audio_summary_vi": "Đoạn này nói rằng công nghệ và các nền tảng online đang thay đổi cách cộng đồng được hình thành.",
+    "options": {
+      "A": {
+        "text": "Building design can influence people's behavior.",
+        "vi": "Thiết kế công trình có thể ảnh hưởng đến hành vi con người."
+      },
+      "B": {
+        "text": "Creating a community can take time.",
+        "vi": "Xây dựng cộng đồng có thể mất thời gian."
+      },
+      "C": {
+        "text": "Work communities and social communities are the same.",
+        "vi": "Cộng đồng nơi làm việc và cộng đồng xã hội là như nhau."
+      },
+      "D": {
+        "text": "Technology has changed how community forms.",
+        "vi": "Công nghệ đã thay đổi cách cộng đồng được hình thành."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 37,
+    "audio": "Listening/Part3/local_center_1.wav",
+    "audio_text": "Have you heard about the new local center opening next week? I think it will be a great place for exhibitions. But you know, I believe exhibitions should be different and diverse. They need to show new ideas, not just the same old things.",
+    "audio_text_vi": "Bạn đã nghe về trung tâm địa phương mới sẽ khai trương vào tuần tới chưa? Tôi nghĩ đó sẽ là một nơi tuyệt vời cho các buổi triển lãm. Nhưng bạn biết đấy, tôi tin rằng các triển lãm nên đa dạng và khác biệt. Chúng cần thể hiện những ý tưởng mới, chứ không chỉ lặp lại những thứ cũ.",
+    "audio_summary_vi": "Đoạn này nói rằng các buổi triển lãm nên đa dạng và thể hiện những ý tưởng mới.",
+    "options": {
+      "A": {
+        "text": "Exhibitions should be different and diverse.",
+        "vi": "Các buổi triển lãm nên đa dạng và khác biệt."
+      },
+      "B": {
+        "text": "Traditional customs are gradually losing their significance.",
+        "vi": "Các phong tục truyền thống đang dần mất đi ý nghĩa của chúng."
+      },
+      "C": {
+        "text": "Local festivals will disappear soon in the near future.",
+        "vi": "Các lễ hội địa phương sẽ sớm biến mất trong tương lai gần."
+      },
+      "D": {
+        "text": "Schools are important to shaping future generations.",
+        "vi": "Trường học rất quan trọng trong việc hình thành thế hệ tương lai."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "audio": "Listening/Part3/local_center_2.wav",
+    "audio_text": "I agree they should be interesting, but sometimes I worry that as we focus on new things, traditional customs are gradually losing their significance. It's nice to celebrate where we come from too.",
+    "audio_text_vi": "Tôi đồng ý là chúng nên thú vị, nhưng đôi khi tôi lo rằng khi chúng ta chỉ tập trung vào những điều mới mẻ, các phong tục truyền thống đang dần mất đi ý nghĩa của chúng. Việc tôn vinh nguồn cội của mình cũng rất đáng trân trọng.",
+    "audio_summary_vi": "Đoạn này nói rằng khi chỉ chú trọng cái mới, các phong tục truyền thống dần mất đi ý nghĩa của chúng.",
+    "options": {
+      "A": {
+        "text": "Exhibitions should be different and diverse.",
+        "vi": "Các buổi triển lãm nên đa dạng và khác biệt."
+      },
+      "B": {
+        "text": "Traditional customs are gradually losing their significance.",
+        "vi": "Các phong tục truyền thống đang dần mất đi ý nghĩa của chúng."
+      },
+      "C": {
+        "text": "Local festivals will disappear soon in the near future.",
+        "vi": "Các lễ hội địa phương sẽ sớm biến mất trong tương lai gần."
+      },
+      "D": {
+        "text": "Schools are important to shaping future generations.",
+        "vi": "Trường học rất quan trọng trong việc hình thành thế hệ tương lai."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "audio": "Listening/Part3/local_center_3.wav",
+    "audio_text": "However, I worry that the local festivals will disappear soon if people stop caring about them. If no one participates, they might simply fade away in the near future.",
+    "audio_text_vi": "Tuy nhiên, tôi lo rằng các lễ hội địa phương sẽ sớm biến mất nếu mọi người không còn quan tâm đến chúng. Nếu chẳng ai tham gia, chúng có thể đơn giản là phai nhạt dần và biến mất trong tương lai gần.",
+    "audio_summary_vi": "Đoạn này nói rằng các lễ hội địa phương có nguy cơ biến mất sớm nếu người dân không còn quan tâm.",
+    "options": {
+      "A": {
+        "text": "Exhibitions should be different and diverse.",
+        "vi": "Các buổi triển lãm nên đa dạng và khác biệt."
+      },
+      "B": {
+        "text": "Traditional customs are gradually losing their significance.",
+        "vi": "Các phong tục truyền thống đang dần mất đi ý nghĩa của chúng."
+      },
+      "C": {
+        "text": "Local festivals will disappear soon in the near future.",
+        "vi": "Các lễ hội địa phương sẽ sớm biến mất trong tương lai gần."
+      },
+      "D": {
+        "text": "Schools are important to shaping future generations.",
+        "vi": "Trường học rất quan trọng trong việc hình thành thế hệ tương lai."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "audio": "Listening/Part3/local_center_4.wav",
+    "audio_text": "That's true. Schools play a big role here. They teach children about our culture and values. Schools are really important in shaping future generations and keeping traditions alive.",
+    "audio_text_vi": "Đúng vậy. Trường học đóng vai trò rất lớn trong chuyện này. Trường dạy cho trẻ em về văn hóa và các giá trị của chúng ta. Trường học thực sự rất quan trọng trong việc hình thành thế hệ tương lai và giữ gìn các truyền thống.",
+    "audio_summary_vi": "Đoạn này nói rằng trường học rất quan trọng trong việc giáo dục thế hệ tương lai và giữ gìn truyền thống.",
+    "options": {
+      "A": {
+        "text": "Exhibitions should be different and diverse.",
+        "vi": "Các buổi triển lãm nên đa dạng và khác biệt."
+      },
+      "B": {
+        "text": "Traditional customs are gradually losing their significance.",
+        "vi": "Các phong tục truyền thống đang dần mất đi ý nghĩa của chúng."
+      },
+      "C": {
+        "text": "Local festivals will disappear soon in the near future.",
+        "vi": "Các lễ hội địa phương sẽ sớm biến mất trong tương lai gần."
+      },
+      "D": {
+        "text": "Schools are important to shaping future generations.",
+        "vi": "Trường học rất quan trọng trong việc hình thành thế hệ tương lai."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 41,
+    "audio": "Listening/Part3/urban_farming_v1_1.wav",
+    "audio_text": "I've been reading a report on urban farming and its potential impact on city life. It's fascinating how cities are starting to embrace this concept to tackle issues like food security and sustainability. Still, I believe living space is more important than farming space. People need proper homes to thrive.",
+    "audio_text_vi": "Tôi vừa đọc một báo cáo về nông nghiệp đô thị và tác động tiềm năng của nó lên đời sống thành phố. Thật thú vị khi thấy các thành phố bắt đầu đón nhận khái niệm này để giải quyết những vấn đề như an ninh lương thực và tính bền vững. Dù vậy, tôi vẫn tin rằng không gian sống quan trọng hơn không gian trồng trọt. Con người cần có nơi ở tử tế thì mới có thể phát triển tốt.",
+    "audio_summary_vi": "Đoạn này nói rằng dù nông nghiệp đô thị thú vị, không gian sống vẫn quan trọng hơn không gian trồng trọt.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "audio": "Listening/Part3/urban_farming_v1_2.wav",
+    "audio_text": "I understand that perspective. But I have to say, farming space in urban areas is really appealing. It brings a bit of nature into the city and can improve the overall environment.",
+    "audio_text_vi": "Tôi hiểu quan điểm đó. Nhưng tôi phải nói rằng không gian trồng trọt trong khu vực đô thị thực sự rất hấp dẫn. Nó mang một chút thiên nhiên vào trong thành phố và có thể cải thiện môi trường chung.",
+    "audio_summary_vi": "Đoạn này nói rằng không gian trồng trọt trong thành phố rất hấp dẫn vì mang thiên nhiên vào đô thị.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "audio": "Listening/Part3/urban_farming_v1_3.wav",
+    "audio_text": "That's a valid point, but I think farming space will also benefit the urban economy. It creates jobs and stimulates local businesses, which is essential for growth.",
+    "audio_text_vi": "Đó là một ý đúng, nhưng tôi nghĩ rằng không gian trồng trọt cũng sẽ có lợi cho kinh tế đô thị. Nó tạo ra công ăn việc làm và thúc đẩy các doanh nghiệp địa phương, điều này rất quan trọng cho sự phát triển.",
+    "audio_summary_vi": "Đoạn này nói rằng không gian nông nghiệp đô thị có thể thúc đẩy kinh tế thành phố và tạo việc làm.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "audio": "Listening/Part3/urban_farming_v1_4.wav",
+    "audio_text": "I agree that food scarcity is a serious issue, and urban farming can help. We really need more food in our cities, and if we implement these projects effectively, they can play a big part in solving that problem.",
+    "audio_text_vi": "Tôi đồng ý rằng tình trạng thiếu lương thực là một vấn đề nghiêm trọng, và nông nghiệp đô thị có thể giúp ích. Chúng ta thực sự cần nhiều thực phẩm hơn trong các thành phố, và nếu triển khai những dự án này một cách hiệu quả, chúng có thể đóng vai trò lớn trong việc giải quyết vấn đề đó.",
+    "audio_summary_vi": "Đoạn này nói rằng do thiếu hụt lương thực, chúng ta cần thêm nguồn thực phẩm và nông nghiệp đô thị có thể giúp giải quyết.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 45,
+    "audio": "Listening/Part3/urban_farming_v2_1.wav",
+    "audio_text": "Hey Carlos, have you read the article about urban farming? It's about growing food in cities, like on rooftops or unused spaces. With so many people moving to cities, living space is becoming a real concern. We have to remember that people still need enough room to live comfortably.",
+    "audio_text_vi": "Này Carlos, cậu đã đọc bài viết về nông nghiệp đô thị chưa? Nó nói về việc trồng thực phẩm ngay trong thành phố, như trên sân thượng hoặc ở những khoảng đất trống chưa dùng đến. Khi có quá nhiều người chuyển vào thành phố, không gian sống đang trở thành một vấn đề thực sự. Chúng ta phải nhớ rằng con người vẫn cần đủ diện tích để sống thoải mái.",
+    "audio_summary_vi": "Đoạn này nói rằng trong bối cảnh nhiều người đổ về thành phố, không gian sống là vấn đề quan trọng hơn cả.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "audio": "Listening/Part3/urban_farming_v2_2.wav",
+    "audio_text": "Unused spaces that are too small for housing can be converted into farming areas. If done right, this could be both beneficial and visually attractive, like turning them into green spaces or local parks. I actually find that idea quite appealing.",
+    "audio_text_vi": "Những khoảng trống không sử dụng được cho nhà ở vì quá nhỏ có thể được chuyển thành khu trồng trọt. Nếu làm đúng cách, điều này vừa có ích vừa đẹp mắt, giống như biến chúng thành các khoảng xanh hay công viên nhỏ trong khu vực. Thực ra tôi thấy ý tưởng đó khá hấp dẫn.",
+    "audio_summary_vi": "Đoạn này nói rằng tận dụng các khoảng trống nhỏ để làm khu trồng trọt, vừa hữu ích vừa đẹp mắt.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "audio": "Listening/Part3/urban_farming_v2_3.wav",
+    "audio_text": "Sure, I support green initiatives, but they need to be practical. I'm not convinced urban farming will really boost the urban economy in the way some people claim. We have to be careful not to overestimate its financial impact.",
+    "audio_text_vi": "Tất nhiên, tôi ủng hộ các sáng kiến xanh, nhưng chúng cần phải thực tế. Tôi chưa bị thuyết phục rằng nông nghiệp đô thị sẽ thực sự thúc đẩy kinh tế thành phố như một số người vẫn nói. Chúng ta phải cẩn thận để không đánh giá quá cao tác động về mặt tài chính của nó.",
+    "audio_summary_vi": "Đoạn này nói rằng tác động của nông nghiệp đô thị lên kinh tế thành phố có thể không lớn như kỳ vọng.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 48,
+    "audio": "Listening/Part3/urban_farming_v2_4.wav",
+    "audio_text": "That's true, but food has become a critical issue as more people move to cities. We need to find ways to produce vegetables closer to where they are consumed. Urban farming can help meet the growing demand for food.",
+    "audio_text_vi": "Điều đó đúng, nhưng lương thực đã trở thành một vấn đề rất cấp thiết khi ngày càng có nhiều người chuyển tới thành phố. Chúng ta cần tìm cách sản xuất rau củ gần hơn với nơi chúng được tiêu thụ. Nông nghiệp đô thị có thể giúp đáp ứng nhu cầu lương thực ngày càng tăng.",
+    "audio_summary_vi": "Đoạn này nói rằng do nhu cầu lương thực tăng ở thành phố, cần thêm nguồn thực phẩm từ nông nghiệp đô thị.",
+    "options": {
+      "A": {
+        "text": "Living space is more important than farming space.",
+        "vi": "Không gian sống quan trọng hơn không gian trồng trọt."
+      },
+      "B": {
+        "text": "Farming space is appealing.",
+        "vi": "Không gian trồng trọt rất hấp dẫn."
+      },
+      "C": {
+        "text": "Farming space will benefit the urban economy.",
+        "vi": "Không gian trồng trọt sẽ có lợi cho kinh tế đô thị."
+      },
+      "D": {
+        "text": "Farming space is in need of more food.",
+        "vi": "Không gian trồng trọt cần cung cấp thêm lương thực."
+      }
+    },
+    "answer": "D"
+  },
+
+  {
+    "id": 49,
+    "audio": "Listening/Part3/arts_1.wav",
+    "audio_text": "What magazine are you reading? To be honest, I’ve always felt that art is only really suitable for the privileged few. Poor people don’t usually have the opportunity or time to enjoy it properly.",
+    "audio_text_vi": "Bạn đang đọc tạp chí gì vậy? Thành thật mà nói, tôi luôn cảm thấy rằng nghệ thuật thực ra chỉ phù hợp với một nhóm ít người có điều kiện. Người nghèo thường không có cơ hội hoặc thời gian để thưởng thức nó một cách đúng nghĩa.",
+    "audio_summary_vi": "Đoạn này nói rằng nghệ thuật dường như chỉ phù hợp với một nhóm người có điều kiện.",
+    "options": {
+      "A": {
+        "text": "Art is only suitable for the privileged few.",
+        "vi": "Nghệ thuật chỉ phù hợp với một nhóm ít người có điều kiện."
+      },
+      "B": {
+        "text": "The government should invest more in arts.",
+        "vi": "Chính phủ nên đầu tư nhiều hơn cho nghệ thuật."
+      },
+      "C": {
+        "text": "Children should be exposed to art early.",
+        "vi": "Trẻ em nên được tiếp xúc với nghệ thuật từ sớm."
+      },
+      "D": {
+        "text": "In the future, art will become more accessible.",
+        "vi": "Trong tương lai, nghệ thuật sẽ trở nên dễ tiếp cận hơn."
+      }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "audio": "Listening/Part3/arts_2.wav",
+    "audio_text": "Yes, that’s great news. I hope that the authorities and the government will invest more in the arts and make them accessible to everyone, especially by adding more art classes in schools.",
+    "audio_text_vi": "Vâng, đó là một tin rất tốt. Tôi hy vọng rằng các cơ quan chức năng và chính phủ sẽ đầu tư nhiều hơn cho nghệ thuật và giúp nó đến được với mọi người, đặc biệt là thông qua việc bổ sung nhiều tiết học nghệ thuật hơn trong trường học.",
+    "audio_summary_vi": "Đoạn này nói rằng chính phủ nên đầu tư nhiều hơn vào nghệ thuật và đưa nghệ thuật đến với mọi người.",
+    "options": {
+      "A": {
+        "text": "Art is only suitable for the privileged few.",
+        "vi": "Nghệ thuật chỉ phù hợp với một nhóm ít người có điều kiện."
+      },
+      "B": {
+        "text": "The government should invest more in arts.",
+        "vi": "Chính phủ nên đầu tư nhiều hơn cho nghệ thuật."
+      },
+      "C": {
+        "text": "Children should be exposed to art early.",
+        "vi": "Trẻ em nên được tiếp xúc với nghệ thuật từ sớm."
+      },
+      "D": {
+        "text": "In the future, art will become more accessible.",
+        "vi": "Trong tương lai, nghệ thuật sẽ trở nên dễ tiếp cận hơn."
+      }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 51,
+    "audio": "Listening/Part3/arts_3.wav",
+    "audio_text": "I agree. Children should be introduced to the arts early so they can develop their own sense of beauty and creativity. It can really shape how they see the world.",
+    "audio_text_vi": "Tôi đồng ý. Trẻ em nên được làm quen với nghệ thuật từ sớm để các em có thể phát triển cảm nhận về cái đẹp và sự sáng tạo của riêng mình. Điều đó thực sự có thể định hình cách các em nhìn nhận thế giới.",
+    "audio_summary_vi": "Đoạn này nói rằng trẻ em nên được tiếp xúc với nghệ thuật từ sớm để phát triển cảm nhận cái đẹp.",
+    "options": {
+      "A": {
+        "text": "Art is only suitable for the privileged few.",
+        "vi": "Nghệ thuật chỉ phù hợp với một nhóm ít người có điều kiện."
+      },
+      "B": {
+        "text": "The government should invest more in arts.",
+        "vi": "Chính phủ nên đầu tư nhiều hơn cho nghệ thuật."
+      },
+      "C": {
+        "text": "Children should be exposed to art early.",
+        "vi": "Trẻ em nên được tiếp xúc với nghệ thuật từ sớm."
+      },
+      "D": {
+        "text": "In the future, art will become more accessible.",
+        "vi": "Trong tương lai, nghệ thuật sẽ trở nên dễ tiếp cận hơn."
+      }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 52,
+    "audio": "Listening/Part3/arts_4.wav",
+    "audio_text": "With the development of technology, where we just scroll a bit and see art videos and images everywhere on social media, art is becoming more accessible than ever. People can experience it without going to galleries.",
+    "audio_text_vi": "Với sự phát triển của công nghệ, chỉ cần lướt một lúc là chúng ta đã thấy video và hình ảnh nghệ thuật ở khắp nơi trên mạng xã hội, nghệ thuật đang trở nên dễ tiếp cận hơn bao giờ hết. Mọi người có thể trải nghiệm nó mà không cần phải đến phòng trưng bày.",
+    "audio_summary_vi": "Đoạn này nói rằng nhờ công nghệ và mạng xã hội, trong tương lai nghệ thuật sẽ ngày càng dễ tiếp cận hơn.",
+    "options": {
+      "A": {
+        "text": "Art is only suitable for the privileged few.",
+        "vi": "Nghệ thuật chỉ phù hợp với một nhóm ít người có điều kiện."
+      },
+      "B": {
+        "text": "The government should invest more in arts.",
+        "vi": "Chính phủ nên đầu tư nhiều hơn cho nghệ thuật."
+      },
+      "C": {
+        "text": "Children should be exposed to art early.",
+        "vi": "Trẻ em nên được tiếp xúc với nghệ thuật từ sớm."
+      },
+      "D": {
+        "text": "In the future, art will become more accessible.",
+        "vi": "Trong tương lai, nghệ thuật sẽ trở nên dễ tiếp cận hơn."
+      }
+    },
+    "answer": "D"
+  }
+]
