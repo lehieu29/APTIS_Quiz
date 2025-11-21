@@ -125,6 +125,13 @@ function renderQuestion() {
         buttonContainer.classList.remove('button-grid');
         submitBtn.classList.remove('show');
         nextBtn.disabled = true;
+    } else if (currentQuizType === 'reading_part_4') {
+        renderReadingPart4(question);
+        
+        // Hide submit button for reading part 4
+        buttonContainer.classList.remove('button-grid');
+        submitBtn.classList.remove('show');
+        nextBtn.disabled = true;
     } else {
         // Default quiz rendering
         document.getElementById('questionText').textContent = question.question;
@@ -279,4 +286,206 @@ function updateStats() {
     document.getElementById('currentQuestion').textContent = currentIndex + 1;
     document.getElementById('correctCount').textContent = correctAnswers;
     document.getElementById('wrongCount').textContent = wrongAnswers;
+}
+
+/**
+ * Render Reading Part 4 - Hiển thị đoạn văn của 4 người và câu hỏi đầu tiên
+ */
+function renderReadingPart4(item) {
+    // Reset state
+    readingPart4State.currentQuestionIndex = 0;
+    readingPart4State.userAnswers = [];
+    readingPart4State.hasFinishedAll = false;
+    
+    const passageContainer = document.getElementById('passageContainer');
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Hiển thị topic và note
+    let html = '';
+    if (item.vn_title) {
+        html += `<div style="color: #764ba2; font-weight: bold; font-size: 18px; margin-bottom: 10px;">${item.vn_title}</div>`;
+    }
+    if (item.note) {
+        html += `<div style="color: #666; font-style: italic; margin-bottom: 20px;">💡 ${item.note}</div>`;
+    }
+    if (item.topic) {
+        html += `<div style="color: #667eea; font-weight: bold; margin-bottom: 20px;">📝 Topic: ${item.topic}</div>`;
+    }
+    
+    // Hiển thị text của 4 người (chỉ text tiếng Anh, chưa có dịch và summary)
+    html += '<div style="display: grid; gap: 15px; margin-bottom: 30px;">';
+    
+    ['A', 'B', 'C', 'D'].forEach(key => {
+        const person = item.people[key];
+        if (person) {
+            html += `
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 12px; border-left: 4px solid #667eea;">
+                    <div style="font-weight: bold; color: #667eea; margin-bottom: 10px; font-size: 16px;">
+                        ${person.label || `Person ${key}`}
+                    </div>
+                    <div style="line-height: 1.8; color: #333;">
+                        ${person.text}
+                    </div>
+                </div>
+            `;
+        }
+    });
+    
+    html += '</div>';
+    passageContainer.innerHTML = html;
+    
+    // Ẩn vnTitle và questionText
+    document.getElementById('vnTitle').textContent = '';
+    document.getElementById('questionText').textContent = '';
+    
+    // Render câu hỏi đầu tiên
+    renderReadingPart4Question(item, 0);
+}
+
+/**
+ * Render câu hỏi cụ thể cho Reading Part 4
+ */
+function renderReadingPart4Question(item, questionIndex) {
+    const question = item.questions[questionIndex];
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Update question number
+    document.getElementById('questionNumber').textContent = 
+        `Câu ${questionIndex + 1}/${item.questions.length}`;
+    
+    // Hiển thị câu hỏi
+    optionsContainer.innerHTML = `
+        <div style="margin-bottom: 20px;">
+            <div style="font-size: 18px; font-weight: bold; color: #333; margin-bottom: 5px;">
+                ${question.question}
+            </div>
+            <div style="font-size: 14px; color: #666; font-style: italic;">
+                ${question.question_vi || ''}
+            </div>
+        </div>
+    `;
+    
+    // Render options
+    Object.keys(question.options).forEach(key => {
+        const option = question.options[key];
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.onclick = () => checkAnswerReadingPart4(key, item, questionIndex);
+        btn.innerHTML = `
+            <div class="option-label">${key}</div>
+            <div class="option-text">
+                <div>${option.text}</div>
+                <div class="option-vi">${option.vi || ''}</div>
+            </div>
+        `;
+        optionsContainer.appendChild(btn);
+    });
+    
+    // Hide result box
+    document.getElementById('resultBox').classList.remove('show');
+}
+
+/**
+ * Hiển thị kết quả tổng hợp cho Reading Part 4
+ */
+function showReadingPart4Result(item) {
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Tính số câu đúng
+    let correctCount = 0;
+    item.questions.forEach((q, idx) => {
+        if (readingPart4State.userAnswers[idx] === q.answer) {
+            correctCount++;
+        }
+    });
+    
+    // Cập nhật stats
+    correctAnswers += correctCount;
+    wrongAnswers += (item.questions.length - correctCount);
+    updateStats();
+    
+    // Hiển thị kết quả tổng hợp
+    let html = `
+        <div style="padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; text-align: center; margin-bottom: 30px;">
+            <div style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">
+                ✅ Kết quả: ${correctCount}/${item.questions.length} câu đúng
+            </div>
+            <div style="font-size: 16px; opacity: 0.9;">
+                ${Math.round((correctCount / item.questions.length) * 100)}% chính xác
+            </div>
+        </div>
+    `;
+    
+    // Hiển thị chi tiết từng câu
+    html += '<div style="margin-bottom: 30px;"><div style="font-weight: bold; font-size: 18px; margin-bottom: 15px; color: #667eea;">📊 Chi tiết từng câu:</div>';
+    
+    item.questions.forEach((q, idx) => {
+        const isCorrect = readingPart4State.userAnswers[idx] === q.answer;
+        const userAnswer = readingPart4State.userAnswers[idx];
+        
+        html += `
+            <div style="padding: 15px; background: ${isCorrect ? '#d4edda' : '#f8d7da'}; border-radius: 8px; margin-bottom: 10px;">
+                <div style="font-weight: bold; color: ${isCorrect ? '#155724' : '#721c24'};">
+                    ${isCorrect ? '✅' : '❌'} Câu ${idx + 1}: ${q.question}
+                </div>
+                <div style="margin-top: 5px; color: #333;">
+                    <strong>Đáp án đúng:</strong> ${q.answer} - ${q.options[q.answer].text}
+                </div>
+                ${!isCorrect ? `<div style="margin-top: 5px; color: #721c24;"><strong>Bạn chọn:</strong> ${userAnswer} - ${q.options[userAnswer].text}</div>` : ''}
+            </div>
+        `;
+    });
+    
+    html += '</div>';
+    
+    // Hiển thị text tiếng Anh, text_vi và text_summary_vi của 4 người
+    html += '<div style="margin-bottom: 20px;"><div style="font-weight: bold; font-size: 18px; margin-bottom: 15px; color: #667eea;">📖 Dịch tiếng Việt & Tóm tắt:</div>';
+    
+    ['A', 'B', 'C', 'D'].forEach(key => {
+        const person = item.people[key];
+        if (person) {
+            html += `
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 12px; border-left: 4px solid #667eea; margin-bottom: 15px;">
+                    <div style="font-weight: bold; color: #667eea; margin-bottom: 15px; font-size: 16px;">
+                        ${person.label || `Person ${key}`}
+                    </div>
+                    
+                    <div style="margin-bottom: 15px;">
+                        <div style="font-weight: bold; color: #333; margin-bottom: 5px;">🇬🇧 English:</div>
+                        <div style="line-height: 1.8; color: #555;">
+                            ${person.text}
+                        </div>
+                    </div>
+                    
+                    ${person.text_vi ? `
+                        <div style="margin-bottom: 15px;">
+                            <div style="font-weight: bold; color: #333; margin-bottom: 5px;">🇻🇳 Tiếng Việt:</div>
+                            <div style="line-height: 1.8; color: #555;">
+                                ${person.text_vi}
+                            </div>
+                        </div>
+                    ` : ''}
+                    
+                    ${person.text_summary_vi ? `
+                        <div style="padding: 10px; background: #fff; border-radius: 8px;">
+                            <div style="font-weight: bold; color: #667eea; margin-bottom: 5px;">💡 Tóm tắt:</div>
+                            <div style="line-height: 1.6; color: #555; font-style: italic;">
+                                ${person.text_summary_vi}
+                            </div>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+    });
+    
+    html += '</div>';
+    
+    optionsContainer.innerHTML = html;
+    
+    // Enable next button để chuyển sang item tiếp theo
+    document.getElementById('nextBtn').disabled = false;
+    
+    // Đánh dấu đã hoàn thành
+    readingPart4State.hasFinishedAll = true;
 }

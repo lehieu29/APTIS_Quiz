@@ -216,6 +216,36 @@ function submitAnswer() {
 }
 
 /**
+ * Kiểm tra câu trả lời cho Reading Part 4
+ */
+function checkAnswerReadingPart4(selectedAnswer, item, questionIndex) {
+    // Lưu đáp án
+    readingPart4State.userAnswers[questionIndex] = selectedAnswer;
+    
+    // Disable tất cả các button
+    const buttons = document.querySelectorAll('.option-btn');
+    buttons.forEach(btn => {
+        btn.disabled = true;
+        btn.style.opacity = '0.6';
+        btn.style.cursor = 'not-allowed';
+    });
+    
+    // Chuyển sang câu hỏi tiếp theo sau 500ms
+    setTimeout(() => {
+        readingPart4State.currentQuestionIndex++;
+        
+        // Kiểm tra xem đã hết câu hỏi chưa
+        if (readingPart4State.currentQuestionIndex >= item.questions.length) {
+            // Đã trả lời hết → Hiển thị kết quả tổng hợp
+            showReadingPart4Result(item);
+        } else {
+            // Còn câu hỏi → Hiển thị câu tiếp theo
+            renderReadingPart4Question(item, readingPart4State.currentQuestionIndex);
+        }
+    }, 500);
+}
+
+/**
  * Chuyển sang câu tiếp theo
  */
 function nextQuestion() {
@@ -337,6 +367,23 @@ function shuffleAnswers(questions) {
                 answer: newAnswer
             };
         }).sort(() => Math.random() - 0.5);
+    }
+
+    // Kiểm tra xem có phải reading_part_4 không
+    const isReadingPart4 = questions.every(q => 
+        q.people && q.questions && Array.isArray(q.questions)
+    );
+
+    if (isReadingPart4) {
+        // Xử lý riêng cho reading_part_4
+        // Chỉ trộn thứ tự câu hỏi trong mỗi item, không trộn options vì đây là chọn người (A,B,C,D)
+        return questions.map(item => {
+            const shuffledQuestions = [...item.questions].sort(() => Math.random() - 0.5);
+            return {
+                ...item,
+                questions: shuffledQuestions
+            };
+        }).sort(() => Math.random() - 0.5); // Trộn thứ tự items
     }
 
     // Kiểm tra định dạng câu hỏi thường (hỗ trợ cả question và audio)

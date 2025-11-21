@@ -93,6 +93,30 @@ function processQuizData(data) {
             return;
         }
 
+        // Kiểm tra xem có phải là reading_part_4 không
+        const isReadingPart4 = data.every(item => 
+            item.people && 
+            item.questions && 
+            Array.isArray(item.questions) &&
+            item.people.A && item.people.B && item.people.C && item.people.D
+        );
+
+        if (isReadingPart4) {
+            // Format reading_part_4
+            currentQuizType = 'reading_part_4';
+            isMultiPassageFormat = false;
+            allPassages = [];
+            questions = data;
+            
+            if (questions.length === 0) {
+                showError('File JSON không chứa dữ liệu nào!');
+                return;
+            }
+            
+            startQuiz();
+            return;
+        }
+
         // Kiểm tra xem có phải là mảng đề (mỗi phần tử có items và text) không
         const isArrayOfPassages = data.every(item => 
             item.items && Array.isArray(item.items) && item.text

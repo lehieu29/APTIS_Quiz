@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "vn_title": "1. CHILDHOOD ACTIVITIES (đề mới cập nhật T11/2025)",
+    "note": "Phần này có 4 người A, B, C, D nói về 1 chủ đề. Thí sinh chọn người phù hợp cho mỗi câu hỏi.",
+    "topic": "Childhood activities",
+    "people": {
+      "A": {
+        "label": "Person A",
+        "text": "As a child, I spent countless hours playing board games with my friends. The rules were simple and easy to grasp, which made the games enjoyable and accessible. As I grew older, I came to believe that board games could be a wonderful way for families to bond. However, modern games have become far more complex, with numerous rules and a wide range of characters to choose from. Although I truly enjoyed playing with my two boys and we often laughed together, I found that learning how to play required quite a bit of effort.",
+        "text_vi": "Khi còn nhỏ, tôi đã dành vô số giờ chơi các trò chơi trên bàn với bạn bè. Luật chơi đơn giản và dễ hiểu, điều này khiến các trò chơi trở nên thú vị và dễ tiếp cận. Khi lớn lên, tôi bắt đầu tin rằng các trò chơi trên bàn có thể là một cách tuyệt vời để các thành viên trong gia đình gắn kết với nhau. Tuy nhiên, các trò chơi hiện đại đã trở nên phức tạp hơn nhiều với vô số luật lệ và rất nhiều nhân vật để lựa chọn. Mặc dù tôi thực sự rất thích chơi cùng hai cậu con trai và chúng tôi thường cười đùa với nhau, tôi nhận thấy việc học cách chơi lại tốn khá nhiều công sức.",
+        "text_summary_vi": "Người A kể về việc chơi board game thời thơ ấu và với các con mình, nhưng nhận thấy các trò chơi hiện đại phức tạp và khó học hơn."
+      },
+      "B": {
+        "label": "Person B",
+        "text": "I preferred playing outdoors with my friends when I was small. Fortunately, the weather where we lived was usually pleasant, so we often spent hours running around and chasing each other on the field. At times, we would lie down on the grass and make funny faces, enjoying the carefree moments of childhood. Those memories remain incredibly precious to me and shaped my desire to be surrounded by people. Even now, I find it difficult to stay at home alone for long.",
+        "text_vi": "Khi còn nhỏ, tôi thích chơi ngoài trời với bạn bè hơn. May mắn là thời tiết nơi chúng tôi sống thường khá dễ chịu, vì vậy chúng tôi thường dành hàng giờ chạy nhảy và đuổi bắt nhau trên cánh đồng. Thỉnh thoảng, chúng tôi nằm xuống bãi cỏ và làm những khuôn mặt ngộ nghĩnh, tận hưởng những khoảnh khắc vô tư của tuổi thơ. Những ký ức đó vẫn vô cùng quý giá với tôi và hình thành mong muốn được sống giữa nhiều người. Đến bây giờ, tôi vẫn thấy khó ở nhà một mình trong thời gian dài.",
+        "text_summary_vi": "Người B thích chơi ngoài trời với bạn bè khi nhỏ và đến giờ vẫn không thích ở nhà một mình quá lâu."
+      },
+      "C": {
+        "label": "Person C",
+        "text": "I wasn't able to move much as a child and even now. Instead, I was captivated by books and often preferred reading in my free time. There was a library I frequently visited, where I could lose myself in different stories for hours. Nowadays, I don't read as much as I used to, but I also don't go out very often because I spend time on my computer. I especially enjoy interactive games, as they allow me to socialise and connect with people online.",
+        "text_vi": "Khi còn nhỏ và cả bây giờ, tôi không thể vận động nhiều. Thay vào đó, tôi bị cuốn hút bởi sách và thường thích đọc trong thời gian rảnh. Có một thư viện mà tôi hay lui tới, nơi tôi có thể đắm mình trong nhiều câu chuyện khác nhau suốt hàng giờ. Hiện nay, tôi không đọc nhiều như trước nữa, nhưng tôi cũng không ra ngoài thường xuyên vì dành thời gian cho máy tính. Tôi đặc biệt thích các trò chơi tương tác vì chúng cho phép tôi giao lưu và kết nối với mọi người trên mạng.",
+        "text_summary_vi": "Người C hồi nhỏ mê đọc sách, bây giờ ít ra ngoài và thích chơi game tương tác trên máy tính để kết nối với người khác."
+      },
+      "D": {
+        "label": "Person D",
+        "text": "I love playing outdoors. On gloomy days, which happened quite often, I would stare sadly out of the window, wishing I could be outside. There wasn't much to do indoors back then – until one day my mother surprised me with a box full of art supplies. Inside were vibrant palettes, paintbrushes of different sizes, and stacks of clean paper. That was the moment I discovered another passion: painting. I could spend hours simply gazing at a blank canvas, imagining what picture I might bring to life next.",
+        "text_vi": "Tôi rất thích chơi ngoài trời. Vào những ngày u ám, điều xảy ra khá thường xuyên, tôi thường buồn bã nhìn ra ngoài cửa sổ và ước gì mình có thể ra ngoài. Hồi đó ở trong nhà không có nhiều thứ để làm – cho đến một ngày mẹ bất ngờ tặng tôi một hộp dụng cụ vẽ. Bên trong là những bảng màu rực rỡ, nhiều cây cọ với kích thước khác nhau và những xấp giấy trắng. Đó là lúc tôi khám phá ra một niềm đam mê khác: hội họa. Tôi có thể dành hàng giờ chỉ để nhìn tấm toan trắng và tưởng tượng bức tranh tiếp theo mình sẽ vẽ.",
+        "text_summary_vi": "Người D thích chơi ngoài trời nhưng nhờ mẹ tặng bộ dụng cụ vẽ mà phát hiện ra niềm đam mê hội họa từ khi còn nhỏ."
+      }
+    },
+    "questions": [
+      {
+        "number": 1,
+        "question": "Who enjoyed playing games with their children?",
+        "question_vi": "Ai thích chơi trò chơi với con của mình?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 2,
+        "question": "Who enjoyed playing with their friends as a child?",
+        "question_vi": "Ai đã thích chơi với bạn bè khi còn nhỏ?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "B"
+      },
+      {
+        "number": 3,
+        "question": "Who preferred reading books as a child?",
+        "question_vi": "Ai đã thích đọc sách hơn khi còn nhỏ?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 4,
+        "question": "Who enjoyed playing modern games?",
+        "question_vi": "Ai thích chơi các trò chơi hiện đại?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "C"
+      },
+      {
+        "number": 5,
+        "question": "Who enjoyed doing arts as a child?",
+        "question_vi": "Ai đã thích làm các hoạt động nghệ thuật khi còn nhỏ?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "D"
+      },
+      {
+        "number": 6,
+        "question": "Who thought traditional games were much simpler?",
+        "question_vi": "Ai nghĩ rằng các trò chơi truyền thống đơn giản hơn nhiều?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "A"
+      },
+      {
+        "number": 7,
+        "question": "Who wished they could spend more time outdoors?",
+        "question_vi": "Ai ước mình có thể dành nhiều thời gian ở ngoài trời hơn?",
+        "options": {
+          "A": { "text": "Person A", "vi": "Người A" },
+          "B": { "text": "Person B", "vi": "Người B" },
+          "C": { "text": "Person C", "vi": "Người C" },
+          "D": { "text": "Person D", "vi": "Người D" }
+        },
+        "answer": "D"
+      }
+    ]
+  }
+]
