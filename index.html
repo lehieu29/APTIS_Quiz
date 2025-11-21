@@ -606,6 +606,122 @@
             background: #667eea;
             color: white;
         }
+
+        /* Reading Part 2-3: Drag & Drop Styles */
+        .sorting-container {
+            margin: 20px 0;
+        }
+
+        .fixed-sentence {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.05em;
+            line-height: 1.6;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .fixed-sentence-label {
+            font-weight: bold;
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .sortable-item {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            cursor: grab;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .sortable-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .sortable-item.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        .sortable-item.drag-over {
+            border-color: #764ba2;
+            border-style: dashed;
+            background: #f8f9ff;
+        }
+
+        .item-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .item-content {
+            flex: 1;
+            line-height: 1.6;
+        }
+
+        .item-vi {
+            color: #764ba2;
+            font-style: italic;
+            margin-top: 8px;
+            display: none;
+        }
+
+        .item-vi.show {
+            display: block;
+        }
+
+        .drag-handle {
+            color: #999;
+            font-size: 1.5em;
+            cursor: grab;
+        }
+
+        .sortable-item.correct .item-number {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+        }
+
+        .sortable-item.wrong .item-number {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+        }
+
+        /* Button Grid Layout cho Submit + Next */
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .button-grid .btn {
+            margin: 0;
+        }
+
+        #submitBtn {
+            display: none;
+        }
+
+        #submitBtn.show {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -660,8 +776,11 @@
 
                 <div class="options" id="optionsContainer"></div>
 
-                <div class="buttons">
-                    <button class="btn btn-primary mb-16" id="nextBtn" onclick="nextQuestion()" disabled>
+                <div class="button-grid" id="buttonContainer">
+                    <button class="btn btn-primary" id="submitBtn" onclick="submitAnswer()">
+                        ✓ Submit
+                    </button>
+                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
                         Câu tiếp theo →
                     </button>
                 </div>
@@ -727,6 +846,12 @@
                 title: 'Reading Part 1',
                 icon: '📖',
                 description: 'Luyện đọc cơ bản'
+            },
+            {
+                filename: 'reading_part_2_3.json',
+                title: 'Reading Part 2-3',
+                icon: '📝',
+                description: 'Sắp xếp câu theo thứ tự'
             }
         ];
 
@@ -738,6 +863,9 @@
         let wrongAnswers = 0;
         let answered = false;
         let isMultiPassageFormat = false;
+        let currentQuizType = ''; // 'reading_part_2_3', 'default', etc.
+        let userAnswerOrder = []; // Thứ tự user sắp xếp cho reading_part_2_3
+        let hasSubmitted = false; // Đã submit chưa
 
         function showModal(options) {
             return new Promise((resolve) => {
@@ -844,6 +972,31 @@
         function processQuizData(data) {
             // Kiểm tra xem có phải là mảng các đề không
             if (Array.isArray(data)) {
+                // Kiểm tra xem có phải là reading_part_2_3 không
+                const isReadingPart23 = data.every(item => 
+                    item.type === 'reading_part_2_3' && 
+                    item.fixed && 
+                    item.items && 
+                    Array.isArray(item.items) && 
+                    item.answer
+                );
+
+                if (isReadingPart23) {
+                    // Format reading_part_2_3
+                    currentQuizType = 'reading_part_2_3';
+                    isMultiPassageFormat = false;
+                    allPassages = [];
+                    questions = data;
+                    
+                    if (questions.length === 0) {
+                        showError('File JSON không chứa câu hỏi nào!');
+                        return;
+                    }
+                    
+                    startQuiz();
+                    return;
+                }
+
                 // Kiểm tra xem có phải là mảng đề (mỗi phần tử có items và text) không
                 const isArrayOfPassages = data.every(item => 
                     item.items && Array.isArray(item.items) && item.text
@@ -851,6 +1004,7 @@
 
                 if (isArrayOfPassages) {
                     // Mảng nhiều đề
+                    currentQuizType = 'default';
                     isMultiPassageFormat = true;
                     allPassages = data;
                     currentPassageIndex = 0;
@@ -858,6 +1012,7 @@
                     startQuiz();
                 } else {
                     // Mảng câu hỏi cũ
+                    currentQuizType = 'default';
                     isMultiPassageFormat = false;
                     allPassages = [];
                     questions = data;
@@ -882,6 +1037,7 @@
                 }
             } else if (data.items && Array.isArray(data.items) && data.text) {
                 // Đề đơn
+                currentQuizType = 'default';
                 isMultiPassageFormat = true;
                 allPassages = [data];
                 currentPassageIndex = 0;
@@ -986,7 +1142,13 @@
             }
 
             answered = false;
+            hasSubmitted = false;
             const question = questions[currentIndex];
+            
+            // Reset button container
+            const buttonContainer = document.getElementById('buttonContainer');
+            const submitBtn = document.getElementById('submitBtn');
+            const nextBtn = document.getElementById('nextBtn');
             
             // Hiển thị đoạn văn nếu là format đoạn văn
             const passageContainer = document.getElementById('passageContainer');
@@ -1008,28 +1170,43 @@
             vnTitleElement.textContent = question.vn_title || '';
             vnTitleElement.classList.remove('show');
             
-            document.getElementById('questionText').textContent = question.question;
-            
             const optionsContainer = document.getElementById('optionsContainer');
-            optionsContainer.innerHTML = '';
-            
-            Object.keys(question.options).forEach(key => {
-                const option = question.options[key];
-                const btn = document.createElement('button');
-                btn.className = 'option-btn';
-                btn.onclick = () => checkAnswer(key);
-                btn.innerHTML = `
-                    <div class="option-label">${key}</div>
-                    <div class="option-text">
-                        <div>${option.text}</div>
-                        <div class="option-vi">${option.vi || ''}</div>
-                    </div>
-                `;
-                optionsContainer.appendChild(btn);
-            });
-
             document.getElementById('resultBox').classList.remove('show');
-            document.getElementById('nextBtn').disabled = true;
+            
+            // Kiểm tra nếu là reading_part_2_3
+            if (currentQuizType === 'reading_part_2_3') {
+                renderReadingPart23(question);
+                
+                // Show submit button, hide next initially
+                buttonContainer.classList.add('button-grid');
+                submitBtn.classList.add('show');
+                submitBtn.disabled = false;
+                nextBtn.disabled = true;
+            } else {
+                // Default quiz rendering
+                document.getElementById('questionText').textContent = question.question;
+                optionsContainer.innerHTML = '';
+                
+                Object.keys(question.options).forEach(key => {
+                    const option = question.options[key];
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.onclick = () => checkAnswer(key);
+                    btn.innerHTML = `
+                        <div class="option-label">${key}</div>
+                        <div class="option-text">
+                            <div>${option.text}</div>
+                            <div class="option-vi">${option.vi || ''}</div>
+                        </div>
+                    `;
+                    optionsContainer.appendChild(btn);
+                });
+                
+                // Hide submit button for default quiz
+                buttonContainer.classList.remove('button-grid');
+                submitBtn.classList.remove('show');
+                nextBtn.disabled = true;
+            }
         }
 
         function checkAnswer(selectedAnswer) {
@@ -1088,8 +1265,206 @@
         }
 
         function nextQuestion() {
+            // Nếu là reading_part_2_3 và chưa submit, thì submit trước
+            if (currentQuizType === 'reading_part_2_3' && !hasSubmitted) {
+                submitAnswer();
+                return; // Không chuyển sang câu tiếp theo
+            }
+            
             currentIndex++;
             renderQuestion();
+        }
+
+        function renderReadingPart23(question) {
+            // Ẩn question text mặc định, hiển thị title
+            document.getElementById('questionText').textContent = '';
+            document.getElementById('vnTitle').textContent = question.vn_title || '';
+            
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            // Tạo container cho sorting
+            const sortingContainer = document.createElement('div');
+            sortingContainer.className = 'sorting-container';
+            
+            // Hiển thị câu cố định
+            const fixedDiv = document.createElement('div');
+            fixedDiv.className = 'fixed-sentence';
+            fixedDiv.innerHTML = `
+                <div class="fixed-sentence-label">0. (Câu cố định)</div>
+                <div>${question.fixed.sentence}</div>
+            `;
+            sortingContainer.appendChild(fixedDiv);
+            
+            // Hiển thị các câu cần sắp xếp
+            question.items.forEach((item, index) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'sortable-item';
+                itemDiv.draggable = true;
+                itemDiv.dataset.originalNumber = item.number;
+                itemDiv.dataset.index = index;
+                
+                itemDiv.innerHTML = `
+                    <span class="drag-handle">☰</span>
+                    <div class="item-number">${item.number}</div>
+                    <div class="item-content">
+                        <div>${item.sentence}</div>
+                        <div class="item-vi">${item.vi || ''}</div>
+                    </div>
+                `;
+                
+                // Thêm drag & drop event listeners
+                itemDiv.addEventListener('dragstart', handleDragStart);
+                itemDiv.addEventListener('dragend', handleDragEnd);
+                itemDiv.addEventListener('dragover', handleDragOver);
+                itemDiv.addEventListener('drop', handleDrop);
+                itemDiv.addEventListener('dragenter', handleDragEnter);
+                itemDiv.addEventListener('dragleave', handleDragLeave);
+                
+                sortingContainer.appendChild(itemDiv);
+            });
+            
+            optionsContainer.appendChild(sortingContainer);
+        }
+
+        let draggedElement = null;
+
+        function handleDragStart(e) {
+            draggedElement = this;
+            this.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        }
+
+        function handleDragEnd(e) {
+            this.classList.remove('dragging');
+            
+            // Remove all drag-over classes
+            document.querySelectorAll('.sortable-item').forEach(item => {
+                item.classList.remove('drag-over');
+            });
+        }
+
+        function handleDragOver(e) {
+            if (e.preventDefault) {
+                e.preventDefault();
+            }
+            e.dataTransfer.dropEffect = 'move';
+            return false;
+        }
+
+        function handleDragEnter(e) {
+            if (this !== draggedElement) {
+                this.classList.add('drag-over');
+            }
+        }
+
+        function handleDragLeave(e) {
+            this.classList.remove('drag-over');
+        }
+
+        function handleDrop(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            }
+            
+            if (draggedElement !== this) {
+                // Swap elements
+                const allItems = Array.from(document.querySelectorAll('.sortable-item'));
+                const draggedIndex = allItems.indexOf(draggedElement);
+                const targetIndex = allItems.indexOf(this);
+                
+                if (draggedIndex < targetIndex) {
+                    this.parentNode.insertBefore(draggedElement, this.nextSibling);
+                } else {
+                    this.parentNode.insertBefore(draggedElement, this);
+                }
+            }
+            
+            return false;
+        }
+
+        function submitAnswer() {
+            if (hasSubmitted) return;
+            hasSubmitted = true;
+            
+            const question = questions[currentIndex];
+            
+            // Lấy thứ tự hiện tại của user
+            const items = document.querySelectorAll('.sortable-item');
+            userAnswerOrder = Array.from(items).map(item => 
+                parseInt(item.dataset.originalNumber)
+            );
+            
+            // So sánh với đáp án đúng
+            const correctAnswer = question.answer;
+            const isCorrect = JSON.stringify(userAnswerOrder) === JSON.stringify(correctAnswer);
+            
+            if (isCorrect) {
+                correctAnswers++;
+            } else {
+                wrongAnswers++;
+            }
+            updateStats();
+            
+            // Hiển thị tiếng Việt và đánh dấu đúng/sai
+            document.getElementById('vnTitle').classList.add('show');
+            items.forEach((item, index) => {
+                const viElement = item.querySelector('.item-vi');
+                if (viElement && viElement.textContent.trim()) {
+                    viElement.classList.add('show');
+                }
+                
+                // Đánh dấu đúng/sai
+                const currentPos = index + 1; // Vị trí hiện tại (1-indexed)
+                const originalNum = parseInt(item.dataset.originalNumber);
+                const correctPos = correctAnswer.indexOf(originalNum) + 1; // Vị trí đúng (1-indexed)
+                
+                if (currentPos === correctPos) {
+                    item.classList.add('correct');
+                } else {
+                    item.classList.add('wrong');
+                }
+                
+                // Disable dragging
+                item.draggable = false;
+                item.style.cursor = 'default';
+            });
+            
+            // Hiển thị fixed sentence với tiếng Việt
+            const fixedSentence = document.querySelector('.fixed-sentence');
+            if (fixedSentence && question.fixed.vi) {
+                fixedSentence.innerHTML += `
+                    <div class="item-vi show" style="margin-top: 10px;">${question.fixed.vi}</div>
+                `;
+            }
+            
+            // Hiển thị result box
+            const resultBox = document.getElementById('resultBox');
+            resultBox.classList.add('show');
+            resultBox.className = 'result-box show ' + (isCorrect ? 'correct' : 'wrong');
+            
+            document.getElementById('resultIcon').textContent = isCorrect ? '✅' : '❌';
+            document.getElementById('resultText').textContent = isCorrect ? 'Chính xác!' : 'Chưa đúng!';
+            
+            // Hiển thị đáp án đúng
+            const correctOrderText = correctAnswer.map((num, idx) => 
+                `${idx + 1}. Câu ${num}`
+            ).join(' → ');
+            
+            const userOrderText = userAnswerOrder.map((num, idx) => 
+                `${idx + 1}. Câu ${num}`
+            ).join(' → ');
+            
+            document.getElementById('correctAnswer').innerHTML = 
+                `<strong>Thứ tự đúng:</strong> ${correctOrderText}<br>
+                 <strong>Thứ tự của bạn:</strong> ${userOrderText}`;
+            
+            document.getElementById('questionVi').innerHTML = '';
+            
+            // Enable next button
+            document.getElementById('submitBtn').disabled = true;
+            document.getElementById('nextBtn').disabled = false;
         }
 
         function updateStats() {
@@ -1119,7 +1494,42 @@
         }
 		
 		function shuffleAnswers(questions) {
-		  // Kiểm tra định dạng câu hỏi
+		  // Kiểm tra xem có phải reading_part_2_3 không
+		  const isReadingPart23 = questions.every(q => 
+			q.type === 'reading_part_2_3' && q.fixed && q.items && q.answer
+		  );
+
+		  if (isReadingPart23) {
+			// Xử lý riêng cho reading_part_2_3
+			return questions.map(q => {
+			  // Trộn items
+			  const shuffledItems = [...q.items].sort(() => Math.random() - 0.5);
+			  
+			  // Cập nhật lại number cho items theo vị trí mới
+			  const newItems = shuffledItems.map((item, index) => ({
+				...item,
+				number: index + 1 // Đánh lại số từ 1 đến n
+			  }));
+			  
+			  // Tạo mapping: originalNumber -> newNumber
+			  const numberMapping = {};
+			  shuffledItems.forEach((item, index) => {
+				numberMapping[item.number] = index + 1;
+			  });
+			  
+			  // Cập nhật answer theo mapping
+			  const newAnswer = q.answer.map(origNum => numberMapping[origNum]);
+			  
+			  return {
+				...q,
+				items: newItems,
+				originalAnswer: q.answer, // Lưu answer gốc
+				answer: newAnswer
+			  };
+			}).sort(() => Math.random() - 0.5);
+		  }
+
+		  // Kiểm tra định dạng câu hỏi thường
 		  const isValidFormat = questions.every(q => {
 			return q.id && 
 				   q.question && 
