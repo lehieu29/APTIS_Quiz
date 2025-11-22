@@ -1,5 +1,49 @@
 [
   {
+    "id": 1,
+    "vn_title": "1. Making films (đề mới cập nhật T10/2025) – thi nhiều",
+    "type": "reading_part_2_3",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about making films.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về việc làm phim."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "The films in that period were different from the films of today.",
+        "vi": "Các bộ phim trong thời kỳ đó khác với các bộ phim ngày nay."
+      },
+      {
+        "number": 2,
+        "sentence": "This is because they were black and white, and there was no sound.",
+        "vi": "Điều này là vì chúng chỉ có màu đen trắng và không có âm thanh."
+      },
+      {
+        "number": 3,
+        "sentence": "In addition to these technical limitations, film producers also had a very low budget.",
+        "vi": "Ngoài những hạn chế về kỹ thuật này, các nhà làm phim còn có kinh phí rất thấp."
+      },
+      {
+        "number": 4,
+        "sentence": "This lack of money mostly affected actors, and they didn't earn much.",
+        "vi": "Việc thiếu tiền chủ yếu ảnh hưởng tới các diễn viên và họ không kiếm được nhiều tiền."
+      },
+      {
+        "number": 5,
+        "sentence": "Things have changed over time, and some of them have earned millions of dollars after appearing in films.",
+        "vi": "Mọi thứ đã thay đổi theo thời gian, và một số người trong số họ đã kiếm được hàng triệu đô la sau khi tham gia phim."
+      }
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
     "id": 2,
     "vn_title": "2. Weekend activities (đề mới cập nhật T11/2025) – thi nhiều",
     "type": "reading_part_2_3",
@@ -35,7 +79,13 @@
         "vi": "Sau tất cả các hoạt động, mọi người đều rất đói nên họ thưởng thức đồ ăn, thức uống ngon cùng bố mẹ."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 3,
@@ -73,7 +123,13 @@
         "vi": "Nhiều người theo dõi anh ấy trên mạng xã hội và anh ấy trở thành ca sĩ được nhiều người yêu thích."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 4,
@@ -106,7 +162,12 @@
         "vi": "Sự so sánh này sẽ giúp bạn tìm ra những điểm chung giữa các quốc gia."
       }
     ],
-    "answer": [1, 2, 3, 4]
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": 5,
@@ -139,7 +200,12 @@
         "vi": "Cuối cùng, các thành viên trong nhóm lần lượt trả lời các câu hỏi."
       }
     ],
-    "answer": [1, 2, 3, 4]
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": 6,
@@ -177,7 +243,13 @@
         "vi": "Nhờ sự cải tiến của các phương tiện giao thông, việc đi đến các nơi khác trên thế giới trở nên thuận tiện hơn."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 7,
@@ -210,7 +282,12 @@
         "vi": "Người tham dự vừa giao lưu trong lúc uống cà phê vừa khám phá các khu trưng bày tương tác."
       }
     ],
-    "answer": [1, 2, 3, 4]
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": 8,
@@ -243,7 +320,12 @@
         "vi": "Các hệ thống IoT hiện đại cho phép giám sát dữ liệu theo thời gian thực và tự động hóa."
       }
     ],
-    "answer": [1, 2, 3, 4]
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": 9,
@@ -281,7 +363,13 @@
         "vi": "Bánh rất ngon với lớp phô mai phía trên, và tôi chắc chắn sẽ quay lại quán này."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 10,
@@ -319,7 +407,13 @@
         "vi": "Sau thời gian này, các bạn khác có thể đặt câu hỏi và bạn cần trả lời."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 11,
@@ -357,7 +451,13 @@
         "vi": "Anh ấy biểu diễn trong hai giờ và mọi người đã có khoảng thời gian rất vui."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 12,
@@ -395,7 +495,13 @@
         "vi": "Bữa ăn này sẽ được phục vụ tại tầng hai của tòa nhà kỹ thuật."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 13,
@@ -433,7 +539,13 @@
         "vi": "Một số thí nghiệm trong đó là trồng cây và nuôi một số loài động vật trên tàu vũ trụ."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   {
     "id": 14,
@@ -471,6 +583,12 @@
         "vi": "Nhờ sự phát triển mạnh mẽ của các phương tiện giao thông, ngày nay con người có thể đi đến những nơi khác trên thế giới."
       }
     ],
-    "answer": [1, 2, 3, 4, 5]
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   }
 ]
