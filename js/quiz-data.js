@@ -199,7 +199,7 @@ function loadPassage(index) {
     // Chuyển đổi items sang format câu hỏi chuẩn
     questions = passage.items.map(item => ({
         question: item.sentence || item.question || '',
-        question_vi: '',
+        question_vi: item.sentence_vi || '',
         vn_title: passage.vn_title || '',
         passage_text: passage.text || '',
         options: item.options || {},
