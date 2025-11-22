@@ -14,8 +14,19 @@ function checkAnswer(selectedAnswer) {
     
     if (isCorrect) {
         correctAnswers++;
+        // Nếu đang ở practice mode và trả lời đúng, loại bỏ khỏi danh sách sai
+        if (practiceMode.isActive) {
+            const practiceIdx = practiceMode.wrongIndexes.indexOf(currentIndex);
+            if (practiceIdx > -1) {
+                practiceMode.wrongIndexes.splice(practiceIdx, 1);
+            }
+        }
     } else {
         wrongAnswers++;
+        // Ghi nhận câu sai (nếu chưa có trong danh sách)
+        if (!practiceMode.isActive && !practiceMode.wrongIndexes.includes(currentIndex)) {
+            practiceMode.wrongIndexes.push(currentIndex);
+        }
     }
     updateStats();
 
@@ -72,8 +83,19 @@ function checkAnswerListening(selectedAnswer) {
     
     if (isCorrect) {
         correctAnswers++;
+        // Nếu đang ở practice mode và trả lời đúng, loại bỏ khỏi danh sách sai
+        if (practiceMode.isActive) {
+            const practiceIdx = practiceMode.wrongIndexes.indexOf(currentIndex);
+            if (practiceIdx > -1) {
+                practiceMode.wrongIndexes.splice(practiceIdx, 1);
+            }
+        }
     } else {
         wrongAnswers++;
+        // Ghi nhận câu sai (nếu chưa có trong danh sách)
+        if (!practiceMode.isActive && !practiceMode.wrongIndexes.includes(currentIndex)) {
+            practiceMode.wrongIndexes.push(currentIndex);
+        }
     }
     updateStats();
 
@@ -150,8 +172,19 @@ function submitAnswer() {
     
     if (isCorrect) {
         correctAnswers++;
+        // Nếu đang ở practice mode và trả lời đúng, loại bỏ item khỏi danh sách sai
+        if (practiceMode.isActive) {
+            const practiceIdx = practiceMode.wrongItemIndexes.indexOf(currentIndex);
+            if (practiceIdx > -1) {
+                practiceMode.wrongItemIndexes.splice(practiceIdx, 1);
+            }
+        }
     } else {
         wrongAnswers++;
+        // Ghi nhận item sai (nếu chưa có trong danh sách)
+        if (!practiceMode.isActive && !practiceMode.wrongItemIndexes.includes(currentIndex)) {
+            practiceMode.wrongItemIndexes.push(currentIndex);
+        }
     }
     updateStats();
     
@@ -256,7 +289,87 @@ function nextQuestion() {
     }
     
     currentIndex++;
+    
+    // Kiểm tra xem đã hết câu chưa
+    if (currentIndex >= questions.length) {
+        // Đã làm xong tất cả câu
+        checkAndStartPracticeMode();
+    } else {
+        renderQuestion();
+    }
+}
+
+/**
+ * Kiểm tra và chuyển sang Practice Mode nếu có câu sai
+ */
+function checkAndStartPracticeMode() {
+    // Kiểm tra có câu/item sai không
+    const hasWrongQuestions = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') 
+        ? practiceMode.wrongItemIndexes.length > 0 
+        : practiceMode.wrongIndexes.length > 0;
+    
+    if (hasWrongQuestions) {
+        // Có câu sai → Chuyển sang Practice Mode
+        startPracticeMode();
+    } else {
+        // Không có câu sai → Hiển thị completion
+        showCompletion();
+    }
+}
+
+/**
+ * Bắt đầu Practice Mode - Làm lại các câu sai
+ */
+function startPracticeMode() {
+    practiceMode.isActive = true;
+    practiceMode.currentPracticeIndex = 0;
+    practiceMode.retryRound++;
+    
+    // Backup questions gốc nếu chưa có
+    if (practiceMode.originalQuestions.length === 0) {
+        practiceMode.originalQuestions = [...questions];
+    }
+    
+    // Tạo danh sách câu hỏi cần làm lại
+    if (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') {
+        // Với reading_part_2_3 và reading_part_4, làm lại cả item
+        questions = practiceMode.wrongItemIndexes.map(idx => practiceMode.originalQuestions[idx]);
+    } else {
+        // Với default và listening_part_3, chỉ làm lại câu sai
+        questions = practiceMode.wrongIndexes.map(idx => practiceMode.originalQuestions[idx]);
+    }
+    
+    // Reset current index và render câu đầu tiên
+    currentIndex = 0;
     renderQuestion();
+}
+
+/**
+ * Bỏ qua Practice Mode - Xem kết quả luôn
+ */
+function skipPracticeMode() {
+    showModal({
+        icon: '⚠️',
+        title: 'Bỏ qua làm lại',
+        message: 'Bạn có chắc muốn bỏ qua và xem kết quả luôn? Các câu sai sẽ không được cải thiện.',
+        confirmText: 'Bỏ qua',
+        cancelText: 'Tiếp tục làm'
+    }).then(confirmed => {
+        if (confirmed) {
+            // Reset practice mode và restore câu hỏi gốc
+            if (practiceMode.originalQuestions.length > 0) {
+                questions = practiceMode.originalQuestions;
+            }
+            practiceMode.isActive = false;
+            practiceMode.wrongIndexes = [];
+            practiceMode.wrongItemIndexes = [];
+            practiceMode.currentPracticeIndex = 0;
+            practiceMode.originalQuestions = [];
+            
+            // Hiển thị completion screen
+            showCompletion();
+        }
+    });
 }
 
 /**
@@ -300,6 +413,15 @@ function resetQuiz() {
             correctAnswers = 0;
             wrongAnswers = 0;
             isMultiPassageFormat = false;
+            
+            // Reset practice mode
+            practiceMode.isActive = false;
+            practiceMode.wrongIndexes = [];
+            practiceMode.wrongItemIndexes = [];
+            practiceMode.currentPracticeIndex = 0;
+            practiceMode.retryRound = 1;
+            practiceMode.originalQuestions = [];
+            
             document.getElementById('quizSection').style.display = 'none';
             document.getElementById('completionScreen').classList.remove('show');
             document.getElementById('uploadSection').style.display = 'block';
@@ -316,6 +438,18 @@ function restartQuiz() {
     currentIndex = 0;
     correctAnswers = 0;
     wrongAnswers = 0;
+    
+    // Reset practice mode và restore questions gốc nếu cần
+    if (practiceMode.originalQuestions.length > 0) {
+        questions = practiceMode.originalQuestions;
+    }
+    practiceMode.isActive = false;
+    practiceMode.wrongIndexes = [];
+    practiceMode.wrongItemIndexes = [];
+    practiceMode.currentPracticeIndex = 0;
+    practiceMode.retryRound = 1;
+    practiceMode.originalQuestions = [];
+    
     document.getElementById('completionScreen').classList.remove('show');
     document.getElementById('quizSection').style.display = 'block';
     updateStats();

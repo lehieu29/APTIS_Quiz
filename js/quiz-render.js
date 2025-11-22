@@ -63,6 +63,15 @@ function startQuiz() {
     currentIndex = 0;
     correctAnswers = 0;
     wrongAnswers = 0;
+    
+    // Reset practice mode khi bắt đầu quiz mới
+    practiceMode.isActive = false;
+    practiceMode.wrongIndexes = [];
+    practiceMode.wrongItemIndexes = [];
+    practiceMode.currentPracticeIndex = 0;
+    practiceMode.retryRound = 1;
+    practiceMode.originalQuestions = [];
+    
     updateStats();
     renderPassageSelector();
     renderQuestion();
@@ -88,7 +97,27 @@ function renderQuestion() {
     
     // Hiển thị đoạn văn nếu là format đoạn văn
     const passageContainer = document.getElementById('passageContainer');
-    if (isMultiPassageFormat && currentIndex === 0 && question.passage_text) {
+    
+    // Hiển thị Practice Mode Warning nếu đang làm lại câu sai
+    if (practiceMode.isActive) {
+        const totalWrong = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') 
+            ? practiceMode.wrongItemIndexes.length 
+            : practiceMode.wrongIndexes.length;
+        
+        const itemType = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') ? 'đề' : 'câu';
+        
+        passageContainer.innerHTML = `
+            <div style="background: #ffe6e6; color: #d32f2f; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-weight: bold; border-left: 4px solid #d32f2f;">
+                ⚠️ LÀM LẠI CÁC ${itemType.toUpperCase()} SAI
+                <div style="font-size: 14px; margin-top: 5px; font-weight: normal;">
+                    Còn <strong>${totalWrong}</strong> ${itemType} cần làm lại
+                </div>
+                <button onclick="skipPracticeMode()" style="margin-top: 10px; padding: 8px 15px; background: white; color: #d32f2f; border: 2px solid #d32f2f; border-radius: 6px; cursor: pointer; font-weight: bold;">
+                    Bỏ qua - Xem kết quả
+                </button>
+            </div>
+        `;
+    } else if (isMultiPassageFormat && currentIndex === 0 && question.passage_text) {
         passageContainer.innerHTML = `
             <div class="passage-text">
                 <strong style="color: #764ba2; display: block; margin-bottom: 10px;">${question.vn_title || ''}</strong>
@@ -99,8 +128,12 @@ function renderQuestion() {
         passageContainer.innerHTML = '';
     }
     
-    document.getElementById('questionNumber').textContent = 
-        `Câu ${currentIndex + 1}/${questions.length}`;
+    // Hiển thị số câu (kèm theo thông tin là câu sai nếu ở practice mode)
+    const questionNumberText = practiceMode.isActive 
+        ? `Câu ${currentIndex + 1}/${questions.length} [Câu sai - Lần ${practiceMode.retryRound}]`
+        : `Câu ${currentIndex + 1}/${questions.length}`;
+    
+    document.getElementById('questionNumber').textContent = questionNumberText;
     
     const vnTitleElement = document.getElementById('vnTitle');
     vnTitleElement.textContent = question.vn_title || '';
@@ -403,6 +436,22 @@ function showReadingPart4Result(item) {
     correctAnswers += correctCount;
     wrongAnswers += (item.questions.length - correctCount);
     updateStats();
+    
+    // Track item sai cho practice mode (nếu có câu sai trong item)
+    if (correctCount < item.questions.length) {
+        // Có câu sai trong item này
+        if (!practiceMode.isActive && !practiceMode.wrongItemIndexes.includes(currentIndex)) {
+            practiceMode.wrongItemIndexes.push(currentIndex);
+        }
+    } else {
+        // Trả lời đúng hết → loại bỏ khỏi danh sách sai (nếu đang ở practice mode)
+        if (practiceMode.isActive) {
+            const practiceIdx = practiceMode.wrongItemIndexes.indexOf(currentIndex);
+            if (practiceIdx > -1) {
+                practiceMode.wrongItemIndexes.splice(practiceIdx, 1);
+            }
+        }
+    }
     
     // Hiển thị kết quả tổng hợp
     let html = `

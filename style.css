@@ -71,6 +71,12 @@ body {
     transform: translateY(-2px);
 }
 
+.upload-area.drag-over {
+    border-color: #ff6b6b;
+    background: #fff0f0;
+    box-shadow: 0 10px 30px rgba(255, 107, 107, 0.2);
+}
+
 .upload-area svg {
     width: 80px;
     height: 80px;

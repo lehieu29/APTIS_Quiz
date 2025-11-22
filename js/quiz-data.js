@@ -24,7 +24,20 @@ async function loadQuizFile(filename, title) {
  */
 function handleFileUpload(event) {
     const file = event.target.files[0];
+    processUploadedFile(file);
+}
+
+/**
+ * Xử lý file được kéo thả hoặc chọn thủ công
+ */
+function processUploadedFile(file) {
     if (!file) return;
+
+    const isJsonFile = file.type === 'application/json' || file.name.toLowerCase().endsWith('.json');
+    if (!isJsonFile) {
+        showError('Vui lòng chọn file JSON hợp lệ (.json)!');
+        return;
+    }
 
     const reader = new FileReader();
     reader.onload = function(e) {
@@ -35,6 +48,11 @@ function handleFileUpload(event) {
             showError('Lỗi đọc file JSON: ' + error.message);
         }
     };
+
+    reader.onerror = function() {
+        showError('Không thể đọc file: ' + reader.error);
+    };
+
     reader.readAsText(file);
 }
 

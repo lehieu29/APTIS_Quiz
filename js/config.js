@@ -56,3 +56,13 @@ let readingPart4State = {
     userAnswers: [],          // Mảng lưu đáp án user chọn
     hasFinishedAll: false     // Đã trả lời hết tất cả câu hỏi chưa
 };
+
+// State cho Practice Mode - Làm lại các câu sai
+let practiceMode = {
+    isActive: false,              // Đang ở chế độ làm lại không
+    wrongIndexes: [],             // Mảng index câu sai [30, 45, 150] (cho default & listening_part_3)
+    wrongItemIndexes: [],         // Mảng index item sai [2, 5] (cho reading_part_2_3 & reading_part_4)
+    currentPracticeIndex: 0,      // Đang làm lại câu/item thứ mấy trong danh sách sai
+    retryRound: 1,                // Đang ở vòng làm lại thứ mấy
+    originalQuestions: []         // Backup câu hỏi gốc
+};
