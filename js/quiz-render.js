@@ -351,10 +351,11 @@ function renderReadingPart4(item) {
     ['A', 'B', 'C', 'D'].forEach(key => {
         const person = item.people[key];
         if (person) {
+            // Dùng label từ person object (đã được shuffle) để hiển thị đúng
             html += `
                 <div style="padding: 20px; background: #f8f9fa; border-radius: 12px; border-left: 4px solid #667eea;">
                     <div style="font-weight: bold; color: #667eea; margin-bottom: 10px; font-size: 16px;">
-                        ${person.label || `Person ${key}`}
+                        ${person.label}
                     </div>
                     <div style="line-height: 1.8; color: #333;">
                         ${person.text}
@@ -494,7 +495,7 @@ function showReadingPart4Result(item) {
             html += `
                 <div style="padding: 20px; background: #f8f9fa; border-radius: 12px; border-left: 4px solid #667eea; margin-bottom: 15px;">
                     <div style="font-weight: bold; color: #667eea; margin-bottom: 15px; font-size: 16px;">
-                        ${person.label || `Person ${key}`}
+                        ${person.label}
                     </div>
                     
                     <div style="margin-bottom: 15px;">

@@ -515,27 +515,47 @@ function shuffleAnswers(questions) {
             const peopleKeys = ['A', 'B', 'C', 'D'];
             const shuffledKeys = [...peopleKeys].sort(() => Math.random() - 0.5);
             
-            // Tạo mapping: key gốc -> key mới
+            // Tạo mapping: text gốc từ key nào → sẽ chuyển đến key nào
+            // Ví dụ: Text của Person A (gốc) sẽ chuyển đến vị trí B (mới)
             const keyMapping = {};
             peopleKeys.forEach((originalKey, index) => {
                 keyMapping[originalKey] = shuffledKeys[index];
             });
             
-            // Tạo people object mới với vị trí đã trộn
+            console.log('🔀 Shuffle Reading Part 4:');
+            console.log('Text mapping (từ → đến):', keyMapping);
+            
+            // Tạo people object mới: Giữ nguyên label, chỉ swap text
+            // Logic: Vị trí A (label "Person A") sẽ chứa TEXT từ person nào?
             const newPeople = {};
             peopleKeys.forEach(newKey => {
-                // Tìm key gốc tương ứng với vị trí mới này
+                // Tìm person gốc nào có text được map đến vị trí newKey này
                 const originalKey = Object.keys(keyMapping).find(k => keyMapping[k] === newKey);
-                newPeople[newKey] = item.people[originalKey];
+                const sourcePerson = item.people[originalKey];
+                
+                // Giữ label cố định, chỉ lấy text từ sourcePerson
+                newPeople[newKey] = {
+                    label: `Person ${newKey}`, // Label luôn cố định theo key
+                    text: sourcePerson.text,
+                    text_vi: sourcePerson.text_vi,
+                    text_summary_vi: sourcePerson.text_summary_vi
+                };
+                
+                console.log(`Person ${newKey} → Text từ Person ${originalKey}`);
             });
             
             // Trộn thứ tự câu hỏi và update đáp án theo mapping
             const shuffledQuestions = [...item.questions]
                 .sort(() => Math.random() - 0.5)
-                .map(q => ({
-                    ...q,
-                    answer: keyMapping[q.answer] // Cập nhật đáp án theo mapping
-                }));
+                .map(q => {
+                    const oldAnswer = q.answer;
+                    const newAnswer = keyMapping[q.answer];
+                    console.log(`Câu "${q.question.substring(0, 30)}..." - Đáp án: ${oldAnswer} → ${newAnswer}`);
+                    return {
+                        ...q,
+                        answer: newAnswer
+                    };
+                });
             
             return {
                 ...item,
