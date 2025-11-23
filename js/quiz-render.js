@@ -392,9 +392,6 @@ function renderReadingPart4Question(item, questionIndex) {
             <div style="font-size: 18px; font-weight: bold; color: #333; margin-bottom: 5px;">
                 ${question.question}
             </div>
-            <div style="font-size: 14px; color: #666; font-style: italic;">
-                ${question.question_vi || ''}
-            </div>
         </div>
     `;
     
