@@ -477,6 +477,7 @@ function showReadingPart4Result(item) {
                 <div style="font-weight: bold; color: ${isCorrect ? '#155724' : '#721c24'};">
                     ${isCorrect ? '✅' : '❌'} Câu ${idx + 1}: ${q.question}
                 </div>
+                ${q.question_vi ? `<div style="margin-top: 5px; color: #666; font-style: italic;">${q.question_vi}</div>` : ''}
                 <div style="margin-top: 5px; color: #333;">
                     <strong>Đáp án đúng:</strong> ${q.answer} - ${q.options[q.answer].text}
                 </div>

@@ -510,11 +510,36 @@ function shuffleAnswers(questions) {
 
     if (isReadingPart4) {
         // Xử lý riêng cho reading_part_4
-        // Chỉ trộn thứ tự câu hỏi trong mỗi item, không trộn options vì đây là chọn người (A,B,C,D)
         return questions.map(item => {
-            const shuffledQuestions = [...item.questions].sort(() => Math.random() - 0.5);
+            // Trộn vị trí của people (A, B, C, D)
+            const peopleKeys = ['A', 'B', 'C', 'D'];
+            const shuffledKeys = [...peopleKeys].sort(() => Math.random() - 0.5);
+            
+            // Tạo mapping: key gốc -> key mới
+            const keyMapping = {};
+            peopleKeys.forEach((originalKey, index) => {
+                keyMapping[originalKey] = shuffledKeys[index];
+            });
+            
+            // Tạo people object mới với vị trí đã trộn
+            const newPeople = {};
+            peopleKeys.forEach(newKey => {
+                // Tìm key gốc tương ứng với vị trí mới này
+                const originalKey = Object.keys(keyMapping).find(k => keyMapping[k] === newKey);
+                newPeople[newKey] = item.people[originalKey];
+            });
+            
+            // Trộn thứ tự câu hỏi và update đáp án theo mapping
+            const shuffledQuestions = [...item.questions]
+                .sort(() => Math.random() - 0.5)
+                .map(q => ({
+                    ...q,
+                    answer: keyMapping[q.answer] // Cập nhật đáp án theo mapping
+                }));
+            
             return {
                 ...item,
+                people: newPeople,
                 questions: shuffledQuestions
             };
         }).sort(() => Math.random() - 0.5); // Trộn thứ tự items
