@@ -681,7 +681,8 @@ body {
 }
 
 .item-vi {
-    color: #764ba2;
+    color: #fff;
+    opacity: 0.9;
     font-style: italic;
     margin-top: 8px;
     display: none;
