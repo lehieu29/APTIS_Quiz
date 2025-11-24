@@ -100,11 +100,11 @@ function renderQuestion() {
     
     // Hiển thị Practice Mode Warning nếu đang làm lại câu sai
     if (practiceMode.isActive) {
-        const totalWrong = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') 
+        const totalWrong = (currentQuizType === 'reading_part_2_3' || currentQuizType == 'reading_part_5' || currentQuizType === 'reading_part_4') 
             ? practiceMode.wrongItemIndexes.length 
             : practiceMode.wrongIndexes.length;
         
-        const itemType = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') ? 'đề' : 'câu';
+        const itemType = (currentQuizType === 'reading_part_2_3' || currentQuizType == 'reading_part_5' || currentQuizType === 'reading_part_4') ? 'đề' : 'câu';
         
         passageContainer.innerHTML = `
             <div style="background: #ffe6e6; color: #d32f2f; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-weight: bold; border-left: 4px solid #d32f2f;">
@@ -143,7 +143,7 @@ function renderQuestion() {
     document.getElementById('resultBox').classList.remove('show');
     
     // Kiểm tra loại quiz
-    if (currentQuizType === 'reading_part_2_3') {
+    if (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_5') {
         renderReadingPart23(question);
         
         // Show submit button, hide next initially

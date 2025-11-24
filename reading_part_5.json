@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "vn_title": "1. MOUNTAIN SUMMITS (đề mới cập nhật T11/2025) – thi nhiều",
+    "type": "reading_part_5",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about mountain summits.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về những đỉnh núi."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Our changing definition of mountain",
+        "vi": "Sự thay đổi trong cách chúng ta định nghĩa về núi."
+      },
+      {
+        "number": 2,
+        "sentence": "A sense of achievement",
+        "vi": "Cảm giác thành tựu."
+      },
+      {
+        "number": 3,
+        "sentence": "Publishing one’s achievements",
+        "vi": "Việc công bố những thành tựu của một người."
+      },
+      {
+        "number": 4,
+        "sentence": "A disturbing relevant",
+        "vi": "Một điều đáng lo ngại."
+      },
+      {
+        "number": 5,
+        "sentence": "The wrong priorities",
+        "vi": "Những ưu tiên sai lầm."
+      },
+      {
+        "number": 6,
+        "sentence": "A focus on sustainability",
+        "vi": "Tập trung vào tính bền vững."
+      },
+      {
+        "number": 7,
+        "sentence": "A more intimate relationship",
+        "vi": "Một mối quan hệ gần gũi hơn."
+      }
+    ],
+    "answer": [1, 2, 3, 4, 5, 6, 7]
+  },
+  {
+    "id": 2,
+    "vn_title": "2. THE ARRIVAL OF 4-DAYS WORK WEEK (đề mới cập nhật T11/2025) – thi nhiều",
+    "type": "reading_part_5",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about the four-day work week.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về tuần làm việc bốn ngày."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "A way of life now out date",
+        "vi": "Một lối sống giờ đã lỗi thời."
+      },
+      {
+        "number": 2,
+        "sentence": "Benefits for Employees",
+        "vi": "Những lợi ích cho nhân viên."
+      },
+      {
+        "number": 3,
+        "sentence": "Undesirable financial consequences",
+        "vi": "Những hậu quả tài chính không mong muốn."
+      },
+      {
+        "number": 4,
+        "sentence": "Unforeseen Challenges for Employees",
+        "vi": "Những thách thức không lường trước cho nhân viên."
+      },
+      {
+        "number": 5,
+        "sentence": "Difficulty Changing Old Habits",
+        "vi": "Khó khăn trong việc thay đổi những thói quen cũ."
+      },
+      {
+        "number": 6,
+        "sentence": "An unfair plan for some people",
+        "vi": "Một kế hoạch bất công với một số người."
+      },
+      {
+        "number": 7,
+        "sentence": "Alternative solutions worth considering",
+        "vi": "Những giải pháp thay thế đáng để xem xét."
+      }
+    ],
+    "answer": [1, 2, 3, 4, 5, 6, 7]
+  },
+  {
+    "id": 3,
+    "vn_title": "3. DIGITAL TRANSFORMATION (đề mới cập nhật T10/2025) – thi nhiều",
+    "type": "reading_part_5",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about digital transformation.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về chuyển đổi số."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Redefining business models with technology",
+        "vi": "Định nghĩa lại các mô hình kinh doanh bằng công nghệ."
+      },
+      {
+        "number": 2,
+        "sentence": "Enhancing productivity through automation",
+        "vi": "Nâng cao năng suất thông qua tự động hóa."
+      },
+      {
+        "number": 3,
+        "sentence": "Promoting digital training skills",
+        "vi": "Thúc đẩy các kỹ năng đào tạo số."
+      },
+      {
+        "number": 4,
+        "sentence": "Over-reliance on automated systems",
+        "vi": "Phụ thuộc quá mức vào các hệ thống tự động."
+      },
+      {
+        "number": 5,
+        "sentence": "Concerns about cybersecurity risks",
+        "vi": "Những lo ngại về rủi ro an ninh mạng."
+      },
+      {
+        "number": 6,
+        "sentence": "Building inclusive digital ecosystems",
+        "vi": "Xây dựng các hệ sinh thái số mang tính bao trùm."
+      },
+      {
+        "number": 7,
+        "sentence": "Focusing on ethical technology development",
+        "vi": "Tập trung vào phát triển công nghệ có đạo đức."
+      }
+    ],
+    "answer": [1, 2, 3, 4, 5, 6, 7]
+  },
+  {
+    "id": 4,
+    "vn_title": "4. WOMEN MATHEMATICIANS (đề mới cập nhật T11/2025)",
+    "type": "reading_part_5",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about women mathematicians.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về các nữ nhà toán học."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Gender obscure achievements",
+        "vi": "Giới tính che mờ các thành tựu."
+      },
+      {
+        "number": 2,
+        "sentence": "Acknowledging achievement of a pioneer",
+        "vi": "Công nhận thành tựu của một người tiên phong."
+      },
+      {
+        "number": 3,
+        "sentence": "Man unfairly credited",
+        "vi": "Người đàn ông được ghi công một cách bất công."
+      },
+      {
+        "number": 4,
+        "sentence": "A long career showing exceptional ability",
+        "vi": "Một sự nghiệp dài thể hiện năng lực xuất chúng."
+      },
+      {
+        "number": 5,
+        "sentence": "Labels can change perspective on people",
+        "vi": "Việc gắn nhãn có thể làm thay đổi cách nhìn nhận về con người."
+      },
+      {
+        "number": 6,
+        "sentence": "Attempting to create a gender balance",
+        "vi": "Nỗ lực tạo ra sự cân bằng giới tính."
+      },
+      {
+        "number": 7,
+        "sentence": "Uniformity is not always beneficial",
+        "vi": "Sự đồng nhất không phải lúc nào cũng có lợi."
+      }
+    ],
+    "answer": [1, 2, 3, 4, 5, 6, 7]
+  },
+  {
+    "id": 5,
+    "vn_title": "5. TECHNOLOGY (đề mới cập nhật T10/2025)",
+    "type": "reading_part_5",
+    "fixed": {
+      "number": 0,
+      "sentence": "Here are some ideas to help you talk about technology.",
+      "vi": "Dưới đây là một số ý tưởng giúp bạn nói về công nghệ."
+    },
+    "items": [
+      {
+        "number": 1,
+        "sentence": "Enhancing productivity through smart automation",
+        "vi": "Nâng cao năng suất thông qua tự động hóa thông minh."
+      },
+      {
+        "number": 2,
+        "sentence": "Overreliance on digital interfaces",
+        "vi": "Sự phụ thuộc quá mức vào các giao diện số."
+      },
+      {
+        "number": 3,
+        "sentence": "Redefining human-technology interaction",
+        "vi": "Định nghĩa lại sự tương tác giữa con người và công nghệ."
+      },
+      {
+        "number": 4,
+        "sentence": "Concerns about technology access disparities",
+        "vi": "Những lo ngại về sự chênh lệch trong khả năng tiếp cận công nghệ."
+      },
+      {
+        "number": 5,
+        "sentence": "Promoting tech-driven education programs",
+        "vi": "Thúc đẩy các chương trình giáo dục dựa trên công nghệ."
+      },
+      {
+        "number": 6,
+        "sentence": "Focusing on sustainable digital solutions",
+        "vi": "Tập trung vào các giải pháp số bền vững."
+      },
+      {
+        "number": 7,
+        "sentence": "Building innovative tech communities",
+        "vi": "Xây dựng các cộng đồng công nghệ sáng tạo."
+      }
+    ],
+    "answer": [1, 2, 3, 4, 5, 6, 7]
+  }
+]

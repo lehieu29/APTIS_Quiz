@@ -71,9 +71,33 @@ function processQuizData(data) {
             item.answer
         );
 
+        const isReadingPart5 = data.every(item => 
+            item.type === 'reading_part_5' && 
+            item.fixed && 
+            item.items && 
+            Array.isArray(item.items) && 
+            item.answer
+        );
+
         if (isReadingPart23) {
             // Format reading_part_2_3
             currentQuizType = 'reading_part_2_3';
+            isMultiPassageFormat = false;
+            allPassages = [];
+            questions = data;
+            
+            if (questions.length === 0) {
+                showError('File JSON không chứa câu hỏi nào!');
+                return;
+            }
+            
+            startQuiz();
+            return;
+        }
+
+        if (isReadingPart5) {
+            // Format reading_part_5
+            currentQuizType = 'reading_part_5';
             isMultiPassageFormat = false;
             allPassages = [];
             questions = data;

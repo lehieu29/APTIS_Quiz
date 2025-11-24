@@ -283,7 +283,7 @@ function checkAnswerReadingPart4(selectedAnswer, item, questionIndex) {
  */
 function nextQuestion() {
     // Nếu là reading_part_2_3 và chưa submit, thì submit trước
-    if (currentQuizType === 'reading_part_2_3' && !hasSubmitted) {
+    if ((currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_5') && !hasSubmitted) {
         submitAnswer();
         return; // Không chuyển sang câu tiếp theo
     }
@@ -304,7 +304,7 @@ function nextQuestion() {
  */
 function checkAndStartPracticeMode() {
     // Kiểm tra có câu/item sai không
-    const hasWrongQuestions = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') 
+    const hasWrongQuestions = (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_5' || currentQuizType === 'reading_part_4') 
         ? practiceMode.wrongItemIndexes.length > 0 
         : practiceMode.wrongIndexes.length > 0;
     
@@ -331,8 +331,8 @@ function startPracticeMode() {
     }
     
     // Tạo danh sách câu hỏi cần làm lại
-    if (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_4') {
-        // Với reading_part_2_3 và reading_part_4, làm lại cả item
+    if (currentQuizType === 'reading_part_2_3' || currentQuizType === 'reading_part_5' || currentQuizType === 'reading_part_4') {
+        // Với reading_part_2_3, reading_part_4 và reading_part_5 làm lại cả item
         questions = practiceMode.wrongItemIndexes.map(idx => practiceMode.originalQuestions[idx]);
     } else {
         // Với default và listening_part_3, chỉ làm lại câu sai
@@ -473,8 +473,12 @@ function shuffleAnswers(questions) {
         q.type === 'reading_part_2_3' && q.fixed && q.items && q.answer
     );
 
-    if (isReadingPart23) {
-        // Xử lý riêng cho reading_part_2_3
+    const isReadingPart5 = questions.every(q => 
+        q.type === 'reading_part_5' && q.fixed && q.items && q.answer
+    );
+
+    if (isReadingPart23 || isReadingPart5) {
+        // Xử lý riêng cho reading_part_2_3 và reading_part_5
         return questions.map(q => {
             // Trộn items
             const shuffledItems = [...q.items].sort(() => Math.random() - 0.5);

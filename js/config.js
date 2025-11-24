@@ -33,6 +33,12 @@ const availableQuizFiles = [
         title: 'Reading Part 4',
         icon: '👥',
         description: 'Chọn người phù hợp'
+    },
+    {
+        filename: 'reading_part_5.json',
+        title: 'Reading Part 5',
+        icon: '📝',
+        description: 'Sắp xếp câu theo thứ tự'
     }
 ];
 
