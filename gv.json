@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "vn_title": "1. So do I! – Tôi cũng vậy!",
+    "question": "A: I enjoy working on challenging projects at work. B: So ____ I!",
+    "question_vi": "Tôi thích làm các dự án khó ở nơi làm việc. Tôi cũng vậy!",
+    "options": {
+      "A": { "text": "am", "vi": "am – sai ngữ pháp" },
+      "B": { "text": "do", "vi": "tôi cũng vậy" },
+      "C": { "text": "can", "vi": "tôi cũng có thể" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "vn_title": "2. On the other hand – Mặt khác",
+    "question": "We could cook dinner. ____, we could buy some take away food.",
+    "question_vi": "Chúng ta có thể nấu ăn. Mặt khác, chúng ta có thể mua đồ mang về.",
+    "options": {
+      "A": { "text": "although", "vi": "mặc dù" },
+      "B": { "text": "on the other hand", "vi": "mặt khác" },
+      "C": { "text": "therefore", "vi": "vì vậy" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "vn_title": "3. Would – Thói quen trong quá khứ",
+    "question": "In those days, my father ____ never eat dinner after eight o'clock.",
+    "question_vi": "Ngày xưa, bố tôi không bao giờ ăn tối sau 8 giờ.",
+    "options": {
+      "A": { "text": "would", "vi": "đã từng" },
+      "B": { "text": "will", "vi": "sẽ" },
+      "C": { "text": "used to", "vi": "đã từng (không dùng trước động từ 'never eat')" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "vn_title": "4. Had finished – Quá khứ hoàn thành",
+    "question": "He ____ finished cooking when we arrived.",
+    "question_vi": "Anh ấy đã nấu xong khi chúng tôi đến.",
+    "options": {
+      "A": { "text": "has", "vi": "đã (hiện tại hoàn thành)" },
+      "B": { "text": "have", "vi": "có" },
+      "C": { "text": "had", "vi": "đã (quá khứ hoàn thành)" }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "vn_title": "5. Wouldn't – câu điều kiện loại 2",
+    "question": "If you were a better cook, you ____ need to eat out all the time.",
+    "question_vi": "Nếu bạn nấu ăn giỏi hơn, bạn sẽ không cần phải ăn ngoài suốt.",
+    "options": {
+      "A": { "text": "wouldn’t", "vi": "sẽ không" },
+      "B": { "text": "won’t", "vi": "sẽ không (tương lai)" },
+      "C": { "text": "hadn’t", "vi": "đã không" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "vn_title": "6. Fewer – ít hơn (đếm được)",
+    "question": "There were ____ than fifty people in the audience last night.",
+    "question_vi": "Đêm qua có ít hơn 50 người trong khán giả.",
+    "options": {
+      "A": { "text": "fewer", "vi": "ít hơn (danh từ đếm được)" },
+      "B": { "text": "lesser", "vi": "kém hơn – sai dùng" },
+      "C": { "text": "few", "vi": "ít" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "vn_title": "7. Had been playing – Quá khứ hoàn thành tiếp diễn",
+    "question": "The children ____ playing football for two hours before it started raining.",
+    "question_vi": "Bọn trẻ đã chơi bóng đá trong hai giờ trước khi trời mưa.",
+    "options": {
+      "A": { "text": "has been", "vi": "đã đang (sai ngữ pháp)" },
+      "B": { "text": "had been", "vi": "đã đang" },
+      "C": { "text": "have been", "vi": "đã đang (hiện tại hoàn thành tiếp diễn)" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "vn_title": "8. I wish it were – câu ước",
+    "question": "I wish it ____ the time of year when I could go on holiday.",
+    "question_vi": "Ước gì bây giờ là thời điểm tôi có thể đi nghỉ.",
+    "options": {
+      "A": { "text": "is", "vi": "là" },
+      "B": { "text": "were", "vi": "là (dùng trong câu ước)" },
+      "C": { "text": "will be", "vi": "sẽ là" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "vn_title": "9. Needn’t – không cần thiết",
+    "question": "We ____ have caught the early train, as the football match was delayed.",
+    "question_vi": "Chúng ta đã không cần phải bắt chuyến tàu sớm vì trận bóng bị hoãn.",
+    "options": {
+      "A": { "text": "needn’t", "vi": "không cần" },
+      "B": { "text": "mustn’t", "vi": "không được" },
+      "C": { "text": "didn’t", "vi": "đã không" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "vn_title": "10. Frankly – thẳng thắn",
+    "question": "That man's so unreliable – you can't trust him. ____",
+    "question_vi": "Người đàn ông đó rất không đáng tin – bạn không thể tin anh ta.",
+    "options": {
+      "A": { "text": "Frankly, I wouldn’t work with him", "vi": "Thật lòng mà nói, tôi sẽ không làm việc với anh ta" },
+      "B": { "text": "I wouldn’t work frankly with him", "vi": "Tôi sẽ không làm việc một cách thẳng thắn với anh ta" },
+      "C": { "text": "I wouldn’t frankly work with him", "vi": "Tôi sẽ không thẳng thắn làm việc với anh ta" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "vn_title": "11. Go to – đi đến",
+    "question": "Go ____ the end of the street and turn right.",
+    "question_vi": "Đi đến cuối con đường và rẽ phải.",
+    "options": {
+      "A": { "text": "on", "vi": "trên" },
+      "B": { "text": "to", "vi": "đến" },
+      "C": { "text": "at", "vi": "tại" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "vn_title": "12. Would you like – lời mời lịch sự",
+    "question": "____ you like to go out this evening?",
+    "question_vi": "Bạn có muốn ra ngoài tối nay không?",
+    "options": {
+      "A": { "text": "can", "vi": "có thể" },
+      "B": { "text": "would", "vi": "có muốn" },
+      "C": { "text": "will", "vi": "sẽ" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "vn_title": "13. For children – đúng cấu trúc",
+    "question": "I think it is right ____ children to play outside with toys.",
+    "question_vi": "Tôi nghĩ trẻ em chơi ngoài trời với đồ chơi là đúng.",
+    "options": {
+      "A": { "text": "for", "vi": "cho" },
+      "B": { "text": "that", "vi": "rằng" },
+      "C": { "text": "to", "vi": "để" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "vn_title": "14. How much does – hỏi giá",
+    "question": "How much ____ the train to Santiago cost?",
+    "question_vi": "Chuyến tàu đến Santiago giá bao nhiêu?",
+    "options": {
+      "A": { "text": "does", "vi": "thì (đuôi số ít)" },
+      "B": { "text": "it", "vi": "nó" },
+      "C": { "text": "do", "vi": "thì (đuôi số nhiều)" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "vn_title": "15. At half past – giờ cụ thể",
+    "question": "The film starts ____ half past four.",
+    "question_vi": "Bộ phim bắt đầu lúc 4 giờ 30.",
+    "options": {
+      "A": { "text": "in", "vi": "trong" },
+      "B": { "text": "on", "vi": "vào" },
+      "C": { "text": "at", "vi": "lúc" }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "vn_title": "16. Marries – thì hiện tại đơn",
+    "question": "He is single. He never ____.",
+    "question_vi": "Anh ấy độc thân. Anh ấy không bao giờ kết hôn.",
+    "options": {
+      "A": { "text": "marrying", "vi": "đang cưới" },
+      "B": { "text": "marries", "vi": "kết hôn" },
+      "C": { "text": "married", "vi": "đã cưới" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "vn_title": "17. But – nhưng",
+    "question": "She reads every day ____ she isn't serious.",
+    "question_vi": "Cô ấy đọc mỗi ngày nhưng cô ấy không nghiêm túc.",
+    "options": {
+      "A": { "text": "because", "vi": "bởi vì" },
+      "B": { "text": "end", "vi": "kết thúc" },
+      "C": { "text": "but", "vi": "nhưng" }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "vn_title": "18. Lives – thì hiện tại đơn",
+    "question": "He ____ in Cairo.",
+    "question_vi": "Anh ấy sống ở Cairo.",
+    "options": {
+      "A": { "text": "lives", "vi": "sống" },
+      "B": { "text": "living", "vi": "đang sống" },
+      "C": { "text": "live", "vi": "sống (nguyên mẫu)" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "vn_title": "19. Is living – hiện tại tiếp diễn",
+    "question": "William ____ in South America now.",
+    "question_vi": "William đang sống ở Nam Mỹ bây giờ.",
+    "options": {
+      "A": { "text": "was living", "vi": "đang sống (quá khứ)" },
+      "B": { "text": "will live", "vi": "sẽ sống" },
+      "C": { "text": "is living", "vi": "đang sống" }
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "vn_title": "20. Could you help me? – yêu cầu lịch sự",
+    "question": "Excuse me, I'm lost. ____ you help me?",
+    "question_vi": "Xin lỗi, tôi bị lạc. Bạn có thể giúp tôi không?",
+    "options": {
+      "A": { "text": "should", "vi": "nên" },
+      "B": { "text": "shall", "vi": "sẽ (hỏi ý kiến)" },
+      "C": { "text": "could", "vi": "có thể (lịch sự)" }
+    },
+    "answer": "C"
+  },
+  
+  {
+    "id": 21,
+    "vn_title": "21. Must – bắt buộc",
+    "question": "You ____ do your homework by tomorrow.",
+    "question_vi": "Bạn phải làm bài tập trước ngày mai.",
+    "options": {
+      "A": { "text": "must", "vi": "phải" },
+      "B": { "text": "have", "vi": "có" },
+      "C": { "text": "should", "vi": "nên" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "vn_title": "22. Then – sau đó",
+    "question": "I had a shower, ____ I went to bed.",
+    "question_vi": "Tôi tắm xong, sau đó tôi đi ngủ.",
+    "options": {
+      "A": { "text": "then", "vi": "sau đó" },
+      "B": { "text": "until", "vi": "cho đến khi" },
+      "C": { "text": "during", "vi": "trong khi" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "vn_title": "23. Was going – quá khứ tiếp diễn",
+    "question": "I ____ to work when I saw Steve.",
+    "question_vi": "Tôi đang đi làm thì tôi thấy Steve.",
+    "options": {
+      "A": { "text": "was going", "vi": "đang đi" },
+      "B": { "text": "going", "vi": "đi (thiếu trợ động từ)" },
+      "C": { "text": "when", "vi": "khi" }
+    },
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "vn_title": "24. Didn’t use to – đã từng không",
+    "question": "I ____ use to swim much, but now I have my own pool, I swim every day.",
+    "question_vi": "Tôi trước đây không bơi nhiều, nhưng giờ tôi có hồ bơi riêng nên tôi bơi mỗi ngày.",
+    "options": {
+      "A": { "text": "don’t", "vi": "không" },
+      "B": { "text": "didn’t", "vi": "đã không" },
+      "C": { "text": "did", "vi": "đã" }
+    },
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "vn_title": "25. Going to – dự định",
+    "question": "I just heard they are ____ get married in June.",
+    "question_vi": "Tôi vừa nghe rằng họ sẽ kết hôn vào tháng 6.",
+    "options": {
+      "A": { "text": "going to", "vi": "sắp, sẽ" },
+      "B": { "text": "go to", "vi": "đi đến" },
+      "C": { "text": "going", "vi": "đang" }
+    },
+    "answer": "A"
+  }
+]

@@ -39,7 +39,13 @@ const availableQuizFiles = [
         title: 'Reading Part 5',
         icon: '📝',
         description: 'Sắp xếp câu theo thứ tự'
-    }
+    },
+    {
+        filename: 'gv.json',
+        title: 'Grammar & Vocab',
+        icon: '📝',
+        description: 'Chọn đáp án đúng'
+    },
 ];
 
 // Biến global state
