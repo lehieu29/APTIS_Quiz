@@ -11,12 +11,6 @@ const availableQuizFiles = [
         description: 'Luyện nghe cơ bản'
     },
     {
-        filename: 'listening_part_3.json',
-        title: 'Listening Part 3',
-        icon: '🎧',
-        description: 'Luyện nghe nâng cao'
-    },
-    {
         filename: 'reading_part_1.json',
         title: 'Reading Part 1',
         icon: '📖',
@@ -46,6 +40,18 @@ const availableQuizFiles = [
         icon: '📝',
         description: 'Chọn đáp án đúng'
     },
+    {
+        filename: 'speaking_part_1.json',
+        title: 'Speaking Part 1',
+        icon: '🎤',
+        description: 'Luyện nói cơ bản'
+    },
+    {
+        filename: 'writing_part_1.json',
+        title: 'Writing Part 1',
+        icon: '✍️',
+        description: 'Luyện viết câu ngắn'
+    }
 ];
 
 // Biến global state
@@ -77,4 +83,31 @@ let practiceMode = {
     currentPracticeIndex: 0,      // Đang làm lại câu/item thứ mấy trong danh sách sai
     retryRound: 1,                // Đang ở vòng làm lại thứ mấy
     originalQuestions: []         // Backup câu hỏi gốc
+};
+
+// State cho Speaking Part 1
+let speakingPart1State = {
+    settings: {
+        showHints: false,         // Hiển thị gợi ý không
+        autoNext: false,          // Tự động chuyển câu không
+        enableTimer: false        // Bật đếm thời gian không
+    },
+    userAnswers: [],              // Lưu câu trả lời (text hoặc audio blob)
+    currentTimer: null,           // Timer hiện tại
+    timeLeft: 0,                  // Số giây còn lại
+    mediaRecorder: null,          // MediaRecorder instance
+    audioChunks: [],              // Audio data chunks
+    isRecording: false,           // Đang ghi âm không
+    hasSubmitted: false,          // Đã submit câu hiện tại chưa
+    currentAudioBlob: null,       // Audio blob hiện tại
+    currentAudioUrl: null         // Audio URL hiện tại
+};
+
+// State cho Writing Part 1
+let writingPart1State = {
+    settings: {
+        showHints: false          // Hiển thị gợi ý không (chỉ có 1 setting)
+    },
+    userAnswers: [],              // Lưu câu trả lời (text only)
+    hasSubmitted: false           // Đã submit câu hiện tại chưa
 };

@@ -1,0 +1,232 @@
+[
+  {
+    "question": "Describe a typical meal in your country.",
+    "question_vi": "Miêu tả một bữa ăn điển hình ở đất nước của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nIn my country, a typical meal is rice with some meat and vegetables.\nIt is important because families usually eat together at home.\nFor example, in the evening we have rice, chicken and soup on the table.\nI feel very happy when I eat with my family.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nỞ đất nước tôi, một bữa ăn điển hình là cơm với một ít thịt và rau.\nNó quan trọng vì gia đình thường ăn cùng nhau ở nhà.\nVí dụ, buổi tối chúng tôi có cơm, gà và canh trên bàn.\nTôi cảm thấy rất vui khi được ăn cùng gia đình.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your favorite time of year.",
+    "question_vi": "Hãy nói về thời gian (mùa) bạn yêu thích nhất trong năm.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy favorite time of year is summer.\nI like it because the weather is usually warm and children have a long holiday.\nFor example, I often go to the beach with my family in July.\nI feel very happy and relaxed in the summer.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nThời gian tôi thích nhất trong năm là mùa hè.\nTôi thích vì thời tiết thường ấm và trẻ em có kỳ nghỉ dài.\nVí dụ, tôi thường đi biển với gia đình vào tháng bảy.\nTôi cảm thấy rất vui và thư giãn vào mùa hè.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your journey here today.",
+    "question_vi": "Hãy kể về hành trình của bạn đến đây hôm nay.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nToday I came here by motorbike from my house.\nIt was a bit difficult because the traffic was heavy in the morning.\nFor example, I had to stop many times at the traffic lights and wait in a long line.\nI felt a little tired but also excited to come to the test.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nHôm nay tôi đến đây bằng xe máy từ nhà.\nHơi khó một chút vì buổi sáng giao thông rất đông.\nVí dụ, tôi phải dừng nhiều lần ở đèn đỏ và chờ trong một hàng dài.\nTôi cảm thấy hơi mệt nhưng cũng háo hức khi đến kỳ thi.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your friends.",
+    "question_vi": "Hãy kể về những người bạn của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy friends are kind and funny people from my school and my job.\nThey are important because they listen to me and help me when I have problems.\nFor example, last week we studied together before an exam and they explained some difficult questions to me.\nI feel very happy and lucky to have these friends.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nBạn bè của tôi là những người tốt bụng và hài hước ở trường và nơi làm việc.\nHọ quan trọng vì họ lắng nghe tôi và giúp tôi khi tôi có vấn đề.\nVí dụ, tuần trước chúng tôi học cùng nhau trước một kỳ thi và họ giải thích cho tôi vài câu hỏi khó.\nTôi cảm thấy rất vui và may mắn khi có những người bạn này.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your family.",
+    "question_vi": "Hãy kể về gia đình của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy family is small, with my parents, my sibling and me.\nThey are important because they always support me and give me good advice.\nFor example, when I have a big decision, I usually talk to my mother and father first.\nI feel very happy and safe when I am with my family.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nGia đình tôi nhỏ, gồm bố mẹ, anh chị em và tôi.\nHọ quan trọng vì luôn ủng hộ tôi và cho tôi những lời khuyên tốt.\nVí dụ, khi tôi có quyết định lớn, tôi thường nói chuyện với bố mẹ trước.\nTôi cảm thấy rất vui và an toàn khi ở cùng gia đình.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about the last time you visited friends.",
+    "question_vi": "Hãy kể lần cuối bạn đến thăm bạn của mình.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nThe last time I visited my friends was last weekend.\nI went to my friend's house because it was his birthday.\nFor example, we ate a small cake, talked about work and played some games together.\nI felt very relaxed and happy after that visit.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nLần cuối tôi đến thăm bạn là vào cuối tuần trước.\nTôi đến nhà bạn vì hôm đó là sinh nhật của cậu ấy.\nVí dụ, chúng tôi ăn một chiếc bánh nhỏ, nói chuyện về công việc và chơi vài trò chơi cùng nhau.\nTôi cảm thấy rất thoải mái và vui sau lần thăm đó.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your first school.",
+    "question_vi": "Hãy kể về ngôi trường đầu tiên của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy first school was a small primary school in my hometown.\nIt was important because I learned to read, write and make my first friends there.\nFor example, I remember a kind teacher who always helped me with my homework.\nI feel happy when I think about my first school.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nNgôi trường đầu tiên của tôi là một trường tiểu học nhỏ ở quê.\nNó quan trọng vì tôi đã học đọc, học viết và có những người bạn đầu tiên ở đó.\nVí dụ, tôi nhớ một cô giáo rất tốt bụng, luôn giúp tôi làm bài tập.\nTôi cảm thấy vui khi nghĩ về ngôi trường đầu tiên của mình.\nHết rồi."
+  },
+  {
+    "question": "What do people in your country like to read?",
+    "question_vi": "Mọi người ở đất nước của bạn thích đọc gì?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nIn my country, people usually like to read news and stories.\nThey read because they want to know what is happening and also to relax after work.\nFor example, many people read news online on their phones in the morning.\nI feel happy when I have time to read a good story.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nỞ đất nước tôi, mọi người thường thích đọc tin tức và truyện.\nHọ đọc vì muốn biết chuyện gì đang xảy ra và cũng để thư giãn sau giờ làm.\nVí dụ, nhiều người đọc tin tức trên điện thoại vào buổi sáng.\nTôi cảm thấy vui khi có thời gian đọc một câu chuyện hay.\nHết rồi."
+  },
+  {
+    "question": "What is the best way to travel in your country?",
+    "question_vi": "Cách tốt nhất để đi lại ở đất nước của bạn là gì?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nIn my country, the best way to travel is usually by motorbike.\nPeople like it because it is cheap and very fast in busy streets.\nFor example, I can go to work in about fifteen minutes by motorbike.\nI feel happy when I can move easily and save time.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nỞ đất nước tôi, cách đi lại tốt nhất thường là bằng xe máy.\nMọi người thích vì nó rẻ và rất nhanh trên những con đường đông.\nVí dụ, tôi có thể đi làm trong khoảng mười lăm phút bằng xe máy.\nTôi cảm thấy vui khi có thể di chuyển dễ dàng và tiết kiệm thời gian.\nHết rồi."
+  },
+  {
+    "question": "What did you do last night?",
+    "question_vi": "Bạn đã làm gì vào tối hôm qua?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nLast night I stayed at home after work.\nI did that because I was a little tired and wanted to relax.\nFor example, I had dinner with my family and then watched a short film on TV.\nI felt calm and ready for a new day after that evening.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nTối hôm qua tôi ở nhà sau giờ làm.\nTôi làm vậy vì hơi mệt và muốn nghỉ ngơi.\nVí dụ, tôi ăn tối với gia đình rồi xem một bộ phim ngắn trên tivi.\nTôi cảm thấy bình tĩnh và sẵn sàng cho một ngày mới sau buổi tối đó.\nHết rồi."
+  },
+  {
+    "question": "Describe this room.",
+    "question_vi": "Hãy miêu tả căn phòng này.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nThis room is quite small and simple with light walls.\nIt is good for a test because it is quiet and there are not many things inside.\nFor example, I can see some chairs, tables and a board at the front.\nI feel a little nervous but also focused when I sit in this room.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nCăn phòng này khá nhỏ và đơn giản với những bức tường sáng màu.\nNó phù hợp cho kỳ thi vì yên tĩnh và không có nhiều đồ bên trong.\nVí dụ, tôi thấy vài chiếc ghế, bàn và một cái bảng ở phía trước.\nTôi cảm thấy hơi lo lắng nhưng cũng tập trung khi ngồi trong phòng này.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about the last time you went to the cinema.",
+    "question_vi": "Hãy kể lần cuối bạn đi rạp chiếu phim.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nThe last time I went to the cinema was about one month ago.\nI went there because I wanted to see a new action film with my friend.\nFor example, we bought popcorn, sat in the middle and watched the film for two hours.\nI felt very excited and forgot all my stress during the movie.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nLần cuối tôi đi rạp chiếu phim là khoảng một tháng trước.\nTôi đến đó vì muốn xem một bộ phim hành động mới với bạn.\nVí dụ, chúng tôi mua bắp rang, ngồi ở giữa và xem phim trong hai giờ.\nTôi cảm thấy rất hào hứng và quên hết căng thẳng trong lúc xem.\nHết rồi."
+  },
+  {
+    "question": "What are you wearing today?",
+    "question_vi": "Hôm nay bạn đang mặc gì?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nToday I am wearing a simple T-shirt, trousers and a pair of shoes.\nI chose these clothes because they are comfortable for moving and sitting in the test.\nFor example, the T-shirt is light so I do not feel too hot in this room.\nI feel quite relaxed and confident in these clothes.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nHôm nay tôi mặc một chiếc áo thun đơn giản, quần dài và một đôi giày.\nTôi chọn những đồ này vì chúng thoải mái khi di chuyển và ngồi làm bài thi.\nVí dụ, áo thun mỏng nên tôi không cảm thấy quá nóng trong phòng này.\nTôi cảm thấy khá thoải mái và tự tin với bộ đồ này.\nHết rồi."
+  },
+  {
+    "question": "What activities do you usually do with your friends?",
+    "question_vi": "Bạn thường làm những hoạt động gì với bạn bè?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nI usually meet my friends for coffee or simple activities after work.\nWe do this because we want to relax and talk about our lives.\nFor example, at the weekend we sometimes play football or go to the park together.\nI feel very happy and less stressed when I spend time with them.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nTôi thường gặp bạn bè để uống cà phê hoặc làm vài hoạt động đơn giản sau giờ làm.\nChúng tôi làm vậy vì muốn thư giãn và nói chuyện về cuộc sống.\nVí dụ, vào cuối tuần chúng tôi đôi khi đá bóng hoặc đi công viên cùng nhau.\nTôi cảm thấy rất vui và bớt căng thẳng khi dành thời gian với họ.\nHết rồi."
+  },
+  {
+    "question": "Tell me about your hobby.",
+    "question_vi": "Hãy kể về sở thích của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy main hobby is reading books in my free time.\nI like it because it helps me learn new ideas and forget about daily stress.\nFor example, I usually read for thirty minutes before I go to bed at night.\nI feel calm and happy when I am reading a good book.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nSở thích chính của tôi là đọc sách vào thời gian rảnh.\nTôi thích vì nó giúp tôi học những ý tưởng mới và quên đi căng thẳng hằng ngày.\nVí dụ, tôi thường đọc khoảng ba mươi phút trước khi ngủ vào buổi tối.\nTôi cảm thấy bình tĩnh và vui khi đang đọc một cuốn sách hay.\nHết rồi."
+  },
+  {
+    "question": "Describe something you are planning to do in the future.",
+    "question_vi": "Hãy miêu tả một việc bạn dự định làm trong tương lai.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "in the future, going to, because, hope, excited",
+    "suggestion_text_vi": "trong tương lai, sẽ, bởi vì, hy vọng, háo hức",
+    "sample_answer": "Well, thanks for asking.\nIn the future, I am going to travel to another country.\nI want to do this because I hope to see a new culture and practice my English.\nFor example, I would like to visit Thailand or Singapore for a short holiday.\nI feel very excited when I think about this plan.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nTrong tương lai, tôi sẽ đi du lịch đến một đất nước khác.\nTôi muốn làm điều này vì hy vọng được thấy một nền văn hóa mới và luyện tiếng Anh.\nVí dụ, tôi muốn đến Thái Lan hoặc Singapore cho một kỳ nghỉ ngắn.\nTôi cảm thấy rất háo hức khi nghĩ về kế hoạch này.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about the last thing you saw on television.",
+    "question_vi": "Hãy kể về điều cuối cùng bạn xem trên tivi.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nThe last thing I saw on television was a news program last night.\nI watched it because I wanted to know what was happening in my country.\nFor example, they talked about the weather and some important events in the city.\nI felt more informed but also a little worried about some problems.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nĐiều cuối cùng tôi xem trên tivi là một chương trình thời sự tối qua.\nTôi xem vì muốn biết chuyện gì đang xảy ra ở đất nước mình.\nVí dụ, họ nói về thời tiết và vài sự kiện quan trọng trong thành phố.\nTôi cảm thấy biết thêm nhiều thông tin nhưng cũng hơi lo về một số vấn đề.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your favorite film star.",
+    "question_vi": "Hãy miêu tả ngôi sao điện ảnh mà bạn yêu thích.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy favorite film star is an actor who often plays in action and comedy films.\nI like him because he is very talented and usually makes the story interesting.\nFor example, in one film he played a simple man who became a hero and helped many people.\nI feel happy and excited when I watch his movies.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nNgôi sao điện ảnh tôi thích nhất là một nam diễn viên thường đóng phim hành động và hài.\nTôi thích anh ấy vì rất tài năng và thường làm cho câu chuyện trở nên thú vị.\nVí dụ, trong một bộ phim anh ấy đóng vai một người đàn ông bình thường nhưng trở thành anh hùng và giúp nhiều người.\nTôi cảm thấy vui và hào hứng khi xem phim của anh ấy.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about a famous place.",
+    "question_vi": "Hãy miêu tả một địa điểm nổi tiếng.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nA famous place in my country is Ha Long Bay.\nIt is important because it is very beautiful and many tourists come to visit.\nFor example, there are many small islands and people can take a boat to see the view.\nI feel proud and happy when I visit this place.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nMột địa điểm nổi tiếng ở đất nước tôi là Vịnh Hạ Long.\nNó quan trọng vì rất đẹp và có nhiều khách du lịch đến tham quan.\nVí dụ, có nhiều hòn đảo nhỏ và mọi người có thể đi thuyền để ngắm cảnh.\nTôi cảm thấy tự hào và vui khi đến thăm nơi này.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your typical day.",
+    "question_vi": "Hãy miêu tả một ngày điển hình của bạn.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nOn a typical day I wake up early, go to work and then come home in the evening.\nThis routine is important because it helps me organize my time and finish my tasks.\nFor example, in the evening I usually have dinner, study English and then relax a little.\nI feel tired but also happy when I have a productive day.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nVào một ngày điển hình tôi thức dậy sớm, đi làm rồi tối mới về nhà.\nLịch trình này quan trọng vì giúp tôi sắp xếp thời gian và hoàn thành công việc.\nVí dụ, buổi tối tôi thường ăn tối, học tiếng Anh rồi thư giãn một chút.\nTôi cảm thấy mệt nhưng cũng vui khi có một ngày hiệu quả.\nHết rồi."
+  },
+  {
+    "question": "What sports do people play in your country?",
+    "question_vi": "Mọi người ở đất nước của bạn chơi những môn thể thao nào?",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nIn my country, people usually play football and badminton.\nThese sports are important because they are easy to play and help people stay healthy.\nFor example, many young people play football in the park in the late afternoon.\nI feel happy when I join a simple game with my friends.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nỞ đất nước tôi, mọi người thường chơi bóng đá và cầu lông.\nNhững môn này quan trọng vì dễ chơi và giúp mọi người khỏe mạnh.\nVí dụ, nhiều bạn trẻ đá bóng ở công viên vào cuối buổi chiều.\nTôi cảm thấy vui khi tham gia một trận đấu đơn giản với bạn bè.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about the last time you saw an advertisement.",
+    "question_vi": "Hãy kể lần cuối bạn xem một quảng cáo.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "last time, went, because, for example, felt",
+    "suggestion_text_vi": "lần trước, đã đi, bởi vì, ví dụ, cảm thấy",
+    "sample_answer": "Well, thanks for asking.\nThe last time I saw an advertisement was yesterday on my phone.\nI watched it because it started before a video I wanted to see.\nFor example, it was an advert for a new mobile phone with a good camera.\nI felt a little interested but I do not really need a new phone now.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nLần cuối tôi xem một quảng cáo là hôm qua trên điện thoại.\nTôi xem vì nó xuất hiện trước một video mà tôi muốn xem.\nVí dụ, đó là quảng cáo cho một chiếc điện thoại mới với camera tốt.\nTôi cảm thấy hơi quan tâm nhưng hiện tại không thật sự cần điện thoại mới.\nHết rồi."
+  },
+  {
+    "question": "Please tell me about your favorite film.",
+    "question_vi": "Hãy kể về bộ phim mà bạn yêu thích.",
+    "priority": 1,
+    "time": 30,
+    "suggestion_text": "usually, because, for example, important, happy",
+    "suggestion_text_vi": "thường, bởi vì, ví dụ, quan trọng, vui",
+    "sample_answer": "Well, thanks for asking.\nMy favorite film is a simple comedy that I watched many times.\nI like it because the story is easy to understand and it always makes me laugh.\nFor example, there is a scene where the main character makes a big mistake but learns an important lesson.\nI feel very happy and relaxed whenever I watch this film.\nThat's all.",
+    "sample_answer_vi": "Chào, cảm ơn vì câu hỏi.\nBộ phim tôi thích nhất là một phim hài đơn giản mà tôi đã xem nhiều lần.\nTôi thích vì câu chuyện dễ hiểu và luôn làm tôi cười.\nVí dụ, có một cảnh nhân vật chính mắc lỗi lớn nhưng học được một bài học quan trọng.\nTôi cảm thấy rất vui và thư giãn mỗi khi xem bộ phim này.\nHết rồi."
+  }
+]

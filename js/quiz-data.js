@@ -159,6 +159,59 @@ function processQuizData(data) {
             return;
         }
 
+        // Kiểm tra xem có phải là speaking_part_1 không
+        const isSpeakingPart1 = data.every(item =>
+            item.question &&
+            item.time &&
+            typeof item.time === 'number' &&
+            item.sample_answer &&
+            item.suggestion_text
+        );
+
+        if (isSpeakingPart1) {
+            // Format speaking_part_1
+            currentQuizType = 'speaking_part_1';
+            isMultiPassageFormat = false;
+            allPassages = [];
+            questions = data;
+            
+            if (questions.length === 0) {
+                showError('File JSON không chứa câu hỏi nào!');
+                return;
+            }
+            
+            // Hiển thị modal cài đặt trước khi bắt đầu
+            showSpeakingSettingsModal();
+            return;
+        }
+
+        // Kiểm tra xem có phải là writing_part_1 không
+        const isWritingPart1 = data.every(item =>
+            item.question &&
+            item.priority &&
+            typeof item.priority === 'number' &&
+            item.sample_answer &&
+            item.suggestion_text &&
+            !item.time  // Writing KHÔNG có time (khác với Speaking)
+        );
+
+        if (isWritingPart1) {
+            // Format writing_part_1
+            currentQuizType = 'writing_part_1';
+            isMultiPassageFormat = false;
+            allPassages = [];
+            questions = data;
+            
+            if (questions.length === 0) {
+                showError('File JSON không chứa câu hỏi nào!');
+                return;
+            }
+            
+            // Hiển thị modal cài đặt trước khi bắt đầu
+            showWritingSettingsModal();
+            return;
+        }
+
         // Kiểm tra xem có phải là mảng đề (mỗi phần tử có items và text) không
         const isArrayOfPassages = data.every(item => 
             item.items && Array.isArray(item.items) && item.text

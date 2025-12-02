@@ -732,3 +732,210 @@ body {
 .mb-16 {
     margin-bottom: 16px;
 }
+
+/* ============================================
+   SPEAKING PART 1 STYLES
+   ============================================ */
+
+/* Circular Timer - Fixed top-right */
+.speaking-timer {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+.timer-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.timer-svg {
+    transform: rotate(-90deg);
+    width: 150px;
+    height: 150px;
+}
+
+.timer-circle-bg {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 8;
+}
+
+.timer-circle-progress {
+    fill: none;
+    stroke: #667eea;
+    stroke-width: 8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s linear;
+}
+
+.timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Speaking answer input */
+.speaking-answer-area {
+    margin: 30px 0;
+}
+
+.speaking-textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+.speaking-textarea:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Voice recording controls */
+.voice-recording {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f8f9ff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.recording-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.recording-dot {
+    width: 12px;
+    height: 12px;
+    background: #f44336;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+.audio-player {
+    margin: 15px 0;
+    width: 100%;
+}
+
+/* Sample answer display */
+.sample-answer-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+    margin: 20px 0;
+    white-space: pre-line;
+    line-height: 1.8;
+}
+
+.sample-answer-box strong {
+    color: #667eea;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Speaking completion screen */
+.speaking-completion {
+    padding: 30px;
+}
+
+.answer-item {
+    background: #f8f9ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.answer-item-question {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.answer-item-answer {
+    color: #666;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Copy button */
+.copy-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.copy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Suggestion hints */
+.suggestion-box {
+    background: #fff9e6;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+    margin: 15px 0;
+}
+
+.suggestion-box.hidden {
+    display: none;
+}
+
+#writingSettingsModal,
+#speakingSettingsModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Keyboard key styling */
+kbd {
+    background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.2), 0 0 0 1px #fff inset;
+    color: #333;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 4px 6px;
+    white-space: nowrap;
+}

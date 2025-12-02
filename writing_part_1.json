@@ -1,0 +1,227 @@
+[
+  {
+    "question": "What's your favorite sport?",
+    "question_vi": "Môn thể thao yêu thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "My favorite sport is badminton.",
+    "sample_answer_vi": "Môn thể thao yêu thích của tôi là cầu lông."
+  },
+  {
+    "question": "How many people are in your family?",
+    "question_vi": "Gia đình bạn có bao nhiêu người?",
+    "priority": 1,
+    "suggestion_text": "There are, people, in my family",
+    "suggestion_text_vi": "Có, người, trong gia đình tôi",
+    "sample_answer": "There are six people in my family.",
+    "sample_answer_vi": "Gia đình tôi có sáu người."
+  },
+  {
+    "question": "What did you do yesterday?",
+    "question_vi": "Hôm qua bạn đã làm gì?",
+    "priority": 1,
+    "suggestion_text": "I, yesterday, did",
+    "suggestion_text_vi": "Tôi, hôm qua, đã",
+    "sample_answer": "I read a book yesterday.",
+    "sample_answer_vi": "Hôm qua tôi đã đọc một cuốn sách."
+  },
+  {
+    "question": "How do you go to school?",
+    "question_vi": "Bạn đi đến trường bằng cách nào?",
+    "priority": 1,
+    "suggestion_text": "I go, to school, by",
+    "suggestion_text_vi": "Tôi đi, đến trường, bằng",
+    "sample_answer": "I go to school by bus.",
+    "sample_answer_vi": "Tôi đi đến trường bằng xe buýt."
+  },
+  {
+    "question": "What's your hobby?",
+    "question_vi": "Sở thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "My hobby is, I like to, in my free time",
+    "suggestion_text_vi": "Sở thích của tôi là, tôi thích, vào thời gian rảnh",
+    "sample_answer": "My hobby is reading books.",
+    "sample_answer_vi": "Sở thích của tôi là đọc sách."
+  },
+  {
+    "question": "Where are you from?",
+    "question_vi": "Bạn đến từ đâu?",
+    "priority": 1,
+    "suggestion_text": "I am, from, country",
+    "suggestion_text_vi": "Tôi, đến từ, đất nước",
+    "sample_answer": "I am from Vietnam.",
+    "sample_answer_vi": "Tôi đến từ Việt Nam."
+  },
+  {
+    "question": "What's the weather like today?",
+    "question_vi": "Thời tiết hôm nay như thế nào?",
+    "priority": 1,
+    "suggestion_text": "The weather today is, warm, sunny",
+    "suggestion_text_vi": "Thời tiết hôm nay, ấm áp, có nắng",
+    "sample_answer": "The weather today is warm and sunny.",
+    "sample_answer_vi": "Thời tiết hôm nay ấm áp và có nắng."
+  },
+  {
+    "question": "What do you do in your free time?",
+    "question_vi": "Bạn làm gì vào thời gian rảnh?",
+    "priority": 1,
+    "suggestion_text": "I, in my free time, like to",
+    "suggestion_text_vi": "Tôi, vào thời gian rảnh, thích",
+    "sample_answer": "I read books in my free time.",
+    "sample_answer_vi": "Tôi đọc sách vào thời gian rảnh."
+  },
+  {
+    "question": "What is your first language?",
+    "question_vi": "Ngôn ngữ thứ nhất của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "My first language, is",
+    "suggestion_text_vi": "Ngôn ngữ thứ nhất của tôi, là",
+    "sample_answer": "My first language is Vietnamese.",
+    "sample_answer_vi": "Ngôn ngữ thứ nhất của tôi là tiếng Việt."
+  },
+  {
+    "question": "Who do you usually go to the movies with?",
+    "question_vi": "Bạn thường đi xem phim với ai?",
+    "priority": 1,
+    "suggestion_text": "I usually, go to the movies, with",
+    "suggestion_text_vi": "Tôi thường, đi xem phim, với",
+    "sample_answer": "I usually go to the movies with friends.",
+    "sample_answer_vi": "Tôi thường đi xem phim với bạn bè."
+  },
+  {
+    "question": "How do you get to work?",
+    "question_vi": "Bạn đi làm bằng cách nào?",
+    "priority": 1,
+    "suggestion_text": "I get to work, by",
+    "suggestion_text_vi": "Tôi đi làm, bằng",
+    "sample_answer": "I get to work by motorbike.",
+    "sample_answer_vi": "Tôi đi làm bằng xe máy."
+  },
+  {
+    "question": "What do you like to do in the evening?",
+    "question_vi": "Bạn thích làm gì vào buổi tối?",
+    "priority": 1,
+    "suggestion_text": "In the evening, I like to",
+    "suggestion_text_vi": "Vào buổi tối, tôi thích",
+    "sample_answer": "I like to watch TV in the evening.",
+    "sample_answer_vi": "Tôi thích xem tivi vào buổi tối."
+  },
+  {
+    "question": "What kinds of movies do you like?",
+    "question_vi": "Bạn thích loại phim nào?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "I like action and detective movies.",
+    "sample_answer_vi": "Tôi thích phim hành động và trinh thám."
+  },
+  {
+    "question": "What's your favorite food?",
+    "question_vi": "Món ăn yêu thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "My favorite food is fried chicken.",
+    "sample_answer_vi": "Món ăn yêu thích của tôi là gà rán."
+  },
+  {
+    "question": "What is your favorite season of the year?",
+    "question_vi": "Mùa yêu thích của bạn trong năm là gì?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "My favorite season of the year is summer.",
+    "sample_answer_vi": "Mùa yêu thích trong năm của tôi là mùa hè."
+  },
+  {
+    "question": "What do you like to do every morning?",
+    "question_vi": "Mỗi buổi sáng bạn thích làm gì?",
+    "priority": 1,
+    "suggestion_text": "Every morning, I like to",
+    "suggestion_text_vi": "Mỗi buổi sáng, tôi thích",
+    "sample_answer": "I like to exercise every morning.",
+    "sample_answer_vi": "Tôi thích tập thể dục mỗi buổi sáng."
+  },
+  {
+    "question": "What did you do last night?",
+    "question_vi": "Tối hôm qua bạn đã làm gì?",
+    "priority": 1,
+    "suggestion_text": "I, last night, did",
+    "suggestion_text_vi": "Tôi, tối qua, đã",
+    "sample_answer": "I watched TV last night.",
+    "sample_answer_vi": "Tối hôm qua tôi đã xem tivi."
+  },
+  {
+    "question": "How are you?",
+    "question_vi": "Bạn khỏe không?",
+    "priority": 1,
+    "suggestion_text": "I am, fine, thank you",
+    "suggestion_text_vi": "Tôi, khỏe, cảm ơn",
+    "sample_answer": "I am fine, thank you.",
+    "sample_answer_vi": "Tôi khỏe, cảm ơn."
+  },
+  {
+    "question": "What kind of music do you like?",
+    "question_vi": "Bạn thích loại nhạc nào?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "I like pop and soft music.",
+    "sample_answer_vi": "Tôi thích nhạc pop và nhạc nhẹ."
+  },
+  {
+    "question": "What's your favorite hobby?",
+    "question_vi": "Sở thích yêu thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "My favorite hobby is reading books.",
+    "sample_answer_vi": "Sở thích yêu thích của tôi là đọc sách."
+  },
+  {
+    "question": "How many people are in your family?",
+    "question_vi": "Gia đình bạn có bao nhiêu người?",
+    "priority": 1,
+    "suggestion_text": "There are, people, in my family",
+    "suggestion_text_vi": "Có, người, trong gia đình tôi",
+    "sample_answer": "There are six people in my family.",
+    "sample_answer_vi": "Gia đình tôi có sáu người."
+  },
+  {
+    "question": "Do you like to watch movies at home or at the cinema?",
+    "question_vi": "Bạn thích xem phim ở nhà hay ở rạp chiếu phim?",
+    "priority": 1,
+    "suggestion_text": "I like to, watch movies, at home/at the cinema",
+    "suggestion_text_vi": "Tôi thích, xem phim, ở nhà/ở rạp",
+    "sample_answer": "I like to watch movies at home.",
+    "sample_answer_vi": "Tôi thích xem phim ở nhà."
+  },
+  {
+    "question": "What time do you usually wake up?",
+    "question_vi": "Bạn thường thức dậy lúc mấy giờ?",
+    "priority": 1,
+    "suggestion_text": "I usually wake up at, in the morning",
+    "suggestion_text_vi": "Tôi thường thức dậy lúc, vào buổi sáng",
+    "sample_answer": "I usually wake up at six in the morning.",
+    "sample_answer_vi": "Tôi thường thức dậy lúc sáu giờ sáng."
+  },
+  {
+    "question": "Do you like traveling? Why or why not?",
+    "question_vi": "Bạn có thích du lịch không? Tại sao hoặc tại sao không?",
+    "priority": 1,
+    "suggestion_text": "Yes, I like traveling because",
+    "suggestion_text_vi": "Vâng, tôi thích du lịch vì",
+    "sample_answer": "Yes, I like traveling because it relaxes me.",
+    "sample_answer_vi": "Vâng, tôi thích du lịch vì nó giúp tôi thư giãn."
+  },
+  {
+    "question": "What is your dream job?",
+    "question_vi": "Công việc mơ ước của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": "my favorite, I like, is",
+    "suggestion_text_vi": "sở thích của tôi, tôi thích, là",
+    "sample_answer": "My dream job is being a teacher.",
+    "sample_answer_vi": "Công việc mơ ước của tôi là trở thành giáo viên."
+  }
+]

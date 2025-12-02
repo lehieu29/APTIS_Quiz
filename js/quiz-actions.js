@@ -373,6 +373,36 @@ function skipPracticeMode() {
 }
 
 /**
+ * Shuffle câu hỏi theo priority (priority cao hơn → hiển thị trước)
+ * Áp dụng cho speaking_part_1 và writing_part_1
+ */
+function shuffleByPriority(questions) {
+    // Nhóm câu hỏi theo priority
+    const grouped = {};
+    questions.forEach(q => {
+        const priority = q.priority || 1;
+        if (!grouped[priority]) {
+            grouped[priority] = [];
+        }
+        grouped[priority].push(q);
+    });
+    
+    // Shuffle trong từng nhóm
+    Object.keys(grouped).forEach(priority => {
+        grouped[priority].sort(() => Math.random() - 0.5);
+    });
+    
+    // Ghép lại theo thứ tự priority giảm dần (3 → 2 → 1)
+    const priorities = Object.keys(grouped).map(Number).sort((a, b) => b - a);
+    const result = [];
+    priorities.forEach(priority => {
+        result.push(...grouped[priority]);
+    });
+    
+    return result;
+}
+
+/**
  * Trộn câu hỏi
  */
 function shuffleQuestions() {
@@ -384,7 +414,13 @@ function shuffleQuestions() {
         cancelText: 'Hủy bỏ'
     }).then(confirmed => {
         if (confirmed) {
-            questions = shuffleAnswers(questions);
+            // Shuffle theo priority cho speaking/writing, còn lại shuffle thường
+            if (currentQuizType === 'speaking_part_1' || currentQuizType === 'writing_part_1') {
+                questions = shuffleByPriority(questions);
+            } else {
+                questions = shuffleAnswers(questions);
+            }
+            
             currentIndex = 0;
             correctAnswers = 0;
             wrongAnswers = 0;
@@ -618,4 +654,295 @@ function shuffleAnswers(questions) {
             answer: newAnswer
         };
     }).sort(() => Math.random() - 0.5); // Trộn thứ tự câu hỏi
+}
+
+/**
+ * ============================================
+ * SPEAKING PART 1 ACTIONS
+ * ============================================
+ */
+
+/**
+ * Handle Enter key press trong Speaking textarea
+ */
+function handleSpeakingEnterKey(event) {
+    // Chỉ submit khi nhấn Enter đơn (không phải Shift+Enter)
+    if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault(); // Ngăn xuống dòng
+        submitSpeakingAnswer();
+    }
+}
+
+/**
+ * Toggle recording on/off
+ */
+function toggleRecording() {
+    if (speakingPart1State.isRecording) {
+        stopRecording();
+    } else {
+        startRecording();
+    }
+}
+
+/**
+ * Bắt đầu ghi âm
+ */
+function startRecording() {
+    navigator.mediaDevices.getUserMedia({ audio: true })
+        .then(stream => {
+            speakingPart1State.mediaRecorder = new MediaRecorder(stream);
+            speakingPart1State.audioChunks = [];
+            
+            speakingPart1State.mediaRecorder.addEventListener('dataavailable', event => {
+                speakingPart1State.audioChunks.push(event.data);
+            });
+            
+            speakingPart1State.mediaRecorder.addEventListener('stop', () => {
+                const audioBlob = new Blob(speakingPart1State.audioChunks, { type: 'audio/webm' });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                
+                // Hiển thị audio playback
+                const audioPlayer = document.getElementById('audioPlayback');
+                audioPlayer.src = audioUrl;
+                audioPlayer.style.display = 'block';
+                
+                // Lưu blob để submit sau
+                speakingPart1State.currentAudioBlob = audioBlob;
+                speakingPart1State.currentAudioUrl = audioUrl;
+                
+                // Stop all tracks
+                stream.getTracks().forEach(track => track.stop());
+            });
+            
+            speakingPart1State.mediaRecorder.start();
+            speakingPart1State.isRecording = true;
+            
+            // Update UI
+            const recordBtn = document.getElementById('recordBtn');
+            recordBtn.innerHTML = '⏹️ Dừng ghi âm';
+            recordBtn.style.background = '#f44336';
+            
+            document.getElementById('recordingIndicator').style.display = 'flex';
+        })
+        .catch(error => {
+            console.error('Error accessing microphone:', error);
+            alert('Không thể truy cập microphone. Vui lòng cho phép quyền truy cập.');
+        });
+}
+
+/**
+ * Dừng ghi âm
+ */
+function stopRecording() {
+    if (speakingPart1State.mediaRecorder && speakingPart1State.isRecording) {
+        speakingPart1State.mediaRecorder.stop();
+        speakingPart1State.isRecording = false;
+        
+        // Update UI
+        const recordBtn = document.getElementById('recordBtn');
+        recordBtn.innerHTML = '🔴 Bắt đầu ghi âm';
+        recordBtn.style.background = '';
+        
+        document.getElementById('recordingIndicator').style.display = 'none';
+    }
+}
+
+/**
+ * Submit câu trả lời Speaking
+ */
+function submitSpeakingAnswer() {
+    const textAnswer = document.getElementById('speakingTextAnswer')?.value.trim();
+    const audioUrl = speakingPart1State.currentAudioUrl;
+    
+    // Kiểm tra có câu trả lời không
+    if (!textAnswer && !audioUrl) {
+        alert('Vui lòng nhập câu trả lời hoặc ghi âm trước khi submit!');
+        return;
+    }
+    
+    // Lưu câu trả lời
+    if (textAnswer) {
+        speakingPart1State.userAnswers[currentIndex] = {
+            type: 'text',
+            content: textAnswer
+        };
+    } else {
+        speakingPart1State.userAnswers[currentIndex] = {
+            type: 'audio',
+            content: audioUrl,
+            blob: speakingPart1State.currentAudioBlob
+        };
+    }
+    
+    // Đánh dấu đã submit
+    speakingPart1State.hasSubmitted = true;
+    
+    // Stop timer
+    hideSpeakingTimer();
+    
+    // Re-render để hiển thị sample answer
+    renderSpeakingPart1(questions[currentIndex]);
+}
+
+/**
+ * Auto submit khi hết giờ
+ */
+function autoSubmitSpeakingAnswer() {
+    const textAnswer = document.getElementById('speakingTextAnswer')?.value.trim();
+    const audioUrl = speakingPart1State.currentAudioUrl;
+    
+    // Lưu câu trả lời (có thể rỗng)
+    if (textAnswer) {
+        speakingPart1State.userAnswers[currentIndex] = {
+            type: 'text',
+            content: textAnswer || '[Không có câu trả lời]'
+        };
+    } else if (audioUrl) {
+        speakingPart1State.userAnswers[currentIndex] = {
+            type: 'audio',
+            content: audioUrl,
+            blob: speakingPart1State.currentAudioBlob
+        };
+    } else {
+        speakingPart1State.userAnswers[currentIndex] = {
+            type: 'text',
+            content: '[Không có câu trả lời]'
+        };
+    }
+    
+    // Tự động chuyển câu tiếp theo
+    nextSpeakingQuestion();
+}
+
+/**
+ * Chuyển sang câu Speaking tiếp theo
+ */
+function nextSpeakingQuestion() {
+    // Reset state cho câu mới
+    speakingPart1State.hasSubmitted = false;
+    speakingPart1State.currentAudioBlob = null;
+    speakingPart1State.currentAudioUrl = null;
+    
+    // Chuyển câu
+    currentIndex++;
+    
+    if (currentIndex < questions.length) {
+        // Còn câu hỏi → render câu tiếp
+        renderSpeakingPart1(questions[currentIndex]);
+        updateStats();
+    } else {
+        // Hết câu hỏi → hiển thị completion
+        showSpeakingCompletion();
+    }
+}
+
+/**
+ * Copy tất cả câu hỏi & đáp án để gửi AI
+ */
+function copySpeakingAnswers() {
+    let text = '=== SPEAKING PART 1 - YOUR ANSWERS ===\n\n';
+    
+    questions.forEach((q, idx) => {
+        const answer = speakingPart1State.userAnswers[idx];
+        text += `Question ${idx + 1}: ${q.question}\n`;
+        text += `Your answer: ${answer.type === 'text' ? answer.content : '[Audio recorded]'}\n\n`;
+    });
+    
+    text += '=== END ===';
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert('✅ Đã copy! Bạn có thể paste vào ChatGPT hoặc AI khác để chấm.');
+        })
+        .catch(err => {
+            console.error('Copy failed:', err);
+            // Fallback: show text in alert
+            prompt('Copy đoạn text này:', text);
+        });
+}
+
+/**
+ * ============================================
+ * WRITING PART 1 ACTIONS
+ * ============================================
+ */
+
+/**
+ * Handle Enter key press trong Writing textarea
+ */
+function handleWritingEnterKey(event) {
+    // Chỉ submit khi nhấn Enter đơn (không phải Shift+Enter)
+    if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault(); // Ngăn xuống dòng
+        submitWritingAnswer();
+    }
+}
+
+/**
+ * Submit câu trả lời Writing
+ */
+function submitWritingAnswer() {
+    const textAnswer = document.getElementById('writingTextAnswer')?.value.trim();
+    
+    // Kiểm tra có câu trả lời không
+    if (!textAnswer) {
+        alert('Vui lòng nhập câu trả lời trước khi submit!');
+        return;
+    }
+    
+    // Lưu câu trả lời
+    writingPart1State.userAnswers[currentIndex] = textAnswer;
+    
+    // Đánh dấu đã submit
+    writingPart1State.hasSubmitted = true;
+    
+    // Re-render để hiển thị sample answer
+    renderWritingPart1(questions[currentIndex]);
+}
+
+/**
+ * Chuyển sang câu Writing tiếp theo
+ */
+function nextWritingQuestion() {
+    // Reset state cho câu mới
+    writingPart1State.hasSubmitted = false;
+    
+    // Chuyển câu
+    currentIndex++;
+    
+    if (currentIndex < questions.length) {
+        // Còn câu hỏi → render câu tiếp
+        renderWritingPart1(questions[currentIndex]);
+        updateStats();
+    } else {
+        // Hết câu hỏi → hiển thị completion
+        showWritingCompletion();
+    }
+}
+
+/**
+ * Copy tất cả câu hỏi & đáp án Writing để gửi AI
+ */
+function copyWritingAnswers() {
+    let text = '=== WRITING PART 1 - YOUR ANSWERS ===\n\n';
+    
+    questions.forEach((q, idx) => {
+        const answer = writingPart1State.userAnswers[idx];
+        text += `Question ${idx + 1}: ${q.question}\n`;
+        text += `Your answer: ${answer || '[Không có câu trả lời]'}\n\n`;
+    });
+    
+    text += '=== END ===';
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert('✅ Đã copy! Bạn có thể paste vào ChatGPT hoặc AI khác để chấm.');
+        })
+        .catch(err => {
+            console.error('Copy failed:', err);
+            // Fallback: show text in alert
+            prompt('Copy đoạn text này:', text);
+        });
 }

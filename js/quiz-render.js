@@ -164,6 +164,21 @@ function renderQuestion() {
         // Hide submit button for reading part 4
         buttonContainer.classList.remove('button-grid');
         submitBtn.classList.remove('show');
+    } else if (currentQuizType === 'speaking_part_1') {
+        renderSpeakingPart1(question);
+        
+        // Hide buttons for speaking part 1 (use custom buttons)
+        buttonContainer.classList.remove('button-grid');
+        submitBtn.classList.remove('show');
+        nextBtn.style.display = 'none';
+        nextBtn.disabled = true;
+    } else if (currentQuizType === 'writing_part_1') {
+        renderWritingPart1(question);
+        
+        // Hide buttons for writing part 1 (use custom buttons)
+        buttonContainer.classList.remove('button-grid');
+        submitBtn.classList.remove('show');
+        nextBtn.style.display = 'none';
         nextBtn.disabled = true;
     } else {
         // Default quiz rendering
@@ -317,8 +332,15 @@ function showCompletion() {
  */
 function updateStats() {
     document.getElementById('currentQuestion').textContent = currentIndex + 1;
-    document.getElementById('correctCount').textContent = correctAnswers;
-    document.getElementById('wrongCount').textContent = wrongAnswers;
+    
+    // Ẩn correct/wrong stats cho speaking/writing part 1
+    if (currentQuizType === 'speaking_part_1' || currentQuizType === 'writing_part_1') {
+        document.getElementById('correctCount').textContent = '-';
+        document.getElementById('wrongCount').textContent = '-';
+    } else {
+        document.getElementById('correctCount').textContent = correctAnswers;
+        document.getElementById('wrongCount').textContent = wrongAnswers;
+    }
 }
 
 /**
@@ -536,4 +558,559 @@ function showReadingPart4Result(item) {
     
     // Đánh dấu đã hoàn thành
     readingPart4State.hasFinishedAll = true;
+}
+
+/**
+ * ============================================
+ * SPEAKING PART 1 FUNCTIONS
+ * ============================================
+ */
+
+/**
+ * Hiển thị modal cài đặt cho Speaking Part 1
+ */
+function showSpeakingSettingsModal() {
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+    modal.id = 'speakingSettingsModal';
+    modal.style.display = 'flex';
+    
+    modal.innerHTML = `
+        <div class="modal-box" style="max-width: 500px;">
+            <h2 style="color: #667eea; margin-bottom: 25px;">⚙️ Cài đặt Speaking Part 1</h2>
+            
+            <div style="text-align: left; margin-bottom: 30px;">
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px; cursor: pointer;">
+                    <input type="checkbox" id="showHintsCheckbox" checked style="width: 20px; height: 20px; cursor: pointer;">
+                    <span style="font-size: 16px;">💡 Hiển thị gợi ý (suggestion)</span>
+                </label>
+                
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px; cursor: pointer;">
+                    <input type="checkbox" id="autoNextCheckbox" style="width: 20px; height: 20px; cursor: pointer;">
+                    <span style="font-size: 16px;">⏭️ Tự động chuyển câu tiếp theo</span>
+                </label>
+                
+                <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                    <input type="checkbox" id="enableTimerCheckbox" checked style="width: 20px; height: 20px; cursor: pointer;">
+                    <span style="font-size: 16px;">⏱️ Bật đếm thời gian</span>
+                </label>
+            </div>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-primary" onclick="startSpeakingPart1()">
+                    🎤 Bắt đầu
+                </button>
+                <button class="modal-btn modal-btn-secondary" onclick="closeSpeakingSettingsModal()">
+                    Hủy
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+/**
+ * Đóng modal và quay về trang chủ
+ */
+function closeSpeakingSettingsModal() {
+    const modal = document.getElementById('speakingSettingsModal');
+    if (modal) {
+        modal.remove();
+    }
+    // Reset về trang chủ
+    document.getElementById('uploadSection').style.display = 'block';
+    document.getElementById('quizSection').style.display = 'none';
+}
+
+/**
+ * Bắt đầu Speaking Part 1 với settings đã chọn
+ */
+function startSpeakingPart1() {
+    // Lưu settings
+    speakingPart1State.settings.showHints = document.getElementById('showHintsCheckbox').checked;
+    speakingPart1State.settings.autoNext = document.getElementById('autoNextCheckbox').checked;
+    speakingPart1State.settings.enableTimer = document.getElementById('enableTimerCheckbox').checked;
+    
+    // Đóng modal
+    const modal = document.getElementById('speakingSettingsModal');
+    if (modal) {
+        modal.remove();
+    }
+    
+    // Reset state
+    currentIndex = 0;
+    speakingPart1State.userAnswers = [];
+    speakingPart1State.hasSubmitted = false;
+    
+    // Bắt đầu quiz
+    startQuiz();
+}
+
+/**
+ * Render Speaking Part 1 question
+ */
+function renderSpeakingPart1(question) {
+    const passageContainer = document.getElementById('passageContainer');
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Ẩn passage container
+    passageContainer.innerHTML = '';
+    
+    // Hiển thị câu hỏi
+    document.getElementById('vnTitle').textContent = '';
+    document.getElementById('questionText').innerHTML = `
+        <div style="font-size: 1.3em; font-weight: bold; color: #333; margin-bottom: 20px;">
+            📝 ${question.question}
+        </div>
+    `;
+    
+    // Hiển thị gợi ý (nếu bật và chưa submit)
+    let html = '';
+    if (speakingPart1State.settings.showHints && !speakingPart1State.hasSubmitted) {
+        html += `
+            <div class="suggestion-box">
+                <div style="font-weight: bold; color: #f57c00; margin-bottom: 8px;">💡 Gợi ý:</div>
+                <div style="color: #666;">${question.suggestion_text}</div>
+            </div>
+        `;
+    }
+    
+    // Nếu đã submit, hiển thị thông tin tiếng Việt
+    if (speakingPart1State.hasSubmitted) {
+        html += `
+            <div style="background: #e8f5e9; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <div style="font-weight: bold; color: #2e7d32; margin-bottom: 8px;">🇻🇳 Câu hỏi tiếng Việt:</div>
+                <div style="color: #333;">${question.question_vi}</div>
+            </div>
+            
+            <div class="suggestion-box">
+                <div style="font-weight: bold; color: #f57c00; margin-bottom: 8px;">💡 Gợi ý:</div>
+                <div style="color: #666; margin-bottom: 5px;">${question.suggestion_text}</div>
+                <div style="color: #999; font-style: italic;">${question.suggestion_text_vi}</div>
+            </div>
+        `;
+    }
+    
+    // Hiển thị input area (nếu chưa submit)
+    if (!speakingPart1State.hasSubmitted) {
+        html += `
+            <div class="speaking-answer-area">
+                <div style="font-weight: bold; margin-bottom: 10px;">✍️ Trả lời bằng văn bản:</div>
+                <textarea id="speakingTextAnswer" class="speaking-textarea" placeholder="Nhập câu trả lời của bạn ở đây..." onkeydown="handleSpeakingEnterKey(event)"></textarea>
+            </div>
+            
+            <div class="voice-recording">
+                <div style="font-weight: bold; margin-bottom: 15px;">🎤 Hoặc thu âm giọng nói:</div>
+                <button id="recordBtn" class="btn" onclick="toggleRecording()">
+                    🔴 Bắt đầu ghi âm
+                </button>
+                <div id="recordingIndicator" style="display: none;" class="recording-indicator">
+                    <div class="recording-dot"></div>
+                    <span style="color: #f44336; font-weight: bold;">Đang ghi âm...</span>
+                </div>
+                <audio id="audioPlayback" class="audio-player" controls style="display: none;"></audio>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-primary" onclick="submitSpeakingAnswer()" style="font-size: 18px; padding: 15px 40px;">
+                    📤 Submit
+                </button>
+                <div style="font-size: 12px; color: #999; margin-top: 10px;">
+                    💡 Tip: Nhấn <kbd>Enter</kbd> để submit nhanh
+                </div>
+            </div>
+        `;
+    } else {
+        // Hiển thị câu trả lời đã submit
+        const userAnswer = speakingPart1State.userAnswers[currentIndex];
+        html += `
+            <div style="background: #f8f9ff; padding: 20px; border-radius: 12px; margin: 20px 0; border-left: 4px solid #667eea;">
+                <div style="font-weight: bold; color: #667eea; margin-bottom: 10px;">✅ Câu trả lời của bạn:</div>
+                <div style="color: #333;">
+                    ${userAnswer.type === 'text' ? userAnswer.content : '🎤 <i>Audio recorded</i>'}
+                </div>
+                ${userAnswer.type === 'audio' ? `<audio controls class="audio-player"><source src="${userAnswer.content}" type="audio/webm"></audio>` : ''}
+            </div>
+            
+            <div class="sample-answer-box">
+                <strong>📖 Sample Answer (English):</strong>
+                ${question.sample_answer}
+            </div>
+            
+            <div class="sample-answer-box" style="border-left-color: #4caf50;">
+                <strong>🇻🇳 Sample Answer (Tiếng Việt):</strong>
+                ${question.sample_answer_vi}
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-primary" onclick="nextSpeakingQuestion()" style="font-size: 18px; padding: 15px 40px;">
+                    ${currentIndex < questions.length - 1 ? '➡️ Câu tiếp theo' : '🏁 Hoàn thành'}
+                </button>
+            </div>
+        `;
+    }
+    
+    optionsContainer.innerHTML = html;
+    
+    // Bắt đầu timer nếu chưa submit và có bật timer
+    if (!speakingPart1State.hasSubmitted && speakingPart1State.settings.enableTimer) {
+        startSpeakingTimer(question.time);
+    } else {
+        // Ẩn timer nếu đã submit
+        hideSpeakingTimer();
+    }
+}
+
+/**
+ * Bắt đầu circular timer
+ */
+function startSpeakingTimer(duration) {
+    speakingPart1State.timeLeft = duration;
+    
+    // Tạo timer HTML nếu chưa có
+    let timerDiv = document.getElementById('speakingTimer');
+    if (!timerDiv) {
+        timerDiv = document.createElement('div');
+        timerDiv.id = 'speakingTimer';
+        timerDiv.className = 'speaking-timer';
+        document.body.appendChild(timerDiv);
+    }
+    
+    const radius = 71; // 150/2 - 8 (stroke width)
+    const circumference = 2 * Math.PI * radius;
+    
+    timerDiv.innerHTML = `
+        <div class="timer-circle">
+            <svg class="timer-svg">
+                <circle class="timer-circle-bg" cx="75" cy="75" r="${radius}"></circle>
+                <circle class="timer-circle-progress" cx="75" cy="75" r="${radius}"
+                    stroke-dasharray="${circumference}"
+                    stroke-dashoffset="0"></circle>
+            </svg>
+            <div class="timer-text">${duration}</div>
+        </div>
+    `;
+    
+    timerDiv.style.display = 'block';
+    
+    // Clear timer cũ nếu có
+    if (speakingPart1State.currentTimer) {
+        clearInterval(speakingPart1State.currentTimer);
+    }
+    
+    // Bắt đầu đếm ngược
+    const progressCircle = timerDiv.querySelector('.timer-circle-progress');
+    const timerText = timerDiv.querySelector('.timer-text');
+    
+    speakingPart1State.currentTimer = setInterval(() => {
+        speakingPart1State.timeLeft--;
+        
+        // Update text
+        timerText.textContent = speakingPart1State.timeLeft;
+        
+        // Update circle progress
+        const progress = speakingPart1State.timeLeft / duration;
+        const offset = circumference * (1 - progress);
+        progressCircle.style.strokeDashoffset = offset;
+        
+        // Đổi màu khi sắp hết giờ
+        if (speakingPart1State.timeLeft <= 5) {
+            progressCircle.style.stroke = '#f44336';
+            timerText.style.color = '#f44336';
+        }
+        
+        // Hết giờ
+        if (speakingPart1State.timeLeft <= 0) {
+            clearInterval(speakingPart1State.currentTimer);
+            speakingPart1State.currentTimer = null;
+            
+            // Tự động chuyển câu nếu bật
+            if (speakingPart1State.settings.autoNext && !speakingPart1State.hasSubmitted) {
+                autoSubmitSpeakingAnswer();
+            }
+        }
+    }, 1000);
+}
+
+/**
+ * Ẩn timer
+ */
+function hideSpeakingTimer() {
+    const timerDiv = document.getElementById('speakingTimer');
+    if (timerDiv) {
+        timerDiv.style.display = 'none';
+    }
+    
+    if (speakingPart1State.currentTimer) {
+        clearInterval(speakingPart1State.currentTimer);
+        speakingPart1State.currentTimer = null;
+    }
+}
+
+/**
+ * Hiển thị màn hình hoàn thành Speaking Part 1
+ */
+function showSpeakingCompletion() {
+    document.getElementById('quizSection').style.display = 'none';
+    const completionScreen = document.getElementById('completionScreen');
+    completionScreen.classList.add('show');
+    
+    // Ẩn timer
+    hideSpeakingTimer();
+    
+    // Build completion HTML
+    let html = `
+        <div class="speaking-completion">
+            <h2 style="color: #667eea; margin-bottom: 30px;">🎉 Hoàn thành Speaking Part 1!</h2>
+            
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #333; margin-bottom: 20px;">📋 Tổng hợp câu hỏi & đáp án:</h3>
+    `;
+    
+    questions.forEach((q, idx) => {
+        const answer = speakingPart1State.userAnswers[idx];
+        html += `
+            <div class="answer-item">
+                <div class="answer-item-question">
+                    Câu ${idx + 1}: ${q.question}
+                </div>
+                <div class="answer-item-answer">
+                    ${answer.type === 'text' ? answer.content : '🎤 <i>Audio recorded</i>'}
+                </div>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="copy-btn" onclick="copySpeakingAnswers()">
+                    📋 Copy tất cả để gửi AI chấm
+                </button>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" onclick="location.reload()">🏠 Về trang chủ</button>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('finalScore').innerHTML = html;
+}
+
+/**
+ * ============================================
+ * WRITING PART 1 FUNCTIONS
+ * ============================================
+ */
+
+/**
+ * Hiển thị modal cài đặt cho Writing Part 1 (đơn giản hơn Speaking)
+ */
+function showWritingSettingsModal() {
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+    modal.id = 'writingSettingsModal';
+    modal.style.display = 'flex';
+    
+    modal.innerHTML = `
+        <div class="modal-box" style="max-width: 450px;">
+            <h2 style="color: #667eea; margin-bottom: 25px;">⚙️ Cài đặt Writing Part 1</h2>
+            
+            <div style="text-align: left; margin-bottom: 30px;">
+                <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                    <input type="checkbox" id="writingShowHintsCheckbox" checked style="width: 20px; height: 20px; cursor: pointer;">
+                    <span style="font-size: 16px;">💡 Hiển thị gợi ý (suggestion)</span>
+                </label>
+            </div>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-primary" onclick="startWritingPart1()">
+                    ✍️ Bắt đầu
+                </button>
+                <button class="modal-btn modal-btn-secondary" onclick="closeWritingSettingsModal()">
+                    Hủy
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+/**
+ * Đóng modal Writing và quay về trang chủ
+ */
+function closeWritingSettingsModal() {
+    const modal = document.getElementById('writingSettingsModal');
+    if (modal) {
+        modal.remove();
+    }
+    document.getElementById('uploadSection').style.display = 'block';
+    document.getElementById('quizSection').style.display = 'none';
+}
+
+/**
+ * Bắt đầu Writing Part 1
+ */
+function startWritingPart1() {
+    // Lưu settings
+    writingPart1State.settings.showHints = document.getElementById('writingShowHintsCheckbox').checked;
+    
+    // Đóng modal
+    const modal = document.getElementById('writingSettingsModal');
+    if (modal) {
+        modal.remove();
+    }
+    
+    // Reset state
+    currentIndex = 0;
+    writingPart1State.userAnswers = [];
+    writingPart1State.hasSubmitted = false;
+    
+    // Bắt đầu quiz
+    startQuiz();
+}
+
+/**
+ * Render Writing Part 1 question (giống Speaking nhưng không có timer và voice)
+ */
+function renderWritingPart1(question) {
+    const passageContainer = document.getElementById('passageContainer');
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Ẩn passage container
+    passageContainer.innerHTML = '';
+    
+    // Hiển thị câu hỏi
+    document.getElementById('vnTitle').textContent = '';
+    document.getElementById('questionText').innerHTML = `
+        <div style="font-size: 1.3em; font-weight: bold; color: #333; margin-bottom: 20px;">
+            📝 ${question.question}
+        </div>
+    `;
+    
+    // Hiển thị gợi ý (nếu bật và chưa submit)
+    let html = '';
+    if (writingPart1State.settings.showHints && !writingPart1State.hasSubmitted) {
+        html += `
+            <div class="suggestion-box">
+                <div style="font-weight: bold; color: #f57c00; margin-bottom: 8px;">💡 Gợi ý:</div>
+                <div style="color: #666;">${question.suggestion_text}</div>
+            </div>
+        `;
+    }
+    
+    // Nếu đã submit, hiển thị thông tin tiếng Việt
+    if (writingPart1State.hasSubmitted) {
+        html += `
+            <div style="background: #e8f5e9; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <div style="font-weight: bold; color: #2e7d32; margin-bottom: 8px;">🇻🇳 Câu hỏi tiếng Việt:</div>
+                <div style="color: #333;">${question.question_vi}</div>
+            </div>
+            
+            <div class="suggestion-box">
+                <div style="font-weight: bold; color: #f57c00; margin-bottom: 8px;">💡 Gợi ý:</div>
+                <div style="color: #666; margin-bottom: 5px;">${question.suggestion_text}</div>
+                <div style="color: #999; font-style: italic;">${question.suggestion_text_vi}</div>
+            </div>
+        `;
+    }
+    
+    // Hiển thị input area (nếu chưa submit)
+    if (!writingPart1State.hasSubmitted) {
+        html += `
+            <div class="speaking-answer-area">
+                <div style="font-weight: bold; margin-bottom: 10px;">✍️ Câu trả lời của bạn:</div>
+                <textarea id="writingTextAnswer" class="speaking-textarea" placeholder="Nhập câu trả lời của bạn ở đây..." onkeydown="handleWritingEnterKey(event)"></textarea>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-primary" onclick="submitWritingAnswer()" style="font-size: 18px; padding: 15px 40px;">
+                    📤 Submit
+                </button>
+                <div style="font-size: 12px; color: #999; margin-top: 10px;">
+                    💡 Tip: Nhấn <kbd>Enter</kbd> để submit nhanh
+                </div>
+            </div>
+        `;
+    } else {
+        // Hiển thị câu trả lời đã submit
+        const userAnswer = writingPart1State.userAnswers[currentIndex];
+        html += `
+            <div style="background: #f8f9ff; padding: 20px; border-radius: 12px; margin: 20px 0; border-left: 4px solid #667eea;">
+                <div style="font-weight: bold; color: #667eea; margin-bottom: 10px;">✅ Câu trả lời của bạn:</div>
+                <div style="color: #333;">${userAnswer}</div>
+            </div>
+            
+            <div class="sample-answer-box">
+                <strong>📖 Sample Answer (English):</strong>
+                ${question.sample_answer}
+            </div>
+            
+            <div class="sample-answer-box" style="border-left-color: #4caf50;">
+                <strong>🇻🇳 Sample Answer (Tiếng Việt):</strong>
+                ${question.sample_answer_vi}
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-primary" onclick="nextWritingQuestion()" style="font-size: 18px; padding: 15px 40px;">
+                    ${currentIndex < questions.length - 1 ? '➡️ Câu tiếp theo' : '🏁 Hoàn thành'}
+                </button>
+            </div>
+        `;
+    }
+    
+    optionsContainer.innerHTML = html;
+}
+
+/**
+ * Hiển thị màn hình hoàn thành Writing Part 1
+ */
+function showWritingCompletion() {
+    document.getElementById('quizSection').style.display = 'none';
+    const completionScreen = document.getElementById('completionScreen');
+    completionScreen.classList.add('show');
+    
+    // Build completion HTML
+    let html = `
+        <div class="speaking-completion">
+            <h2 style="color: #667eea; margin-bottom: 30px;">🎉 Hoàn thành Writing Part 1!</h2>
+            
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #333; margin-bottom: 20px;">📋 Tổng hợp câu hỏi & đáp án:</h3>
+    `;
+    
+    questions.forEach((q, idx) => {
+        const answer = writingPart1State.userAnswers[idx];
+        html += `
+            <div class="answer-item">
+                <div class="answer-item-question">
+                    Câu ${idx + 1}: ${q.question}
+                </div>
+                <div class="answer-item-answer">
+                    ${answer || '[Không có câu trả lời]'}
+                </div>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="copy-btn" onclick="copyWritingAnswers()">
+                    📋 Copy tất cả để gửi AI chấm
+                </button>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" onclick="location.reload()">🏠 Về trang chủ</button>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('finalScore').innerHTML = html;
 }
