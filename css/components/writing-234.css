@@ -206,6 +206,7 @@
 .club-completion {
     padding: 30px;
     text-align: center;
+    font-size: 1rem; /* Reset font-size vì parent .completion-score có 3em */
 }
 
 .club-completion h2 {

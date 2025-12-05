@@ -8,7 +8,27 @@
 window.onload = function() {
     renderQuickSelectButtons();
     setupDragAndDrop();
+    setupKeyboardShortcuts();
 };
+
+/**
+ * Setup keyboard shortcuts
+ */
+function setupKeyboardShortcuts() {
+    document.addEventListener('keydown', function(event) {
+        // Chỉ xử lý khi đang ở Writing Part 2,3,4
+        if (currentQuizType !== 'writing_part_2_3_4') return;
+        
+        // Bỏ qua nếu đang focus vào textarea
+        if (document.activeElement.tagName === 'TEXTAREA') return;
+        
+        // Phím mũi tên phải → Câu tiếp theo (chỉ khi đã submit)
+        if (event.key === 'ArrowRight' && writingPart234State.hasSubmitted) {
+            event.preventDefault();
+            nextWritingPart234Question();
+        }
+    });
+}
 
 function setupDragAndDrop() {
     const uploadArea = document.getElementById('uploadArea');
