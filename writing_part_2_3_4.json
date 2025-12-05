@@ -1,32 +1,33 @@
 [
     {
         "club_name": "Fashion Club",
-        "date_appeared": null,
         "priority": 10,
         "reason": "Chưa xuất hiện trong dữ liệu đề thi gốc.",
         "content": {
             "part_2": {
-                "question": "Why join Fashion Club?",
-                "question_vi": "Tại sao tham gia CLB Thời trang?",
+                "question": "Please tell us why you want to join the Fashion Club?",
+                "question_vi": "Hãy cho biết tại sao bạn muốn tham gia CLB Thời trang?",
                 "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
                 "suggested_answer_format_vi": "Tôi tham gia vì quan tâm [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "fashion",
-                    "ACTION": "read magazines"
+                    "TOPIC": "fashion and design",
+                    "ACTION": "read fashion magazines"
                 },
                 "suggested_answer_text_vi": {
-                    "TOPIC": "thời trang",
-                    "ACTION": "đọc tạp chí"
+                    "TOPIC": "thời trang và thiết kế",
+                    "ACTION": "đọc tạp chí thời trang"
                 }
             },
             "part_3": [
                 {
                     "speaker": "A",
                     "type": "Habit",
-                    "question": "Habit of buying clothes?",
-                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time...",
+                    "question": "How often do you buy new clothes and where do you usually go?",
+                    "question_vi": "Bạn có thường mua quần áo mới không và bạn thường đi đâu?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "ACTION": "buy clothes at the mall",
+                        "ACTION": "buy new clothes at the mall",
                         "ADJECTIVE": "exciting"
                     },
                     "suggested_answer_text_vi": {
@@ -37,8 +38,10 @@
                 {
                     "speaker": "B",
                     "type": "Suggestion",
-                    "question": "What to wear for birthday?",
-                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]...",
+                    "question": "I have a birthday party next week. What should I wear?",
+                    "question_vi": "Tôi có tiệc sinh nhật tuần tới. Tôi nên mặc gì?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
                     "suggested_answer_text": {
                         "ACTION": "wear a polite dress"
                     },
@@ -49,48 +52,56 @@
                 {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Branded clothes important?",
+                    "question": "Some people think wearing branded clothes is important. Do you agree?",
+                    "question_vi": "Một số người nghĩ mặc đồ hiệu là quan trọng. Bạn có đồng ý không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
-                    "suggested_answer_format_vi": "Chào! Cá nhân tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE]. Vì vậy mọi người nên ủng hộ.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "wearing nice clothes",
+                        "TOPIC": "the quality of clothes",
                         "ADJECTIVE": "important"
                     },
                     "suggested_answer_text_vi": {
-                        "TOPIC": "mặc đẹp",
+                        "TOPIC": "chất lượng quần áo",
                         "ADJECTIVE": "quan trọng"
                     }
                 }
             ],
             "part_4": {
-                "context": "Ticket price increase.",
+                "context": "The club is organizing a fashion show but has to increase the ticket price because of high venue costs.",
+                "context_vi": "CLB tổ chức show thời trang nhưng phải tăng giá vé do chi phí địa điểm cao.",
                 "task_1_friend": {
-                    "question": "Email to friend.",
+                    "question": "Write an email to your friend complaining about the price increase.",
+                    "question_vi": "Viết email cho bạn phàn nàn về việc tăng giá vé.",
                     "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
                         "DETAILS": "the ticket price increased",
                         "EMOTION": "disappointed",
-                        "PLAN": "not join"
+                        "PLAN": "not join the show"
                     },
                     "suggested_answer_text_vi": {
                         "DETAILS": "giá vé tăng",
                         "EMOTION": "thất vọng",
-                        "PLAN": "không tham gia"
+                        "PLAN": "không tham gia show"
                     }
                 },
                 "task_2_manager": {
-                    "question": "Email to manager.",
-                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE]...\nSecondly, I suggest that the club should [IDEA_2]...",
+                    "question": "Write an email to the manager expressing dissatisfaction and suggesting a discount.",
+                    "question_vi": "Viết email cho quản lý bày tỏ sự không hài lòng và gợi ý giảm giá.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "the ticket price",
                         "IDEA_1": "it is too expensive",
-                        "ADJECTIVE": "hard for students",
+                        "ADJECTIVE": "hard",
+                        "EXAMPLE": "students cannot pay",
                         "IDEA_2": "give discounts"
                     },
                     "suggested_answer_text_vi": {
                         "TOPIC": "giá vé",
                         "IDEA_1": "nó quá đắt",
-                        "ADJECTIVE": "khó cho sinh viên",
+                        "ADJECTIVE": "khó khăn",
+                        "EXAMPLE": "sinh viên không trả nổi",
                         "IDEA_2": "giảm giá"
                     }
                 }
@@ -99,47 +110,54 @@
     },
     {
         "club_name": "Car Club",
-        "date_appeared": null,
         "priority": 10,
-        "reason": "Chưa xuất hiện trong dữ liệu đề thi gốc.",
+        "reason": "Chưa từng xuất hiện trong dữ liệu đề thi gốc.",
         "content": {
             "part_2": {
-                "question": "Why interested in cars?",
+                "question": "Why are you interested in cars?",
+                "question_vi": "Tại sao bạn thích ô tô?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION].",
                 "suggested_answer_text": {
-                    "TOPIC": "cars",
-                    "ACTION": "drive around"
+                    "TOPIC": "cars and speed",
+                    "ACTION": "drive my car to the suburbs"
                 },
                 "suggested_answer_text_vi": {
-                    "TOPIC": "xe hơi",
-                    "ACTION": "lái xe vòng quanh"
+                    "TOPIC": "xe hơi và tốc độ",
+                    "ACTION": "lái xe ra ngoại ô"
                 }
             },
             "part_3": [
                 {
                     "speaker": "A",
                     "type": "Habit",
-                    "question": "How go to work?",
+                    "question": "How do you usually go to work?",
+                    "question_vi": "Bạn thường đi làm bằng gì?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "ACTION": "drive my car",
+                        "ACTION": "drive my car to work",
                         "ADJECTIVE": "convenient"
                     },
                     "suggested_answer_text_vi": {
-                        "ACTION": "lái xe",
+                        "ACTION": "lái xe đi làm",
                         "ADJECTIVE": "tiện lợi"
                     }
                 },
                 {
                     "speaker": "B",
                     "type": "Past",
-                    "question": "First time drove?",
-                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]...",
+                    "question": "Tell me about the first time you drove a car?",
+                    "question_vi": "Kể về lần đầu lái xe?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
                     "suggested_answer_text": {
-                        "ACTION": "drove a car",
+                        "ACTION": "drove a car for the first time",
                         "TIME": "2 years ago",
-                        "PERSON": "my dad"
+                        "PERSON": "my father"
                     },
                     "suggested_answer_text_vi": {
-                        "ACTION": "lái xe",
+                        "ACTION": "lái xe lần đầu",
                         "TIME": "2 năm trước",
                         "PERSON": "bố tôi"
                     }
@@ -147,8 +165,10 @@
                 {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Public transport better?",
+                    "question": "Public transport is better than private cars. Agree?",
+                    "question_vi": "Giao thông công cộng tốt hơn xe cá nhân. Đồng ý không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
                         "TOPIC": "using buses",
                         "ADJECTIVE": "good for environment"
@@ -160,20 +180,42 @@
                 }
             ],
             "part_4": {
-                "context": "Racing cancelled.",
+                "context": "The club planned a car racing event but it is cancelled due to safety issues.",
+                "context_vi": "CLB lên kế hoạch đua xe nhưng bị hủy do vấn đề an toàn.",
                 "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "DETAILS": "the race is cancelled",
-                        "EMOTION": "sad",
-                        "PLAN": "stay home"
+                        "DETAILS": "the racing event is cancelled",
+                        "EMOTION": "disappointed",
+                        "PLAN": "not join the safety talk"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "sự kiện đua xe bị hủy",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "không tham gia buổi nói chuyện an toàn"
                     }
                 },
                 "task_2_manager": {
+                    "question": "Write an email to the manager.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "the cancelled race",
                         "IDEA_1": "we prepared a lot",
                         "ADJECTIVE": "disappointing",
-                        "IDEA_2": "find a safe place"
+                        "EXAMPLE": "it wastes our time",
+                        "IDEA_2": "find a safer place"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "cuộc đua bị hủy",
+                        "IDEA_1": "chúng tôi chuẩn bị nhiều",
+                        "ADJECTIVE": "thất vọng",
+                        "EXAMPLE": "lãng phí thời gian",
+                        "IDEA_2": "tìm nơi an toàn hơn"
                     }
                 }
             }
@@ -181,42 +223,63 @@
     },
     {
         "club_name": "Nature Club",
-        "date_appeared": null,
         "priority": 10,
-        "reason": "Chưa xuất hiện trong dữ liệu đề thi gốc.",
+        "reason": "Chưa từng xuất hiện trong dữ liệu đề thi gốc.",
         "content": {
             "part_2": {
-                "question": "Protect environment?",
+                "question": "What do you usually do to protect the environment?",
+                "question_vi": "Bạn thường làm gì để bảo vệ môi trường?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION].",
                 "suggested_answer_text": {
                     "TOPIC": "nature",
-                    "ACTION": "plant trees"
+                    "ACTION": "plant trees in the park"
                 },
                 "suggested_answer_text_vi": {
                     "TOPIC": "thiên nhiên",
-                    "ACTION": "trồng cây"
+                    "ACTION": "trồng cây trong công viên"
                 }
             },
             "part_3": [
                 {
                     "speaker": "A",
                     "type": "Habit",
-                    "question": "Like parks?",
+                    "question": "Do you like going to parks or forests? Why?",
+                    "question_vi": "Bạn thích đi công viên hay rừng? Tại sao?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
                     "suggested_answer_text": {
                         "ACTION": "go to the park",
-                        "ADJECTIVE": "fresh"
+                        "ADJECTIVE": "fresh and peaceful"
                     },
                     "suggested_answer_text_vi": {
                         "ACTION": "đi công viên",
-                        "ADJECTIVE": "trong lành"
+                        "ADJECTIVE": "trong lành và yên bình"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "I want to go camping this weekend. Where should I go?",
+                    "question_vi": "Tôi muốn đi cắm trại cuối tuần. Tôi nên đi đâu?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "visit Cuc Phuong National Park"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "thăm vườn quốc gia Cúc Phương"
                     }
                 },
                 {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Kids learn nature?",
+                    "question": "Children should learn about nature at school. Do you agree?",
+                    "question_vi": "Trẻ em nên học về thiên nhiên ở trường. Bạn đồng ý không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "learning nature",
+                        "TOPIC": "learning about nature",
                         "ADJECTIVE": "necessary"
                     },
                     "suggested_answer_text_vi": {
@@ -226,20 +289,42 @@
                 }
             ],
             "part_4": {
-                "context": "Trip postponed.",
+                "context": "The club planned a planting trip but it is postponed due to bad weather.",
+                "context_vi": "CLB lên kế hoạch đi trồng cây nhưng bị hoãn do thời tiết xấu.",
                 "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
                         "DETAILS": "the trip is postponed",
                         "EMOTION": "disappointed",
-                        "PLAN": "wait for next time"
+                        "PLAN": "wait for next month"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chuyến đi bị hoãn",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "đợi tháng sau"
                     }
                 },
                 "task_2_manager": {
+                    "question": "Write an email to the manager.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "the trip delay",
                         "IDEA_1": "we want to go soon",
                         "ADJECTIVE": "sad",
+                        "EXAMPLE": "we prepared everything",
                         "IDEA_2": "fix a new date"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc hoãn chuyến đi",
+                        "IDEA_1": "chúng tôi muốn đi sớm",
+                        "ADJECTIVE": "buồn",
+                        "EXAMPLE": "chúng tôi đã chuẩn bị mọi thứ",
+                        "IDEA_2": "chốt ngày mới"
                     }
                 }
             }
@@ -247,50 +332,110 @@
     },
     {
         "club_name": "College Club",
-        "date_appeared": "User Provided",
         "priority": 9,
         "reason": "Chủ đề người dùng cung cấp.",
         "content": {
             "part_2": {
-                "question": "Study time?",
+                "question": "Please tell us about the days and times you can attend courses and what you would like to study?",
+                "question_vi": "Hãy cho biết ngày giờ bạn có thể tham gia khóa học và bạn muốn học gì?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION].",
                 "suggested_answer_text": {
-                    "TOPIC": "studying",
-                    "ACTION": "attend classes"
+                    "TOPIC": "learning new skills",
+                    "ACTION": "attend classes on weekends"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "học kỹ năng mới",
+                    "ACTION": "đi học vào cuối tuần"
                 }
             },
             "part_3": [
                 {
                     "speaker": "A",
                     "type": "Habit",
-                    "question": "What course?",
+                    "question": "Hi! Welcome to the college. What course are you doing and why did you choose it?",
+                    "question_vi": "Chào! Bạn đang học khóa gì và tại sao chọn nó?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
                     "suggested_answer_text": {
                         "ACTION": "study English",
                         "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "học tiếng Anh",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "Welcome! How do you feel about the college so far?",
+                    "question_vi": "Bạn cảm thấy thế nào về trường?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "studying here",
+                        "ADJECTIVE": "great"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc học ở đây",
+                        "ADJECTIVE": "tuyệt vời"
                     }
                 },
                 {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Sports club closed?",
-                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "question": "Did you hear that the college sports club has closed? What do you think about this?",
+                    "question_vi": "Bạn nghe tin CLB thể thao đóng cửa chưa? Bạn nghĩ sao?",
+                    "suggested_answer_format": "Hi! Personally, I disagree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi không đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "keeping the club open",
-                        "ADJECTIVE": "important"
+                        "TOPIC": "closing the club",
+                        "ADJECTIVE": "unreasonable"
                     },
                     "suggested_answer_text_vi": {
-                        "TOPIC": "giữ CLB hoạt động",
-                        "ADJECTIVE": "quan trọng"
+                        "TOPIC": "việc đóng cửa CLB",
+                        "ADJECTIVE": "vô lý"
                     }
                 }
             ],
             "part_4": {
-                "context": "Exam date change.",
-                "task_2_manager": {
+                "context": "We are writing to inform you that the end of course exams will now take place two weeks earlier than originally planned.",
+                "context_vi": "Thông báo kỳ thi kết thúc khóa học sẽ diễn ra sớm hơn 2 tuần so với kế hoạch.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "the exam date",
-                        "IDEA_1": "it is too soon",
+                        "DETAILS": "the exam is earlier",
+                        "EMOTION": "worried",
+                        "PLAN": "study harder"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "kỳ thi diễn ra sớm hơn",
+                        "EMOTION": "lo lắng",
+                        "PLAN": "học chăm chỉ hơn"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the college administrator.",
+                    "question_vi": "Viết email cho quản trị viên trường.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the exam schedule",
+                        "IDEA_1": "it is too sudden",
                         "ADJECTIVE": "stressful",
-                        "IDEA_2": "keep old date"
+                        "EXAMPLE": "we cannot review in time",
+                        "IDEA_2": "keep the old date"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "lịch thi",
+                        "IDEA_1": "nó quá đột ngột",
+                        "ADJECTIVE": "áp lực",
+                        "EXAMPLE": "chúng tôi không ôn kịp",
+                        "IDEA_2": "giữ ngày thi cũ"
                     }
                 }
             }
@@ -298,23 +443,63 @@
     },
     {
         "club_name": "Art Club",
-        "date_appeared": "04/11",
         "priority": 9,
-        "reason": "Xuất hiện đầu tháng 11.",
+        "reason": "Chủ đề người dùng cung cấp.",
         "content": {
             "part_2": {
-                "question": "Favorite painting?",
+                "question": "Tell me a painting or a photo that you like?",
+                "question_vi": "Kể về một bức tranh hoặc ảnh bạn thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION].",
                 "suggested_answer_text": {
                     "TOPIC": "art",
-                    "ACTION": "paint pictures"
+                    "ACTION": "paint landscapes"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "nghệ thuật",
+                    "ACTION": "vẽ tranh phong cảnh"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
+                    "question_vi": "Kể về một món đồ bạn giữ đã lâu.",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
+                    "suggested_answer_text": {
+                        "ACTION": "bought a painting",
+                        "TIME": "10 years ago",
+                        "PERSON": "my mom"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mua một bức tranh",
+                        "TIME": "10 năm trước",
+                        "PERSON": "mẹ tôi"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "I would like to learn painting, but I have not still found the effective way. Should I take a course at my local college? Please, give me some advice.",
+                    "question_vi": "Tôi có nên học vẽ ở trường cao đẳng địa phương không? Cho tôi lời khuyên.",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "take a course there"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "tham gia khóa học ở đó"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Street art good?",
+                    "question": "Street art – where people paint on the building – are becoming popular. However, some people criticize that it is bad. What is your opinion?",
+                    "question_vi": "Nghệ thuật đường phố đang phổ biến nhưng có người chỉ trích. Ý kiến bạn thế nào?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
                         "TOPIC": "street art",
                         "ADJECTIVE": "creative"
@@ -326,13 +511,42 @@
                 }
             ],
             "part_4": {
-                "context": "Artist talk.",
-                "task_2_manager": {
+                "context": "The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to the members.",
+                "context_vi": "CLB Nghệ thuật tổ chức buổi nói chuyện và mời nghệ sĩ để thu hút chú ý.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "the talk event",
-                        "IDEA_1": "invite famous artist",
+                        "DETAILS": "we need to find an artist",
+                        "EMOTION": "excited",
+                        "PLAN": "suggest Mr. John"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chúng ta cần tìm nghệ sĩ",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "gợi ý ông John"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the organizer.",
+                    "question_vi": "Viết email cho ban tổ chức.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the guest speaker",
+                        "IDEA_1": "invite a young artist",
                         "ADJECTIVE": "inspiring",
+                        "EXAMPLE": "attract young members",
                         "IDEA_2": "talk about modern art"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "diễn giả khách mời",
+                        "IDEA_1": "mời nghệ sĩ trẻ",
+                        "ADJECTIVE": "truyền cảm hứng",
+                        "EXAMPLE": "thu hút người trẻ",
+                        "IDEA_2": "nói về nghệ thuật hiện đại"
                     }
                 }
             }
@@ -340,113 +554,552 @@
     },
     {
         "club_name": "Walking Club",
-        "date_appeared": "30/11",
         "priority": 8,
-        "reason": "Cuối tháng 11.",
+        "reason": "Xuất hiện cuối tháng 11.",
         "content": {
             "part_2": {
-                "question": "When walk?",
+                "question": "When and where do you like to walk?",
+                "question_vi": "Bạn thích đi bộ khi nào và ở đâu?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
                     "TOPIC": "walking",
-                    "ACTION": "walk in park"
+                    "ACTION": "walk in the park"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "đi bộ",
+                    "ACTION": "đi bộ trong công viên"
                 }
             },
             "part_3": [
                 {
-                    "speaker": "C",
-                    "type": "Opinion",
-                    "question": "Walking good for health?",
-                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "I often walk. Do you like walking or not?",
+                    "question_vi": "Tôi thường đi bộ. Bạn có thích đi bộ không?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "walking",
+                        "ACTION": "go walking",
                         "ADJECTIVE": "healthy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi bộ",
+                        "ADJECTIVE": "tốt cho sức khỏe"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Past",
+                    "question": "I like walking but when it rains I get wet. Tell me about a time you had a bad experience while hiking?",
+                    "question_vi": "Kể về một trải nghiệm tồi tệ khi đi bộ đường dài?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON]. (Lưu ý: Với đề hỏi trải nghiệm xấu, bạn có thể thêm câu: 'However, it rained heavily.')",
+                    "suggested_answer_text": {
+                        "ACTION": "went hiking",
+                        "TIME": "last year",
+                        "PERSON": "my friends"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi leo núi",
+                        "TIME": "năm ngoái",
+                        "PERSON": "bạn tôi"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Walking is the best form of exercise. What do you think when many people walk and know it is good for their health?",
+                    "question_vi": "Đi bộ là bài tập tốt nhất. Bạn nghĩ gì khi nhiều người đi bộ vì sức khỏe?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "walking daily",
+                        "ADJECTIVE": "beneficial"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "đi bộ hàng ngày",
+                        "ADJECTIVE": "có lợi"
                     }
                 }
             ],
             "part_4": {
-                "context": "Walking tour.",
-                "task_2_manager": {
+                "context": "The club is planning a 2-week walking tour across various countries in Europe and wants members’ opinions.",
+                "context_vi": "CLB lên kế hoạch tour đi bộ 2 tuần qua châu Âu.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "the tour",
-                        "IDEA_1": "choose safe routes",
-                        "ADJECTIVE": "safe",
+                        "DETAILS": "there is a walking tour across Europe",
+                        "EMOTION": "excited",
+                        "PLAN": "join the tour"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "có tour đi bộ xuyên Âu",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "tham gia tour"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the walking tour plan",
+                        "IDEA_1": "we should choose safe routes",
+                        "ADJECTIVE": "important",
+                        "EXAMPLE": "ensure safety for everyone",
                         "IDEA_2": "prepare medical kits"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "kế hoạch tour đi bộ",
+                        "IDEA_1": "chúng ta nên chọn lộ trình an toàn",
+                        "ADJECTIVE": "quan trọng",
+                        "EXAMPLE": "đảm bảo an toàn cho mọi người",
+                        "IDEA_2": "chuẩn bị dụng cụ y tế"
                     }
                 }
             }
         }
     },
     {
-        "club_name": "Book Club",
-        "date_appeared": "08/11",
+        "club_name": "Book Club (Version 1)",
         "priority": 8,
-        "reason": "Đầu tháng 11.",
+        "reason": "Đề gốc ngày 08/11: Vấn đề sách miễn phí & giao hàng.",
         "content": {
             "part_2": {
-                "question": "Free time?",
+                "question": "Please tell me about your free time and hobbies?",
+                "question_vi": "Kể về thời gian rảnh và sở thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "books",
+                    "TOPIC": "reading books",
                     "ACTION": "read novels"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "đọc sách",
+                    "ACTION": "đọc tiểu thuyết"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! Welcome to the club. When and where do you like reading books?",
+                    "question_vi": "Bạn thích đọc sách khi nào và ở đâu?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "read books in my bedroom",
+                        "ADJECTIVE": "quiet"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đọc sách trong phòng ngủ",
+                        "ADJECTIVE": "yên tĩnh"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
+                    "question_vi": "Tôi muốn tặng sách cho bạn. Bạn gợi ý gì?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "buy a comic book"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mua một cuốn truyện tranh"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Online books replace paper?",
+                    "question": "Online books replace traditional books? What do you think about that?",
+                    "question_vi": "Sách online thay thế sách truyền thống? Bạn nghĩ sao?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý (với quan điểm ngược lại - tức là phản đối việc thay thế). Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "reading online",
-                        "ADJECTIVE": "convenient"
+                        "TOPIC": "traditional books",
+                        "ADJECTIVE": "necessary"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "sách truyền thống",
+                        "ADJECTIVE": "cần thiết"
                     }
                 }
             ],
             "part_4": {
-                "context": "No free book.",
-                "task_2_manager": {
+                "context": "From next month we will no longer be able to continue our offer of one free book every month. Also, because of problems with our delivery service, please expect a wait 4-6 weeks before your order arrives.",
+                "context_vi": "Không còn sách miễn phí hàng tháng. Giao hàng chậm 4-6 tuần.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "no free books",
-                        "IDEA_1": "we need books",
-                        "ADJECTIVE": "disappointing",
-                        "IDEA_2": "improve delivery"
+                        "DETAILS": "there are no free books and delivery is late",
+                        "EMOTION": "disappointed",
+                        "PLAN": "leave the club"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "không còn sách miễn phí và giao hàng chậm",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "rời CLB"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the changes in membership benefits",
+                        "IDEA_1": "we joined because of the free books",
+                        "ADJECTIVE": "unfair",
+                        "EXAMPLE": "members will feel unhappy",
+                        "IDEA_2": "improve the delivery service"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "thay đổi quyền lợi thành viên",
+                        "IDEA_1": "chúng tôi tham gia vì sách miễn phí",
+                        "ADJECTIVE": "không công bằng",
+                        "EXAMPLE": "thành viên sẽ không vui",
+                        "IDEA_2": "cải thiện dịch vụ giao hàng"
                     }
                 }
             }
         }
     },
     {
-        "club_name": "Photography Club",
-        "date_appeared": "11/11",
+        "club_name": "Book Club (Version 2)",
         "priority": 8,
-        "reason": "Giữa tháng 11.",
+        "reason": "Đề cập nhật thêm: Thư viện đóng cửa.",
         "content": {
             "part_2": {
-                "question": "Time to take photos?",
+                "question": "Please tell me about your free time and hobbies?",
+                "question_vi": "Kể về thời gian rảnh và sở thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "reading books",
+                    "ACTION": "read novels"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "đọc sách",
+                    "ACTION": "đọc tiểu thuyết"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! Welcome to the club. When and where do you like reading books?",
+                    "question_vi": "Bạn thích đọc sách khi nào và ở đâu?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "read books in my bedroom",
+                        "ADJECTIVE": "quiet"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đọc sách trong phòng ngủ",
+                        "ADJECTIVE": "yên tĩnh"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
+                    "question_vi": "Gợi ý mua sách tặng bạn?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "buy a comic book"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mua một cuốn truyện tranh"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Online books replace traditional books? What do you think about that?",
+                    "question_vi": "Sách online thay thế sách truyền thống?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý (với quan điểm bảo vệ sách giấy). Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "traditional books",
+                        "ADJECTIVE": "necessary"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "sách truyền thống",
+                        "ADJECTIVE": "cần thiết"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "The local authorities will close the library next year because many people prefer reading online books. The club wants members to give their opinions and suggestions.",
+                "context_vi": "Chính quyền sẽ đóng cửa thư viện vào năm sau vì nhiều người đọc sách online.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "the library will close next year",
+                        "EMOTION": "sad",
+                        "PLAN": "write a complaint email"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "thư viện sẽ đóng cửa năm sau",
+                        "EMOTION": "buồn",
+                        "PLAN": "viết email khiếu nại"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "closing the library",
+                        "IDEA_1": "the library is important",
+                        "ADJECTIVE": "educational",
+                        "EXAMPLE": "students need a place to study",
+                        "IDEA_2": "keep the library open"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc đóng cửa thư viện",
+                        "IDEA_1": "thư viện rất quan trọng",
+                        "ADJECTIVE": "có tính giáo dục",
+                        "EXAMPLE": "sinh viên cần nơi học tập",
+                        "IDEA_2": "giữ thư viện mở cửa"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Photography Club (Version 1)",
+        "priority": 8,
+        "reason": "Đề gốc: Triển lãm ảnh (Exhibition).",
+        "content": {
+            "part_2": {
+                "question": "What is your favorite time and place to take pictures?",
+                "question_vi": "Thời gian và địa điểm chụp ảnh yêu thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
                     "TOPIC": "photography",
-                    "ACTION": "take photos"
+                    "ACTION": "take pictures in the park"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "nhiếp ảnh",
+                    "ACTION": "chụp ảnh trong công viên"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! Welcome to the club. What is your favorite photo?",
+                    "question_vi": "Bức ảnh yêu thích của bạn là gì?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION] (Đây là câu hỏi sở thích, trả lời như thói quen). Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "look at my family photo",
+                        "ADJECTIVE": "happy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "ngắm bức ảnh gia đình",
+                        "ADJECTIVE": "hạnh phúc"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Habit",
+                    "question": "Hi! What kind of photos do you like to take?",
+                    "question_vi": "Bạn thích chụp loại ảnh nào?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "take photos of nature",
+                        "ADJECTIVE": "beautiful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "chụp ảnh thiên nhiên",
+                        "ADJECTIVE": "đẹp"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Phone photos good?",
+                    "question": "Is it good to take pictures with the phone?",
+                    "question_vi": "Chụp ảnh bằng điện thoại có tốt không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "using phones",
+                        "TOPIC": "taking photos with phones",
                         "ADJECTIVE": "convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "chụp ảnh bằng điện thoại",
+                        "ADJECTIVE": "tiện lợi"
                     }
                 }
             ],
             "part_4": {
-                "context": "Exhibition.",
-                "task_2_manager": {
+                "context": "Our club is organizing an exhibition to show people’s best photos. Please give some suggestions to attract all of ages to join.",
+                "context_vi": "CLB tổ chức triển lãm ảnh. Gợi ý để thu hút mọi lứa tuổi.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "the exhibition",
-                        "IDEA_1": "games for kids",
+                        "DETAILS": "the club will organize an exhibition",
+                        "EMOTION": "excited",
+                        "PLAN": "join the event"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "CLB sẽ tổ chức triển lãm",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "tham gia sự kiện"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the upcoming exhibition",
+                        "IDEA_1": "we should organize games for kids",
                         "ADJECTIVE": "fun",
-                        "IDEA_2": "display nature photos"
+                        "EXAMPLE": "attract families",
+                        "IDEA_2": "show nature photos for older people"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "triển lãm sắp tới",
+                        "IDEA_1": "chúng ta nên tổ chức trò chơi cho trẻ",
+                        "ADJECTIVE": "vui",
+                        "EXAMPLE": "thu hút gia đình",
+                        "IDEA_2": "trưng bày ảnh thiên nhiên cho người già"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Photography Club (Version 2)",
+        "priority": 8,
+        "reason": "Đề cập nhật thêm: Thay đổi hạng mục cuộc thi (Categories).",
+        "content": {
+            "part_2": {
+                "question": "What is your favorite time and place to take pictures?",
+                "question_vi": "Thời gian và địa điểm chụp ảnh yêu thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "photography",
+                    "ACTION": "take pictures in the park"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "nhiếp ảnh",
+                    "ACTION": "chụp ảnh trong công viên"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! Welcome to the club. What is your favorite photo?",
+                    "question_vi": "Bức ảnh yêu thích của bạn là gì?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "look at my family photo",
+                        "ADJECTIVE": "happy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "ngắm bức ảnh gia đình",
+                        "ADJECTIVE": "hạnh phúc"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Habit",
+                    "question": "Hi! What kind of photos do you like to take?",
+                    "question_vi": "Bạn thích chụp loại ảnh nào?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "take photos of nature",
+                        "ADJECTIVE": "beautiful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "chụp ảnh thiên nhiên",
+                        "ADJECTIVE": "đẹp"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Is it good to take pictures with the phone?",
+                    "question_vi": "Chụp ảnh bằng điện thoại có tốt không?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "taking photos with phones",
+                        "ADJECTIVE": "convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "chụp ảnh bằng điện thoại",
+                        "ADJECTIVE": "tiện lợi"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Last year, the club held a contest but there was only one category. This year, the club will be divided into several categories including women, men and children under 16 years old.",
+                "context_vi": "Năm nay cuộc thi chia thành nhiều hạng mục: nữ, nam, trẻ em.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "the contest will have new categories",
+                        "EMOTION": "happy",
+                        "PLAN": "join the contest"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "cuộc thi sẽ có các hạng mục mới",
+                        "EMOTION": "vui",
+                        "PLAN": "tham gia cuộc thi"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the new contest categories",
+                        "IDEA_1": "it is a great idea",
+                        "ADJECTIVE": "fair",
+                        "EXAMPLE": "everyone can compete fairly",
+                        "IDEA_2": "offer prizes for each group"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "các hạng mục thi mới",
+                        "IDEA_1": "đó là ý tưởng tuyệt vời",
+                        "ADJECTIVE": "công bằng",
+                        "EXAMPLE": "mọi người có thể thi đấu công bằng",
+                        "IDEA_2": "trao giải cho từng nhóm"
                     }
                 }
             }
@@ -454,37 +1107,108 @@
     },
     {
         "club_name": "Music Club",
-        "date_appeared": "13/11",
         "priority": 7,
-        "reason": "Giữa tháng 11.",
+        "reason": "Xuất hiện giữa tháng 11.",
         "content": {
             "part_2": {
-                "question": "Listen music?",
+                "question": "Please tell us about the last time you listened to music.",
+                "question_vi": "Kể về lần cuối cùng bạn nghe nhạc?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
                     "TOPIC": "music",
-                    "ACTION": "listen to pop"
+                    "ACTION": "listen to pop music"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "âm nhạc",
+                    "ACTION": "nghe nhạc Pop"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! How often do you listen to music?",
+                    "question_vi": "Bạn thường nghe nhạc bao lâu một lần?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "listen to music everyday",
+                        "ADJECTIVE": "relaxing"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "nghe nhạc mỗi ngày",
+                        "ADJECTIVE": "thư giãn"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "I plan to give my son music lessons but he doesn’t like it. What should I do?",
+                    "question_vi": "Tôi định cho con học nhạc nhưng nó không thích. Tôi nên làm gì?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "let him choose his favorite instrument"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "để cậu bé chọn nhạc cụ yêu thích"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Music important?",
+                    "question": "Do you agree that music is important in culture?",
+                    "question_vi": "Bạn có đồng ý rằng âm nhạc quan trọng trong văn hóa không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "music",
+                        "TOPIC": "music in culture",
                         "ADJECTIVE": "important"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "âm nhạc trong văn hóa",
+                        "ADJECTIVE": "quan trọng"
                     }
                 }
             ],
             "part_4": {
-                "context": "Concert noise.",
-                "task_2_manager": {
+                "context": "Your music club organizes concerts in the evening, and surrounding residents are complaining.",
+                "context_vi": "CLB tổ chức hòa nhạc buổi tối, cư dân xung quanh phàn nàn.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend and give some suggestions to solve this problem.",
+                    "question_vi": "Viết email cho bạn đưa ra gợi ý.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "the noise",
+                        "DETAILS": "residents are complaining about noise",
+                        "EMOTION": "worried",
+                        "PLAN": "suggest a solution"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "cư dân đang phàn nàn về tiếng ồn",
+                        "EMOTION": "lo lắng",
+                        "PLAN": "gợi ý giải pháp"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the club manager giving your suggestions to solve the problem.",
+                    "question_vi": "Viết email cho quản lý đưa ra giải pháp.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the noise complaint",
                         "IDEA_1": "it disturbs neighbors",
                         "ADJECTIVE": "loud",
-                        "IDEA_2": "hold it indoors"
+                        "EXAMPLE": "people cannot sleep",
+                        "IDEA_2": "hold concerts indoors"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "phàn nàn về tiếng ồn",
+                        "IDEA_1": "nó làm phiền hàng xóm",
+                        "ADJECTIVE": "ồn ào",
+                        "EXAMPLE": "mọi người không ngủ được",
+                        "IDEA_2": "tổ chức hòa nhạc trong nhà"
                     }
                 }
             }
@@ -492,75 +1216,427 @@
     },
     {
         "club_name": "Food Club",
-        "date_appeared": "23/11",
         "priority": 6,
-        "reason": "Gần cuối tháng 11.",
+        "reason": "Xuất hiện gần cuối tháng 11.",
         "content": {
             "part_2": {
-                "question": "Breakfast?",
+                "question": "What did you eat for breakfast?",
+                "question_vi": "Bạn đã ăn gì vào bữa sáng?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
                     "TOPIC": "food",
-                    "ACTION": "cook breakfast"
+                    "ACTION": "cook a big breakfast"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "ẩm thực",
+                    "ACTION": "nấu một bữa sáng lớn"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Nowadays, lots of people order pizza instead of cooking by themselves when they are busy. What about you? When you are busy, what do you usually eat?",
+                    "question_vi": "Khi bận rộn bạn thường ăn gì?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "eat pizza",
+                        "ADJECTIVE": "fast and convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "ăn pizza",
+                        "ADJECTIVE": "nhanh và tiện"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "Is it important for children to participate in cooking courses at school?",
+                    "question_vi": "Trẻ em tham gia khóa nấu ăn ở trường có quan trọng không?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "cooking courses for kids",
+                        "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "khóa nấu ăn cho trẻ",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Eat vegetables?",
+                    "question": "I often eat vegetables every day to stay healthy. Do you often eat vegetables?",
+                    "question_vi": "Bạn có thường ăn rau không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
                         "TOPIC": "eating vegetables",
                         "ADJECTIVE": "healthy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "ăn rau",
+                        "ADJECTIVE": "lành mạnh"
                     }
                 }
             ],
             "part_4": {
-                "context": "Cooking at home.",
+                "context": "The food club is planning to encourage young people to cook at home. Can you give some suggestions and explain them?",
+                "context_vi": "CLB muốn khuyến khích giới trẻ nấu ăn tại nhà.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "we need ideas to encourage cooking",
+                        "EMOTION": "interested",
+                        "PLAN": "share my recipes"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chúng ta cần ý tưởng khuyến khích nấu ăn",
+                        "EMOTION": "hứng thú",
+                        "PLAN": "chia sẻ công thức nấu ăn"
+                    }
+                },
                 "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "cooking at home",
                         "IDEA_1": "it is healthy",
                         "ADJECTIVE": "good",
-                        "IDEA_2": "open cooking class"
+                        "EXAMPLE": "fast food is unhealthy",
+                        "IDEA_2": "open online cooking classes"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "nấu ăn tại nhà",
+                        "IDEA_1": "nó lành mạnh",
+                        "ADJECTIVE": "tốt",
+                        "EXAMPLE": "đồ ăn nhanh không tốt",
+                        "IDEA_2": "mở lớp dạy nấu ăn online"
                     }
                 }
             }
         }
     },
     {
-        "club_name": "Technology Club",
-        "date_appeared": "22/11",
-        "priority": 5,
-        "reason": "Gần đây.",
+        "club_name": "Social Club",
+        "priority": 6,
+        "reason": "Xuất hiện gần cuối tháng 11.",
         "content": {
             "part_2": {
-                "question": "Laptop use?",
+                "question": "What do you like to do with friends and where do you go?",
+                "question_vi": "Bạn thích làm gì với bạn bè và đi đâu?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "technology",
-                    "ACTION": "use laptop"
+                    "TOPIC": "meeting people",
+                    "ACTION": "go to coffee shops"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "gặp gỡ mọi người",
+                    "ACTION": "đi quán cà phê"
                 }
             },
             "part_3": [
                 {
-                    "speaker": "B",
-                    "type": "Opinion",
-                    "question": "Tech important?",
-                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Where did you meet your friends for the first time and how did you become friends?",
+                    "question_vi": "Lần đầu gặp bạn ở đâu và kết bạn thế nào?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
                     "suggested_answer_text": {
-                        "TOPIC": "technology",
-                        "ADJECTIVE": "useful"
+                        "ACTION": "met my best friend at school",
+                        "TIME": "10 years ago",
+                        "PERSON": "my classmates"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "gặp bạn thân ở trường",
+                        "TIME": "10 năm trước",
+                        "PERSON": "bạn cùng lớp"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "I have just moved to the city and want to make some friends. Can you give me some advice?",
+                    "question_vi": "Tôi mới chuyển đến thành phố và muốn kết bạn. Cho tôi lời khuyên?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "join a club like this one"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "tham gia một CLB như thế này"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
+                    "question_vi": "Kết bạn thời nay dễ hơn nhờ máy tính và điện thoại. Bạn đồng ý không?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "making friends online",
+                        "ADJECTIVE": "easy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "kết bạn online",
+                        "ADJECTIVE": "dễ dàng"
                     }
                 }
             ],
             "part_4": {
-                "context": "Negative comments.",
-                "task_2_manager": {
+                "context": "They plan to organize monthly face-to-face meetings and want suggestions about when and where they should meet.",
+                "context_vi": "Kế hoạch họp mặt trực tiếp hàng tháng. Cần gợi ý thời gian, địa điểm.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "negative comments",
+                        "DETAILS": "we need ideas for the meeting",
+                        "EMOTION": "happy",
+                        "PLAN": "suggest a nice cafe"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chúng ta cần ý tưởng cho buổi họp",
+                        "EMOTION": "vui",
+                        "PLAN": "gợi ý một quán cafe đẹp"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the monthly meeting plan",
+                        "IDEA_1": "we should meet on weekends",
+                        "ADJECTIVE": "convenient",
+                        "EXAMPLE": "everyone is free",
+                        "IDEA_2": "choose a quiet coffee shop"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "kế hoạch họp mặt",
+                        "IDEA_1": "chúng ta nên họp cuối tuần",
+                        "ADJECTIVE": "tiện lợi",
+                        "EXAMPLE": "ai cũng rảnh",
+                        "IDEA_2": "chọn quán cafe yên tĩnh"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Technology Club (Version 1)",
+        "priority": 5,
+        "reason": "Đề 1: Bình luận tiêu cực trên website.",
+        "content": {
+            "part_2": {
+                "question": "What do you usually use your laptop for?",
+                "question_vi": "Bạn thường dùng laptop để làm gì?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "technology",
+                    "ACTION": "use my laptop to study"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "công nghệ",
+                    "ACTION": "dùng laptop để học"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Do you often watch movies on your laptop or go to the theater?",
+                    "question_vi": "Bạn xem phim trên laptop hay ra rạp?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "watch movies on my laptop",
+                        "ADJECTIVE": "cheap and convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem phim trên laptop",
+                        "ADJECTIVE": "rẻ và tiện"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "Technology is very important in our lives. Please give your opinion.",
+                    "question_vi": "Công nghệ rất quan trọng. Ý kiến của bạn?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "technology",
+                        "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "công nghệ",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "I really like technological inventions. Can you tell me a new technology that you know?",
+                    "question_vi": "Kể tên một công nghệ mới bạn biết?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "smart homes",
+                        "ADJECTIVE": "modern"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "nhà thông minh",
+                        "ADJECTIVE": "hiện đại"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Members often post on the website’s club. But lately there’s been a few negatives on the other member’s post. Please give your opinion to fix the situation.",
+                "context_vi": "Có bình luận tiêu cực trên website CLB.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "there are negative comments on the website",
+                        "EMOTION": "disappointed",
+                        "PLAN": "report them"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "có bình luận tiêu cực trên web",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "báo cáo chúng"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "negative comments on the website",
                         "IDEA_1": "it is impolite",
                         "ADJECTIVE": "bad",
-                        "IDEA_2": "set rules"
+                        "EXAMPLE": "it hurts members' feelings",
+                        "IDEA_2": "set rules for commenting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "bình luận tiêu cực",
+                        "IDEA_1": "nó bất lịch sự",
+                        "ADJECTIVE": "tệ",
+                        "EXAMPLE": "làm tổn thương thành viên",
+                        "IDEA_2": "đặt quy định bình luận"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Technology Club (Version 2)",
+        "priority": 5,
+        "reason": "Đề 2: Tình nguyện viên Hội chợ Công nghệ.",
+        "content": {
+            "part_2": {
+                "question": "What do you usually use your laptop for?",
+                "question_vi": "Bạn thường dùng laptop để làm gì?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "technology",
+                    "ACTION": "use my laptop to study"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "công nghệ",
+                    "ACTION": "dùng laptop để học"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Do you often watch movies on your laptop or go to the theater?",
+                    "question_vi": "Bạn xem phim trên laptop hay ra rạp?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "watch movies on my laptop",
+                        "ADJECTIVE": "cheap"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem phim trên laptop",
+                        "ADJECTIVE": "rẻ"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "Technology is very important in our lives. Please give your opinion.",
+                    "question_vi": "Công nghệ rất quan trọng. Ý kiến của bạn?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "technology",
+                        "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "công nghệ",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "The club will hold a technology fair. The club wants to find a volunteer for this event.",
+                "context_vi": "CLB tổ chức hội chợ công nghệ và cần tuyển tình nguyện viên.",
+                "task_1_friend": {
+                    "question": "Write to a friend to explain why you should be chosen as a volunteer.",
+                    "question_vi": "Viết cho bạn giải thích sao bạn nên được chọn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "they need volunteers for the fair",
+                        "EMOTION": "excited",
+                        "PLAN": "apply for it"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "họ cần TNV cho hội chợ",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "ứng tuyển"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write to the club manager about the importance of technology and why you should be selected.",
+                    "question_vi": "Viết cho quản lý về tầm quan trọng của công nghệ và tại sao nên chọn bạn.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the volunteer program",
+                        "IDEA_1": "I love technology",
+                        "ADJECTIVE": "suitable",
+                        "EXAMPLE": "I have experience",
+                        "IDEA_2": "select me as a volunteer"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "chương trình tình nguyện",
+                        "IDEA_1": "tôi yêu công nghệ",
+                        "ADJECTIVE": "phù hợp",
+                        "EXAMPLE": "tôi có kinh nghiệm",
+                        "IDEA_2": "chọn tôi làm TNV"
                     }
                 }
             }
@@ -568,75 +1644,334 @@
     },
     {
         "club_name": "Travel Club",
-        "date_appeared": "21/11",
         "priority": 5,
-        "reason": "Gần đây.",
+        "reason": "Xuất hiện gần đây.",
         "content": {
             "part_2": {
-                "question": "Why travel?",
+                "question": "Why are you interested in travel?",
+                "question_vi": "Tại sao bạn thích du lịch?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "travel",
-                    "ACTION": "explore places"
+                    "TOPIC": "traveling",
+                    "ACTION": "explore new places"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "du lịch",
+                    "ACTION": "khám phá nơi mới"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Tell me a time you had a trip in bad weather?",
+                    "question_vi": "Kể về chuyến đi gặp thời tiết xấu?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
+                    "suggested_answer_text": {
+                        "ACTION": "traveled to Da Nang",
+                        "TIME": "last summer",
+                        "PERSON": "my family (but it rained)"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi Đà Nẵng",
+                        "TIME": "hè năm ngoái",
+                        "PERSON": "gia đình (nhưng trời mưa)"
+                    }
+                },
+                {
                     "speaker": "B",
                     "type": "Opinion",
-                    "question": "Transport bad for env?",
+                    "question": "Traveling a long distance by some means of transportation is not good for the environment. Do you agree?",
+                    "question_vi": "Đi du lịch xa bằng phương tiện giao thông không tốt cho môi trường. Bạn đồng ý không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "protecting environment",
+                        "TOPIC": "protecting the environment",
                         "ADJECTIVE": "necessary"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "bảo vệ môi trường",
+                        "ADJECTIVE": "cần thiết"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Suggestion",
+                    "question": "What are the most interesting places to visit in your country?",
+                    "question_vi": "Những nơi thú vị nhất để thăm ở nước bạn?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "visit Ha Long Bay"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "thăm Vịnh Hạ Long"
                     }
                 }
             ],
             "part_4": {
-                "context": "Polite behavior.",
+                "context": "The club is planning to encourage tourists to visit a new area and wants visitors to behave politely.",
+                "context_vi": "CLB khuyến khích du khách đến vùng mới và cư xử lịch sự.",
+                "task_1_friend": {
+                    "question": "Write to your friend and share your suggestions.",
+                    "question_vi": "Viết cho bạn chia sẻ gợi ý.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "tourists should be polite",
+                        "EMOTION": "agreed",
+                        "PLAN": "follow the rules"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "du khách nên lịch sự",
+                        "EMOTION": "đồng tình",
+                        "PLAN": "tuân thủ quy định"
+                    }
+                },
                 "task_2_manager": {
+                    "question": "Write to the president of the club and give your suggestions.",
+                    "question_vi": "Viết cho chủ tịch CLB đưa ra gợi ý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "tourist behavior",
-                        "IDEA_1": "educate members",
+                        "IDEA_1": "educate members before trips",
                         "ADJECTIVE": "important",
-                        "IDEA_2": "make rules"
+                        "EXAMPLE": "avoid misunderstandings",
+                        "IDEA_2": "create a code of conduct"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "hành vi du khách",
+                        "IDEA_1": "giáo dục thành viên trước",
+                        "ADJECTIVE": "quan trọng",
+                        "EXAMPLE": "tránh hiểu lầm",
+                        "IDEA_2": "tạo bộ quy tắc ứng xử"
                     }
                 }
             }
         }
     },
     {
-        "club_name": "Film/Television Club",
-        "date_appeared": "25/11",
-        "priority": 4,
-        "reason": "Rất gần đây.",
+        "club_name": "Television Club",
+        "priority": 99,
+        "reason": "Đề cập nhật chi tiết.",
         "content": {
             "part_2": {
-                "question": "Favorite film?",
+                "question": "When do you usually watch TV? What do you usually watch?",
+                "question_vi": "Bạn thường xem TV khi nào? Xem gì?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "films",
-                    "ACTION": "watch movies"
+                    "TOPIC": "TV shows",
+                    "ACTION": "watch TV in the evening"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "chương trình TV",
+                    "ACTION": "xem TV vào buổi tối"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "I usually like to eat and sit on a chair while watching TV, what about you?",
+                    "question_vi": "Tôi thích vừa ăn vừa xem TV, còn bạn?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "eat popcorn while watching",
+                        "ADJECTIVE": "relaxing"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "ăn bỏng ngô khi xem",
+                        "ADJECTIVE": "thư giãn"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "I often feel uncomfortable watching TV with people who talk a lot, what about you?",
+                    "question_vi": "Tôi thấy khó chịu khi xem TV với người nói nhiều, còn bạn?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "talking while watching TV",
+                        "ADJECTIVE": "annoying"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "nói chuyện khi xem TV",
+                        "ADJECTIVE": "phiền phức"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Kids watch TV?",
+                    "question": "People say that it is not good for children to watch too much TV, do you agree?",
+                    "question_vi": "Trẻ em xem TV nhiều không tốt. Bạn đồng ý không?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
-                        "TOPIC": "limiting TV",
-                        "ADJECTIVE": "necessary"
+                        "TOPIC": "watching too much TV",
+                        "ADJECTIVE": "harmful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "xem TV quá nhiều",
+                        "ADJECTIVE": "có hại"
                     }
                 }
             ],
             "part_4": {
-                "context": "Actor cancelled.",
+                "context": "The club is planning to organise a conference to invite all members. The club would like to get your suggestions on the venue of this conference and the activities held during the conference.",
+                "context_vi": "CLB tổ chức hội thảo, cần gợi ý địa điểm và hoạt động.",
+                "task_1_friend": {
+                    "question": "Write to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "we need ideas for the conference",
+                        "EMOTION": "interested",
+                        "PLAN": "suggest a hotel"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chúng ta cần ý tưởng cho hội thảo",
+                        "EMOTION": "hứng thú",
+                        "PLAN": "gợi ý một khách sạn"
+                    }
+                },
                 "task_2_manager": {
+                    "question": "Write to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the conference plan",
+                        "IDEA_1": "we should choose a big hotel",
+                        "ADJECTIVE": "spacious",
+                        "EXAMPLE": "it fits many people",
+                        "IDEA_2": "organize a dinner party"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "kế hoạch hội thảo",
+                        "IDEA_1": "chúng ta nên chọn khách sạn lớn",
+                        "ADJECTIVE": "rộng rãi",
+                        "EXAMPLE": "nó chứa được nhiều người",
+                        "IDEA_2": "tổ chức tiệc tối"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Film Club",
+        "priority": 4,
+        "reason": "Rất gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Please write some of your favourite films and why do you like watching them?",
+                "question_vi": "Viết về vài bộ phim yêu thích và tại sao thích?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "films",
+                    "ACTION": "watch action movies"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "phim ảnh",
+                    "ACTION": "xem phim hành động"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi. Welcome to the club. How often do you watch films?",
+                    "question_vi": "Bạn xem phim thường xuyên không?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "watch films weekly",
+                        "ADJECTIVE": "relaxing"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem phim hàng tuần",
+                        "ADJECTIVE": "thư giãn"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Past",
+                    "question": "Hi. Can you remember the first film you watched? What was it like?",
+                    "question_vi": "Bộ phim đầu tiên bạn xem? Nó thế nào?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
+                    "suggested_answer_text": {
+                        "ACTION": "watched Tom and Jerry",
+                        "TIME": "when I was 5",
+                        "PERSON": "my sister"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem Tom và Jerry",
+                        "TIME": "khi tôi 5 tuổi",
+                        "PERSON": "chị tôi"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "What would you like to learn from the film club?",
+                    "question_vi": "Bạn muốn học gì từ CLB?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "learning film making",
+                        "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "học làm phim",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "You received an email from the club about a guest actor cancelling his talk.",
+                "context_vi": "Diễn viên khách mời hủy buổi nói chuyện.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend. Write about your feelings and what you would like to do.",
+                    "question_vi": "Viết cho bạn về cảm xúc và dự định.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "the actor cancelled his talk",
+                        "EMOTION": "disappointed",
+                        "PLAN": "not go to the meeting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "diễn viên đã hủy buổi nói chuyện",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "không đi họp"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager expressing dissatisfaction.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
                     "suggested_answer_text": {
                         "TOPIC": "the cancellation",
-                        "IDEA_1": "we are disappointed",
+                        "IDEA_1": "we waited a long time",
                         "ADJECTIVE": "sad",
-                        "IDEA_2": "invite new actor"
+                        "EXAMPLE": "members are unhappy",
+                        "IDEA_2": "invite another actor"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc hủy bỏ",
+                        "IDEA_1": "chúng tôi đã đợi lâu",
+                        "ADJECTIVE": "buồn",
+                        "EXAMPLE": "thành viên không vui",
+                        "IDEA_2": "mời diễn viên khác"
                     }
                 }
             }
@@ -644,37 +1979,443 @@
     },
     {
         "club_name": "Debate Club",
-        "date_appeared": "27/11",
         "priority": 3,
         "reason": "Rất gần đây.",
         "content": {
             "part_2": {
-                "question": "Talk with friends?",
+                "question": "What do you usually talk about with your friends?",
+                "question_vi": "Bạn thường nói chuyện gì với bạn bè?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
                     "TOPIC": "debating",
                     "ACTION": "discuss news"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "tranh luận",
+                    "ACTION": "thảo luận tin tức"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Hi! Nowadays, there are many ways to update news. How do you keep up with world issues?",
+                    "question_vi": "Bạn cập nhật tin tức thế giới thế nào?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "read online news",
+                        "ADJECTIVE": "informative"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đọc báo mạng",
+                        "ADJECTIVE": "nhiều thông tin"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "I am going to join a debate in front of 50 people next week. How can I make a good impression?",
+                    "question_vi": "Làm sao để tạo ấn tượng tốt khi tranh biện?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "prepare your speech carefully"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "chuẩn bị bài nói kỹ càng"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Consider 2 sides?",
+                    "question": "Before making a decision about something, you should consider two sides of the problem. What do you think about that?",
+                    "question_vi": "Nên cân nhắc 2 mặt vấn đề trước khi quyết định. Bạn nghĩ sao?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
                         "TOPIC": "careful thinking",
                         "ADJECTIVE": "wise"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "suy nghĩ kỹ càng",
+                        "ADJECTIVE": "khôn ngoan"
                     }
                 }
             ],
             "part_4": {
-                "context": "Benefits of debate.",
-                "task_2_manager": {
+                "context": "Young people often think debating is not for them. What do you think is the benefit of debating and speaking in public?",
+                "context_vi": "Giới trẻ nghĩ tranh biện không hợp với họ. Lợi ích của tranh biện là gì?",
+                "task_1_friend": {
+                    "question": "Write an email to your friend who is also a member of the club.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "recruiting members",
+                        "DETAILS": "we need to recruit members",
+                        "EMOTION": "excited",
+                        "PLAN": "introduce my friends"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chúng ta cần tuyển thành viên",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "giới thiệu bạn bè"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "recruiting young members",
                         "IDEA_1": "debate builds confidence",
                         "ADJECTIVE": "good",
-                        "IDEA_2": "hold workshops"
+                        "EXAMPLE": "they can speak better",
+                        "IDEA_2": "hold workshops for beginners"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "tuyển thành viên trẻ",
+                        "IDEA_1": "tranh biện xây dựng tự tin",
+                        "ADJECTIVE": "tốt",
+                        "EXAMPLE": "họ có thể nói tốt hơn",
+                        "IDEA_2": "tổ chức workshop cho người mới"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Museum Club",
+        "priority": 3,
+        "reason": "Rất gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Tell the last time you went to the museum.",
+                "question_vi": "Kể lần cuối đi bảo tàng.",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "history",
+                    "ACTION": "visit the National Museum"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "lịch sử",
+                    "ACTION": "thăm Bảo tàng Quốc gia"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Tell a museum you visited when you were a child?",
+                    "question_vi": "Kể về một bảo tàng bạn thăm khi nhỏ?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
+                    "suggested_answer_text": {
+                        "ACTION": "visited the History Museum",
+                        "TIME": "when I was 10",
+                        "PERSON": "my parents"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "thăm Bảo tàng Lịch sử",
+                        "TIME": "khi tôi 10 tuổi",
+                        "PERSON": "bố mẹ tôi"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "What do you prefer: History Museum or Sport Museum?",
+                    "question_vi": "Bạn thích Bảo tàng Lịch sử hay Thể thao?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "History Museum",
+                        "ADJECTIVE": "interesting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "Bảo tàng Lịch sử",
+                        "ADJECTIVE": "thú vị"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "A lot of museums use technology screens and videos in their exhibitions. Why are they so successful?",
+                    "question_vi": "Tại sao dùng màn hình công nghệ trong bảo tàng lại thành công?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "using technology",
+                        "ADJECTIVE": "interactive"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "sử dụng công nghệ",
+                        "ADJECTIVE": "tương tác"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "From next year, all museums will charge an entrance fee. Some people think they will stop going if they have to pay.",
+                "context_vi": "Năm sau bảo tàng thu phí. Mọi người có thể ngừng đến.",
+                "task_1_friend": {
+                    "question": "Please give your opinion and tell the effect that may happen. Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn về ý kiến và hậu quả.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "museums will charge a fee",
+                        "EMOTION": "worried",
+                        "PLAN": "visit less often"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "bảo tàng sẽ thu phí",
+                        "EMOTION": "lo lắng",
+                        "PLAN": "đi thăm ít hơn"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club and give your opinion and the possible effects.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the new entrance fee",
+                        "IDEA_1": "people will stop coming",
+                        "ADJECTIVE": "expensive",
+                        "EXAMPLE": "fewer visitors",
+                        "IDEA_2": "keep it free for students"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "phí vào cửa mới",
+                        "IDEA_1": "mọi người sẽ ngừng đến",
+                        "ADJECTIVE": "đắt đỏ",
+                        "EXAMPLE": "ít khách hơn",
+                        "IDEA_2": "miễn phí cho sinh viên"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Language Club (Version 1)",
+        "priority": 2,
+        "reason": "Mới xuất hiện - Đề 1: Khóa học tiếng Anh.",
+        "content": {
+            "part_2": {
+                "question": "Tell me your free time and interests.",
+                "question_vi": "Kể về thời gian rảnh và sở thích.",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "languages",
+                    "ACTION": "learn English vocabulary"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "ngôn ngữ",
+                    "ACTION": "học từ vựng tiếng Anh"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Opinion",
+                    "question": "Why did you choose this course?",
+                    "question_vi": "Tại sao chọn khóa này?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "this course",
+                        "ADJECTIVE": "suitable for me"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "khóa học này",
+                        "ADJECTIVE": "phù hợp với tôi"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Habit",
+                    "question": "How have you found the course so far? What’s been difficult?",
+                    "question_vi": "Cảm nhận về khóa học? Khó khăn gì?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! (Trả lời biến thể) Tôi thấy khóa học tốt. Nhưng [ACTION] thì rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "practice speaking",
+                        "ADJECTIVE": "hard"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "luyện nói",
+                        "ADJECTIVE": "khó"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Habit",
+                    "question": "What are you hoping to do when you finish the course?",
+                    "question_vi": "Dự định sau khóa học?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi sẽ [ACTION]. Nó rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "study abroad",
+                        "ADJECTIVE": "exciting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi du học",
+                        "ADJECTIVE": "thú vị"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "You have registered for an English course but you can’t arrange your time to attend.",
+                "context_vi": "Đã đăng ký nhưng bận không học được.",
+                "task_1_friend": {
+                    "question": "You find the course effective. Write an email to your friend recommending it.",
+                    "question_vi": "Viết email giới thiệu khóa học cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "the course is amazing",
+                        "EMOTION": "happy",
+                        "PLAN": "recommend it to you"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "khóa học rất tuyệt",
+                        "EMOTION": "vui",
+                        "PLAN": "giới thiệu cho bạn"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write about your feelings, the reason why you can’t attend, and what you would like to do.",
+                    "question_vi": "Viết lý do không thể tham gia và mong muốn.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "my absence from the course",
+                        "IDEA_1": "I am too busy",
+                        "ADJECTIVE": "regretful",
+                        "EXAMPLE": "I cannot focus on study",
+                        "IDEA_2": "reserve my slot for next course"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "sự vắng mặt của tôi",
+                        "IDEA_1": "tôi quá bận",
+                        "ADJECTIVE": "tiếc nuối",
+                        "EXAMPLE": "tôi không thể tập trung học",
+                        "IDEA_2": "bảo lưu chỗ cho khóa sau"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Language Club (Version 2)",
+        "priority": 2,
+        "reason": "Mới xuất hiện - Đề 2: Phương pháp học.",
+        "content": {
+            "part_2": {
+                "question": "In which cases do you often use foreign languages?",
+                "question_vi": "Khi nào bạn dùng ngoại ngữ?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "languages",
+                    "ACTION": "talk to foreigners"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "ngôn ngữ",
+                    "ACTION": "nói chuyện với người nước ngoài"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Tell me about a memory you have with a foreign language?",
+                    "question_vi": "Kể về một kỷ niệm với ngoại ngữ?",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON].",
+                    "suggested_answer_text": {
+                        "ACTION": "talked to a tourist",
+                        "TIME": "last year",
+                        "PERSON": "my friend"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "nói chuyện với du khách",
+                        "TIME": "năm ngoái",
+                        "PERSON": "bạn tôi"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Can you give me some tips on how to remember new words?",
+                    "question_vi": "Mẹo nhớ từ mới?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Tốt nhất bạn nên [ACTION].",
+                    "suggested_answer_text": {
+                        "ACTION": "use flashcards"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "dùng thẻ ghi nhớ"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "What do you think is the most effective way to learn?",
+                    "question_vi": "Cách học hiệu quả nhất?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "learning with teachers",
+                        "ADJECTIVE": "effective"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "học với giáo viên",
+                        "ADJECTIVE": "hiệu quả"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "The club needs a guest speaker and a theme of learning language.",
+                "context_vi": "CLB cần diễn giả khách mời.",
+                "task_1_friend": {
+                    "question": "Write an email to your friend.",
+                    "question_vi": "Viết email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
+                    "suggested_answer_text": {
+                        "DETAILS": "they need speakers",
+                        "EMOTION": "excited",
+                        "PLAN": "register for it"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "họ cần diễn giả",
+                        "EMOTION": "hào hứng",
+                        "PLAN": "đăng ký"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email expressing your desire to be a speaker and give the topic.",
+                    "question_vi": "Viết email ứng cử làm diễn giả.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "becoming a speaker",
+                        "IDEA_1": "I can share my experience",
+                        "ADJECTIVE": "useful",
+                        "EXAMPLE": "I got high scores",
+                        "IDEA_2": "talk about grammar"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "trở thành diễn giả",
+                        "IDEA_1": "tôi có thể chia sẻ kinh nghiệm",
+                        "ADJECTIVE": "hữu ích",
+                        "EXAMPLE": "tôi đạt điểm cao",
+                        "IDEA_2": "nói về ngữ pháp"
                     }
                 }
             }
@@ -682,37 +2423,110 @@
     },
     {
         "club_name": "Beautiful Homes Club",
-        "date_appeared": "01/12",
         "priority": 1,
         "reason": "Mới nhất.",
         "content": {
             "part_2": {
-                "question": "Why join?",
+                "question": "Why do you want to join beautiful homes club?",
+                "question_vi": "Tại sao muốn tham gia CLB?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
                 "suggested_answer_text": {
-                    "TOPIC": "homes",
-                    "ACTION": "decorate house"
+                    "TOPIC": "decorating homes",
+                    "ACTION": "decorate my house"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "trang trí nhà cửa",
+                    "ACTION": "trang trí nhà"
                 }
             },
             "part_3": [
                 {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Tell me how is your relationship with your neighbors?",
+                    "question_vi": "Mối quan hệ với hàng xóm thế nào?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "talk to my neighbors",
+                        "ADJECTIVE": "friendly"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "nói chuyện với hàng xóm",
+                        "ADJECTIVE": "thân thiện"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "Do you prefer living in old buildings or modern buildings? Why?",
+                    "question_vi": "Thích sống nhà cũ hay mới?",
+                    "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "TOPIC": "modern buildings",
+                        "ADJECTIVE": "comfortable"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "tòa nhà hiện đại",
+                        "ADJECTIVE": "thoải mái"
+                    }
+                },
+                {
                     "speaker": "C",
                     "type": "Opinion",
-                    "question": "Eco-friendly house?",
+                    "question": "The house should be designed in a way that is good for the environment. Do you agree?",
+                    "question_vi": "Nhà nên thiết kế thân thiện môi trường?",
                     "suggested_answer_format": "Hi! Personally, I agree with that. I think [TOPIC] is very [ADJECTIVE]. Therefore, everyone should support it.",
+                    "suggested_answer_format_vi": "Chào! Tôi đồng ý. Tôi nghĩ [TOPIC] rất [ADJECTIVE].",
                     "suggested_answer_text": {
                         "TOPIC": "green houses",
                         "ADJECTIVE": "good"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "nhà xanh",
+                        "ADJECTIVE": "tốt"
                     }
                 }
             ],
             "part_4": {
-                "context": "Knock down old buildings.",
-                "task_2_manager": {
+                "context": "The government has a proposal to knock down old buildings and build modern blocks because old buildings are costly to maintain and take up space.",
+                "context_vi": "Chính phủ đề xuất phá nhà cũ xây mới.",
+                "task_1_friend": {
+                    "question": "Give your opinion about this plan in an email to your friend.",
+                    "question_vi": "Viết email cho bạn về kế hoạch này.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME], tôi viết để báo [DETAILS]. Tôi thấy [EMOTION]. Tôi sẽ [PLAN].",
                     "suggested_answer_text": {
-                        "TOPIC": "knocking down buildings",
-                        "IDEA_1": "old buildings unsafe",
+                        "DETAILS": "they will knock down old buildings",
+                        "EMOTION": "agreed",
+                        "PLAN": "support the plan"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "họ sẽ phá nhà cũ",
+                        "EMOTION": "đồng tình",
+                        "PLAN": "ủng hộ kế hoạch"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Write an email to the manager of the club and give your opinion.",
+                    "question_vi": "Viết email cho quản lý.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE] for members. For example, [EXAMPLE].\nSecondly, I suggest that the club should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý, tôi viết về [TOPIC]. Đầu tiên, tôi nghĩ [IDEA_1]. Nó rất [ADJECTIVE]. Ví dụ [EXAMPLE]. Thứ hai, tôi gợi ý [IDEA_2].",
+                    "suggested_answer_text": {
+                        "TOPIC": "the proposal",
+                        "IDEA_1": "old buildings are unsafe",
                         "ADJECTIVE": "dangerous",
-                        "IDEA_2": "build modern ones"
+                        "EXAMPLE": "bad for residents",
+                        "IDEA_2": "build modern homes"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "đề xuất này",
+                        "IDEA_1": "nhà cũ không an toàn",
+                        "ADJECTIVE": "nguy hiểm",
+                        "EXAMPLE": "xấu cho cư dân",
+                        "IDEA_2": "xây nhà hiện đại"
                     }
                 }
             }

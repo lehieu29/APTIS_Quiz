@@ -1322,10 +1322,11 @@ function renderWritingPart234(questionData) {
     let partClass = q.part.replace('_', '-');
     html += `<span class="part-indicator ${partClass}">${q.partLabel}</span>`;
     
-    // Speaker badge và type badge cho Part 3
+    // Speaker badge cho Part 3 (type badge chỉ hiển thị sau submit)
     if (q.part === 'part_3' && q.speaker) {
         html += `<span class="speaker-badge">${q.speaker}</span>`;
-        if (q.type) {
+        // Chỉ hiển thị type badge sau khi submit
+        if (q.type && hasSubmitted) {
             const typeClass = q.type.toLowerCase();
             html += `<span class="type-badge ${typeClass}">${q.type}</span>`;
         }

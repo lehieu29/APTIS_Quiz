@@ -19,8 +19,18 @@ function setupKeyboardShortcuts() {
         // Chỉ xử lý khi đang ở Writing Part 2,3,4
         if (currentQuizType !== 'writing_part_2_3_4') return;
         
-        // Bỏ qua nếu đang focus vào textarea
-        if (document.activeElement.tagName === 'TEXTAREA') return;
+        // Bỏ qua nếu đang focus vào textarea (trừ phím "/")
+        const isInTextarea = document.activeElement.tagName === 'TEXTAREA';
+        
+        // Phím "/" → Focus vào textarea (khi chưa focus)
+        if (event.key === '/' && !isInTextarea) {
+            event.preventDefault();
+            const textarea = document.getElementById('writingPart234Answer');
+            if (textarea) textarea.focus();
+            return;
+        }
+        
+        if (isInTextarea) return;
         
         // Phím mũi tên phải → Câu tiếp theo (chỉ khi đã submit)
         if (event.key === 'ArrowRight' && writingPart234State.hasSubmitted) {
