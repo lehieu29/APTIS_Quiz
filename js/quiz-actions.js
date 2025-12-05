@@ -946,3 +946,108 @@ function copyWritingAnswers() {
             prompt('Copy đoạn text này:', text);
         });
 }
+
+/**
+ * ============================================
+ * WRITING PART 2, 3, 4 ACTIONS
+ * ============================================
+ */
+
+/**
+ * Handle Enter key press trong Writing Part 2,3,4 textarea
+ */
+function handleWritingPart234EnterKey(event) {
+    // Chỉ submit khi nhấn Enter đơn (không phải Shift+Enter)
+    if (event.key === 'Enter' && !event.shiftKey) {
+        event.preventDefault();
+        submitWritingPart234Answer();
+    }
+}
+
+/**
+ * Submit câu trả lời Writing Part 2,3,4
+ */
+function submitWritingPart234Answer() {
+    const textAnswer = document.getElementById('writingPart234Answer')?.value.trim();
+    
+    // Kiểm tra có câu trả lời không
+    if (!textAnswer) {
+        alert('Vui lòng nhập câu trả lời trước khi submit!');
+        return;
+    }
+    
+    const club = writingPart234State.currentClub;
+    const q = writingPart234State.questionsList[currentIndex];
+    
+    // Lưu câu trả lời
+    writingPart234State.userAnswers[club.club_name][q.key] = textAnswer;
+    
+    // Đánh dấu đã submit
+    writingPart234State.hasSubmitted = true;
+    
+    // Re-render để hiển thị sample answer
+    renderWritingPart234(q);
+}
+
+/**
+ * Chuyển sang câu tiếp theo trong Writing Part 2,3,4
+ */
+function nextWritingPart234Question() {
+    // Reset state cho câu mới
+    writingPart234State.hasSubmitted = false;
+    
+    // Chuyển câu
+    currentIndex++;
+    
+    if (currentIndex < writingPart234State.totalQuestions) {
+        // Còn câu hỏi → render câu tiếp
+        renderWritingPart234(writingPart234State.questionsList[currentIndex]);
+        updateStats();
+    } else {
+        // Hết câu hỏi → hiển thị completion
+        showClubCompletion();
+    }
+}
+
+/**
+ * Chuyển sang CLB tiếp theo
+ */
+function nextClub() {
+    // Reset completion screen
+    document.getElementById('completionScreen').classList.remove('show');
+    document.getElementById('quizSection').style.display = 'block';
+    
+    // Load CLB tiếp theo
+    const nextIndex = writingPart234State.currentClubIndex + 1;
+    loadClub(nextIndex);
+}
+
+/**
+ * Copy tất cả câu hỏi & đáp án Writing Part 2,3,4 để gửi AI
+ */
+function copyWritingPart234Answers() {
+    const club = writingPart234State.currentClub;
+    const answers = writingPart234State.userAnswers[club.club_name];
+    const questionsList = writingPart234State.questionsList;
+    
+    let text = `=== WRITING PART 2, 3, 4 - ${club.club_name} ===\n\n`;
+    
+    questionsList.forEach((q, idx) => {
+        const answer = answers[q.key] || '[Không có câu trả lời]';
+        text += `${q.partLabel}:\n`;
+        text += `Question: ${q.data.question || ''}\n`;
+        text += `Your answer: ${answer}\n\n`;
+    });
+    
+    text += '=== END ===';
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert('✅ Đã copy! Bạn có thể paste vào ChatGPT hoặc AI khác để chấm.');
+        })
+        .catch(err => {
+            console.error('Copy failed:', err);
+            prompt('Copy đoạn text này:', text);
+        });
+}

@@ -51,6 +51,12 @@ const availableQuizFiles = [
         title: 'Writing Part 1',
         icon: '✍️',
         description: 'Luyện viết câu ngắn'
+    },
+    {
+        filename: 'writing_part_2_3_4.json',
+        title: 'Writing Part 2, 3, 4',
+        icon: '📝',
+        description: 'Luyện viết email theo chủ đề CLB'
     }
 ];
 
@@ -110,4 +116,20 @@ let writingPart1State = {
     },
     userAnswers: [],              // Lưu câu trả lời (text only)
     hasSubmitted: false           // Đã submit câu hiện tại chưa
+};
+
+// State cho Writing Part 2, 3, 4
+let writingPart234State = {
+    settings: {
+        showFormat: true,         // Hiển thị suggested_answer_format
+        showKeywords: false       // Hiển thị suggested_answer_text
+    },
+    allClubs: [],                 // Tất cả CLB (đã shuffle theo priority)
+    currentClubIndex: 0,          // Index CLB hiện tại
+    currentClub: null,            // CLB đang làm
+    currentPartIndex: 0,          // 0-5 (Part2=0, Part3A=1, Part3B=2, Part3C=3, Part4T1=4, Part4T2=5)
+    userAnswers: {},              // {clubName: {part2: '', part3A: '', ...}}
+    hasSubmitted: false,          // Đã submit câu hiện tại chưa
+    totalQuestions: 0,            // Tổng số câu trong CLB hiện tại
+    questionsList: []             // Danh sách câu hỏi flatten của CLB hiện tại
 };

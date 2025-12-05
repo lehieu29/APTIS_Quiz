@@ -212,6 +212,36 @@ function processQuizData(data) {
             return;
         }
 
+        // Kiểm tra xem có phải là writing_part_2_3_4 không
+        const isWritingPart234 = data.every(item =>
+            item.club_name &&
+            item.priority &&
+            typeof item.priority === 'number' &&
+            item.content &&
+            item.content.part_2 &&
+            item.content.part_3 &&
+            item.content.part_4
+        );
+
+        if (isWritingPart234) {
+            // Format writing_part_2_3_4
+            currentQuizType = 'writing_part_2_3_4';
+            isMultiPassageFormat = false;
+            allPassages = [];
+            
+            // Lưu tất cả CLB vào state
+            writingPart234State.allClubs = data;
+            
+            if (writingPart234State.allClubs.length === 0) {
+                showError('File JSON không chứa CLB nào!');
+                return;
+            }
+            
+            // Hiển thị modal cài đặt trước khi bắt đầu
+            showWritingPart234SettingsModal();
+            return;
+        }
+
         // Kiểm tra xem có phải là mảng đề (mỗi phần tử có items và text) không
         const isArrayOfPassages = data.every(item => 
             item.items && Array.isArray(item.items) && item.text

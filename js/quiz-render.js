@@ -180,6 +180,14 @@ function renderQuestion() {
         submitBtn.classList.remove('show');
         nextBtn.style.display = 'none';
         nextBtn.disabled = true;
+    } else if (currentQuizType === 'writing_part_2_3_4') {
+        renderWritingPart234(question);
+        
+        // Hide buttons for writing part 2,3,4 (use custom buttons)
+        buttonContainer.classList.remove('button-grid');
+        submitBtn.classList.remove('show');
+        nextBtn.style.display = 'none';
+        nextBtn.disabled = true;
     } else {
         // Default quiz rendering
         document.getElementById('questionText').textContent = question.question;
@@ -333,8 +341,8 @@ function showCompletion() {
 function updateStats() {
     document.getElementById('currentQuestion').textContent = currentIndex + 1;
     
-    // Ẩn correct/wrong stats cho speaking/writing part 1
-    if (currentQuizType === 'speaking_part_1' || currentQuizType === 'writing_part_1') {
+    // Ẩn correct/wrong stats cho speaking/writing
+    if (currentQuizType === 'speaking_part_1' || currentQuizType === 'writing_part_1' || currentQuizType === 'writing_part_2_3_4') {
         document.getElementById('correctCount').textContent = '-';
         document.getElementById('wrongCount').textContent = '-';
     } else {
@@ -1107,6 +1115,430 @@ function showWritingCompletion() {
             </div>
             
             <div style="text-align: center; margin-top: 20px;">
+                <button class="btn" onclick="location.reload()">🏠 Về trang chủ</button>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('finalScore').innerHTML = html;
+}
+
+/**
+ * ============================================
+ * WRITING PART 2, 3, 4 FUNCTIONS
+ * ============================================
+ */
+
+/**
+ * Hiển thị modal cài đặt cho Writing Part 2, 3, 4
+ */
+function showWritingPart234SettingsModal() {
+    const modal = document.createElement('div');
+    modal.className = 'modal';
+    modal.id = 'writingPart234SettingsModal';
+    modal.style.display = 'flex';
+    
+    modal.innerHTML = `
+        <div class="modal-box" style="max-width: 500px;">
+            <h2 style="color: #667eea; margin-bottom: 25px;">⚙️ Cài đặt Writing Part 2, 3, 4</h2>
+            
+            <div class="setting-group">
+                <label>
+                    <input type="checkbox" id="showFormatCheckbox" checked>
+                    <div class="setting-text">
+                        <span class="setting-title">📝 Hiển thị gợi ý format</span>
+                        <span class="setting-desc">Hiển thị mẫu câu trả lời với [PLACEHOLDER]</span>
+                    </div>
+                </label>
+                
+                <label>
+                    <input type="checkbox" id="showKeywordsCheckbox">
+                    <div class="setting-text">
+                        <span class="setting-title">🔑 Hiển thị từ khóa gợi ý</span>
+                        <span class="setting-desc">Hiển thị nội dung điền vào [PLACEHOLDER]</span>
+                    </div>
+                </label>
+            </div>
+            
+            <div style="background: #f8f9ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                <div style="font-size: 0.9em; color: #666;">
+                    📊 <strong>${writingPart234State.allClubs.length}</strong> CLB có sẵn
+                </div>
+            </div>
+            
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-primary" onclick="startWritingPart234()">
+                    📝 Bắt đầu
+                </button>
+                <button class="modal-btn modal-btn-secondary" onclick="closeWritingPart234SettingsModal()">
+                    Hủy
+                </button>
+            </div>
+        </div>
+    `;
+    
+    document.body.appendChild(modal);
+}
+
+/**
+ * Đóng modal và quay về trang chủ
+ */
+function closeWritingPart234SettingsModal() {
+    const modal = document.getElementById('writingPart234SettingsModal');
+    if (modal) modal.remove();
+    document.getElementById('uploadSection').style.display = 'block';
+    document.getElementById('quizSection').style.display = 'none';
+}
+
+/**
+ * Bắt đầu Writing Part 2, 3, 4
+ */
+function startWritingPart234() {
+    // Lưu settings
+    writingPart234State.settings.showFormat = document.getElementById('showFormatCheckbox').checked;
+    writingPart234State.settings.showKeywords = document.getElementById('showKeywordsCheckbox').checked;
+    
+    // Đóng modal
+    const modal = document.getElementById('writingPart234SettingsModal');
+    if (modal) modal.remove();
+    
+    // Shuffle CLB theo priority
+    writingPart234State.allClubs = shuffleByPriority(writingPart234State.allClubs);
+    
+    // Reset state
+    writingPart234State.currentClubIndex = 0;
+    writingPart234State.userAnswers = {};
+    
+    // Load CLB đầu tiên
+    loadClub(0);
+}
+
+/**
+ * Load một CLB và flatten câu hỏi
+ */
+function loadClub(clubIndex) {
+    const club = writingPart234State.allClubs[clubIndex];
+    writingPart234State.currentClub = club;
+    writingPart234State.currentClubIndex = clubIndex;
+    writingPart234State.currentPartIndex = 0;
+    writingPart234State.hasSubmitted = false;
+    
+    // Khởi tạo userAnswers cho CLB này
+    if (!writingPart234State.userAnswers[club.club_name]) {
+        writingPart234State.userAnswers[club.club_name] = {};
+    }
+    
+    // Flatten câu hỏi thành danh sách
+    const questionsList = [];
+    
+    // Part 2 (1 câu)
+    questionsList.push({
+        part: 'part_2',
+        partLabel: 'Part 2',
+        data: club.content.part_2,
+        key: 'part2'
+    });
+    
+    // Part 3 (nhiều câu)
+    if (club.content.part_3 && Array.isArray(club.content.part_3)) {
+        club.content.part_3.forEach((item, idx) => {
+            questionsList.push({
+                part: 'part_3',
+                partLabel: `Part 3 - Speaker ${item.speaker}`,
+                speaker: item.speaker,
+                type: item.type,
+                data: item,
+                key: `part3${item.speaker}`
+            });
+        });
+    }
+    
+    // Part 4 (2 task)
+    if (club.content.part_4) {
+        const part4 = club.content.part_4;
+        
+        if (part4.task_1_friend) {
+            questionsList.push({
+                part: 'part_4',
+                partLabel: 'Part 4 - Task 1',
+                taskType: 'friend',
+                context: part4.context,
+                context_vi: part4.context_vi,
+                data: part4.task_1_friend,
+                key: 'part4Task1'
+            });
+        }
+        
+        if (part4.task_2_manager) {
+            questionsList.push({
+                part: 'part_4',
+                partLabel: 'Part 4 - Task 2',
+                taskType: 'manager',
+                context: part4.context,
+                context_vi: part4.context_vi,
+                data: part4.task_2_manager,
+                key: 'part4Task2'
+            });
+        }
+    }
+    
+    writingPart234State.questionsList = questionsList;
+    writingPart234State.totalQuestions = questionsList.length;
+    
+    // Update questions array cho compatibility
+    questions = questionsList;
+    currentIndex = 0;
+    
+    // Bắt đầu quiz
+    startQuiz();
+}
+
+/**
+ * Render Writing Part 2, 3, 4 question
+ */
+function renderWritingPart234(questionData) {
+    const club = writingPart234State.currentClub;
+    const q = questionData;
+    const data = q.data;
+    
+    const passageContainer = document.getElementById('passageContainer');
+    const optionsContainer = document.getElementById('optionsContainer');
+    
+    // Clear passage
+    passageContainer.innerHTML = '';
+    
+    // Club header
+    document.getElementById('vnTitle').textContent = '';
+    document.getElementById('questionText').innerHTML = `
+        <div class="club-header">
+            <div class="club-name">🏷️ ${club.club_name}</div>
+            <div class="club-progress">Câu ${currentIndex + 1}/${writingPart234State.totalQuestions}</div>
+        </div>
+    `;
+    
+    let html = '';
+    
+    // Part indicator
+    let partClass = q.part.replace('_', '-');
+    html += `<span class="part-indicator ${partClass}">${q.partLabel}</span>`;
+    
+    // Speaker badge và type badge cho Part 3
+    if (q.part === 'part_3' && q.speaker) {
+        html += `<span class="speaker-badge">${q.speaker}</span>`;
+        if (q.type) {
+            const typeClass = q.type.toLowerCase();
+            html += `<span class="type-badge ${typeClass}">${q.type}</span>`;
+        }
+    }
+    
+    // Task label cho Part 4
+    if (q.part === 'part_4') {
+        const taskClass = q.taskType === 'friend' ? 'friend' : 'manager';
+        const taskLabel = q.taskType === 'friend' ? '📧 Email to Friend' : '📧 Email to Manager';
+        html += `<div class="task-label ${taskClass}">${taskLabel}</div>`;
+    }
+    
+    // Context box cho Part 4
+    if (q.part === 'part_4' && q.context) {
+        html += `
+            <div class="context-box">
+                <div class="context-label">📌 Tình huống:</div>
+                <div class="context-text">${q.context}</div>
+                ${q.context_vi ? `<div class="context-text" style="color: #888; font-style: italic; margin-top: 5px;">${q.context_vi}</div>` : ''}
+            </div>
+        `;
+    }
+    
+    // Question
+    html += `
+        <div style="font-size: 1.1em; font-weight: bold; color: #333; margin: 20px 0; line-height: 1.6;">
+            📝 ${data.question || ''}
+        </div>
+    `;
+    
+    // Nếu đã submit
+    if (writingPart234State.hasSubmitted) {
+        // Question VI
+        if (data.question_vi) {
+            html += `
+                <div style="background: #e8f5e9; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                    <div style="font-weight: bold; color: #2e7d32; margin-bottom: 8px;">🇻🇳 Câu hỏi tiếng Việt:</div>
+                    <div style="color: #333;">${data.question_vi}</div>
+                </div>
+            `;
+        }
+        
+        // User answer
+        const userAnswer = writingPart234State.userAnswers[club.club_name][q.key] || '';
+        html += `
+            <div style="background: #f8f9ff; padding: 20px; border-radius: 12px; margin: 20px 0; border-left: 4px solid #667eea;">
+                <div style="font-weight: bold; color: #667eea; margin-bottom: 10px;">✅ Câu trả lời của bạn:</div>
+                <div style="color: #333; white-space: pre-line;">${userAnswer}</div>
+            </div>
+        `;
+        
+        // Format hint (always show after submit)
+        if (data.suggested_answer_format) {
+            html += `
+                <div class="format-hint-box">
+                    <div class="format-label">📖 Gợi ý format (EN):</div>
+                    <div class="format-text">${data.suggested_answer_format}</div>
+                </div>
+            `;
+        }
+        if (data.suggested_answer_format_vi) {
+            html += `
+                <div class="format-hint-box" style="border-left-color: #4caf50; background: #e8f5e9;">
+                    <div class="format-label" style="color: #2e7d32;">🇻🇳 Gợi ý format (VI):</div>
+                    <div class="format-text" style="color: #1b5e20;">${data.suggested_answer_format_vi}</div>
+                </div>
+            `;
+        }
+        
+        // Keywords (always show after submit)
+        if (data.suggested_answer_text) {
+            html += renderKeywordList(data.suggested_answer_text, 'EN');
+        }
+        if (data.suggested_answer_text_vi) {
+            html += renderKeywordList(data.suggested_answer_text_vi, 'VI');
+        }
+        
+        // Next button
+        const isLastQuestion = currentIndex >= writingPart234State.totalQuestions - 1;
+        html += `
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-primary" onclick="nextWritingPart234Question()" style="font-size: 18px; padding: 15px 40px;">
+                    ${isLastQuestion ? '🏁 Hoàn thành CLB' : '➡️ Câu tiếp theo'}
+                </button>
+            </div>
+        `;
+    } else {
+        // Chưa submit - hiển thị hints nếu bật
+        if (writingPart234State.settings.showFormat && data.suggested_answer_format) {
+            html += `
+                <div class="format-hint-box">
+                    <div class="format-label">💡 Gợi ý format:</div>
+                    <div class="format-text">${data.suggested_answer_format}</div>
+                </div>
+            `;
+        }
+        
+        if (writingPart234State.settings.showKeywords && data.suggested_answer_text) {
+            html += renderKeywordList(data.suggested_answer_text, 'Từ khóa');
+        }
+        
+        // Textarea
+        html += `
+            <div class="speaking-answer-area">
+                <div style="font-weight: bold; margin-bottom: 10px;">✍️ Câu trả lời của bạn:</div>
+                <textarea id="writingPart234Answer" class="speaking-textarea" 
+                    placeholder="Nhập câu trả lời của bạn ở đây..." 
+                    oninput="updateWordCount()"
+                    onkeydown="handleWritingPart234EnterKey(event)"></textarea>
+                <div class="word-counter">
+                    <span class="count">📊 <span id="wordCount">0</span> từ</span>
+                    <span class="hint">Nhấn Enter để submit</span>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="btn btn-primary" onclick="submitWritingPart234Answer()" style="font-size: 18px; padding: 15px 40px;">
+                    📤 Submit
+                </button>
+            </div>
+        `;
+    }
+    
+    optionsContainer.innerHTML = html;
+}
+
+/**
+ * Render keyword list
+ */
+function renderKeywordList(keywords, label) {
+    let html = `
+        <div class="keyword-list">
+            <div class="keyword-label">🔑 ${label}:</div>
+    `;
+    
+    for (const [key, value] of Object.entries(keywords)) {
+        html += `
+            <div class="keyword-item">
+                <span class="key">[${key}]</span>
+                <span class="value">${value}</span>
+            </div>
+        `;
+    }
+    
+    html += '</div>';
+    return html;
+}
+
+/**
+ * Update word count real-time
+ */
+function updateWordCount() {
+    const textarea = document.getElementById('writingPart234Answer');
+    if (!textarea) return;
+    
+    const text = textarea.value.trim();
+    const wordCount = text.length === 0 ? 0 : text.split(/\s+/).filter(w => w.length > 0).length;
+    
+    const countElement = document.getElementById('wordCount');
+    if (countElement) {
+        countElement.textContent = wordCount;
+    }
+}
+
+/**
+ * Hiển thị màn hình hoàn thành CLB
+ */
+function showClubCompletion() {
+    const club = writingPart234State.currentClub;
+    const answers = writingPart234State.userAnswers[club.club_name];
+    const questionsList = writingPart234State.questionsList;
+    
+    document.getElementById('quizSection').style.display = 'none';
+    const completionScreen = document.getElementById('completionScreen');
+    completionScreen.classList.add('show');
+    
+    let html = `
+        <div class="club-completion">
+            <h2>🎉 Hoàn thành!</h2>
+            <div class="club-name-display">${club.club_name}</div>
+            
+            <div class="answer-summary">
+                <h3 style="color: #333; margin-bottom: 20px;">📋 Tổng hợp câu hỏi & đáp án:</h3>
+    `;
+    
+    questionsList.forEach((q, idx) => {
+        const answer = answers[q.key] || '[Không có câu trả lời]';
+        html += `
+            <div class="answer-summary-item">
+                <div class="part-label">${q.partLabel}</div>
+                <div class="question-text">${q.data.question || ''}</div>
+                <div class="user-answer">${answer}</div>
+            </div>
+        `;
+    });
+    
+    const hasMoreClubs = writingPart234State.currentClubIndex < writingPart234State.allClubs.length - 1;
+    
+    html += `
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="copy-btn" onclick="copyWritingPart234Answers()">
+                    📋 Copy tất cả để gửi AI chấm
+                </button>
+            </div>
+            
+            <div class="club-nav-buttons">
+                ${hasMoreClubs ? `
+                    <button class="btn btn-primary" onclick="nextClub()">
+                        ➡️ CLB tiếp theo
+                    </button>
+                ` : ''}
                 <button class="btn" onclick="location.reload()">🏠 Về trang chủ</button>
             </div>
         </div>

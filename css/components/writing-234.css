@@ -1,0 +1,346 @@
+/* ============================================
+   WRITING PART 2, 3, 4 - Component Styles
+   ============================================ */
+
+/* Club Header */
+.club-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.club-name {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.club-progress {
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+/* Part Indicator */
+.part-indicator {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.part-indicator.part-2 {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.part-indicator.part-3 {
+    background: #fff3e0;
+    color: #f57c00;
+}
+
+.part-indicator.part-4 {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+/* Speaker Badge */
+.speaker-badge {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    background: #667eea;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+/* Question Type Badge */
+.type-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.type-badge.habit { background: #e8f5e9; color: #388e3c; }
+.type-badge.suggestion { background: #fff8e1; color: #f9a825; }
+.type-badge.opinion { background: #fce4ec; color: #c2185b; }
+.type-badge.past { background: #e3f2fd; color: #1976d2; }
+
+/* Context Box (Part 4) */
+.context-box {
+    background: linear-gradient(135deg, #fff9c4 0%, #fff59d 100%);
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-left: 4px solid #fbc02d;
+    margin-bottom: 20px;
+}
+
+.context-box .context-label {
+    font-weight: bold;
+    color: #f57f17;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.context-box .context-text {
+    color: #5d4037;
+    line-height: 1.6;
+}
+
+/* Task Label (Part 4) */
+.task-label {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-label.friend {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.task-label.manager {
+    background: #ffebee;
+    color: #c62828;
+}
+
+/* Word Counter */
+.word-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.word-counter .count {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.word-counter .hint {
+    color: #999;
+    font-size: 0.85em;
+}
+
+/* Format Hint Box */
+.format-hint-box {
+    background: #f3e5f5;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #9c27b0;
+    margin: 15px 0;
+}
+
+.format-hint-box .format-label {
+    font-weight: bold;
+    color: #7b1fa2;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.format-hint-box .format-text {
+    color: #4a148c;
+    line-height: 1.8;
+    white-space: pre-line;
+    font-family: 'Georgia', serif;
+}
+
+/* Keyword List */
+.keyword-list {
+    background: #e8eaf6;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 4px solid #3f51b5;
+    margin: 15px 0;
+}
+
+.keyword-list .keyword-label {
+    font-weight: bold;
+    color: #283593;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.keyword-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 6px;
+}
+
+.keyword-item .key {
+    font-weight: bold;
+    color: #3f51b5;
+    min-width: 120px;
+    font-family: monospace;
+}
+
+.keyword-item .value {
+    color: #333;
+    flex: 1;
+}
+
+/* Club Completion Screen */
+.club-completion {
+    padding: 30px;
+    text-align: center;
+}
+
+.club-completion h2 {
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.club-completion .club-name-display {
+    font-size: 1.5em;
+    color: #764ba2;
+    margin-bottom: 30px;
+}
+
+/* Answer Summary */
+.answer-summary {
+    text-align: left;
+    margin: 30px 0;
+}
+
+.answer-summary-item {
+    background: #f8f9ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.answer-summary-item .part-label {
+    font-weight: bold;
+    color: #667eea;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.answer-summary-item .question-text {
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.answer-summary-item .user-answer {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    color: #555;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+/* Navigation Buttons */
+.club-nav-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.club-nav-buttons .btn {
+    min-width: 150px;
+}
+
+/* Settings Modal Specific */
+.setting-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.setting-group label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    background: #f8f9ff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 10px;
+}
+
+.setting-group label:hover {
+    background: #eef0ff;
+}
+
+.setting-group input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.setting-group .setting-text {
+    flex: 1;
+}
+
+.setting-group .setting-title {
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+.setting-group .setting-desc {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 3px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .club-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .keyword-item {
+        flex-direction: column;
+    }
+    
+    .keyword-item .key {
+        min-width: auto;
+        margin-bottom: 4px;
+    }
+    
+    .club-nav-buttons {
+        flex-direction: column;
+    }
+    
+    .club-nav-buttons .btn {
+        width: 100%;
+    }
+}
+
+#writingPart234SettingsModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

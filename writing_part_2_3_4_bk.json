@@ -1,0 +1,1107 @@
+[
+    {
+        "club_name": "Fashion Club",
+        "date_appeared": null,
+        "priority": 10,
+        "reason": "Chưa từng xuất hiện trong dữ liệu đề thi gốc.",
+        "content": {
+            "part_2": {
+                "question": "Please tell us why you want to join the Fashion Club?",
+                "question_vi": "Tại sao bạn muốn tham gia CLB Thời trang?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì quan tâm đến [TOPIC]. Lúc rảnh tôi thường [ACTION] với bạn bè để thư giãn. Nó giúp xả stress.",
+                "suggested_answer_text": {
+                    "TOPIC": "fashion and design",
+                    "ACTION": "read fashion magazines"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "thời trang và thiết kế",
+                    "ACTION": "đọc tạp chí thời trang"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "question": "How often do you buy new clothes and where do you usually go?",
+                    "question_vi": "Thói quen mua quần áo mới?",
+                    "type": "Habit",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION] khi rảnh. Tôi thích nó vì nó [ADJECTIVE]. Nó giúp tôi thư giãn.",
+                    "suggested_answer_text": {
+                        "ACTION": "buy clothes at the mall",
+                        "ADJECTIVE": "exciting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mua quần áo ở trung tâm thương mại",
+                        "ADJECTIVE": "thú vị"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "question": "I have a birthday party next week. What should I wear?",
+                    "question_vi": "Tôi nên mặc gì đi sinh nhật?",
+                    "type": "Suggestion",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]. It is very popular and useful, so I think you will like it.",
+                    "suggested_answer_format_vi": "Chào! Theo tôi, lựa chọn tốt nhất là [ACTION]. Nó rất phổ biến và hữu ích, tôi nghĩ bạn sẽ thích.",
+                    "suggested_answer_text": {
+                        "ACTION": "wear a polite dress"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mặc một chiếc váy lịch sự"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "question": "Some people think wearing branded clothes is important. Do you agree?",
+                    "question_vi": "Mặc đồ hiệu có quan trọng không?",
+                    "type": "Opinion",
+                    "suggested_answer_format": "Hi! Personally, I [AGREE_DISAGREE] with that. I think [ISSUE] is very [ADJECTIVE]. Therefore, [SOLUTION].",
+                    "suggested_answer_format_vi": "Chào! Cá nhân tôi [AGREE_DISAGREE]. Tôi nghĩ [ISSUE] thì [ADJECTIVE]. Vì vậy, [SOLUTION].",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "disagree",
+                        "ISSUE": "quality",
+                        "ADJECTIVE": "important",
+                        "SOLUTION": "we should choose what fits us best"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "không đồng ý",
+                        "ISSUE": "chất lượng",
+                        "ADJECTIVE": "quan trọng",
+                        "SOLUTION": "chúng ta nên chọn cái phù hợp nhất"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Ticket price increase for fashion show.",
+                "context_vi": "Tăng giá vé show thời trang.",
+                "task_1_friend": {
+                    "question": "Email to friend complaining.",
+                    "question_vi": "Email cho bạn phàn nàn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME],\nTôi viết để báo là [DETAILS]. Tôi thấy rất [EMOTION].\nTôi nghĩ tôi sẽ [PLAN]. Bạn nghĩ sao?\n[NAME]",
+                    "suggested_answer_text": {
+                        "DETAILS": "the ticket price will increase",
+                        "EMOTION": "disappointed",
+                        "PLAN": "not join the show"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "giá vé sẽ tăng",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "không tham gia show nữa"
+                    }
+                },
+                "task_2_manager": {
+                    "question": "Email to manager suggesting discount.",
+                    "question_vi": "Email quản lý gợi ý giảm giá.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE]. For example, [EXAMPLE].\nSecondly, I suggest that we should [IDEA_2].\nI hope you will consider my ideas.\nSincerely,\n[NAME]",
+                    "suggested_answer_format_vi": "Gửi Quản lý,\nTôi viết về [TOPIC].\nĐầu tiên, tôi nghĩ [IDEA_1]. Lý do là nó [ADJECTIVE]. Ví dụ [EXAMPLE].\nThứ hai, tôi gợi ý [IDEA_2].\nTrân trọng,\n[NAME]",
+                    "suggested_answer_text": {
+                        "TOPIC": "the ticket price increase",
+                        "IDEA_1": "it is too expensive",
+                        "ADJECTIVE": "difficult",
+                        "EXAMPLE": "students cannot pay",
+                        "IDEA_2": "offer discounts for students"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc tăng giá vé",
+                        "IDEA_1": "nó quá đắt",
+                        "ADJECTIVE": "khó khăn",
+                        "EXAMPLE": "sinh viên không trả nổi",
+                        "IDEA_2": "giảm giá cho sinh viên"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Car Club",
+        "date_appeared": null,
+        "priority": 10,
+        "reason": "Chưa từng xuất hiện trong dữ liệu đề thi gốc.",
+        "content": {
+            "part_2": {
+                "question": "Why are you interested in cars?",
+                "question_vi": "Tại sao bạn thích ô tô?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_format_vi": "Tôi tham gia vì thích [TOPIC]. Lúc rảnh tôi [ACTION] để thư giãn.",
+                "suggested_answer_text": {
+                    "TOPIC": "cars and speed",
+                    "ACTION": "drive my car to the suburbs"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "xe hơi và tốc độ",
+                    "ACTION": "lái xe ra ngoại ô"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "question": "How do you usually go to work?",
+                    "question_vi": "Bạn đi làm bằng gì?",
+                    "type": "Habit",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time. I really love it because it is very [ADJECTIVE]. Also, it helps me relax after a hard working day.",
+                    "suggested_answer_format_vi": "Chào! Tôi thường [ACTION]. Tôi thích nó vì [ADJECTIVE].",
+                    "suggested_answer_text": {
+                        "ACTION": "drive my car to work",
+                        "ADJECTIVE": "convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "lái xe đi làm",
+                        "ADJECTIVE": "tiện lợi"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "question": "Tell me about the first time you drove a car?",
+                    "question_vi": "Lần đầu lái xe?",
+                    "type": "Past",
+                    "suggested_answer_format": "Hi! I remember the last time I [ACTION] was [TIME]. I went there with [PERSON]. It was a memorable experience because we had a great time together.",
+                    "suggested_answer_format_vi": "Chào! Tôi nhớ lần tôi [ACTION] là [TIME]. Tôi đi cùng [PERSON]. Đó là trải nghiệm đáng nhớ.",
+                    "suggested_answer_text": {
+                        "ACTION": "drove a car for the first time",
+                        "TIME": "2 years ago",
+                        "PERSON": "my father"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "lái xe lần đầu",
+                        "TIME": "2 năm trước",
+                        "PERSON": "bố tôi"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "question": "Public transport is better than private cars. Agree?",
+                    "question_vi": "Giao thông công cộng tốt hơn xe cá nhân?",
+                    "type": "Opinion",
+                    "suggested_answer_format": "Hi! Personally, I [AGREE_DISAGREE] with that. I think [ISSUE] is very [ADJECTIVE]. Therefore, [SOLUTION].",
+                    "suggested_answer_format_vi": "Chào! Cá nhân tôi [AGREE_DISAGREE]. Tôi nghĩ [ISSUE] thì [ADJECTIVE]. Vì vậy, [SOLUTION].",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "agree",
+                        "ISSUE": "pollution from cars",
+                        "ADJECTIVE": "serious",
+                        "SOLUTION": "we should use buses more"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "đồng ý",
+                        "ISSUE": "ô nhiễm từ xe hơi",
+                        "ADJECTIVE": "nghiêm trọng",
+                        "SOLUTION": "ta nên đi xe buýt nhiều hơn"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Car racing cancelled due to safety issues.",
+                "context_vi": "Đua xe bị hủy do vấn đề an toàn.",
+                "task_1_friend": {
+                    "question": "Email to friend.",
+                    "question_vi": "Email cho bạn.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_format_vi": "Chào [NAME],\nTôi viết để báo [DETAILS]. Tôi thấy [EMOTION].\nTôi sẽ [PLAN]. Bạn nghĩ sao?\n[NAME]",
+                    "suggested_answer_text": {
+                        "DETAILS": "the racing event is cancelled",
+                        "EMOTION": "disappointed",
+                        "PLAN": "not join the safety talk"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "sự kiện đua xe bị hủy",
+                        "EMOTION": "thất vọng",
+                        "PLAN": "không tham gia buổi nói chuyện an toàn"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Nature Club",
+        "date_appeared": null,
+        "priority": 10,
+        "reason": "Chưa từng xuất hiện trong dữ liệu đề thi gốc.",
+        "content": {
+            "part_2": {
+                "question": "What do you usually do to protect the environment?",
+                "question_vi": "Bạn làm gì để bảo vệ môi trường?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION] with my friends to relax. It helps me release stress after work.",
+                "suggested_answer_text": {
+                    "TOPIC": "nature",
+                    "ACTION": "plant trees in the park"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "thiên nhiên",
+                    "ACTION": "trồng cây trong công viên"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Do you like going to parks?",
+                    "question_vi": "Thích đi công viên không?",
+                    "suggested_answer_format": "Hi! To answer your question, I usually [ACTION] whenever I have free time...",
+                    "suggested_answer_text": {
+                        "ACTION": "go to the park",
+                        "ADJECTIVE": "fresh and peaceful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi công viên",
+                        "ADJECTIVE": "trong lành và yên bình"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Where should I go camping?",
+                    "question_vi": "Nên đi cắm trại ở đâu?",
+                    "suggested_answer_format": "Hi! That is an interesting question. In my opinion, the best option for you is to [ACTION]...",
+                    "suggested_answer_text": {
+                        "ACTION": "visit Cuc Phuong National Park"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "thăm vườn quốc gia Cúc Phương"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Children should learn nature at school?",
+                    "question_vi": "Trẻ em nên học về thiên nhiên ở trường?",
+                    "suggested_answer_format": "Hi! Personally, I [AGREE_DISAGREE] with that. I think [ISSUE] is very [ADJECTIVE]...",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "agree",
+                        "ISSUE": "learning about nature",
+                        "ADJECTIVE": "necessary",
+                        "SOLUTION": "schools should teach it"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "đồng ý",
+                        "ISSUE": "học về thiên nhiên",
+                        "ADJECTIVE": "cần thiết",
+                        "SOLUTION": "trường học nên dạy môn này"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Planting trip postponed due to bad weather.",
+                "context_vi": "Chuyến đi trồng cây bị hoãn do thời tiết xấu.",
+                "task_1_friend": {
+                    "question": "Email to friend.",
+                    "suggested_answer_format": "Hi [NAME],\nHow are you? I have just received an email from the club.\nI am writing to tell you that [DETAILS]. Honestly, I feel very [EMOTION] about this news.\nTherefore, I think I will [PLAN]. What do you think?\nBest wishes,\n[NAME]",
+                    "suggested_answer_text": {
+                        "DETAILS": "the trip is postponed",
+                        "EMOTION": "sad",
+                        "PLAN": "wait for next month"
+                    },
+                    "suggested_answer_text_vi": {
+                        "DETAILS": "chuyến đi bị hoãn",
+                        "EMOTION": "buồn",
+                        "PLAN": "đợi tháng sau"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "College Club",
+        "date_appeared": "User Provided",
+        "priority": 9,
+        "reason": "Chủ đề mới do người dùng cung cấp.",
+        "content": {
+            "part_2": {
+                "question": "Days and times you can attend courses?",
+                "question_vi": "Thời gian tham gia khóa học?",
+                "suggested_answer_format": "I joined this club because I am really interested in [TOPIC]. In my free time, I usually [ACTION]...",
+                "suggested_answer_text": {
+                    "TOPIC": "learning new skills",
+                    "ACTION": "attend classes on weekends"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "học kỹ năng mới",
+                    "ACTION": "tham gia lớp học vào cuối tuần"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "What course are you doing?",
+                    "suggested_answer_text": {
+                        "ACTION": "study English",
+                        "ADJECTIVE": "useful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "học tiếng Anh",
+                        "ADJECTIVE": "hữu ích"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Sports club closed. What do you think?",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "disagree",
+                        "ISSUE": "closing the sports club",
+                        "ADJECTIVE": "unreasonable",
+                        "SOLUTION": "students need a place to exercise"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "không đồng ý",
+                        "ISSUE": "đóng cửa CLB thể thao",
+                        "ADJECTIVE": "vô lý",
+                        "SOLUTION": "sinh viên cần nơi tập thể dục"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Exam date moved 2 weeks earlier.",
+                "context_vi": "Lịch thi bị đẩy sớm lên 2 tuần.",
+                "task_2_manager": {
+                    "question": "Email to admin.",
+                    "suggested_answer_format": "Dear Manager,\nI am writing to express my opinion regarding [TOPIC].\nFirstly, I think that [IDEA_1]. The reason is that it is very [ADJECTIVE]...",
+                    "suggested_answer_text": {
+                        "TOPIC": "the change in exam schedule",
+                        "IDEA_1": "it is too sudden",
+                        "ADJECTIVE": "stressful",
+                        "EXAMPLE": "we cannot review in time",
+                        "IDEA_2": "keep the original date"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc đổi lịch thi",
+                        "IDEA_1": "nó quá đột ngột",
+                        "ADJECTIVE": "áp lực",
+                        "EXAMPLE": "chúng tôi không ôn kịp",
+                        "IDEA_2": "giữ nguyên ngày cũ"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Art Club",
+        "date_appeared": "04/11",
+        "priority": 9,
+        "reason": "Xuất hiện khá lâu.",
+        "content": {
+            "part_2": {
+                "question": "Tell me a painting/photo you like.",
+                "question_vi": "Bức tranh/ảnh bạn thích?",
+                "suggested_answer_text": {
+                    "TOPIC": "art",
+                    "ACTION": "draw pictures of landscapes"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "nghệ thuật",
+                    "ACTION": "vẽ tranh phong cảnh"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Thing you kept for a long time?",
+                    "suggested_answer_text": {
+                        "ACTION": "kept a painting",
+                        "TIME": "since I was 10",
+                        "PERSON": "my mom"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "giữ một bức tranh",
+                        "TIME": "từ khi 10 tuổi",
+                        "PERSON": "mẹ tôi"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Street art - good or bad?",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "agree",
+                        "ISSUE": "street art",
+                        "ADJECTIVE": "creative",
+                        "SOLUTION": "it makes the city beautiful"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "đồng ý",
+                        "ISSUE": "nghệ thuật đường phố",
+                        "ADJECTIVE": "sáng tạo",
+                        "SOLUTION": "nó làm đẹp thành phố"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Suggest guest artist for talk.",
+                "context_vi": "Gợi ý nghệ sĩ khách mời.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the upcoming public talk",
+                        "IDEA_1": "invite a famous young artist",
+                        "ADJECTIVE": "inspiring",
+                        "EXAMPLE": "attract young members",
+                        "IDEA_2": "talk about modern art"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "buổi nói chuyện sắp tới",
+                        "IDEA_1": "mời nghệ sĩ trẻ nổi tiếng",
+                        "ADJECTIVE": "truyền cảm hứng",
+                        "EXAMPLE": "thu hút thành viên trẻ",
+                        "IDEA_2": "nói về nghệ thuật hiện đại"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Book Club",
+        "date_appeared": "08/11",
+        "priority": 8,
+        "reason": "Xuất hiện đầu tháng 11.",
+        "content": {
+            "part_2": {
+                "question": "Hobbies?",
+                "question_vi": "Sở thích?",
+                "suggested_answer_text": {
+                    "TOPIC": "reading books",
+                    "ACTION": "read novels"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "đọc sách",
+                    "ACTION": "đọc tiểu thuyết"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "When/Where read?",
+                    "suggested_answer_text": {
+                        "ACTION": "read in my bedroom",
+                        "ADJECTIVE": "quiet"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đọc trong phòng ngủ",
+                        "ADJECTIVE": "yên tĩnh"
+                    }
+                },
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Suggest a book?",
+                    "suggested_answer_text": {
+                        "ACTION": "buy a comic book"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "mua truyện tranh"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Online vs Traditional?",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "disagree",
+                        "ISSUE": "traditional books",
+                        "ADJECTIVE": "better",
+                        "SOLUTION": "we should keep reading paper books"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "không đồng ý",
+                        "ISSUE": "sách giấy",
+                        "ADJECTIVE": "tốt hơn",
+                        "SOLUTION": "nên giữ thói quen đọc sách giấy"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "No free book & late delivery.",
+                "context_vi": "Cắt sách miễn phí & giao chậm.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the cancellation of free books",
+                        "IDEA_1": "we joined for the books",
+                        "ADJECTIVE": "disappointing",
+                        "EXAMPLE": "members will leave",
+                        "IDEA_2": "improve delivery speed"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc cắt sách miễn phí",
+                        "IDEA_1": "chúng tôi tham gia vì sách",
+                        "ADJECTIVE": "thất vọng",
+                        "EXAMPLE": "thành viên sẽ rời đi",
+                        "IDEA_2": "cải thiện tốc độ giao hàng"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Photography Club",
+        "date_appeared": "11/11",
+        "priority": 8,
+        "reason": "Xuất hiện giữa tháng 11.",
+        "content": {
+            "part_2": {
+                "question": "Favorite time/place to take photos?",
+                "question_vi": "Thời gian/địa điểm chụp ảnh?",
+                "suggested_answer_text": {
+                    "TOPIC": "photography",
+                    "ACTION": "take photos in the park on weekends"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "nhiếp ảnh",
+                    "ACTION": "chụp ảnh ở công viên cuối tuần"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Favorite photo?",
+                    "suggested_answer_text": {
+                        "ACTION": "look at my family photo",
+                        "ADJECTIVE": "happy"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "ngắm ảnh gia đình",
+                        "ADJECTIVE": "hạnh phúc"
+                    }
+                },
+                {
+                    "speaker": "C",
+                    "type": "Opinion",
+                    "question": "Phone vs Camera?",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "agree",
+                        "ISSUE": "taking photos with phones",
+                        "ADJECTIVE": "convenient",
+                        "SOLUTION": "we can take photos anywhere"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "đồng ý",
+                        "ISSUE": "chụp ảnh bằng điện thoại",
+                        "ADJECTIVE": "tiện lợi",
+                        "SOLUTION": "có thể chụp mọi nơi"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Exhibition suggestions.",
+                "context_vi": "Gợi ý triển lãm.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the upcoming exhibition",
+                        "IDEA_1": "organize games for kids",
+                        "ADJECTIVE": "fun",
+                        "EXAMPLE": "attract families",
+                        "IDEA_2": "show nature photos"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "triển lãm sắp tới",
+                        "IDEA_1": "tổ chức game cho trẻ",
+                        "ADJECTIVE": "vui",
+                        "EXAMPLE": "thu hút gia đình",
+                        "IDEA_2": "trưng bày ảnh thiên nhiên"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Music Club",
+        "date_appeared": "13/11",
+        "priority": 7,
+        "reason": "Xuất hiện giữa tháng 11.",
+        "content": {
+            "part_2": {
+                "question": "Last time listened to music?",
+                "question_vi": "Lần cuối nghe nhạc?",
+                "suggested_answer_text": {
+                    "TOPIC": "music",
+                    "ACTION": "listen to pop music"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "âm nhạc",
+                    "ACTION": "nghe nhạc Pop"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Son doesn't like music lessons?",
+                    "suggested_answer_text": {
+                        "ACTION": "let him choose his favorite instrument"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "để cậu bé chọn nhạc cụ yêu thích"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Concert noise complaints.",
+                "context_vi": "Phàn nàn tiếng ồn hòa nhạc.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the noise from concerts",
+                        "IDEA_1": "it disturbs neighbors",
+                        "ADJECTIVE": "noisy",
+                        "EXAMPLE": "people cannot sleep",
+                        "IDEA_2": "hold concerts indoors"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "tiếng ồn từ hòa nhạc",
+                        "IDEA_1": "làm phiền hàng xóm",
+                        "ADJECTIVE": "ồn ào",
+                        "EXAMPLE": "mọi người không ngủ được",
+                        "IDEA_2": "tổ chức trong nhà"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Social Club",
+        "date_appeared": "19/11",
+        "priority": 6,
+        "reason": "Xuất hiện gần cuối tháng 11.",
+        "content": {
+            "part_2": {
+                "question": "What do you do with friends?",
+                "question_vi": "Làm gì với bạn bè?",
+                "suggested_answer_text": {
+                    "TOPIC": "meeting people",
+                    "ACTION": "go to coffee shops"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "gặp gỡ mọi người",
+                    "ACTION": "đi quán cà phê"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "First time met friends?",
+                    "suggested_answer_text": {
+                        "ACTION": "met my best friend at school",
+                        "TIME": "10 years ago",
+                        "PERSON": "my classmates"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "gặp bạn thân ở trường",
+                        "TIME": "10 năm trước",
+                        "PERSON": "bạn cùng lớp"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Monthly meeting suggestions.",
+                "context_vi": "Gợi ý họp mặt hàng tháng.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the monthly meeting plan",
+                        "IDEA_1": "meet on weekends",
+                        "ADJECTIVE": "convenient",
+                        "EXAMPLE": "everyone is free",
+                        "IDEA_2": "choose a quiet cafe"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "kế hoạch họp tháng",
+                        "IDEA_1": "họp cuối tuần",
+                        "ADJECTIVE": "tiện lợi",
+                        "EXAMPLE": "ai cũng rảnh",
+                        "IDEA_2": "chọn quán cafe yên tĩnh"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Technology Club",
+        "date_appeared": "22/11",
+        "priority": 5,
+        "reason": "Xuất hiện gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Use laptop for?",
+                "question_vi": "Dùng laptop làm gì?",
+                "suggested_answer_text": {
+                    "TOPIC": "technology",
+                    "ACTION": "use my laptop to study"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "công nghệ",
+                    "ACTION": "dùng laptop để học"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Movie on laptop or theater?",
+                    "suggested_answer_text": {
+                        "ACTION": "watch movies on laptop",
+                        "ADJECTIVE": "cheap and convenient"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem phim trên laptop",
+                        "ADJECTIVE": "rẻ và tiện"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Negative comments on website.",
+                "context_vi": "Bình luận tiêu cực trên web.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "negative comments on the website",
+                        "IDEA_1": "it hurts members' feelings",
+                        "ADJECTIVE": "impolite",
+                        "EXAMPLE": "creates bad environment",
+                        "IDEA_2": "set rules for commenting"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "bình luận tiêu cực",
+                        "IDEA_1": "tổn thương thành viên",
+                        "ADJECTIVE": "bất lịch sự",
+                        "EXAMPLE": "tạo môi trường xấu",
+                        "IDEA_2": "đặt quy định bình luận"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Travel Club",
+        "date_appeared": "21/11",
+        "priority": 5,
+        "reason": "Xuất hiện gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Why interested in travel?",
+                "question_vi": "Sao thích du lịch?",
+                "suggested_answer_text": {
+                    "TOPIC": "traveling",
+                    "ACTION": "explore new places"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "du lịch",
+                    "ACTION": "khám phá nơi mới"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Past",
+                    "question": "Trip in bad weather?",
+                    "suggested_answer_text": {
+                        "ACTION": "traveled to Da Nang",
+                        "TIME": "last summer",
+                        "PERSON": "my family (but it rained)"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "đi Đà Nẵng",
+                        "TIME": "hè năm ngoái",
+                        "PERSON": "gia đình (nhưng trời mưa)"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Polite behavior suggestions.",
+                "context_vi": "Gợi ý cư xử lịch sự.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "tourist behavior",
+                        "IDEA_1": "educate members before trips",
+                        "ADJECTIVE": "important",
+                        "EXAMPLE": "avoid misunderstandings",
+                        "IDEA_2": "create a code of conduct"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "hành vi du khách",
+                        "IDEA_1": "giáo dục thành viên trước chuyến đi",
+                        "ADJECTIVE": "quan trọng",
+                        "EXAMPLE": "tránh hiểu lầm",
+                        "IDEA_2": "tạo quy tắc ứng xử"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Film Club",
+        "date_appeared": "25/11",
+        "priority": 4,
+        "reason": "Rất gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Favorite films?",
+                "question_vi": "Phim yêu thích?",
+                "suggested_answer_text": {
+                    "TOPIC": "movies",
+                    "ACTION": "watch action films"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "phim ảnh",
+                    "ACTION": "xem phim hành động"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "B",
+                    "type": "Past",
+                    "question": "First film watched?",
+                    "suggested_answer_text": {
+                        "ACTION": "watched Tom & Jerry",
+                        "TIME": "when I was 5",
+                        "PERSON": "my sister"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "xem Tom & Jerry",
+                        "TIME": "khi tôi 5 tuổi",
+                        "PERSON": "chị tôi"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Guest actor cancelled.",
+                "context_vi": "Diễn viên khách mời hủy.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the cancellation of the guest actor",
+                        "IDEA_1": "we were excited to meet him",
+                        "ADJECTIVE": "disappointing",
+                        "EXAMPLE": "wasted time waiting",
+                        "IDEA_2": "invite another actor soon"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "việc hủy của diễn viên",
+                        "IDEA_1": "chúng tôi háo hức gặp anh ấy",
+                        "ADJECTIVE": "thất vọng",
+                        "EXAMPLE": "tốn thời gian chờ",
+                        "IDEA_2": "mời diễn viên khác sớm"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Museum Club",
+        "date_appeared": "26/11",
+        "priority": 3,
+        "reason": "Rất gần đây.",
+        "content": {
+            "part_2": {
+                "question": "Last time went to museum?",
+                "question_vi": "Lần cuối đi bảo tàng?",
+                "suggested_answer_text": {
+                    "TOPIC": "history",
+                    "ACTION": "visit the National Museum"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "lịch sử",
+                    "ACTION": "thăm Bảo tàng Quốc gia"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "B",
+                    "type": "Opinion",
+                    "question": "History vs Sport Museum?",
+                    "suggested_answer_text": {
+                        "AGREE_DISAGREE": "agree",
+                        "ISSUE": "History Museums",
+                        "ADJECTIVE": "interesting",
+                        "SOLUTION": "I prefer History Museums"
+                    },
+                    "suggested_answer_text_vi": {
+                        "AGREE_DISAGREE": "đồng ý",
+                        "ISSUE": "Bảo tàng Lịch sử",
+                        "ADJECTIVE": "thú vị",
+                        "SOLUTION": "tôi thích Bảo tàng Lịch sử hơn"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Entrance fee charge.",
+                "context_vi": "Thu phí vào cửa.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the new entrance fee",
+                        "IDEA_1": "people will stop coming",
+                        "ADJECTIVE": "expensive",
+                        "EXAMPLE": "fewer visitors",
+                        "IDEA_2": "keep it free for students"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "phí vào cửa mới",
+                        "IDEA_1": "mọi người sẽ ngừng đến",
+                        "ADJECTIVE": "đắt đỏ",
+                        "EXAMPLE": "ít khách hơn",
+                        "IDEA_2": "miễn phí cho sinh viên"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Debate Club",
+        "date_appeared": "27/11",
+        "priority": 3,
+        "reason": "Rất gần đây.",
+        "content": {
+            "part_2": {
+                "question": "What do you talk about with friends?",
+                "question_vi": "Nói gì với bạn bè?",
+                "suggested_answer_text": {
+                    "TOPIC": "social issues",
+                    "ACTION": "discuss news with friends"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "vấn đề xã hội",
+                    "ACTION": "thảo luận tin tức với bạn"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "B",
+                    "type": "Suggestion",
+                    "question": "Impression in debate?",
+                    "suggested_answer_text": {
+                        "ACTION": "prepare your speech carefully"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "chuẩn bị bài nói kỹ càng"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Benefits of debating for young people.",
+                "context_vi": "Lợi ích tranh biện cho giới trẻ.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "encouraging young people",
+                        "IDEA_1": "debate helps confidence",
+                        "ADJECTIVE": "useful",
+                        "EXAMPLE": "speak better in public",
+                        "IDEA_2": "organize a workshop for beginners"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "khuyến khích giới trẻ",
+                        "IDEA_1": "tranh biện giúp tự tin",
+                        "ADJECTIVE": "hữu ích",
+                        "EXAMPLE": "nói tốt hơn trước đám đông",
+                        "IDEA_2": "tổ chức workshop cho người mới"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Language Club",
+        "date_appeared": "29/11",
+        "priority": 2,
+        "reason": "Mới xuất hiện.",
+        "content": {
+            "part_2": {
+                "question": "Free time and interests?",
+                "question_vi": "Sở thích?",
+                "suggested_answer_text": {
+                    "TOPIC": "languages",
+                    "ACTION": "learn English vocabulary"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "ngôn ngữ",
+                    "ACTION": "học từ vựng tiếng Anh"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "B",
+                    "type": "Habit",
+                    "question": "Difficulties in course?",
+                    "suggested_answer_text": {
+                        "ACTION": "practice speaking",
+                        "ADJECTIVE": "hard"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "luyện nói",
+                        "ADJECTIVE": "khó"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Cannot attend course.",
+                "context_vi": "Không thể tham gia khóa học.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "my absence from the course",
+                        "IDEA_1": "I am too busy",
+                        "ADJECTIVE": "regretful",
+                        "EXAMPLE": "cannot focus on study",
+                        "IDEA_2": "save my slot for next course"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "sự vắng mặt của tôi",
+                        "IDEA_1": "tôi quá bận",
+                        "ADJECTIVE": "tiếc nuối",
+                        "EXAMPLE": "không thể tập trung học",
+                        "IDEA_2": "bảo lưu chỗ cho khóa sau"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "club_name": "Beautiful Homes Club",
+        "date_appeared": "01/12",
+        "priority": 1,
+        "reason": "Mới nhất.",
+        "content": {
+            "part_2": {
+                "question": "Why join?",
+                "question_vi": "Sao tham gia?",
+                "suggested_answer_text": {
+                    "TOPIC": "decoration",
+                    "ACTION": "decorate my house"
+                },
+                "suggested_answer_text_vi": {
+                    "TOPIC": "trang trí",
+                    "ACTION": "trang trí nhà cửa"
+                }
+            },
+            "part_3": [
+                {
+                    "speaker": "A",
+                    "type": "Habit",
+                    "question": "Relationship with neighbors?",
+                    "suggested_answer_text": {
+                        "ACTION": "talk to my neighbors",
+                        "ADJECTIVE": "friendly"
+                    },
+                    "suggested_answer_text_vi": {
+                        "ACTION": "nói chuyện với hàng xóm",
+                        "ADJECTIVE": "thân thiện"
+                    }
+                }
+            ],
+            "part_4": {
+                "context": "Knock down old buildings.",
+                "context_vi": "Phá bỏ nhà cũ.",
+                "task_2_manager": {
+                    "suggested_answer_text": {
+                        "TOPIC": "the proposal to knock down old buildings",
+                        "IDEA_1": "old buildings are unsafe",
+                        "ADJECTIVE": "dangerous",
+                        "EXAMPLE": "bad for residents",
+                        "IDEA_2": "build modern eco-friendly homes"
+                    },
+                    "suggested_answer_text_vi": {
+                        "TOPIC": "đề xuất phá nhà cũ",
+                        "IDEA_1": "nhà cũ không an toàn",
+                        "ADJECTIVE": "nguy hiểm",
+                        "EXAMPLE": "xấu cho cư dân",
+                        "IDEA_2": "xây nhà hiện đại thân thiện môi trường"
+                    }
+                }
+            }
+        }
+    }
+]
