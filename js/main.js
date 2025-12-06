@@ -30,7 +30,9 @@ function setupKeyboardShortcuts() {
         // Phím "/" → Focus vào textarea (khi chưa focus)
         if (event.key === '/' && !isInTextarea) {
             event.preventDefault();
-            const textarea = document.getElementById('writingPart234Answer');
+            const textarea = document.getElementById('writingPart234Answer') 
+                || document.getElementById('speakingTextAnswer')
+                || document.getElementById('writingTextAnswer');
             if (textarea) textarea.focus();
             return;
         }
