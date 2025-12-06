@@ -17,7 +17,12 @@ window.onload = function() {
 function setupKeyboardShortcuts() {
     document.addEventListener('keydown', function(event) {
         // Chỉ xử lý khi đang ở Writing Part 2,3,4
-        if (currentQuizType !== 'writing_part_2_3_4') return;
+        if (currentQuizType !== 'writing_part_2_3_4'
+            || currentQuizType !== 'speaking_part_1'
+            || currentQuizType !== 'writing_part_1'
+        ) {
+            return;
+        }
         
         // Bỏ qua nếu đang focus vào textarea (trừ phím "/")
         const isInTextarea = document.activeElement.tagName === 'TEXTAREA';
@@ -31,11 +36,14 @@ function setupKeyboardShortcuts() {
         }
         
         if (isInTextarea) return;
+
+        // Kiểm tra đã submit chưa
+        const hasSubmitted = checkSubmitted(currentQuizType);
         
         // Phím mũi tên phải → Câu tiếp theo (chỉ khi đã submit)
-        if (event.key === 'ArrowRight' && writingPart234State.hasSubmitted) {
+        if (event.key === 'ArrowRight' && hasSubmitted) {
             event.preventDefault();
-            nextWritingPart234Question();
+            nextQuestionByCurrentQuizType(currentQuizType);
         }
     });
 }

@@ -1051,3 +1051,41 @@ function copyWritingPart234Answers() {
             prompt('Copy đoạn text này:', text);
         });
 }
+
+/**
+ * Kiểm tra đã submit chưa theo currentQuizType
+ * @param {*} currentQuizType 
+ * @returns 
+ */
+function checkSubmitted(currentQuizType) {
+    switch(currentQuizType) {
+        case 'writing_part_1':
+            return writingPart1State.hasSubmitted;
+        case 'writing_part_2_3_4':
+            return writingPart234State.hasSubmitted;
+        case 'speaking_part_1':
+            return speakingPart1State.hasSubmitted;
+        default:
+            return false;
+    }
+}
+
+/**
+ * Chuyển sang câu tiếp theo theo currentQuizType
+ * @param {*} currentQuizType 
+ */
+function nextQuestionByCurrentQuizType(currentQuizType) {
+    switch(currentQuizType) {
+        case 'writing_part_1':
+            nextWritingQuestion();
+            break;
+        case 'writing_part_2_3_4':
+            nextWritingPart234Question();
+            break;
+        case 'speaking_part_1':
+            nextSpeakingQuestion();
+            break;
+        default:
+            return false;
+    }
+}
