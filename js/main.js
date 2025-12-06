@@ -18,8 +18,8 @@ function setupKeyboardShortcuts() {
     document.addEventListener('keydown', function(event) {
         // Chỉ xử lý khi đang ở Writing Part 2,3,4
         if (currentQuizType !== 'writing_part_2_3_4'
-            || currentQuizType !== 'speaking_part_1'
-            || currentQuizType !== 'writing_part_1'
+            && currentQuizType !== 'speaking_part_1'
+            && currentQuizType !== 'writing_part_1'
         ) {
             return;
         }
