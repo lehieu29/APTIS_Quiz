@@ -1089,3 +1089,16 @@ function nextQuestionByCurrentQuizType(currentQuizType) {
             return false;
     }
 }
+
+/**
+ * Hoàn thành câu --> gán timeLeft về 3
+ * @param {*} currentQuizType 
+ * @returns 
+ */
+function clearTimerByCurrentQuizType(currentQuizType) {
+    switch(currentQuizType) {
+        case 'speaking_part_1':
+            speakingPart1State.timeLeft = 3;
+            break;
+    }
+}

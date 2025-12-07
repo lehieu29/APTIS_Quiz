@@ -47,6 +47,13 @@ function setupKeyboardShortcuts() {
             event.preventDefault();
             nextQuestionByCurrentQuizType(currentQuizType);
         }
+
+        if (event.ctrlKey && event.code === 'Space') {
+            event.preventDefault(); // Ngăn hành động mặc định
+            
+            // Thực hiện hành động của bạn ở đây
+            clearTimerByCurrentQuizType(currentQuizType);
+        }
     });
 }
 
