@@ -1032,7 +1032,11 @@ function renderWritingPart1(question) {
         html += `
             <div class="speaking-answer-area">
                 <div style="font-weight: bold; margin-bottom: 10px;">✍️ Câu trả lời của bạn:</div>
-                <textarea id="writingTextAnswer" class="speaking-textarea" placeholder="Nhập câu trả lời của bạn ở đây..." onkeydown="handleWritingEnterKey(event)"></textarea>
+                <textarea id="writingTextAnswer" class="speaking-textarea" placeholder="Nhập câu trả lời của bạn ở đây..." oninput="updateWordCount('writingTextAnswer')" onkeydown="handleWritingEnterKey(event)"></textarea>
+            </div>
+
+            <div class="word-counter">
+                <span class="count">📊 <span id="wordCount">0</span> từ</span>
             </div>
             
             <div style="text-align: center; margin-top: 30px;">
@@ -1434,7 +1438,7 @@ function renderWritingPart234(questionData) {
                 <div style="font-weight: bold; margin-bottom: 10px;">✍️ Câu trả lời của bạn:</div>
                 <textarea id="writingPart234Answer" class="speaking-textarea" 
                     placeholder="Nhập câu trả lời của bạn ở đây..." 
-                    oninput="updateWordCount()"
+                    oninput="updateWordCount('writingPart234Answer')"
                     onkeydown="handleWritingPart234EnterKey(event)"></textarea>
                 <div class="word-counter">
                     <span class="count">📊 <span id="wordCount">0</span> từ</span>
@@ -1478,8 +1482,8 @@ function renderKeywordList(keywords, label) {
 /**
  * Update word count real-time
  */
-function updateWordCount() {
-    const textarea = document.getElementById('writingPart234Answer');
+function updateWordCount(id) {
+    const textarea = document.getElementById(id);
     if (!textarea) return;
     
     const text = textarea.value.trim();
