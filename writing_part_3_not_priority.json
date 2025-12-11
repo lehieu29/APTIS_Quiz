@@ -1,0 +1,692 @@
+[
+  {
+    "question": "How often do you buy new clothes and where do you usually go?",
+    "question_vi": "Bạn có thường mua quần áo mới không và bạn thường đi đâu?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I have a birthday party next week. What should I wear?",
+    "question_vi": "Tôi có tiệc sinh nhật tuần tới. Tôi nên mặc gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Some people think wearing branded clothes is important. Do you agree?",
+    "question_vi": "Một số người nghĩ mặc đồ hiệu là quan trọng. Bạn có đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "How do you usually go to work?",
+    "question_vi": "Bạn thường đi làm bằng gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Tell me about the first time you drove a car?",
+    "question_vi": "Kể về lần đầu lái xe?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Public transport is better than private cars. Agree?",
+    "question_vi": "Giao thông công cộng tốt hơn xe cá nhân. Đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Do you like going to parks or forests? Why?",
+    "question_vi": "Bạn thích đi công viên hay rừng? Tại sao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I want to go camping this weekend. Where should I go?",
+    "question_vi": "Tôi muốn đi cắm trại cuối tuần. Tôi nên đi đâu?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Children should learn about nature at school. Do you agree?",
+    "question_vi": "Trẻ em nên học về thiên nhiên ở trường. Bạn đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Welcome to the college. What course are you doing and why did you choose it?",
+    "question_vi": "Chào! Bạn đang học khóa gì và tại sao chọn nó?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Welcome! How do you feel about the college so far?",
+    "question_vi": "Bạn cảm thấy thế nào về trường?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Did you hear that the college sports club has closed? What do you think about this?",
+    "question_vi": "Bạn nghe tin CLB thể thao đóng cửa chưa? Bạn nghĩ sao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
+    "question_vi": "Kể về một món đồ bạn giữ đã lâu.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I would like to learn painting, but I have not still found the effective way. Should I take a course at my local college? Please, give me some advice.",
+    "question_vi": "Tôi có nên học vẽ ở trường cao đẳng địa phương không? Cho tôi lời khuyên.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Street art – where people paint on the building – are becoming popular. However, some people criticize that it is bad. What is your opinion?",
+    "question_vi": "Nghệ thuật đường phố đang phổ biến nhưng có người chỉ trích. Ý kiến bạn thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "I often walk. Do you like walking or not?",
+    "question_vi": "Tôi thường đi bộ. Bạn có thích đi bộ không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I like walking but when it rains I get wet. Tell me about a time you had a bad experience while hiking?",
+    "question_vi": "Kể về một trải nghiệm tồi tệ khi đi bộ đường dài?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Walking is the best form of exercise. What do you think when many people walk and know it is good for their health?",
+    "question_vi": "Đi bộ là bài tập tốt nhất. Bạn nghĩ gì khi nhiều người đi bộ vì sức khỏe?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Welcome to the club. When and where do you like reading books?",
+    "question_vi": "Bạn thích đọc sách khi nào và ở đâu?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
+    "question_vi": "Tôi muốn tặng sách cho bạn. Bạn gợi ý gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Online books replace traditional books? What do you think about that?",
+    "question_vi": "Sách online thay thế sách truyền thống? Bạn nghĩ sao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Welcome to the club. When and where do you like reading books?",
+    "question_vi": "Bạn thích đọc sách khi nào và ở đâu?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
+    "question_vi": "Gợi ý mua sách tặng bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Online books replace traditional books? What do you think about that?",
+    "question_vi": "Sách online thay thế sách truyền thống?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Welcome to the club. What is your favorite photo?",
+    "question_vi": "Bức ảnh yêu thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Hi! What kind of photos do you like to take?",
+    "question_vi": "Bạn thích chụp loại ảnh nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Is it good to take pictures with the phone?",
+    "question_vi": "Chụp ảnh bằng điện thoại có tốt không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Welcome to the club. What is your favorite photo?",
+    "question_vi": "Bức ảnh yêu thích của bạn là gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Hi! What kind of photos do you like to take?",
+    "question_vi": "Bạn thích chụp loại ảnh nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Is it good to take pictures with the phone?",
+    "question_vi": "Chụp ảnh bằng điện thoại có tốt không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! How often do you listen to music?",
+    "question_vi": "Bạn thường nghe nhạc bao lâu một lần?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I plan to give my son music lessons but he doesn’t like it. What should I do?",
+    "question_vi": "Tôi định cho con học nhạc nhưng nó không thích. Tôi nên làm gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Do you agree that music is important in culture?",
+    "question_vi": "Bạn có đồng ý rằng âm nhạc quan trọng trong văn hóa không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Nowadays, lots of people order pizza instead of cooking by themselves when they are busy. What about you? When you are busy, what do you usually eat?",
+    "question_vi": "Khi bận rộn bạn thường ăn gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Is it important for children to participate in cooking courses at school?",
+    "question_vi": "Trẻ em tham gia khóa nấu ăn ở trường có quan trọng không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I often eat vegetables every day to stay healthy. Do you often eat vegetables?",
+    "question_vi": "Bạn có thường ăn rau không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Where did you meet your friends for the first time and how did you become friends?",
+    "question_vi": "Lần đầu gặp bạn ở đâu và kết bạn thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I have just moved to the city and want to make some friends. Can you give me some advice?",
+    "question_vi": "Tôi mới chuyển đến thành phố và muốn kết bạn. Cho tôi lời khuyên?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
+    "question_vi": "Kết bạn thời nay dễ hơn nhờ máy tính và điện thoại. Bạn đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Do you often watch movies on your laptop or go to the theater?",
+    "question_vi": "Bạn xem phim trên laptop hay ra rạp?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Technology is very important in our lives. Please give your opinion.",
+    "question_vi": "Công nghệ rất quan trọng. Ý kiến của bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I really like technological inventions. Can you tell me a new technology that you know?",
+    "question_vi": "Kể tên một công nghệ mới bạn biết?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Do you often watch movies on your laptop or go to the theater?",
+    "question_vi": "Bạn xem phim trên laptop hay ra rạp?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Technology is very important in our lives. Please give your opinion.",
+    "question_vi": "Công nghệ rất quan trọng. Ý kiến của bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Tell me a time you had a trip in bad weather?",
+    "question_vi": "Kể về chuyến đi gặp thời tiết xấu?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Traveling a long distance by some means of transportation is not good for the environment. Do you agree?",
+    "question_vi": "Đi du lịch xa bằng phương tiện giao thông không tốt cho môi trường. Bạn đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "What are the most interesting places to visit in your country?",
+    "question_vi": "Những nơi thú vị nhất để thăm ở nước bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "I usually like to eat and sit on a chair while watching TV, what about you?",
+    "question_vi": "Tôi thích vừa ăn vừa xem TV, còn bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I often feel uncomfortable watching TV with people who talk a lot, what about you?",
+    "question_vi": "Tôi thấy khó chịu khi xem TV với người nói nhiều, còn bạn?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "People say that it is not good for children to watch too much TV, do you agree?",
+    "question_vi": "Trẻ em xem TV nhiều không tốt. Bạn đồng ý không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi. Welcome to the club. How often do you watch films?",
+    "question_vi": "Bạn xem phim thường xuyên không?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Hi. Can you remember the first film you watched? What was it like?",
+    "question_vi": "Bộ phim đầu tiên bạn xem? Nó thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "What would you like to learn from the film club?",
+    "question_vi": "Bạn muốn học gì từ CLB?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! Nowadays, there are many ways to update news. How do you keep up with world issues?",
+    "question_vi": "Bạn cập nhật tin tức thế giới thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "I am going to join a debate in front of 50 people next week. How can I make a good impression?",
+    "question_vi": "Làm sao để tạo ấn tượng tốt khi tranh biện?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Before making a decision about something, you should consider two sides of the problem. What do you think about that?",
+    "question_vi": "Nên cân nhắc 2 mặt vấn đề trước khi quyết định. Bạn nghĩ sao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Tell a museum you visited when you were a child?",
+    "question_vi": "Kể về một bảo tàng bạn thăm khi nhỏ?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "What do you prefer: History Museum or Sport Museum?",
+    "question_vi": "Bạn thích Bảo tàng Lịch sử hay Thể thao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "A lot of museums use technology screens and videos in their exhibitions. Why are they so successful?",
+    "question_vi": "Tại sao dùng màn hình công nghệ trong bảo tàng lại thành công?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Why did you choose this course?",
+    "question_vi": "Tại sao chọn khóa này?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "How have you found the course so far? What’s been difficult?",
+    "question_vi": "Cảm nhận về khóa học? Khó khăn gì?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "What are you hoping to do when you finish the course?",
+    "question_vi": "Dự định sau khóa học?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Tell me about a memory you have with a foreign language?",
+    "question_vi": "Kể về một kỷ niệm với ngoại ngữ?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Can you give me some tips on how to remember new words?",
+    "question_vi": "Mẹo nhớ từ mới?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "What do you think is the most effective way to learn?",
+    "question_vi": "Cách học hiệu quả nhất?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Tell me how is your relationship with your neighbors?",
+    "question_vi": "Mối quan hệ với hàng xóm thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Do you prefer living in old buildings or modern buildings? Why?",
+    "question_vi": "Thích sống nhà cũ hay mới?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The house should be designed in a way that is good for the environment. Do you agree?",
+    "question_vi": "Nhà nên thiết kế thân thiện môi trường?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "I usually spend 6 hours a day studying English. How do you learn English?",
+    "question_vi": "Tôi học 6 tiếng/ngày. Bạn học tiếng Anh thế nào?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "English is a popular language in the world. What are your thoughts on this idea?",
+    "question_vi": "Tiếng Anh là ngôn ngữ phổ biến. Bạn nghĩ sao?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "When do you usually use English?",
+    "question_vi": "Khi nào bạn dùng tiếng Anh?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Hi! I heard that you attended a club meeting this afternoon. How do you feel about the meeting?",
+    "question_vi": "Bạn cảm thấy thế nào về buổi họp chiều nay?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "We have weekly meetings on Saturday afternoons. What topic are you expecting us to talk about?",
+    "question_vi": "Bạn mong đợi chủ đề gì cho buổi họp?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "We are thinking of holding some English games next week. Can you suggest some?",
+    "question_vi": "Gợi ý trò chơi tiếng Anh?",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  }
+]

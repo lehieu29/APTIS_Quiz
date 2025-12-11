@@ -173,7 +173,7 @@ function renderQuestion() {
         nextBtn.style.display = 'none';
         nextBtn.disabled = true;
     } else if (currentQuizType === 'writing_part_1') {
-        renderWritingPart1(question);
+        renderWritingPart1(question, currentIndex, questions.length);
         
         // Hide buttons for writing part 1 (use custom buttons)
         buttonContainer.classList.remove('button-grid');
@@ -985,12 +985,18 @@ function startWritingPart1() {
 /**
  * Render Writing Part 1 question (giống Speaking nhưng không có timer và voice)
  */
-function renderWritingPart1(question) {
+function renderWritingPart1(question, currentIndex = 1, totalQuestion = 0) {
     const passageContainer = document.getElementById('passageContainer');
     const optionsContainer = document.getElementById('optionsContainer');
+    const questionNumber = document.getElementById('questionNumber');
     
     // Ẩn passage container
     passageContainer.innerHTML = '';
+
+    // Hiển thị số câu hỏi
+    if(questionNumber) {
+        questionNumber.textContent = `Câu ${currentIndex + 1}/${totalQuestion}`;
+    }
     
     // Hiển thị câu hỏi
     document.getElementById('vnTitle').textContent = '';

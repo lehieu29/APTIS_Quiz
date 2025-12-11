@@ -898,7 +898,7 @@ function submitWritingAnswer() {
     writingPart1State.hasSubmitted = true;
     
     // Re-render để hiển thị sample answer
-    renderWritingPart1(questions[currentIndex]);
+    renderWritingPart1(questions[currentIndex], currentIndex, questions.length);
 }
 
 /**
@@ -913,7 +913,7 @@ function nextWritingQuestion() {
     
     if (currentIndex < questions.length) {
         // Còn câu hỏi → render câu tiếp
-        renderWritingPart1(questions[currentIndex]);
+        renderWritingPart1(questions[currentIndex], currentIndex, questions.length);
         updateStats();
     } else {
         // Hết câu hỏi → hiển thị completion
