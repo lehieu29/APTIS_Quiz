@@ -755,10 +755,10 @@ function submitSpeakingAnswer() {
     const audioUrl = speakingPart1State.currentAudioUrl;
     
     // Kiểm tra có câu trả lời không
-    if (!textAnswer && !audioUrl) {
+    /*if (!textAnswer && !audioUrl) {
         alert('Vui lòng nhập câu trả lời hoặc ghi âm trước khi submit!');
         return;
-    }
+    }*/
     
     // Lưu câu trả lời
     if (textAnswer) {
@@ -781,7 +781,7 @@ function submitSpeakingAnswer() {
     hideSpeakingTimer();
     
     // Re-render để hiển thị sample answer
-    renderSpeakingPart1(questions[currentIndex]);
+    renderSpeakingPart1(questions[currentIndex], currentIndex, questions.length);
 }
 
 /**
@@ -828,7 +828,7 @@ function nextSpeakingQuestion() {
     
     if (currentIndex < questions.length) {
         // Còn câu hỏi → render câu tiếp
-        renderSpeakingPart1(questions[currentIndex]);
+        renderSpeakingPart1(questions[currentIndex], currentIndex, questions.length);
         updateStats();
     } else {
         // Hết câu hỏi → hiển thị completion
@@ -886,10 +886,10 @@ function submitWritingAnswer() {
     const textAnswer = document.getElementById('writingTextAnswer')?.value.trim();
     
     // Kiểm tra có câu trả lời không
-    if (!textAnswer) {
+    /*if (!textAnswer) {
         alert('Vui lòng nhập câu trả lời trước khi submit!');
         return;
-    }
+    }*/
     
     // Lưu câu trả lời
     writingPart1State.userAnswers[currentIndex] = textAnswer;
@@ -971,10 +971,10 @@ function submitWritingPart234Answer() {
     const textAnswer = document.getElementById('writingPart234Answer')?.value.trim();
     
     // Kiểm tra có câu trả lời không
-    if (!textAnswer) {
+    /*if (!textAnswer) {
         alert('Vui lòng nhập câu trả lời trước khi submit!');
         return;
-    }
+    }*/
     
     const club = writingPart234State.currentClub;
     const q = writingPart234State.questionsList[currentIndex];

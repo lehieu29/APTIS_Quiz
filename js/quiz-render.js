@@ -165,7 +165,7 @@ function renderQuestion() {
         buttonContainer.classList.remove('button-grid');
         submitBtn.classList.remove('show');
     } else if (currentQuizType === 'speaking_part_1') {
-        renderSpeakingPart1(question);
+        renderSpeakingPart1(question, currentIndex, questions.length);
         
         // Hide buttons for speaking part 1 (use custom buttons)
         buttonContainer.classList.remove('button-grid');
@@ -658,9 +658,15 @@ function startSpeakingPart1() {
 /**
  * Render Speaking Part 1 question
  */
-function renderSpeakingPart1(question) {
+function renderSpeakingPart1(question, currentIndex = 0, totalQuestion = 0) {
     const passageContainer = document.getElementById('passageContainer');
     const optionsContainer = document.getElementById('optionsContainer');
+    const questionNumber = document.getElementById('questionNumber');
+
+    // Hiển thị số câu hỏi
+    if(questionNumber) {
+        questionNumber.textContent = `Câu ${currentIndex + 1}/${totalQuestion}`;
+    }
     
     // Ẩn passage container
     passageContainer.innerHTML = '';
