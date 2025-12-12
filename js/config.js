@@ -47,6 +47,12 @@ const availableQuizFiles = [
         description: 'Luyện nói cơ bản'
     },
     {
+        filename: 'speaking_part_4.json',
+        title: 'Speaking Part 4',
+        icon: '🎤',
+        description: 'Luyện nói'
+    },
+    {
         filename: 'writing_part_1.json',
         title: 'Writing Part 1',
         icon: '✍️',
