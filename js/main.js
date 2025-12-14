@@ -20,6 +20,7 @@ function setupKeyboardShortcuts() {
         if (currentQuizType !== 'writing_part_2_3_4'
             && currentQuizType !== 'speaking_part_1'
             && currentQuizType !== 'writing_part_1'
+            && currentQuizType !== 'default'
         ) {
             return;
         }
@@ -36,8 +37,6 @@ function setupKeyboardShortcuts() {
             if (textarea) textarea.focus();
             return;
         }
-        
-        if (isInTextarea) return;
 
         // Kiểm tra đã submit chưa
         const hasSubmitted = checkSubmitted(currentQuizType);

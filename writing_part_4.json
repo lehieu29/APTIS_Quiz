@@ -1,0 +1,476 @@
+[
+  {
+    "question": "The club is organizing a fashion show but has to increase the ticket price because of high venue costs.\nWrite an email to your friend complaining about the price increase.",
+    "question_vi": "CLB tổ chức show thời trang nhưng phải tăng giá vé do chi phí địa điểm cao.\nViết email cho bạn phàn nàn về việc tăng giá vé.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club is organizing a fashion show but has to increase the ticket price because of high venue costs.\nWrite an email to the manager expressing dissatisfaction and suggesting a discount.",
+    "question_vi": "CLB tổ chức show thời trang nhưng phải tăng giá vé do chi phí địa điểm cao.\nViết email cho quản lý bày tỏ sự không hài lòng và gợi ý giảm giá.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club planned a car racing event but it is cancelled due to safety issues.\nWrite an email to your friend.",
+    "question_vi": "CLB lên kế hoạch đua xe nhưng bị hủy do vấn đề an toàn.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club planned a car racing event but it is cancelled due to safety issues.\nWrite an email to the manager.",
+    "question_vi": "CLB lên kế hoạch đua xe nhưng bị hủy do vấn đề an toàn.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club planned a planting trip but it is postponed due to bad weather.\nWrite an email to your friend.",
+    "question_vi": "CLB lên kế hoạch đi trồng cây nhưng bị hoãn do thời tiết xấu.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club planned a planting trip but it is postponed due to bad weather.\nWrite an email to the manager.",
+    "question_vi": "CLB lên kế hoạch đi trồng cây nhưng bị hoãn do thời tiết xấu.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "We are writing to inform you that the end of course exams will now take place two weeks earlier than originally planned.\nWrite an email to your friend.",
+    "question_vi": "Thông báo kỳ thi kết thúc khóa học sẽ diễn ra sớm hơn 2 tuần so với kế hoạch.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "We are writing to inform you that the end of course exams will now take place two weeks earlier than originally planned.\nWrite an email to the college administrator.",
+    "question_vi": "Thông báo kỳ thi kết thúc khóa học sẽ diễn ra sớm hơn 2 tuần so với kế hoạch.\nViết email cho quản trị viên trường.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to the members.\nWrite an email to your friend.",
+    "question_vi": "CLB Nghệ thuật tổ chức buổi nói chuyện và mời nghệ sĩ để thu hút chú ý.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to the members.\nWrite an email to the organizer.",
+    "question_vi": "CLB Nghệ thuật tổ chức buổi nói chuyện và mời nghệ sĩ để thu hút chú ý.\nViết email cho ban tổ chức.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club is planning a 2-week walking tour across various countries in Europe and wants members’ opinions.\nWrite an email to your friend.",
+    "question_vi": "CLB lên kế hoạch tour đi bộ 2 tuần qua châu Âu.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club is planning a 2-week walking tour across various countries in Europe and wants members’ opinions.\nWrite an email to the manager of the club.",
+    "question_vi": "CLB lên kế hoạch tour đi bộ 2 tuần qua châu Âu.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "From next month we will no longer be able to continue our offer of one free book every month. Also, because of problems with our delivery service, please expect a wait 4-6 weeks before your order arrives.\nWrite an email to your friend.",
+    "question_vi": "Không còn sách miễn phí hàng tháng. Giao hàng chậm 4-6 tuần.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "From next month we will no longer be able to continue our offer of one free book every month. Also, because of problems with our delivery service, please expect a wait 4-6 weeks before your order arrives.\nWrite an email to the manager of the club.",
+    "question_vi": "Không còn sách miễn phí hàng tháng. Giao hàng chậm 4-6 tuần.\nViết email cho quản lý bày tỏ ý kiến.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The local authorities will close the library next year because many people prefer reading online books. The club wants members to give their opinions and suggestions.\nWrite an email to your friend.",
+    "question_vi": "Chính quyền sẽ đóng cửa thư viện vào năm sau vì nhiều người đọc sách online.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The local authorities will close the library next year because many people prefer reading online books. The club wants members to give their opinions and suggestions.\nWrite an email to the manager of the club.",
+    "question_vi": "Chính quyền sẽ đóng cửa thư viện vào năm sau vì nhiều người đọc sách online.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Our club is organizing an exhibition to show people’s best photos. Please give some suggestions to attract all of ages to join.\nWrite an email to your friend.",
+    "question_vi": "CLB tổ chức triển lãm ảnh. Gợi ý để thu hút mọi lứa tuổi.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Our club is organizing an exhibition to show people’s best photos. Please give some suggestions to attract all of ages to join.\nWrite an email to the manager of the club.",
+    "question_vi": "CLB tổ chức triển lãm ảnh. Gợi ý để thu hút mọi lứa tuổi.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Last year, the club held a contest but there was only one category. This year, the club will be divided into several categories including women, men and children under 16 years old.\nWrite an email to your friend.",
+    "question_vi": "Năm nay cuộc thi chia thành nhiều hạng mục: nữ, nam, trẻ em.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Last year, the club held a contest but there was only one category. This year, the club will be divided into several categories including women, men and children under 16 years old.\nWrite an email to the manager of the club.",
+    "question_vi": "Năm nay cuộc thi chia thành nhiều hạng mục: nữ, nam, trẻ em.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Your music club organizes concerts in the evening, and surrounding residents are complaining.\nWrite an email to your friend and give some suggestions to solve this problem.",
+    "question_vi": "CLB tổ chức hòa nhạc buổi tối, cư dân xung quanh phàn nàn.\nViết email cho bạn đưa ra gợi ý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Your music club organizes concerts in the evening, and surrounding residents are complaining.\nWrite an email to the club manager giving your suggestions to solve the problem.",
+    "question_vi": "CLB tổ chức hòa nhạc buổi tối, cư dân xung quanh phàn nàn.\nViết email cho quản lý đưa ra giải pháp.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The food club is planning to encourage young people to cook at home. Can you give some suggestions and explain them?\nWrite an email to your friend.",
+    "question_vi": "CLB muốn khuyến khích giới trẻ nấu ăn tại nhà.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The food club is planning to encourage young people to cook at home. Can you give some suggestions and explain them?\nWrite an email to the manager of the club.",
+    "question_vi": "CLB muốn khuyến khích giới trẻ nấu ăn tại nhà.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "They plan to organize monthly face-to-face meetings and want suggestions about when and where they should meet.\nWrite an email to your friend.",
+    "question_vi": "Kế hoạch họp mặt trực tiếp hàng tháng. Cần gợi ý thời gian, địa điểm.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "They plan to organize monthly face-to-face meetings and want suggestions about when and where they should meet.\nWrite an email to the manager of the club.",
+    "question_vi": "Kế hoạch họp mặt trực tiếp hàng tháng. Cần gợi ý thời gian, địa điểm.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Members often post on the website’s club. But lately there’s been a few negatives on the other member’s post. Please give your opinion to fix the situation.\nWrite an email to your friend.",
+    "question_vi": "Có bình luận tiêu cực trên website CLB.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Members often post on the website’s club. But lately there’s been a few negatives on the other member’s post. Please give your opinion to fix the situation.\nWrite an email to the manager of the club.",
+    "question_vi": "Có bình luận tiêu cực trên website CLB.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club will hold a technology fair. The club wants to find a volunteer for this event.\nWrite to a friend to explain why you should be chosen as a volunteer.",
+    "question_vi": "CLB tổ chức hội chợ công nghệ và cần tuyển tình nguyện viên.\nViết cho bạn giải thích sao bạn nên được chọn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club will hold a technology fair. The club wants to find a volunteer for this event.\nWrite to the club manager about the importance of technology and why you should be selected.",
+    "question_vi": "CLB tổ chức hội chợ công nghệ và cần tuyển tình nguyện viên.\nViết cho quản lý về tầm quan trọng của công nghệ và tại sao nên chọn bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club is planning to encourage tourists to visit a new area and wants visitors to behave politely.\nWrite to your friend and share your suggestions.",
+    "question_vi": "CLB khuyến khích du khách đến vùng mới và cư xử lịch sự.\nViết cho bạn chia sẻ gợi ý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club is planning to encourage tourists to visit a new area and wants visitors to behave politely.\nWrite to the president of the club and give your suggestions.",
+    "question_vi": "CLB khuyến khích du khách đến vùng mới và cư xử lịch sự.\nViết cho chủ tịch CLB đưa ra gợi ý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club is planning to organise a conference to invite all members. The club would like to get your suggestions on the venue of this conference and the activities held during the conference.\nWrite to your friend.",
+    "question_vi": "CLB tổ chức hội thảo, cần gợi ý địa điểm và hoạt động.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club is planning to organise a conference to invite all members. The club would like to get your suggestions on the venue of this conference and the activities held during the conference.\nWrite to the manager of the club.",
+    "question_vi": "CLB tổ chức hội thảo, cần gợi ý địa điểm và hoạt động.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "You received an email from the club about a guest actor cancelling his talk.\nWrite an email to your friend. Write about your feelings and what you would like to do.",
+    "question_vi": "Diễn viên khách mời hủy buổi nói chuyện.\nViết cho bạn về cảm xúc và dự định.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "You received an email from the club about a guest actor cancelling his talk.\nWrite an email to the manager expressing dissatisfaction.",
+    "question_vi": "Diễn viên khách mời hủy buổi nói chuyện.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Young people often think debating is not for them. What do you think is the benefit of debating and speaking in public?\nWrite an email to your friend who is also a member of the club.",
+    "question_vi": "Giới trẻ nghĩ tranh biện không hợp với họ. Lợi ích của tranh biện là gì?\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Young people often think debating is not for them. What do you think is the benefit of debating and speaking in public?\nWrite an email to the manager of the club.",
+    "question_vi": "Giới trẻ nghĩ tranh biện không hợp với họ. Lợi ích của tranh biện là gì?\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "From next year, all museums will charge an entrance fee. Some people think they will stop going if they have to pay.\nPlease give your opinion and tell the effect that may happen. Write an email to your friend.",
+    "question_vi": "Năm sau bảo tàng thu phí. Mọi người có thể ngừng đến.\nViết email cho bạn về ý kiến và hậu quả.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "From next year, all museums will charge an entrance fee. Some people think they will stop going if they have to pay.\nWrite an email to the manager of the club and give your opinion and the possible effects.",
+    "question_vi": "Năm sau bảo tàng thu phí. Mọi người có thể ngừng đến.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "You have registered for an English course but you can’t arrange your time to attend.\nYou find the course effective. Write an email to your friend recommending it.",
+    "question_vi": "Đã đăng ký nhưng bận không học được.\nViết email giới thiệu khóa học cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "You have registered for an English course but you can’t arrange your time to attend.\nWrite about your feelings, the reason why you can’t attend, and what you would like to do.",
+    "question_vi": "Đã đăng ký nhưng bận không học được.\nViết lý do không thể tham gia và mong muốn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The club needs a guest speaker and a theme of learning language.\nWrite an email to your friend.",
+    "question_vi": "CLB cần diễn giả khách mời.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The club needs a guest speaker and a theme of learning language.\nWrite an email expressing your desire to be a speaker and give the topic.",
+    "question_vi": "CLB cần diễn giả khách mời.\nViết email ứng cử làm diễn giả.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The government has a proposal to knock down old buildings and build modern blocks because old buildings are costly to maintain and take up space.\nGive your opinion about this plan in an email to your friend.",
+    "question_vi": "Chính phủ đề xuất phá nhà cũ xây mới.\nViết email cho bạn về kế hoạch này.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The government has a proposal to knock down old buildings and build modern blocks because old buildings are costly to maintain and take up space.\nWrite an email to the manager of the club and give your opinion.",
+    "question_vi": "Chính phủ đề xuất phá nhà cũ xây mới.\nViết email cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "Nowadays more and more new words and phrases are added to the language, so many people have strong reactions to this issue.\nWrite a letter to your friend.",
+    "question_vi": "Nhiều từ mới được thêm vào ngôn ngữ gây phản ứng mạnh.\nViết thư cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Nowadays more and more new words and phrases are added to the language, so many people have strong reactions to this issue.\nWrite a letter to the club manager.",
+    "question_vi": "Nhiều từ mới được thêm vào ngôn ngữ gây phản ứng mạnh.\nViết thư cho quản lý.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+
+  {
+    "question": "The Talk show has been canceled as the guests are unexpectedly busy. We do not have any back-up plan.\nWrite an email to your friend.",
+    "question_vi": "Talk show bị hủy do khách mời bận đột xuất. Không có kế hoạch dự phòng.\nViết email cho bạn.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "The Talk show has been canceled as the guests are unexpectedly busy. We do not have any back-up plan.\nWrite an email to the president of the club.",
+    "question_vi": "Talk show bị hủy do khách mời bận đột xuất. Không có kế hoạch dự phòng.\nViết email cho chủ tịch CLB.",
+    "priority": 1,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  }
+]

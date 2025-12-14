@@ -1066,7 +1066,7 @@ function checkSubmitted(currentQuizType) {
         case 'speaking_part_1':
             return speakingPart1State.hasSubmitted;
         default:
-            return false;
+            return true;
     }
 }
 
@@ -1086,7 +1086,8 @@ function nextQuestionByCurrentQuizType(currentQuizType) {
             nextSpeakingQuestion();
             break;
         default:
-            return false;
+            nextQuestion();
+            break;
     }
 }
 
