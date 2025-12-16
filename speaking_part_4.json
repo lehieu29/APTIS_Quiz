@@ -1,8 +1,8 @@
 [
   {
-    "question": "Tell me about a time when you went to an amusement park.",
-    "question_vi": "Hãy kể về một lần bạn đi công viên giải trí.",
-    "priority": 10,
+    "question": "Tell me about a time when someone gave you a gift.",
+    "question_vi": "Hãy kể về một lần bạn được ai đó tặng quà.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -10,9 +10,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you made an effort to do something.",
-    "question_vi": "Hãy kể về một lần bạn đã nỗ lực làm điều gì đó.",
-    "priority": 10,
+    "question": "Tell me about a time when you met an impolite person.",
+    "question_vi": "Hãy kể về một lần bạn gặp ai đó bất lịch sự.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -20,9 +20,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you bought an expensive item.",
-    "question_vi": "Hãy kể về một lần bạn mua một món đồ đắt tiền.",
-    "priority": 10,
+    "question": "Tell me about how you use the Internet.",
+    "question_vi": "Hãy kể về cách bạn sử dụng Internet.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -30,29 +30,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you went to see a work of art.",
-    "question_vi": "Hãy kể về một lần bạn đi xem một tác phẩm nghệ thuật.",
-    "priority": 10,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you achieved something important.",
-    "question_vi": "Hãy kể về một lần bạn đạt được một thành tựu quan trọng.",
-    "priority": 10,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you faced a challenge.",
-    "question_vi": "Hãy kể về một lần bạn gặp phải thử thách.",
-    "priority": 10,
+    "question": "Tell me about a time when you played an extreme sport.",
+    "question_vi": "Hãy kể về một lần bạn chơi thể thao mạo hiểm.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -62,7 +42,7 @@
   {
     "question": "Tell me about a time when you were in a hurry to do something.",
     "question_vi": "Hãy kể về một lần bạn vội vã làm điều gì đó.",
-    "priority": 10,
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -70,9 +50,19 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you helped someone.",
-    "question_vi": "Hãy kể về một lần bạn giúp đỡ ai đó.",
-    "priority": 10,
+    "question": "Tell me about a time when you achieved an important goal.",
+    "question_vi": "Hãy kể về một lần bạn đạt được một thành tựu.",
+    "priority": 1,
+    "time": 180,
+    "suggestion_text": " ",
+    "suggestion_text_vi": " ",
+    "sample_answer": " ",
+    "sample_answer_vi": " "
+  },
+  {
+    "question": "Tell me about a time when you worked in a team.",
+    "question_vi": "Hãy kể về một lần bạn làm việc nhóm.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -82,7 +72,7 @@
   {
     "question": "Tell me about a time when you had many choices to make.",
     "question_vi": "Hãy kể về một lần bạn có nhiều sự lựa chọn.",
-    "priority": 10,
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -92,7 +82,7 @@
   {
     "question": "Tell me about a time when you worked with elderly people and children.",
     "question_vi": "Hãy kể về một lần bạn làm việc cùng người già và trẻ em.",
-    "priority": 10,
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -100,9 +90,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you received good news.",
-    "question_vi": "Hãy kể về một lần bạn nhận được tin vui.",
-    "priority": 10,
+    "question": "Tell me about a time when you helped someone.",
+    "question_vi": "Hãy kể về một lần bạn giúp đỡ ai đó.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -110,9 +100,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you visited someone.",
-    "question_vi": "Hãy kể về một lần bạn tới thăm ai đó.",
-    "priority": 10,
+    "question": "Tell me about a time when you went on a trip.",
+    "question_vi": "Hãy kể về một lần bạn đi du lịch.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
@@ -120,59 +110,9 @@
     "sample_answer_vi": " "
   },
   {
-    "question": "Tell me about a time when you tried to solve a problem.",
-    "question_vi": "Hãy kể về một lần bạn cố gắng giải quyết một vấn đề.",
-    "priority": 9,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you changed your job.",
-    "question_vi": "Hãy kể về một lần bạn thay đổi công việc.",
-    "priority": 9,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you changed your working environment.",
-    "question_vi": "Hãy kể về một lần bạn thay đổi môi trường làm việc.",
-    "priority": 9,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you received important information by email or phone.",
-    "question_vi": "Hãy kể về một lần bạn nhận được thông tin quan trọng qua email hoặc điện thoại.",
-    "priority": 8,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you received a difficult question.",
-    "question_vi": "Hãy kể về một lần bạn nhận được một câu hỏi khó.",
-    "priority": 8,
-    "time": 180,
-    "suggestion_text": " ",
-    "suggestion_text_vi": " ",
-    "sample_answer": " ",
-    "sample_answer_vi": " "
-  },
-  {
-    "question": "Tell me about a time when you saw an impressive work of art.",
-    "question_vi": "Hãy kể về một lần bạn nhìn thấy một tác phẩm nghệ thuật ấn tượng.",
-    "priority": 7,
+    "question": "Tell me about a time when you made a big effort to do something.",
+    "question_vi": "Hãy kể về một lần bạn nỗ lực làm điều gì đó.",
+    "priority": 1,
     "time": 180,
     "suggestion_text": " ",
     "suggestion_text_vi": " ",
